@@ -1,0 +1,252 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ANSWER_1	artificial_Intelligence/lab0/lab0.py	/^ANSWER_1 = 'fill-me-in'$/;"	v
+ANSWER_1_expected	artificial_Intelligence/lab0/tests.py	/^ANSWER_1_expected = 2$/;"	v
+ANSWER_1_getargs	artificial_Intelligence/lab0/tests.py	/^ANSWER_1_getargs = 'VALUE' # Special case to get the value named "FOO_getargs"$/;"	v
+ANSWER_1_testanswer	artificial_Intelligence/lab0/tests.py	/^def ANSWER_1_testanswer(ans, original_val = None):$/;"	f	access:public
+BLANK	Tic-Tac-Toe-master/TicTacToe-Template.c	12;"	d	file:
+BLANK	Tic-Tac-Toe-master/TicTacToe.c	18;"	d	file:
+BLANK	ttt.c	13;"	d	file:
+CONTINUE	Tic-Tac-Toe-master/TicTacToe.c	21;"	d	file:
+DONE	works.cpp	/^enum label_list{NEW, MARKED, DONE};$/;"	e	enum:label_list	file:
+Expression	artificial_Intelligence/lab0/algebra.py	/^class Expression:$/;"	c	inherits:
+FALSE	bfsass.c	6;"	d	file:
+HOURS	artificial_Intelligence/lab0/lab0.py	/^HOURS = ""$/;"	v
+HOURS_PER_601_LAB	artificial_Intelligence/lab0/lab0.py	/^HOURS_PER_601_LAB = ""$/;"	v
+HOW_WELL_I_LEARNED_601	artificial_Intelligence/lab0/lab0.py	/^HOW_WELL_I_LEARNED_601 = ""$/;"	v
+LOSS	Tic-Tac-Toe-master/TicTacToe.c	/^enum {LOSS = -1, TIE, WIN};$/;"	e	enum:__anon1	file:
+MARKED	works.cpp	/^enum label_list{NEW, MARKED, DONE};$/;"	e	enum:label_list	file:
+MAXNODES	bfs.cpp	7;"	d	file:
+MAXNODES	bfsass.c	3;"	d	file:
+MAXNODES	dfs.cpp	7;"	d	file:
+NEW	works.cpp	/^enum label_list{NEW, MARKED, DONE};$/;"	e	enum:label_list	file:
+PLAYER1	Tic-Tac-Toe-master/TicTacToe-Template.c	10;"	d	file:
+PLAYER1	Tic-Tac-Toe-master/TicTacToe.c	16;"	d	file:
+PLAYER1	ttt.c	11;"	d	file:
+PLAYER2	Tic-Tac-Toe-master/TicTacToe-Template.c	11;"	d	file:
+PLAYER2	Tic-Tac-Toe-master/TicTacToe.c	17;"	d	file:
+PLAYER2	ttt.c	12;"	d	file:
+Product	artificial_Intelligence/lab0/algebra.py	/^class Product(list, Expression):$/;"	c	inherits:list, Expression
+QSIZE	bfsass.c	4;"	d	file:
+Sum	artificial_Intelligence/lab0/algebra.py	/^class Sum(list, Expression):$/;"	c	inherits:list, Expression
+TIE	Tic-Tac-Toe-master/TicTacToe.c	/^enum {LOSS = -1, TIE, WIN};$/;"	e	enum:__anon1	file:
+TRUE	bfsass.c	5;"	d	file:
+WHEN_DID_YOU_TAKE_601	artificial_Intelligence/lab0/lab0.py	/^WHEN_DID_YOU_TAKE_601 = ""$/;"	v
+WIN	Tic-Tac-Toe-master/TicTacToe.c	/^enum {LOSS = -1, TIE, WIN};$/;"	e	enum:__anon1	file:
+__repr__	artificial_Intelligence/lab0/algebra.py	/^    def __repr__(self):$/;"	m	class:Product	file:	access:private
+__repr__	artificial_Intelligence/lab0/algebra.py	/^    def __repr__(self):$/;"	m	class:Sum	file:	access:private
+adj	dfs.cpp	/^struct gnode *adj[MAXNODES];$/;"	v	typeref:struct:gnode
+adjm	works.cpp	/^int adjm[20][20];$/;"	v
+allocate_graph	doitagain.cpp	/^int ** allocate_graph(int num){$/;"	f	signature:(int num)
+answers	artificial_Intelligence/lab0/tests.py	/^answers = {}$/;"	v
+bfs	bfs.cpp	/^void bfs(struct gnode *adj[],int num,int source,int dest){$/;"	f	signature:(struct gnode *adj[],int num,int source,int dest)
+bfs	bfsass.c	/^void bfs(struct gnode **adj,int num,int source){$/;"	f	signature:(struct gnode **adj,int num,int source)
+bfs	dfs.cpp	/^void bfs(int num,int source,int dest){$/;"	f	signature:(int num,int source,int dest)
+bfs	doitagain.cpp	/^void bfs(int **adjm,int num,int src,int dest){$/;"	f	signature:(int **adjm,int num,int src,int dest)
+bfs	works.cpp	/^void bfs(int src,int dest){$/;"	f	signature:(int src,int dest)
+checkwin	Tic-Tac-Toe-master/TicTacToe-Template.c	/^char checkwin(char *board[],char piece) {$/;"	f	signature:(char *board[],char piece)
+checkwin	Tic-Tac-Toe-master/TicTacToe.c	/^char checkwin(char *board[],char piece) {$/;"	f	signature:(char *board[],char piece)
+checkwin	ttt.c	/^char checkwin(char *board[],char piece) {$/;"	f	signature:(char *board[],char piece)
+computer_move	Tic-Tac-Toe-master/TicTacToe-Template.c	/^int computer_move(char **board,char piece1,char piece2) {$/;"	f	signature:(char **board,char piece1,char piece2)
+computer_move	Tic-Tac-Toe-master/TicTacToe.c	/^int computer_move(char **board, char piece1, char piece2) {$/;"	f	signature:(char **board, char piece1, char piece2)
+computer_move	ttt.c	/^int computer_move(char **board,char piece1,char piece2) {$/;"	f	signature:(char **board,char piece1,char piece2)
+computer_move_magic	ttt.c	/^int computer_move_magic(char **board,char piece1,char piece2) {$/;"	f	signature:(char **board,char piece1,char piece2)
+count_pattern	artificial_Intelligence/lab0/lab0.py	/^def count_pattern(pattern, lst):$/;"	f	access:public
+count_pattern_1_expected	artificial_Intelligence/lab0/tests.py	/^count_pattern_1_expected = 2$/;"	v
+count_pattern_1_getargs	artificial_Intelligence/lab0/tests.py	/^def count_pattern_1_getargs():$/;"	f	access:public
+count_pattern_1_testanswer	artificial_Intelligence/lab0/tests.py	/^def count_pattern_1_testanswer(ans, original_val = None):$/;"	f	access:public
+count_pattern_2_expected	artificial_Intelligence/lab0/tests.py	/^count_pattern_2_expected = 1$/;"	v
+count_pattern_2_getargs	artificial_Intelligence/lab0/tests.py	/^def count_pattern_2_getargs():$/;"	f	access:public
+count_pattern_2_testanswer	artificial_Intelligence/lab0/tests.py	/^def count_pattern_2_testanswer(ans, original_val = None):$/;"	f	access:public
+count_pattern_3_expected	artificial_Intelligence/lab0/tests.py	/^count_pattern_3_expected = "an integer between 1 and 10 (this test is randomly generated)"$/;"	v
+count_pattern_3_getargs	artificial_Intelligence/lab0/tests.py	/^def count_pattern_3_getargs():$/;"	f	access:public
+count_pattern_3_testanswer	artificial_Intelligence/lab0/tests.py	/^def count_pattern_3_testanswer(ans, original_val = None):$/;"	f	access:public
+createGraph	bfs.cpp	/^void createGraph(struct gnode *adj[],int num){$/;"	f	signature:(struct gnode *adj[],int num)
+createGraph	bfsass.c	/^void createGraph(struct gnode **adj,int num){$/;"	f	signature:(struct gnode **adj,int num)
+createGraph	dfs.cpp	/^void createGraph(int num){$/;"	f	signature:(int num)
+cube	artificial_Intelligence/lab0/lab0.py	/^def cube(x):$/;"	f	access:public
+cube_1_expected	artificial_Intelligence/lab0/tests.py	/^cube_1_expected = 1000$/;"	v
+cube_1_getargs	artificial_Intelligence/lab0/tests.py	/^def cube_1_getargs():$/;"	f	access:public
+cube_1_testanswer	artificial_Intelligence/lab0/tests.py	/^def cube_1_testanswer(ans, original_val = None):$/;"	f	access:public
+cube_2_expected	artificial_Intelligence/lab0/tests.py	/^cube_2_expected = 1$/;"	v
+cube_2_getargs	artificial_Intelligence/lab0/tests.py	/^def cube_2_getargs():$/;"	f	access:public
+cube_2_testanswer	artificial_Intelligence/lab0/tests.py	/^def cube_2_testanswer(ans, original_val = None):$/;"	f	access:public
+cube_3_expected	artificial_Intelligence/lab0/tests.py	/^cube_3_expected = -125$/;"	v
+cube_3_getargs	artificial_Intelligence/lab0/tests.py	/^def cube_3_getargs():$/;"	f	access:public
+cube_3_testanswer	artificial_Intelligence/lab0/tests.py	/^def cube_3_testanswer(ans, original_val = None):$/;"	f	access:public
+cube_4_expected	artificial_Intelligence/lab0/tests.py	/^cube_4_expected = "a number between 1 and 1000000000 (this test is randomly generated)"$/;"	v
+cube_4_getargs	artificial_Intelligence/lab0/tests.py	/^def cube_4_getargs():$/;"	f	access:public
+cube_4_randnum	artificial_Intelligence/lab0/tests.py	/^cube_4_randnum = 0$/;"	v
+cube_4_testanswer	artificial_Intelligence/lab0/tests.py	/^def cube_4_testanswer(ans, original_val = None):$/;"	f	access:public
+deallocate_graph	doitagain.cpp	/^void deallocate_graph(int **adjm,int num){$/;"	f	signature:(int **adjm,int num)
+decode_sumprod	artificial_Intelligence/lab0/algebra_utils.py	/^def decode_sumprod(lst):$/;"	f	access:public
+decode_sumprod	artificial_Intelligence/lab0/tests.py	/^def decode_sumprod(lst):$/;"	f	access:public
+depth	artificial_Intelligence/lab0/lab0.py	/^def depth(expr):$/;"	f	access:public
+depth_1_expected	artificial_Intelligence/lab0/tests.py	/^depth_1_expected = 0$/;"	v
+depth_1_getargs	artificial_Intelligence/lab0/tests.py	/^def depth_1_getargs():$/;"	f	access:public
+depth_1_testanswer	artificial_Intelligence/lab0/tests.py	/^def depth_1_testanswer(ans, original_val = None):$/;"	f	access:public
+depth_2_expected	artificial_Intelligence/lab0/tests.py	/^depth_2_expected = 1$/;"	v
+depth_2_getargs	artificial_Intelligence/lab0/tests.py	/^def depth_2_getargs():$/;"	f	access:public
+depth_2_testanswer	artificial_Intelligence/lab0/tests.py	/^def depth_2_testanswer(ans, original_val = None):$/;"	f	access:public
+depth_3_expected	artificial_Intelligence/lab0/tests.py	/^depth_3_expected = 2$/;"	v
+depth_3_getargs	artificial_Intelligence/lab0/tests.py	/^def depth_3_getargs():$/;"	f	access:public
+depth_3_testanswer	artificial_Intelligence/lab0/tests.py	/^def depth_3_testanswer(ans, original_val = None):$/;"	f	access:public
+depth_4_expected	artificial_Intelligence/lab0/tests.py	/^depth_4_expected = 4$/;"	v
+depth_4_getargs	artificial_Intelligence/lab0/tests.py	/^def depth_4_getargs():$/;"	f	access:public
+depth_4_testanswer	artificial_Intelligence/lab0/tests.py	/^def depth_4_testanswer(ans, original_val = None):$/;"	f	access:public
+dequeue	bfsass.c	/^int dequeue(struct queue* q)$/;"	f	signature:(struct queue* q)
+dequeue	bfsass.c	/^int dequeue(struct queue*);      \/\/output is the element deleted$/;"	p	file:	signature:(struct queue*)
+dfs	bfs.cpp	/^void dfs(struct gnode *adj[],int num,int source,int dest){$/;"	f	signature:(struct gnode *adj[],int num,int source,int dest)
+dfs	dfs.cpp	/^void dfs(int num,int source,int dest){$/;"	f	signature:(int num,int source,int dest)
+dfs	doitagain.cpp	/^void dfs(int **adjm,int num,int src,int dest){$/;"	f	signature:(int **adjm,int num,int src,int dest)
+dfs	works.cpp	/^void dfs(int src,int dest){$/;"	f	signature:(int src,int dest)
+dispAlist	bfs.cpp	/^void dispAlist(struct gnode **adj,int num);$/;"	p	file:	signature:(struct gnode **adj,int num)
+dispAlist	bfs.cpp	/^void dispAlist(struct gnode *adj[],int num){$/;"	f	signature:(struct gnode *adj[],int num)
+dispAlist	dfs.cpp	/^void dispAlist(int num);$/;"	p	file:	signature:(int num)
+dispAlist	dfs.cpp	/^void dispAlist(int num){$/;"	f	signature:(int num)
+display	bfsass.c	/^void display(struct queue* q)$/;"	f	signature:(struct queue* q)
+display	bfsass.c	/^void display(struct queue* q);$/;"	p	file:	signature:(struct queue* q)
+displayboard	Tic-Tac-Toe-master/TicTacToe-Template.c	/^void displayboard(char *board[]) {$/;"	f	signature:(char *board[])
+displayboard	Tic-Tac-Toe-master/TicTacToe.c	/^void displayboard(char *board[]) {$/;"	f	signature:(char *board[])
+displayboard	ttt.c	/^void displayboard(char *board[]) {$/;"	f	signature:(char *board[])
+distribution	artificial_Intelligence/lab0/algebra_utils.py	/^def distribution(val):$/;"	f	access:public
+distribution_1_expected	artificial_Intelligence/lab0/tests.py	/^distribution_1_expected = "A simplified Expression that evaluates to 4"$/;"	v
+distribution_1_getargs	artificial_Intelligence/lab0/tests.py	/^def distribution_1_getargs():$/;"	f	access:public
+distribution_1_testanswer	artificial_Intelligence/lab0/tests.py	/^def distribution_1_testanswer(ans, original_val = None):$/;"	f	access:public
+distribution_2_expected	artificial_Intelligence/lab0/tests.py	/^distribution_2_expected = "A simplified Expression that evaluates to 4"$/;"	v
+distribution_2_getargs	artificial_Intelligence/lab0/tests.py	/^def distribution_2_getargs():$/;"	f	access:public
+distribution_2_testanswer	artificial_Intelligence/lab0/tests.py	/^def distribution_2_testanswer(ans, original_val = None):$/;"	f	access:public
+distribution_3_expected	artificial_Intelligence/lab0/tests.py	/^distribution_3_expected = "A simplified Expression that evaluates to '14'"$/;"	v
+distribution_3_getargs	artificial_Intelligence/lab0/tests.py	/^def distribution_3_getargs():$/;"	f	access:public
+distribution_3_testanswer	artificial_Intelligence/lab0/tests.py	/^def distribution_3_testanswer(ans, original_val = None):$/;"	f	access:public
+distribution_4_expected	artificial_Intelligence/lab0/tests.py	/^distribution_4_expected = "A flat expression that evaluates to 1802"$/;"	v
+distribution_4_getargs	artificial_Intelligence/lab0/tests.py	/^def distribution_4_getargs():$/;"	f	access:public
+distribution_4_testanswer	artificial_Intelligence/lab0/tests.py	/^def distribution_4_testanswer(ans, original_val = None):$/;"	f	access:public
+distribution_5_expected	artificial_Intelligence/lab0/tests.py	/^distribution_5_expected = "(this test is randomly generated)"$/;"	v
+distribution_5_getargs	artificial_Intelligence/lab0/tests.py	/^def distribution_5_getargs():$/;"	f	access:public
+distribution_5_random	artificial_Intelligence/lab0/tests.py	/^distribution_5_random = []$/;"	v
+distribution_5_testanswer	artificial_Intelligence/lab0/tests.py	/^def distribution_5_testanswer(ans, original_val = None):$/;"	f	access:public
+do_multiply	artificial_Intelligence/lab0/algebra.py	/^def do_multiply(expr1, expr2):$/;"	f	access:public
+ele_last_rem	bfsass.c	/^    int front,rear,ele_last_rem;$/;"	m	struct:queue	file:	access:public
+encode_sumprod	artificial_Intelligence/lab0/algebra_utils.py	/^def encode_sumprod(lst):$/;"	f	access:public
+encode_sumprod	artificial_Intelligence/lab0/tests.py	/^def encode_sumprod(lst):$/;"	f	access:public
+enqueue	bfsass.c	/^void enqueue(struct queue* q,int added_item)$/;"	f	signature:(struct queue* q,int added_item)
+enqueue	bfsass.c	/^void enqueue(struct queue*,int);$/;"	p	file:	signature:(struct queue*,int)
+evaluator	artificial_Intelligence/lab0/tests.py	/^def evaluator(lst, context = {}):$/;"	f	access:public
+factorial	artificial_Intelligence/lab0/lab0.py	/^def factorial(x):$/;"	f	access:public
+factorial_1_expected	artificial_Intelligence/lab0/tests.py	/^factorial_1_expected = 1$/;"	v
+factorial_1_getargs	artificial_Intelligence/lab0/tests.py	/^def factorial_1_getargs():$/;"	f	access:public
+factorial_1_testanswer	artificial_Intelligence/lab0/tests.py	/^def factorial_1_testanswer(ans, original_val = None):$/;"	f	access:public
+factorial_2_expected	artificial_Intelligence/lab0/tests.py	/^factorial_2_expected = 120$/;"	v
+factorial_2_getargs	artificial_Intelligence/lab0/tests.py	/^def factorial_2_getargs():$/;"	f	access:public
+factorial_2_testanswer	artificial_Intelligence/lab0/tests.py	/^def factorial_2_testanswer(ans, original_val = None):$/;"	f	access:public
+factorial_3_expected	artificial_Intelligence/lab0/tests.py	/^factorial_3_expected = "a number between 1! and 30! (this test is randomly generated)"$/;"	v
+factorial_3_getargs	artificial_Intelligence/lab0/tests.py	/^def factorial_3_getargs():$/;"	f	access:public
+factorial_3_randnum	artificial_Intelligence/lab0/tests.py	/^factorial_3_randnum = 0$/;"	v
+factorial_3_testanswer	artificial_Intelligence/lab0/tests.py	/^def factorial_3_testanswer(ans, original_val = None):$/;"	f	access:public
+flatten	artificial_Intelligence/lab0/algebra.py	/^    def flatten(self):$/;"	m	class:Product	access:public
+flatten	artificial_Intelligence/lab0/algebra.py	/^    def flatten(self):$/;"	m	class:Sum	access:public
+front	bfsass.c	/^    int front,rear,ele_last_rem;$/;"	m	struct:queue	file:	access:public
+get_lab_module	artificial_Intelligence/lab0/tester.py	/^def get_lab_module():$/;"	f	access:public
+get_lab_module	artificial_Intelligence/lab0/thetester.py	/^def get_lab_module():$/;"	f	access:public
+get_tarball_data	artificial_Intelligence/lab0/tester.py	/^def get_tarball_data(target_dir, filename):$/;"	f	access:public
+get_tarball_data	artificial_Intelligence/lab0/thetester.py	/^def get_tarball_data(target_dir, filename):$/;"	f	access:public
+get_target_upload_filedir	artificial_Intelligence/lab0/tester.py	/^def get_target_upload_filedir():$/;"	f	access:public
+get_target_upload_filedir	artificial_Intelligence/lab0/thetester.py	/^def get_target_upload_filedir():$/;"	f	access:public
+get_turn	ttt.c	/^int get_turn(char **board,char piece1,char piece) {$/;"	f	signature:(char **board,char piece1,char piece)
+gnode	bfs.cpp	/^struct gnode{$/;"	s	file:
+gnode	bfsass.c	/^struct gnode{$/;"	s	file:
+gnode	dfs.cpp	/^struct gnode{$/;"	s	file:
+gnode::next	bfs.cpp	/^    struct gnode * next;$/;"	m	struct:gnode	typeref:struct:gnode::gnode	file:	access:public
+gnode::next	bfsass.c	/^    struct gnode * next;$/;"	m	struct:gnode	typeref:struct:gnode::gnode	file:	access:public
+gnode::next	dfs.cpp	/^    struct gnode * next;$/;"	m	struct:gnode	typeref:struct:gnode::gnode	file:	access:public
+gnode::ver	bfs.cpp	/^    int ver;$/;"	m	struct:gnode	file:	access:public
+gnode::ver	bfsass.c	/^    int ver;$/;"	m	struct:gnode	file:	access:public
+gnode::ver	dfs.cpp	/^    int ver;$/;"	m	struct:gnode	file:	access:public
+go	ttt.c	/^void go(char **board, char piece, int n) {$/;"	f	signature:(char **board, char piece, int n)
+human_move	Tic-Tac-Toe-master/TicTacToe-Template.c	/^char **human_move(char **board,char piece) {$/;"	f	signature:(char **board,char piece)
+human_move	Tic-Tac-Toe-master/TicTacToe.c	/^char **human_move(char **board,char piece) {$/;"	f	signature:(char **board,char piece)
+human_move	ttt.c	/^char **human_move(char **board,char piece) {$/;"	f	signature:(char **board,char piece)
+in_range	artificial_Intelligence/lab0/tests.py	/^def in_range(a,b,max_delta):$/;"	f	access:public
+init	bfsass.c	/^void init(struct queue* q){  q->front= -1; q->rear= -1; }$/;"	f	signature:(struct queue* q)
+initboard	Tic-Tac-Toe-master/TicTacToe-Template.c	/^char **initboard(char *board[]) {$/;"	f	signature:(char *board[])
+initboard	Tic-Tac-Toe-master/TicTacToe.c	/^char **initboard(char *board[]) {$/;"	f	signature:(char *board[])
+initboard	ttt.c	/^char **initboard(char *board[]) {$/;"	f	signature:(char *board[])
+inputGraph	bfs.cpp	/^void inputGraph(struct gnode *adj[],int num){$/;"	f	signature:(struct gnode *adj[],int num)
+inputGraph	bfsass.c	/^void inputGraph(struct gnode **adj,int num){$/;"	f	signature:(struct gnode **adj,int num)
+inputGraph	dfs.cpp	/^void inputGraph(int num){$/;"	f	signature:(int num)
+input_graph	doitagain.cpp	/^void input_graph(int **adjm,int num){$/;"	f	signature:(int **adjm,int num)
+isFull	bfsass.c	/^int isFull(struct queue* q)$/;"	f	signature:(struct queue* q)
+isFull	bfsass.c	/^int isFull(struct queue* q);      \/\/output true or false$/;"	p	file:	signature:(struct queue* q)
+isNotEmpty	bfsass.c	/^int isNotEmpty(struct queue* q)$/;"	f	signature:(struct queue* q)
+isNotEmpty	bfsass.c	/^int isNotEmpty(struct queue* q);     \/\/output true or false$/;"	p	file:	signature:(struct queue* q)
+is_flat	artificial_Intelligence/lab0/tests.py	/^def is_flat(lst, allowed_nesting = 2):$/;"	f	access:public
+is_list	artificial_Intelligence/lab0/tests.py	/^def is_list(lst):$/;"	f	access:public
+label_list	works.cpp	/^enum label_list{NEW, MARKED, DONE};$/;"	g	file:
+main	Tic-Tac-Toe-master/TicTacToe-Template.c	/^int main()$/;"	f
+main	Tic-Tac-Toe-master/TicTacToe.c	/^int main()$/;"	f
+main	bfs.cpp	/^int main(){$/;"	f	signature:()
+main	bfsass.c	/^int main(){$/;"	f
+main	dfs.cpp	/^int main(){$/;"	f	signature:()
+main	doitagain.cpp	/^int main(){$/;"	f	signature:()
+main	ttt.c	/^int main() {$/;"	f
+main	works.cpp	/^int main(){$/;"	f	signature:()
+make_blank	ttt.c	/^int make_blank(char **board){$/;"	f	signature:(char **board)
+make_center	ttt.c	/^int make_center(char **board){$/;"	f	signature:(char **board)
+max	Tic-Tac-Toe-master/TicTacToe.c	/^int max(char **board, char piece1, char piece2, int alpha, int beta) {$/;"	f	signature:(char **board, char piece1, char piece2, int alpha, int beta)
+max	Tic-Tac-Toe-master/TicTacToe.c	/^int max(char **board, char piece1, char piece2, int alpha, int beta);$/;"	p	file:	signature:(char **board, char piece1, char piece2, int alpha, int beta)
+min	Tic-Tac-Toe-master/TicTacToe.c	/^int min(char **board, char piece1, char piece2, int alpha, int beta) {$/;"	f	signature:(char **board, char piece1, char piece2, int alpha, int beta)
+multiply	artificial_Intelligence/lab0/algebra.py	/^def multiply(expr1, expr2):$/;"	f	access:public
+next	bfs.cpp	/^    struct gnode * next;$/;"	m	struct:gnode	typeref:struct:gnode::gnode	file:	access:public
+next	bfsass.c	/^    struct gnode * next;$/;"	m	struct:gnode	typeref:struct:gnode::gnode	file:	access:public
+next	dfs.cpp	/^    struct gnode * next;$/;"	m	struct:gnode	typeref:struct:gnode::gnode	file:	access:public
+num	works.cpp	/^int num;$/;"	v
+possible_win	ttt.c	/^int possible_win(char **board, char piece) {$/;"	f	signature:(char **board, char piece)
+possible_win_magic	ttt.c	/^int possible_win_magic(char **board, char piece) {$/;"	f	signature:(char **board, char piece)
+qarr	bfsass.c	/^    int qarr[QSIZE];$/;"	m	struct:queue	file:	access:public
+qdisplay	bfs.cpp	/^void qdisplay(queue<int> q) {$/;"	f	signature:(queue<int> q)
+qdisplay	bfs.cpp	/^void qdisplay(queue<int> q);$/;"	p	file:	signature:(queue<int> q)
+qdisplay	dfs.cpp	/^void qdisplay(queue<int> q) {$/;"	f	signature:(queue<int> q)
+qdisplay	dfs.cpp	/^void qdisplay(queue<int> q);$/;"	p	file:	signature:(queue<int> q)
+queue	bfsass.c	/^struct queue{$/;"	s	file:
+queue::ele_last_rem	bfsass.c	/^    int front,rear,ele_last_rem;$/;"	m	struct:queue	file:	access:public
+queue::front	bfsass.c	/^    int front,rear,ele_last_rem;$/;"	m	struct:queue	file:	access:public
+queue::qarr	bfsass.c	/^    int qarr[QSIZE];$/;"	m	struct:queue	file:	access:public
+queue::rear	bfsass.c	/^    int front,rear,ele_last_rem;$/;"	m	struct:queue	file:	access:public
+rear	bfsass.c	/^    int front,rear,ele_last_rem;$/;"	m	struct:queue	file:	access:public
+run_test	artificial_Intelligence/lab0/tester.py	/^def run_test(test, lab):$/;"	f	access:public
+run_test	artificial_Intelligence/lab0/thetester.py	/^def run_test(test, lab):$/;"	f	access:public
+sample_tree	artificial_Intelligence/lab0/tests.py	/^sample_tree = [[[1, 2], 3], 7, [4, [5, 6]], [8, 9, 10]]$/;"	v
+show_exception	artificial_Intelligence/lab0/tester.py	/^def show_exception(testsummary, testcode):$/;"	f	access:public
+show_exception	artificial_Intelligence/lab0/thetester.py	/^def show_exception(testsummary, testcode):$/;"	f	access:public
+show_result	artificial_Intelligence/lab0/tester.py	/^def show_result(testsummary, testcode, correct, got, expected, verbosity):$/;"	f	access:public
+show_result	artificial_Intelligence/lab0/thetester.py	/^def show_result(testsummary, testcode, correct, got, expected, verbosity):$/;"	f	access:public
+simplify	artificial_Intelligence/lab0/algebra.py	/^    def simplify(self):$/;"	m	class:Product	access:public
+simplify	artificial_Intelligence/lab0/algebra.py	/^    def simplify(self):$/;"	m	class:Sum	access:public
+simplify_if_possible	artificial_Intelligence/lab0/algebra.py	/^def simplify_if_possible(expr):$/;"	f	access:public
+substitute_vars	artificial_Intelligence/lab0/tests.py	/^def substitute_vars(lst, context = {}):$/;"	f	access:public
+test_offline	artificial_Intelligence/lab0/tester.py	/^def test_offline(verbosity=1):$/;"	f	access:public
+test_offline	artificial_Intelligence/lab0/thetester.py	/^def test_offline(verbosity=1):$/;"	f	access:public
+test_online	artificial_Intelligence/lab0/tester.py	/^def test_online(verbosity=1):$/;"	f	access:public
+test_online	artificial_Intelligence/lab0/thetester.py	/^def test_online(verbosity=1):$/;"	f	access:public
+test_summary	artificial_Intelligence/lab0/tester.py	/^def test_summary(dispindex, ntests):$/;"	f	access:public
+test_summary	artificial_Intelligence/lab0/thetester.py	/^def test_summary(dispindex, ntests):$/;"	f	access:public
+tree_ref	artificial_Intelligence/lab0/lab0.py	/^def tree_ref(tree, index):$/;"	f	access:public
+tree_ref_1_expected	artificial_Intelligence/lab0/tests.py	/^tree_ref_1_expected = 9$/;"	v
+tree_ref_1_getargs	artificial_Intelligence/lab0/tests.py	/^def tree_ref_1_getargs():$/;"	f	access:public
+tree_ref_1_testanswer	artificial_Intelligence/lab0/tests.py	/^def tree_ref_1_testanswer(ans, original_val = None):$/;"	f	access:public
+tree_ref_2_expected	artificial_Intelligence/lab0/tests.py	/^tree_ref_2_expected = [[1,2],3]$/;"	v
+tree_ref_2_getargs	artificial_Intelligence/lab0/tests.py	/^def tree_ref_2_getargs():$/;"	f	access:public
+tree_ref_2_testanswer	artificial_Intelligence/lab0/tests.py	/^def tree_ref_2_testanswer(ans, original_val = None):$/;"	f	access:public
+tree_ref_3_expected	artificial_Intelligence/lab0/tests.py	/^tree_ref_3_expected = "(this test is randomly generated)"$/;"	v
+tree_ref_3_getargs	artificial_Intelligence/lab0/tests.py	/^def tree_ref_3_getargs():$/;"	f	access:public
+tree_ref_3_random	artificial_Intelligence/lab0/tests.py	/^tree_ref_3_random = 0$/;"	v
+tree_ref_3_testanswer	artificial_Intelligence/lab0/tests.py	/^def tree_ref_3_testanswer(ans, original_val = None):$/;"	f	access:public
+utility	Tic-Tac-Toe-master/TicTacToe.c	/^int utility(char **board, char piece1, char piece2) {$/;"	f	signature:(char **board, char piece1, char piece2)
+ver	bfs.cpp	/^    int ver;$/;"	m	struct:gnode	file:	access:public
+ver	bfsass.c	/^    int ver;$/;"	m	struct:gnode	file:	access:public
+ver	dfs.cpp	/^    int ver;$/;"	m	struct:gnode	file:	access:public

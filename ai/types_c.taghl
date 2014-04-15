@@ -1,0 +1,71 @@
+syn keyword CTagsGlobalVariable adjm num adj
+syn keyword CTagsFunction dequeue initboard minimax inputGraph go qdisplay computer_move_magic checkwin utility val min get_turn dfs bfs init score isFull main dispAlist make_center max iddfs possible_win input_graph human_move isNotEmpty computer_move createGraph deallocate_graph enqueue dldfs possible_win_magic possible_win_multi allocate_graph make_blank displayboard
+
+syn match CTagsFunction /\<display\>/
+" Matches for file ttttt.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "ttttt.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsEnumerationValue LOSS WIN TIE
+	syn keyword CTagsFunction max
+	syn keyword CTagsDefinedName PLAYER1 PLAYER2 CONTINUE BLANK
+	
+endif
+" Matches for file working_minmax.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "working_minmax.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsEnumerationValue LOSS WIN TIE
+	syn keyword CTagsDefinedName PLAYER1 PLAYER2 CONTINUE BLANK
+	
+endif
+" Matches for file Tic-Tac-Toe-master/TicTacToe-Template.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "Tic-Tac-Toe-master/TicTacToe-Template.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsDefinedName PLAYER2 PLAYER1 BLANK
+	
+endif
+" Matches for file newttt.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "newttt.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsEnumerationValue LOSS WIN TIE
+	syn keyword CTagsDefinedName PLAYER1 PLAYER2 CONTINUE BLANK
+	
+endif
+" Matches for file Tic-Tac-Toe-master/TicTacToe.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "Tic-Tac-Toe-master/TicTacToe.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsEnumerationValue LOSS WIN TIE
+	syn keyword CTagsFunction max
+	syn keyword CTagsDefinedName PLAYER1 PLAYER2 CONTINUE BLANK
+	
+endif
+" Matches for file bfs.cpp:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "bfs.cpp") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsStructure gnode
+	syn keyword CTagsMember ver next
+	syn keyword CTagsFunction qdisplay dispAlist
+	syn keyword CTagsDefinedName MAXNODES
+	
+endif
+" Matches for file bfsass.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "bfsass.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsStructure queue gnode
+	syn keyword CTagsMember ele_last_rem next rear front ver qarr
+	syn keyword CTagsFunction isNotEmpty dequeue isFull enqueue
+	syn keyword CTagsDefinedName MAXNODES QSIZE FALSE TRUE
+	
+	syn match CTagsFunction /\<display\>/
+endif
+" Matches for file ttt.c:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "ttt.c") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsDefinedName PLAYER2 PLAYER1 BLANK
+	
+endif
+" Matches for file works.cpp:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "works.cpp") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsEnumeratorName label_list
+	syn keyword CTagsEnumerationValue NEW DONE MARKED
+	
+endif
+" Matches for file dfs.cpp:
+if (has_key(b:TagHighlightPrivate, "NormalisedPath") && b:TagHighlightPrivate["NormalisedPath"] == "dfs.cpp") || TagHighlight#Option#GetOption("IgnoreFileScope")
+	syn keyword CTagsStructure gnode
+	syn keyword CTagsMember ver next
+	syn keyword CTagsFunction qdisplay dispAlist
+	syn keyword CTagsDefinedName MAXNODES
+	
+endif
