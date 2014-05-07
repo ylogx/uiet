@@ -1,0 +1,98 @@
+Script started on Monday 04 February 2013 01:28:17 AM IST
+chaudhary@Dell-XPS-L502XC:~/code/cpp$ ./1130903.out 
+
+0. Exit
+1. Insert
+2. Delete
+3. Modify
+4. Display
+5. Linear Search
+6. Bubble Sort
+7. Binary Search
+8. Binary Search Using index
+Enter Operation: 1 56 1 23 1 48 1 12 1 34 1 9 1 3 1 -3 1 -12
+
+Enter Operation: 4
+
+List is: 
+1:56	2:23	3:48	4:12	5:34	6:9	7:3	8:-3	9:-12	
+Enter Operation: 3
+
+Enter value to modify and new value: 34 96
+
+Enter Operation: 4
+
+List is: 
+1:56	2:23	3:48	4:12	5:96	6:9	7:3	8:-3	9:-12	
+Enter Operation: 5
+
+Enter Key: -3
+
+Key -3 found @: 8th link
+
+Enter Operation: 6
+
+Enter Operation: 4
+
+List is: 
+1:-12	2:-3	3:3	4:9	5:12	6:23	7:48	8:56	9:96	
+Enter Operation: 7
+
+Enter Key: 48
+
+Bubble Sort done !
+looping in bin search. length: -12
+looping in bin search. length: -3
+looping in bin search. length: 3
+looping in bin search. length: 9
+looping in bin search. length: 12
+looping in bin search. length: 23
+looping in bin search. length: 48
+looping in bin search. length: 56
+Out in binSearch fun.
+While: mid: 4 length: 8 locate ptr mid= 96 Key= 48
+While: mid: 7 length: 8 locate ptr mid= 96 Key= 48
+While: mid: 5 length: 8 locate ptr mid= 96 Key= 48
+While: mid: 6 length: 8 locate ptr mid= 96 Key= 48
+Iterative Binary Search: 48 found at position 7
+
+Enter Key: 96
+
+Bubble Sort done !
+looping in bin search. length: -12
+looping in bin search. length: -3
+looping in bin search. length: 3
+looping in bin search. length: 9
+looping in bin search. length: 12
+looping in bin search. length: 23
+looping in bin search. length: 48
+looping in bin search. length: 56
+Out in binSearch fun.
+While: mid: 4 length: 8 locate ptr mid= 96 Key= 96
+While: mid: 7 length: 8 locate ptr mid= 96 Key= 96
+While: mid: 8 length: 8 locate ptr mid= 96 Key= 96
+Iterative Binary Search: 96 found at position 9
+
+Enter Operation: 7
+
+Enter Key: -3
+
+Bubble Sort done !
+looping in bin search. length: -12
+looping in bin search. length: -3
+looping in bin search. length: 3
+looping in bin search. length: 9
+looping in bin search. length: 12
+looping in bin search. length: 23
+looping in bin search. length: 48
+looping in bin search. length: 56
+Out in binSearch fun.
+While: mid: 4 length: 8 locate ptr mid= 96 Key= -3
+While: mid: 1 length: 8 locate ptr mid= 96 Key= -3
+Iterative Binary Search: -3 found at position 2
+
+Enter Operation: 0
+
+exit
+
+Script done on Monday 04 February 2013 01:30:22 AM IST

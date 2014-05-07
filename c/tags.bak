@@ -1,0 +1,455 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADD	advanced/malloc/prob1.c	/^	ADD, \/* a+b *\/$/;"	e	enum:op	file:
+AddItem	advanced/malloc/queue.c	/^listelement *AddItem (listelement *listpointer, int data) $/;"	f	signature:(listelement *listpointer, int data)
+AddItem	advanced/malloc/queue.c	/^listelement * AddItem (listelement * listpointer, int data);$/;"	p	file:	signature:(listelement * listpointer, int data)
+Address::email	lcthw/ex17.c	/^    char email[MAXDATA];$/;"	m	struct:Address	file:	access:public
+Address::id	lcthw/ex17.c	/^    int id;$/;"	m	struct:Address	file:	access:public
+Address::name	lcthw/ex17.c	/^    char name[MAXDATA];$/;"	m	struct:Address	file:	access:public
+Address::set	lcthw/ex17.c	/^    int set;$/;"	m	struct:Address	file:	access:public
+AddressPrint	lcthw/ex17.c	/^void AddressPrint(struct Address *addr){$/;"	f	signature:(struct Address *addr)
+Address	lcthw/ex17.c	/^struct Address{$/;"	s	file:
+BUF_SIZE	advanced/uname.c	3;"	d	file:
+Board	advanced/tictacgame.c	/^void Board()$/;"	f
+Board	advanced/tictacgame.c	/^void Board();$/;"	p	file:
+Circle::area	classcpp.C	/^float Circle::area()$/;"	f	class:Circle	signature:()
+Circle::area	classcpp.C	/^    float area();$/;"	p	class:Circle	file:	access:public	signature:()
+Circle::init	classcpp.C	/^    void init(float x) \/* Inline function *\/$/;"	f	class:Circle	access:public	signature:(float x)
+Circle::r	classcpp.C	/^    float r;$/;"	m	class:Circle	file:	access:private
+Circle	classcpp.C	/^class Circle{$/;"	c	file:
+ClearQueue	advanced/malloc/queue.c	/^void ClearQueue (listelement *listpointer) $/;"	f	signature:(listelement *listpointer)
+ClearQueue	advanced/malloc/queue.c	/^void ClearQueue (listelement * listpointer);$/;"	p	file:	signature:(listelement * listpointer)
+Connection::db	lcthw/ex17.c	/^    struct Database *db;$/;"	m	struct:Connection	typeref:struct:Connection::Database	file:	access:public
+Connection::file	lcthw/ex17.c	/^    FILE *file;$/;"	m	struct:Connection	file:	access:public
+Connection	lcthw/ex17.c	/^struct Connection{$/;"	s	file:
+DELIMS_STR	advanced/malloc/prob1.c	224;"	d	file:
+DIVIDE	advanced/malloc/prob1.c	/^	DIVIDE, \/* a\/b *\/$/;"	e	enum:op	file:
+Database::rows	lcthw/ex17.c	/^    struct Address rows[MAXROW];$/;"	m	struct:Database	typeref:struct:Database::Address	file:	access:public
+DatabaseClose	lcthw/ex17.c	/^void DatabaseClose(struct Connection * conn){$/;"	f	signature:(struct Connection * conn)
+DatabaseCreate	lcthw/ex17.c	/^void DatabaseCreate(struct Connection* conn){$/;"	f	signature:(struct Connection* conn)
+DatabaseDelete	lcthw/ex17.c	/^void DatabaseDelete(struct Connection* conn,int id){$/;"	f	signature:(struct Connection* conn,int id)
+DatabaseGet	lcthw/ex17.c	/^void DatabaseGet(struct Connection *conn,int id){$/;"	f	signature:(struct Connection *conn,int id)
+DatabaseList	lcthw/ex17.c	/^void DatabaseList(struct Connection *conn){$/;"	f	signature:(struct Connection *conn)
+DatabaseLoad	lcthw/ex17.c	/^void DatabaseLoad(struct Connection *conn){$/;"	f	signature:(struct Connection *conn)
+DatabaseOpen	lcthw/ex17.c	/^struct Connection *DatabaseOpen(const char *filename,char mode){$/;"	f	signature:(const char *filename,char mode)
+DatabaseSet	lcthw/ex17.c	/^void DatabaseSet(struct Connection* conn,int id,const char*name,const char *email){$/;"	f	signature:(struct Connection* conn,int id,const char*name,const char *email)
+DatabaseWrite	lcthw/ex17.c	/^void DatabaseWrite(struct Connection * conn){$/;"	f	signature:(struct Connection * conn)
+Database	lcthw/ex17.c	/^struct Database{$/;"	s	file:
+FALSE	advanced/malloc/queue.c	5;"	d	file:
+HASHSIZE	advanced/dict_hash.c	12;"	d	file:
+HASHSIZE	advanced/hashTable.c	11;"	d	file:
+INPUT_MAX	advanced/malloc/prob1.c	13;"	d	file:
+LEFT	advanced/malloc/prob1.c	/^	LEFT, \/* left-to-right (+, binary -, *, \/) *\/$/;"	e	enum:assoc	file:
+LIMIT	advanced/arr_menu_ds.c	7;"	d	file:
+LPARENS	advanced/malloc/prob1.c	/^	LPARENS, \/* left parentheses ( *\/$/;"	e	enum:token_type	file:
+MAXDATA	lcthw/ex17.c	7;"	d	file:
+MAXROW	lcthw/ex17.c	8;"	d	file:
+MAX	password.c	3;"	d	file:
+MULTIPLY	advanced/malloc/prob1.c	/^	MULTIPLY, \/* a*b *\/$/;"	e	enum:op	file:
+Menu	advanced/malloc/queue.c	/^void Menu (int *choice) {   $/;"	f	signature:(int *choice)
+Menu	advanced/malloc/queue.c	/^void Menu (int *choice);$/;"	p	file:	signature:(int *choice)
+NEGATE	advanced/malloc/prob1.c	/^	NEGATE \/* -a (unary) *\/$/;"	e	enum:op	file:
+NODEPTR	cCoder/3.c	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS	file:
+NODEPTR	cCoder/shubham_chaudhary_ue113090/3.c	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS	file:
+NULL	advanced/malloc/queue.c	6;"	d	file:
+OPERAND	advanced/malloc/prob1.c	/^	OPERAND, \/* number *\/$/;"	e	enum:token_type	file:
+OPERATOR	advanced/malloc/prob1.c	/^	OPERATOR, \/* operator: +, -, *, \/ *\/$/;"	e	enum:token_type	file:
+PARSE_PARENS	advanced/malloc/prob1.c	17;"	d	file:
+PlayerO	advanced/tictacgame.c	/^void PlayerO()$/;"	f
+PlayerO	advanced/tictacgame.c	/^void PlayerO();$/;"	p	file:
+PlayerX	advanced/tictacgame.c	/^void PlayerX()$/;"	f
+PlayerX	advanced/tictacgame.c	/^void PlayerX();$/;"	p	file:
+Player_win	advanced/tictacgame.c	/^void Player_win()$/;"	f
+Player_win	advanced/tictacgame.c	/^void Player_win();$/;"	p	file:
+PrintQueue	advanced/malloc/queue.c	/^void PrintQueue (listelement *listpointer) $/;"	f	signature:(listelement *listpointer)
+PrintQueue	advanced/malloc/queue.c	/^void PrintQueue (listelement * listpointer);$/;"	p	file:	signature:(listelement * listpointer)
+RIGHT	advanced/malloc/prob1.c	/^	RIGHT \/* right-to-left (unary -) *\/$/;"	e	enum:assoc	file:
+RPARENS	advanced/malloc/prob1.c	/^	RPARENS \/* right parentheses ) *\/$/;"	e	enum:token_type	file:
+RemoveItem	advanced/malloc/queue.c	/^listelement *RemoveItem (listelement *listpointer) $/;"	f	signature:(listelement *listpointer)
+RemoveItem	advanced/malloc/queue.c	/^listelement * RemoveItem (listelement * listpointer);$/;"	p	file:	signature:(listelement * listpointer)
+SIZE	advanced/login.c	3;"	d	file:
+SUBTRACT	advanced/malloc/prob1.c	/^	SUBTRACT, \/* a-b (binary) *\/ $/;"	e	enum:op	file:
+__anon1::dataitem	advanced/malloc/queue.c	/^  int     dataitem;   $/;"	m	struct:__anon1	file:	access:public
+__anon1::link	advanced/malloc/queue.c	/^  struct listelement *link;$/;"	m	struct:__anon1	typeref:struct:__anon1::listelement	file:	access:public
+_node::desc	advanced/dict_hash.c	/^  int desc;$/;"	m	struct:_node	file:	access:public
+_node::desc	advanced/hashTable.c	/^  char *desc;$/;"	m	struct:_node	file:	access:public
+_node::name	advanced/dict_hash.c	/^  char *name;$/;"	m	struct:_node	file:	access:public
+_node::name	advanced/hashTable.c	/^  char *name;$/;"	m	struct:_node	file:	access:public
+_node::next	advanced/dict_hash.c	/^  struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:	access:public
+_node::next	advanced/hashTable.c	/^  struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:	access:public
+_node	advanced/dict_hash.c	/^typedef struct _node{$/;"	s	file:
+_node	advanced/hashTable.c	/^typedef struct _node{$/;"	s	file:
+alpha	advanced/dynamic.c	/^int alpha(void)$/;"	f	signature:(void)
+area	cCoder/1.c	/^float area(struct point a, struct point b, struct point c){$/;"	f	signature:(struct point a, struct point b, struct point c)
+area	cCoder/shubham_chaudhary_ue113090/1.c	/^float area(struct point a, struct point b, struct point c){$/;"	f	signature:(struct point a, struct point b, struct point c)
+area	classcpp.C	/^float Circle::area()$/;"	f	class:Circle	signature:()
+area	cCoder/1.c	/^float area(struct point a, struct point b, struct point c);$/;"	p	file:	signature:(struct point a, struct point b, struct point c)
+area	cCoder/shubham_chaudhary_ue113090/1.c	/^float area(struct point a, struct point b, struct point c);$/;"	p	file:	signature:(struct point a, struct point b, struct point c)
+area	classcpp.C	/^    float area();$/;"	p	class:Circle	file:	access:public	signature:()
+arr	advanced/arr_menu_ds.c	/^int arr[LIMIT];$/;"	v
+assignTiles	madhuproj.cpp	/^void assignTiles(tile boneyard[leftLetters], player user[numPlayers])$/;"	f	signature:(tile boneyard[leftLetters], player user[numPlayers])
+assignTiles	madhuproj.cpp	/^void assignTiles(tile boneyard[leftLetters], player user[numPlayers]);$/;"	p	file:	signature:(tile boneyard[leftLetters], player user[numPlayers])
+assoc	advanced/malloc/prob1.c	/^enum assoc {$/;"	g	file:
+back	advanced/malloc/prob1.c	/^	p_expr_token back; \/* back of queue, where tokens are added *\/$/;"	m	struct:token_queue	file:	access:public
+board::color	madhuproj.cpp	/^       char color[5];$/;"	m	struct:board	file:	access:public
+board::placed	madhuproj.cpp	/^       tile placed;$/;"	m	struct:board	file:	access:public
+board::premiumValue	madhuproj.cpp	/^       char premiumValue[15];$/;"	m	struct:board	file:	access:public
+board::status	madhuproj.cpp	/^       bool status;$/;"	m	struct:board	file:	access:public
+board	madhuproj.cpp	/^struct board$/;"	s	file:
+cap	advanced/dict.c	/^    int cap;$/;"	m	struct:dict_s	file:	access:public
+check	advanced/tictacgame.c	/^void check()$/;"	f
+check	cCoder/2.c	/^void check(){$/;"	f
+check	cCoder/shubham_chaudhary_ue113090/2.c	/^void check(){$/;"	f
+check	advanced/tictacgame.c	/^void check();$/;"	p	file:
+chk	advanced/tictacgame.c	/^int win=0,wrong_X=0,wrong_O=0,chk=0;$/;"	v
+cleanup	advanced/dict_hash.c	/^void cleanup(){$/;"	f
+cleanup	advanced/hashTable.c	/^void cleanup(){$/;"	f
+color	madhuproj.cpp	/^       char color[5];$/;"	m	struct:board	file:	access:public
+color	madhuproj.cpp	/^const int color = 5;$/;"	v
+column	madhuproj.cpp	/^const int column = 15;$/;"	v
+count	example.c	/^int count; \/* count is global *\/$/;"	v
+dataitem	advanced/malloc/queue.c	/^  int     dataitem;   $/;"	m	struct:__anon1	file:	access:public
+db	lcthw/ex17.c	/^    struct Database *db;$/;"	m	struct:Connection	typeref:struct:Connection::Database	file:	access:public
+delete	advanced/arr_menu_ds.c	/^void delete()		\/*to delete element at specified position*\/$/;"	f
+delete	cCoder/3.c	/^void delete(NODEPTR tempStart,int data){$/;"	f	signature:(NODEPTR tempStart,int data)
+delete	cCoder/shubham_chaudhary_ue113090/3.c	/^void delete(NODEPTR tempStart,int data){$/;"	f	signature:(NODEPTR tempStart,int data)
+delete	advanced/arr_menu_ds.c	/^void delete();		\/*to delete element at specified position*\/$/;"	p	file:
+delete	cCoder/3.c	/^void delete(NODEPTR , int);$/;"	p	file:	signature:(NODEPTR , int)
+delete	cCoder/shubham_chaudhary_ue113090/3.c	/^void delete(NODEPTR , int);$/;"	p	file:	signature:(NODEPTR , int)
+dequeue	advanced/malloc/prob1.c	/^p_expr_token dequeue(struct token_queue * pqueue) {$/;"	f	signature:(struct token_queue * pqueue)
+dequeue	advanced/malloc/prob1.c	/^p_expr_token dequeue(struct token_queue * pqueue);$/;"	p	file:	signature:(struct token_queue * pqueue)
+desc	advanced/dict_hash.c	/^  int desc;$/;"	m	struct:_node	file:	access:public
+desc	advanced/hashTable.c	/^  char *desc;$/;"	m	struct:_node	file:	access:public
+dict_add	advanced/dict.c	/^void dict_add(dict_t dict, const char *key, int value) {$/;"	f	signature:(dict_t dict, const char *key, int value)
+dict_entry_s::key	advanced/dict.c	/^    const char *key;$/;"	m	struct:dict_entry_s	file:	access:public
+dict_entry_s::value	advanced/dict.c	/^    int value;$/;"	m	struct:dict_entry_s	file:	access:public
+dict_entry_s	advanced/dict.c	/^typedef struct dict_entry_s {$/;"	s	file:
+dict_entry_s	advanced/dict.c	/^} dict_entry_s;$/;"	t	typeref:struct:dict_entry_s	file:
+dict_find_index	advanced/dict.c	/^int dict_find_index(dict_t dict, const char *key) {$/;"	f	signature:(dict_t dict, const char *key)
+dict_find	advanced/dict.c	/^int dict_find(dict_t dict, const char *key, int def) {$/;"	f	signature:(dict_t dict, const char *key, int def)
+dict_free	advanced/dict.c	/^void dict_free(dict_t dict) {$/;"	f	signature:(dict_t dict)
+dict_new	advanced/dict.c	/^dict_t dict_new(void) {$/;"	f	signature:(void)
+dict_s::cap	advanced/dict.c	/^    int cap;$/;"	m	struct:dict_s	file:	access:public
+dict_s::entry	advanced/dict.c	/^    dict_entry_s *entry;$/;"	m	struct:dict_s	file:	access:public
+dict_s::len	advanced/dict.c	/^    int len;$/;"	m	struct:dict_s	file:	access:public
+dict_s	advanced/dict.c	/^typedef struct dict_s {$/;"	s	file:
+dict_s	advanced/dict.c	/^} dict_s, *dict_t;$/;"	t	typeref:struct:dict_s	file:
+dict_t	advanced/dict.c	/^} dict_s, *dict_t;$/;"	t	typeref:struct:dict_s	file:
+die	lcthw/ex17.c	/^void die(const char*message){$/;"	f	signature:(const char*message)
+dis	cCoder/2.c	/^void dis(){$/;"	f
+dis	cCoder/shubham_chaudhary_ue113090/2.c	/^void dis(){$/;"	f
+displayBoard	madhuproj.cpp	/^void displayBoard (board gameBoard[row][column]);$/;"	p	file:	signature:(board gameBoard[row][column])
+display	advanced/arr_menu_ds.c	/^void display()		\/*function to print the array*\/$/;"	f
+display	cCoder/3.c	/^void display(NODEPTR p){$/;"	f	signature:(NODEPTR p)
+display	cCoder/shubham_chaudhary_ue113090/3.c	/^void display(NODEPTR p){$/;"	f	signature:(NODEPTR p)
+display	advanced/arr_menu_ds.c	/^void display();		\/*function to print the array*\/$/;"	p	file:
+display	cCoder/3.c	/^void display(NODEPTR);$/;"	p	file:
+display	cCoder/shubham_chaudhary_ue113090/3.c	/^void display(NODEPTR);$/;"	p	file:
+displaytable	advanced/dict_hash.c	/^void displaytable(){$/;"	f
+displaytable	advanced/hashTable.c	/^void displaytable(){$/;"	f
+dist	cCoder/1.c	/^float dist(struct point a, struct point b){$/;"	f	signature:(struct point a, struct point b)
+dist	cCoder/shubham_chaudhary_ue113090/1.c	/^float dist(struct point a, struct point b){$/;"	f	signature:(struct point a, struct point b)
+dist	cCoder/1.c	/^float dist(struct point a, struct point b);$/;"	p	file:	signature:(struct point a, struct point b)
+dist	cCoder/shubham_chaudhary_ue113090/1.c	/^float dist(struct point a, struct point b);$/;"	p	file:	signature:(struct point a, struct point b)
+down	cCoder/2.c	/^void down(){$/;"	f
+down	cCoder/shubham_chaudhary_ue113090/2.c	/^void down(){$/;"	f
+email	lcthw/ex17.c	/^    char email[MAXDATA];$/;"	m	struct:Address	file:	access:public
+enqueue	advanced/malloc/prob1.c	/^void enqueue(struct token_queue * pqueue, const p_expr_token ptoken) {$/;"	f	signature:(struct token_queue * pqueue, const p_expr_token ptoken)
+enqueue	advanced/malloc/prob1.c	/^void enqueue(struct token_queue * pqueue, const p_expr_token ptoken);$/;"	p	file:	signature:(struct token_queue * pqueue, const p_expr_token ptoken)
+entry	advanced/dict.c	/^    dict_entry_s *entry;$/;"	m	struct:dict_s	file:	access:public
+evaluate_postfix	advanced/malloc/prob1.c	/^double evaluate_postfix(struct token_queue * pqueue_postfix) {$/;"	f	signature:(struct token_queue * pqueue_postfix)
+evaluate_postfix	advanced/malloc/prob1.c	/^double evaluate_postfix(struct token_queue * pqueue_postfix);$/;"	p	file:	signature:(struct token_queue * pqueue_postfix)
+evaluate	advanced/malloc/prob1.c	/^double evaluate(const char * str) {$/;"	f	signature:(const char * str)
+evaluate	advanced/malloc/prob1.c	/^double evaluate(const char * str);$/;"	p	file:	signature:(const char * str)
+expr_to_infix	advanced/malloc/prob1.c	/^struct token_queue expr_to_infix(char * str) {$/;"	f	signature:(char * str)
+expr_to_infix	advanced/malloc/prob1.c	/^struct token_queue expr_to_infix(char * str);$/;"	p	file:	signature:(char * str)
+fac	funfacsum.c	/^fac (int a)$/;"	f	signature:(int a)
+file	lcthw/ex17.c	/^    FILE *file;$/;"	m	struct:Connection	file:	access:public
+freeNode	cCoder/3.c	/^void freeNode(NODEPTR  p){$/;"	f	signature:(NODEPTR p)
+freeNode	cCoder/shubham_chaudhary_ue113090/3.c	/^void freeNode(NODEPTR  p){$/;"	f	signature:(NODEPTR p)
+freeNode	cCoder/3.c	/^void freeNode(NODEPTR);$/;"	p	file:
+freeNode	cCoder/shubham_chaudhary_ue113090/3.c	/^void freeNode(NODEPTR);$/;"	p	file:
+front	advanced/malloc/prob1.c	/^	p_expr_token front; \/* front of queue, where tokens are dequeued *\/$/;"	m	struct:token_queue	file:	access:public
+fun1	fun1.c	/^fun1()$/;"	f
+fun2	fun1.c	/^fun2()$/;"	f
+func1	example.c	/^void func1(void)$/;"	f	signature:(void)
+func1	example.c	/^void func1(void);$/;"	p	file:	signature:(void)
+func2	example.c	/^void func2(void)$/;"	f	signature:(void)
+func2	example.c	/^void func2(void);$/;"	p	file:	signature:(void)
+fun	advanced/time.c	/^void fun()$/;"	f
+game	cCoder/2.c	/^void game(){$/;"	f
+game	cCoder/shubham_chaudhary_ue113090/2.c	/^void game(){$/;"	f
+generate	cCoder/3.c	/^void generate(NODEPTR nd, int a, int b){$/;"	f	signature:(NODEPTR nd, int a, int b)
+generate	cCoder/shubham_chaudhary_ue113090/3.c	/^void generate(NODEPTR nd, int a, int b){$/;"	f	signature:(NODEPTR nd, int a, int b)
+generate	cCoder/3.c	/^void generate(NODEPTR,int,int);$/;"	p	file:	signature:(NODEPTR,int,int)
+generate	cCoder/shubham_chaudhary_ue113090/3.c	/^void generate(NODEPTR,int,int);$/;"	p	file:	signature:(NODEPTR,int,int)
+getNode	cCoder/3.c	/^NODEPTR getNode(void){$/;"	f	signature:(void)
+getNode	cCoder/shubham_chaudhary_ue113090/3.c	/^NODEPTR getNode(void){$/;"	f	signature:(void)
+getNode	cCoder/3.c	/^NODEPTR getNode(void);$/;"	p	file:	signature:(void)
+getNode	cCoder/shubham_chaudhary_ue113090/3.c	/^NODEPTR getNode(void);$/;"	p	file:	signature:(void)
+get	advanced/dict_hash.c	/^int get(char* name){$/;"	f	signature:(char* name)
+get	advanced/hashTable.c	/^char* get(char* name){$/;"	f	signature:(char* name)
+hand	madhuproj.cpp	/^       tile hand[numPlayerTiles];$/;"	m	struct:player	file:	access:public
+hash	advanced/dict_hash.c	/^unsigned int hash(char *s){$/;"	f	signature:(char *s)
+hash	advanced/hashTable.c	/^unsigned int hash(char *s){$/;"	f	signature:(char *s)
+hashtab	advanced/dict_hash.c	/^static node_s* hashtab[HASHSIZE];$/;"	v	file:
+hashtab	advanced/hashTable.c	/^static node* hashtab[HASHSIZE];$/;"	v	file:
+id	lcthw/ex17.c	/^    int id;$/;"	m	struct:Address	file:	access:public
+infix_to_postfix	advanced/malloc/prob1.c	/^struct token_queue infix_to_postfix(struct token_queue * pqueue_infix) {$/;"	f	signature:(struct token_queue * pqueue_infix)
+infix_to_postfix	advanced/malloc/prob1.c	/^struct token_queue infix_to_postfix(struct token_queue * pqueue_infix);$/;"	p	file:	signature:(struct token_queue * pqueue_infix)
+info	cCoder/3.c	/^  int info;$/;"	m	struct:nodeS	file:	access:public
+info	cCoder/shubham_chaudhary_ue113090/3.c	/^  int info;$/;"	m	struct:nodeS	file:	access:public
+init	cCoder/2.c	/^void init(){$/;"	f
+init	cCoder/shubham_chaudhary_ue113090/2.c	/^void init(){$/;"	f
+init	classcpp.C	/^    void init(float x) \/* Inline function *\/$/;"	f	class:Circle	access:public	signature:(float x)
+inithashtab	advanced/dict_hash.c	/^void inithashtab(){$/;"	f
+inithashtab	advanced/hashTable.c	/^void inithashtab(){$/;"	f
+insert	advanced/arr_menu_ds.c	/^void insert()		\/*functionn to insert at the end of array*\/$/;"	f
+insert	advanced/insert.c	/^int insert(int *array, int val, size_t size,size_t at)$/;"	f	signature:(int *array, int val, size_t size,size_t at)
+insert	cCoder/3.c	/^void insert(NODEPTR tempStart,int x){$/;"	f	signature:(NODEPTR tempStart,int x)
+insert	cCoder/shubham_chaudhary_ue113090/3.c	/^void insert(NODEPTR tempStart,int x){$/;"	f	signature:(NODEPTR tempStart,int x)
+insert	advanced/arr_menu_ds.c	/^void insert();		\/*functionn to insert at the end of array*\/$/;"	p	file:
+insert	cCoder/3.c	/^void insert(NODEPTR , int);$/;"	p	file:	signature:(NODEPTR , int)
+insert	cCoder/shubham_chaudhary_ue113090/3.c	/^void insert(NODEPTR , int);$/;"	p	file:	signature:(NODEPTR , int)
+install	advanced/dict_hash.c	/^int install(char* name,int desc){$/;"	f	signature:(char* name,int desc)
+install	advanced/hashTable.c	/^int install(char* name,char* desc){$/;"	f	signature:(char* name,char* desc)
+isInside	cCoder/1.c	/^int isInside(struct point key,struct point a, struct point b, struct point c){$/;"	f	signature:(struct point key,struct point a, struct point b, struct point c)
+isInside	cCoder/shubham_chaudhary_ue113090/1.c	/^int isInside(struct point key,struct point a, struct point b, struct point c){$/;"	f	signature:(struct point key,struct point a, struct point b, struct point c)
+is_empty_stack	advanced/stack.c	/^void is_empty_stack(int);$/;"	p	file:	signature:(int)
+i	advanced/dynamic.c	/^int i = alpha(); \/\/dynamic intialization$/;"	v
+i	cCoder/2.c	/^int i,j;$/;"	v
+i	cCoder/shubham_chaudhary_ue113090/2.c	/^int i,j;$/;"	v
+joaat_hash	advanced/dict_hash.c	/^unsigned int joaat_hash(char *key){$/;"	f	signature:(char *key)
+j	cCoder/2.c	/^int i,j;$/;"	v
+j	cCoder/shubham_chaudhary_ue113090/2.c	/^int i,j;$/;"	v
+key	advanced/dict.c	/^    const char *key;$/;"	m	struct:dict_entry_s	file:	access:public
+leftLetters	madhuproj.cpp	/^const int leftLetters = 100;$/;"	v
+leftOver	madhuproj.cpp	/^void leftOver ( tile boneyard[leftLetters] );$/;"	p	file:	signature:( tile boneyard[leftLetters] )
+left	cCoder/2.c	/^void left(){$/;"	f
+left	cCoder/shubham_chaudhary_ue113090/2.c	/^void left(){$/;"	f
+length	advanced/insert.c	2;"	d	file:
+len	advanced/dict.c	/^    int len;$/;"	m	struct:dict_s	file:	access:public
+letter	madhuproj.cpp	/^       char letter;$/;"	m	struct:tile	file:	access:public
+limit	advanced/arr_menu_ds.c	/^int limit=LIMIT;$/;"	v
+linked_token	advanced/malloc/prob1.c	/^	struct s_expr_token * linked_token; \/* linked token in stack\/queue *\/$/;"	m	struct:s_expr_token	typeref:struct:s_expr_token::s_expr_token	file:	access:public
+link	advanced/malloc/queue.c	/^  struct listelement *link;$/;"	m	struct:__anon1	typeref:struct:__anon1::listelement	file:	access:public
+listelement	advanced/malloc/queue.c	/^}               listelement;$/;"	t	typeref:struct:__anon1	file:
+loadBoard	madhuproj.cpp	/^void loadBoard( board gameBoard[row][column])$/;"	f	signature:( board gameBoard[row][column])
+loadBoard	madhuproj.cpp	/^void loadBoard(board gameBoard[row][column]);$/;"	p	file:	signature:(board gameBoard[row][column])
+loca	cCoder/2.c	/^int loca,locb;$/;"	v
+loca	cCoder/shubham_chaudhary_ue113090/2.c	/^int loca,locb;$/;"	v
+locb	cCoder/2.c	/^int loca,locb;$/;"	v
+locb	cCoder/shubham_chaudhary_ue113090/2.c	/^int loca,locb;$/;"	v
+lookup	advanced/dict_hash.c	/^node_s* lookup(char *n){$/;"	f	signature:(char *n)
+lookup	advanced/hashTable.c	/^node* lookup(char *n){$/;"	f	signature:(char *n)
+m_strdup	advanced/hashTable.c	/^char* m_strdup(char *o){$/;"	f	signature:(char *o)
+main	addof.c	/^main()$/;"	f
+main	addof1.c	/^main( )$/;"	f
+main	advanced/arr_menu_ds.c	/^void main()$/;"	f
+main	advanced/carriage.c	/^main()$/;"	f
+main	advanced/dynamic.c	/^int main()$/;"	f
+main	advanced/get_arr_of_ptr_to_string.c	/^int main()$/;"	f
+main	advanced/hashTable.c	/^main(){$/;"	f
+main	advanced/headerMain.c	/^int main(){$/;"	f
+main	advanced/insert.c	/^int main(void)$/;"	f	signature:(void)
+main	advanced/io.c	/^main() \/* lower: convert input to lower case*\/$/;"	f
+main	advanced/login.c	/^int main() {$/;"	f
+main	advanced/malloc/prob1.c	/^int main(void) {$/;"	f	signature:(void)
+main	advanced/malloc/queue.c	/^main () $/;"	f
+main	advanced/mysql.c	/^int main()$/;"	f
+main	advanced/pointerAdvanced.c	/^int main() {$/;"	f
+main	advanced/pragma.c	/^int main(){$/;"	f
+main	advanced/pragma2.c	/^int main(){$/;"	f
+main	advanced/scanfRetrun.c	/^int main(){$/;"	f
+main	advanced/segmentation.c	/^int main(){$/;"	f
+main	advanced/signal.c	/^int main(){$/;"	f
+main	advanced/strace.c	/^int main (void ) {$/;"	f	signature:(void )
+main	advanced/systemCommands.c	/^int main(){$/;"	f
+main	advanced/test_gdb_array_pass.c	/^int main(){$/;"	f
+main	advanced/tictacgame.c	/^void main()$/;"	f
+main	advanced/time.c	/^int main()$/;"	f
+main	advanced/uname.c	/^int main(void){$/;"	f	signature:(void)
+main	argument.c	/^main()$/;"	f
+main	asciichart.c	/^main()$/;"	f
+main	cCoder/1.c	/^int main(){$/;"	f
+main	cCoder/2.c	/^int main(){$/;"	f
+main	cCoder/3.c	/^int main(){$/;"	f
+main	cCoder/basic.c	/^int main(){$/;"	f
+main	cCoder/shubham_chaudhary_ue113090/1.c	/^int main(){$/;"	f
+main	cCoder/shubham_chaudhary_ue113090/2.c	/^int main(){$/;"	f
+main	cCoder/shubham_chaudhary_ue113090/3.c	/^int main(){$/;"	f
+main	cat.c	/^void main()$/;"	f
+main	cat1.c	/^void main()$/;"	f
+main	cat2.c	/^void main()$/;"	f
+main	catchy.c	/^main()$/;"	f
+main	classcpp.C	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	clbyref.c	/^main()$/;"	f
+main	dataArea.c	/^int main(){$/;"	f
+main	delete.c	/^main()$/;"	f
+main	exa.c	/^main( )$/;"	f
+main	example.c	/^int main(void)$/;"	f	signature:(void)
+main	fieldspecifier.c	/^void main()$/;"	f
+main	filecp1to2.c	/^int main(){$/;"	f
+main	filehan1.c	/^void main()$/;"	f
+main	filehan2.c	/^main( )$/;"	f
+main	filehan3.c	/^main( )$/;"	f
+main	forLoop.c	/^int main(){$/;"	f
+main	forll.c	/^int main()$/;"	f
+main	forloop.c	/^main()$/;"	f
+main	fun1.c	/^main()$/;"	f
+main	funfacsum.c	/^main()$/;"	f
+main	getch.c	/^main( )$/;"	f
+main	gogreen.c	/^main()$/;"	f
+main	gogreencopy.c	/^main()$/;"	f
+main	hello.c	/^main()$/;"	f
+main	hello.cpp	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	hello.cxx	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	indefnit.c	/^main()$/;"	f
+main	india.c	/^void main()$/;"	f
+main	lcthw/ex17.c	/^int main(int argc,char *argv[]){$/;"	f	signature:(int argc,char *argv[])
+main	madhuproj.cpp	/^int main()$/;"	f	signature:()
+main	octal.c	/^int main(){$/;"	f
+main	octalLinker.c	/^int main(){$/;"	f
+main	p3.c	/^main( )$/;"	f
+main	p4.c	/^main( )$/;"	f
+main	p5.c	/^main( )$/;"	f
+main	p6.c	/^main()$/;"	f
+main	p7.c	/^main()$/;"	f
+main	p8.c	/^main()$/;"	f
+main	pass1.c	/^main()$/;"	f
+main	password.c	/^int main(){$/;"	f
+main	pointer.c	/^main( )$/;"	f
+main	prac1.c	/^void main()$/;"	f
+main	prac2.c	/^void main()$/;"	f
+main	recurfac.c	/^main()$/;"	f
+main	segfault.c	/^int main(void)$/;"	f	signature:(void)
+main	sound.c	/^main()$/;"	f
+main	sprintf.c	/^main()$/;"	f
+main	stack_overflow.c	/^int main(void)$/;"	f	signature:(void)
+main	tblfldspcfr.c	/^main( )$/;"	f
+main	temp.c	/^int main(){$/;"	f
+make_empty_stack	advanced/stack.c	/^void make_empty_stack();$/;"	p	file:
+mat	cCoder/2.c	/^int mat[4][4];$/;"	v
+mat	cCoder/shubham_chaudhary_ue113090/2.c	/^int mat[4][4];$/;"	v
+menu	advanced/arr_menu_ds.c	/^void menu()$/;"	f
+menu	advanced/arr_menu_ds.c	/^void menu();$/;"	p	file:
+modify	advanced/arr_menu_ds.c	/^void modify()		\/*function to modify element at specified position*\/$/;"	f
+modify	advanced/arr_menu_ds.c	/^void modify();		\/*function to modify element at specified position*\/$/;"	p	file:
+moves	cCoder/2.c	/^int moves=0;$/;"	v
+moves	cCoder/shubham_chaudhary_ue113090/2.c	/^int moves=0;$/;"	v
+name_O	advanced/tictacgame.c	/^char name_O[30];$/;"	v
+name_X	advanced/tictacgame.c	/^char name_X[30];$/;"	v
+name	advanced/dict_hash.c	/^  char *name;$/;"	m	struct:_node	file:	access:public
+name	advanced/hashTable.c	/^  char *name;$/;"	m	struct:_node	file:	access:public
+name	lcthw/ex17.c	/^    char name[MAXDATA];$/;"	m	struct:Address	file:	access:public
+name	madhuproj.cpp	/^       char name[30];$/;"	m	struct:player	file:	access:public
+new_token	advanced/malloc/prob1.c	/^p_expr_token new_token(const enum token_type type, const union token_value value) {$/;"	f	signature:(const enum token_type type, const union token_value value)
+new_token	advanced/malloc/prob1.c	/^p_expr_token new_token(const enum token_type type, const union token_value value);$/;"	p	file:	signature:(const enum token_type type, const union token_value value)
+next	advanced/dict_hash.c	/^  struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:	access:public
+next	advanced/hashTable.c	/^  struct _node *next;$/;"	m	struct:_node	typeref:struct:_node::_node	file:	access:public
+next	cCoder/3.c	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:	access:public
+next	cCoder/shubham_chaudhary_ue113090/3.c	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:	access:public
+nodeS::info	cCoder/3.c	/^  int info;$/;"	m	struct:nodeS	file:	access:public
+nodeS::info	cCoder/shubham_chaudhary_ue113090/3.c	/^  int info;$/;"	m	struct:nodeS	file:	access:public
+nodeS::next	cCoder/3.c	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:	access:public
+nodeS::next	cCoder/shubham_chaudhary_ue113090/3.c	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:	access:public
+nodeS	cCoder/3.c	/^struct nodeS {$/;"	s	file:
+nodeS	cCoder/shubham_chaudhary_ue113090/3.c	/^struct nodeS {$/;"	s	file:
+node_s	advanced/dict_hash.c	/^}node_s;$/;"	t	typeref:struct:_node	file:
+node	advanced/hashTable.c	/^}node;$/;"	t	typeref:struct:_node	file:
+numPlayerTiles	madhuproj.cpp	/^const int numPlayerTiles = 7;$/;"	v
+numPlayers	madhuproj.cpp	/^const int numPlayers = 2;$/;"	v
+numTiles	madhuproj.cpp	/^       int numTiles;$/;"	m	struct:player	file:	access:public
+op_associativity	advanced/malloc/prob1.c	/^const enum assoc op_associativity[] = {LEFT, LEFT, RIGHT};$/;"	v	typeref:enum:assoc
+op_code	advanced/malloc/prob1.c	/^	enum op op_code; \/* opcode for operators *\/$/;"	m	union:token_value	typeref:enum:token_value::op	file:	access:public
+op_operands	advanced/malloc/prob1.c	/^const unsigned int op_operands[] = {2, 2, 2, 2, 1};$/;"	v
+op_precedences	advanced/malloc/prob1.c	/^const unsigned int op_precedences[] = {0, 0, 1, 1, 2};$/;"	v
+operand	advanced/malloc/prob1.c	/^	double operand; \/* numeric value for operand *\/$/;"	m	union:token_value	file:	access:public
+op	advanced/malloc/prob1.c	/^enum op {$/;"	g	file:
+p_expr_token	advanced/malloc/prob1.c	/^} * p_expr_token; \/* p_expr_token is shorthand for "struct s_expr_token *" *\/$/;"	t	typeref:struct:s_expr_token	file:
+placed	madhuproj.cpp	/^       tile placed;$/;"	m	struct:board	file:	access:public
+player::hand	madhuproj.cpp	/^       tile hand[numPlayerTiles];$/;"	m	struct:player	file:	access:public
+player::name	madhuproj.cpp	/^       char name[30];$/;"	m	struct:player	file:	access:public
+player::numTiles	madhuproj.cpp	/^       int numTiles;$/;"	m	struct:player	file:	access:public
+player::pointTotal	madhuproj.cpp	/^       int pointTotal;$/;"	m	struct:player	file:	access:public
+playerHand	madhuproj.cpp	/^void playerHand ( player user[numPlayers]);$/;"	p	file:	signature:( player user[numPlayers])
+player	madhuproj.cpp	/^struct player$/;"	s	file:
+point::x	cCoder/1.c	/^    int x;$/;"	m	struct:point	file:	access:public
+point::x	cCoder/shubham_chaudhary_ue113090/1.c	/^    int x;$/;"	m	struct:point	file:	access:public
+point::y	cCoder/1.c	/^    int y;$/;"	m	struct:point	file:	access:public
+point::y	cCoder/shubham_chaudhary_ue113090/1.c	/^    int y;$/;"	m	struct:point	file:	access:public
+pointTotal	madhuproj.cpp	/^       int pointTotal;$/;"	m	struct:player	file:	access:public
+pointValue	madhuproj.cpp	/^       int pointValue;$/;"	m	struct:tile	file:	access:public
+point	cCoder/1.c	/^struct point{$/;"	s	file:
+point	cCoder/shubham_chaudhary_ue113090/1.c	/^struct point{$/;"	s	file:
+pop	advanced/malloc/prob1.c	/^p_expr_token pop(p_expr_token * ptop) {$/;"	f	signature:(p_expr_token * ptop)
+pop	advanced/malloc/prob1.c	/^p_expr_token pop(p_expr_token * ptop);$/;"	p	file:	signature:(p_expr_token * ptop)
+pop	advanced/stack.c	/^void pop(int);$/;"	p	file:	signature:(int)
+pos_for_O	advanced/tictacgame.c	/^int pos_for_O[3][3];$/;"	v
+pos_for_X	advanced/tictacgame.c	/^int pos_for_X[3][3];$/;"	v
+pos_marked	advanced/tictacgame.c	/^int pos_marked[3][3];$/;"	v
+premiumValue	madhuproj.cpp	/^       char premiumValue[15];$/;"	m	struct:board	file:	access:public
+printCounting	advanced/headerFun.h	/^void printCounting(int count){$/;"	f	signature:(int count)
+print	advanced/segmentation.c	/^void print(){$/;"	f
+print	advanced/test_gdb_array_pass.c	/^void print(char *ptr){$/;"	f	signature:(char *ptr)
+print	advanced/segmentation.c	/^void print();$/;"	p	file:
+print	advanced/test_gdb_array_pass.c	/^void print();$/;"	p	file:
+push	advanced/malloc/prob1.c	/^void push(p_expr_token * ptop, const p_expr_token ptoken) {$/;"	f	signature:(p_expr_token * ptop, const p_expr_token ptoken)
+push	advanced/malloc/prob1.c	/^void push(p_expr_token * ptop, const p_expr_token ptoken);$/;"	p	file:	signature:(p_expr_token * ptop, const p_expr_token ptoken)
+push	advanced/stack.c	/^void push(int,int);$/;"	p	file:	signature:(int,int)
+rec	recurfac.c	/^rec (int x)$/;"	f	signature:(int x)
+right	cCoder/2.c	/^void right(){$/;"	f
+right	cCoder/shubham_chaudhary_ue113090/2.c	/^void right(){$/;"	f
+r	classcpp.C	/^    float r;$/;"	m	class:Circle	file:	access:private
+rows	lcthw/ex17.c	/^    struct Address rows[MAXROW];$/;"	m	struct:Database	typeref:struct:Database::Address	file:	access:public
+row	madhuproj.cpp	/^const int row = 15;$/;"	v
+s_expr_token::linked_token	advanced/malloc/prob1.c	/^	struct s_expr_token * linked_token; \/* linked token in stack\/queue *\/$/;"	m	struct:s_expr_token	typeref:struct:s_expr_token::s_expr_token	file:	access:public
+s_expr_token::type	advanced/malloc/prob1.c	/^	enum token_type type; \/* type of token *\/$/;"	m	struct:s_expr_token	typeref:enum:s_expr_token::token_type	file:	access:public
+s_expr_token::value	advanced/malloc/prob1.c	/^	union token_value value; \/* numeric value or opcode *\/$/;"	m	struct:s_expr_token	typeref:union:s_expr_token::token_value	file:	access:public
+s_expr_token	advanced/malloc/prob1.c	/^typedef struct s_expr_token {$/;"	s	file:
+search	advanced/arr_menu_ds.c	/^void search()		\/*function to search input in array and output its position*\/$/;"	f
+search	advanced/arr_menu_ds.c	/^void search();		\/*function to search input in array and output its position*\/$/;"	p	file:
+set	lcthw/ex17.c	/^    int set;$/;"	m	struct:Address	file:	access:public
+signalHandler	advanced/signal.c	/^void signalHandler( int signum ){$/;"	f	signature:( int signum )
+start	advanced/pragma.c	/^void start(){$/;"	f
+start	advanced/pragma2.c	/^void start(){$/;"	f
+start	advanced/pragma2.c	/^void start();$/;"	p	file:
+status	madhuproj.cpp	/^       bool status;$/;"	m	struct:board	file:	access:public
+stop	advanced/pragma.c	/^void stop(){$/;"	f
+stop	advanced/pragma2.c	/^void stop(){$/;"	f
+stop	advanced/pragma2.c	/^void stop();$/;"	p	file:
+strcpy	madhuproj.cpp	/^void strcpy ( char string1[], char string2[])$/;"	f	signature:( char string1[], char string2[])
+strcpy	madhuproj.cpp	/^void strcpy( char string1[], char string2[]);$/;"	p	file:	signature:( char string1[], char string2[])
+s	advanced/stack.c	/^int x,s;$/;"	v
+swapr	clbyref.c	/^swapr(int *x, int*y) $/;"	f	signature:(int *x, int*y)
+tes	cCoder/2.c	/^int tes[16]={1,4,15,7, 8,10,2,11, 14,3,6,13, 12,9,5,0};$/;"	v
+tes	cCoder/shubham_chaudhary_ue113090/2.c	/^int tes[16]={1,4,15,7, 8,10,2,11, 14,3,6,13, 12,9,5,0};$/;"	v
+tile::letter	madhuproj.cpp	/^       char letter;$/;"	m	struct:tile	file:	access:public
+tile::pointValue	madhuproj.cpp	/^       int pointValue;$/;"	m	struct:tile	file:	access:public
+tile	madhuproj.cpp	/^struct tile$/;"	s	file:
+token_queue::back	advanced/malloc/prob1.c	/^	p_expr_token back; \/* back of queue, where tokens are added *\/$/;"	m	struct:token_queue	file:	access:public
+token_queue::front	advanced/malloc/prob1.c	/^	p_expr_token front; \/* front of queue, where tokens are dequeued *\/$/;"	m	struct:token_queue	file:	access:public
+token_queue	advanced/malloc/prob1.c	/^struct token_queue {$/;"	s	file:
+token_type	advanced/malloc/prob1.c	/^enum token_type {$/;"	g	file:
+token_value::op_code	advanced/malloc/prob1.c	/^	enum op op_code; \/* opcode for operators *\/$/;"	m	union:token_value	typeref:enum:token_value::op	file:	access:public
+token_value::operand	advanced/malloc/prob1.c	/^	double operand; \/* numeric value for operand *\/$/;"	m	union:token_value	file:	access:public
+token_value	advanced/malloc/prob1.c	/^union token_value {$/;"	u	file:
+top	advanced/stack.c	/^int top(int);$/;"	p	file:	signature:(int)
+type	advanced/malloc/prob1.c	/^	enum token_type type; \/* type of token *\/$/;"	m	struct:s_expr_token	typeref:enum:s_expr_token::token_type	file:	access:public
+up	cCoder/2.c	/^void up(){$/;"	f
+up	cCoder/shubham_chaudhary_ue113090/2.c	/^void up(){$/;"	f
+value	advanced/dict.c	/^    int value;$/;"	m	struct:dict_entry_s	file:	access:public
+value	advanced/malloc/prob1.c	/^	union token_value value; \/* numeric value or opcode *\/$/;"	m	struct:s_expr_token	typeref:union:s_expr_token::token_value	file:	access:public
+win	advanced/tictacgame.c	/^int win=0,wrong_X=0,wrong_O=0,chk=0;$/;"	v
+wrong_O	advanced/tictacgame.c	/^int win=0,wrong_X=0,wrong_O=0,chk=0;$/;"	v
+wrong_X	advanced/tictacgame.c	/^int win=0,wrong_X=0,wrong_O=0,chk=0;$/;"	v
+x	cCoder/1.c	/^    int x;$/;"	m	struct:point	file:	access:public
+x	cCoder/shubham_chaudhary_ue113090/1.c	/^    int x;$/;"	m	struct:point	file:	access:public
+x	advanced/stack.c	/^int x,s;$/;"	v
+x	octalLinker.c	/^int x=8;    \/\/definition$/;"	v
+y	cCoder/1.c	/^    int y;$/;"	m	struct:point	file:	access:public
+y	cCoder/shubham_chaudhary_ue113090/1.c	/^    int y;$/;"	m	struct:point	file:	access:public

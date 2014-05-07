@@ -1,0 +1,107 @@
+/*
+ *      Salaria: pg - 333
+ *      Implementation of Adjacency List
+ * Start: Mon Mar  4 23:45:56 IST 2013
+ * Finish:
+ */
+#include<stdio.h>
+#include<malloc.h>
+//*************Representation of Graphs********************
+#define MAXNODES 50
+struct nodeType1{
+    int vertex;
+    struct nodeType1 *next;
+};
+typedef struct nodeType1 gNode1;
+//gNode1 *adj[MAXNODES];
+
+//-----for weighted graph------
+struct nodeType2{
+    int vertex;
+    int weight;
+    struct nodeType2 *next;
+};
+typedef struct nodeType2 gNode2;
+//gNode2 *adjW[MAXNODES];
+//===============PROTOTYPE==================
+void createGraph(gNode1 *[],int);
+void inputGraph(gNode1 *adj[],int num);
+void printGraph(gNode1 *[],int);
+void deleteGraph(gNode1 *adj[],int num);
+//*********************************************************
+int main(){
+    gNode1 *adj[MAXNODES];  //NOTE contains only pointers
+                            //array of pointers
+    int n;
+    printf("\nEnter no. of nodes in the graph: ");
+    scanf("%d",&n);
+    createGraph(adj,n);
+    inputGraph(adj,n);
+    printf("\n\nInput Graph\n\n");
+    printGraph(adj,n);
+    printf("****************");
+    getchar();
+    deleteGraph(adj,n);
+    return 0;
+}
+//--------ALGORITHM for Problem---------
+
+//============ F U N C T I O N S ==================
+void createGraph(gNode1 *adj[],int num){
+    int i;
+    for(i=1;i<=num;i++)
+        adj[i]=NULL;
+}
+void createWeightedGraph(gNode2 *adj[],int num){
+    int i;
+    for(i=1;i<=num;i++)
+        ;//adjW[i]=NULL;
+}
+void inputGraph(gNode1 *adj[],int num){
+    gNode1 *ptr,*last;
+    int i,j,m,val,wt;
+    for(i=1;i<=num;i++){
+        last=NULL;      //New node, so empty
+        printf("\nNo. of nodes in the adjacency list of node %d: ",i);
+        scanf("%d",&m);
+        for(j=1;j<=m;j++){
+            printf("Enter node #%d: ",j);
+            scanf("%d",&val);
+            ptr=(gNode1 *)malloc(sizeof(gNode1));
+            ptr->vertex=val;
+            ptr->next=NULL;
+            if(adj[i]==NULL)    //when there is no node int adjacency list
+                adj[i]=last=ptr;
+            else{               //when there is already a node in adjacency list e.g 2->1 after 2->1->3
+                last->next=ptr;
+                last=ptr;
+            }
+        }//end for
+    }
+}
+void printGraph(gNode1 *adj[],int num){
+    gNode1 *ptr;
+    int i;
+    for(i=1;i<=num;i++){
+        ptr=adj[i];
+        printf("%d",i);
+        while(ptr!=NULL){
+            printf("->%d",ptr->vertex);
+            ptr=ptr->next;
+        }
+        printf("\n");
+    }
+}
+void deleteGraph(gNode1 *adj[],int num){
+    int i;
+    gNode1 *temp,*ptr;
+    for(i=1;i<=num;i++){
+        ptr=adj[i];
+        while(ptr!=NULL){
+            temp=ptr;
+            ptr=ptr->next;
+            free(temp);
+        }
+        adj[i]=NULL;
+    }
+}

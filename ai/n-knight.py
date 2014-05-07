@@ -177,8 +177,6 @@ def n_knight(board,st_i,st_j,k):
 #         print('Done! No more knights need to be placed.');
         print(unique(board),board);
         return (1,iterations,comparisons+1);
-#         return (1,iterations);
-        # return (1,0);
     else:
 #         max_value = (board.m-1)*3 + board.n-1 + 1
 #         st_value = st_i*3+st_j+1;
@@ -188,6 +186,9 @@ def n_knight(board,st_i,st_j,k):
         for i in range(st_i,board.m):
             for j in range(st_j,board.n):
                 iterations += 1;
+                can_not_place = board.m*(board.n - j + 1) + board.m-i;
+                if k > can_not_place :
+                    return (0,iterations,comparisons+1);
                 #print('Backed up:',unique(board));
                 backup = Board(board.m,board.n,board);
 #                 backup = copy.deepcopy(board);

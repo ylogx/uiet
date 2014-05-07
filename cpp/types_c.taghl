@@ -1,0 +1,15 @@
+syn keyword CTagsStructure list pos player blist board tile nodeS
+syn keyword CTagsMember breadth code pointValue tcr eduQual speed wage penaltyRate title readDataOnce grade n accNo var1 var3 var2 timeInt name h pointTotal accno isStored rate cost initialized index placed size i2 noSubjects rollNo minBalance pub c length pos itsWeight phoneNo timeLow itsAge color number arrap array typ sal copies next var type varStatic proQual it info b readItemOnce bill dept v radius balance dues iv premiumValue ofr noPublications author arrapItem status description i1 price hand pubs
+syn keyword CTagsMember numTiles letter data stack a age exp pay
+syn keyword CTagsGlobalVariable a count head i query_state rack p result t test row col buff
+syn keyword CTagsConstant size MAXSTUD color noVec row COLUMN RACK_SIZE leftLetters PI True ROW MAXCODE MAXITEM numPlayers numPlayerTiles SIZE False column MAX LEN MAXDESC MAXNAME MAXEM
+syn keyword CTagsEnumeratorName employee_type AccType accountType
+syn keyword CTagsEnumerationValue saving SUCCESS tmanager current FAILURE BASIC EMPLOYEE fixed tscientist tlaborer
+syn keyword CTagsFunction init Meow print manage_display Typist BaseInput item displayTotalPendingBill binSearchIn GetAge linSearch modify search putData daseInput Staff depositInterest binSearch welcome_message outputInfo freeMem sort initC0 playerHand assignTiles account del print_array strUpper strlen myprintline addBook write getData deposit locateIn asciiArt loadBoard disk_message main searchCost bDiff Cat RegTypist retrieve books matrix space strConcat rec addBillInfo put searchByCode printline
+syn keyword CTagsFunction bubbleSort bug_message writeItemToDisk store insertmid copy menu_display addBillInfo_rs pri strLower Teacher updateCost gopr insertbeg calcInterest swch multiply outputCost Stud addVec readStatic menu getdata strReverse aDiff Account get std_io stop writeToDisk SetAge leftOver Education readFromDisk exit_message currentDateTime currAcc updateInfo synced Der1Input putS displayBoard puts create searchByRoll Der2Input demo getS strLength unsynced read deletion gets inputInfo Item
+syn keyword CTagsFunction student der1Input initA0 strInputGet withdraw strCopy getkey CasualTypist add usage input game Officer insert menu_input output menu_display_windows strInput putdata outA outB outC String savAcc locate power delBook strcpy get_type initB0 area initial concat saveToFile insertend balPenalty Student test inA inB inC welcome strCompare eval showData readItemFromDisk
+syn keyword CTagsType node stat
+syn keyword CTagsDefinedName FUNCTION STUDENT_H readf WINDOWS ll DECLARATIONS ull readll ITEM_H readint init STUD_H readull LINUX DEFINITIONS readd
+syn keyword CTagsClass square student demo over CasualTypist books Master Stud pass String person s3 s2 s1 No3 Der2 Der1 shape matrix demo3 Base Student employee circle Teacher vector Account currAcc Admin myArray Cat demo2 Person RegTypist demo1 Officer eval Typist account laborer Item manager item scientist savAcc Education No1 No2 Staff
+
+syn match CTagsFunction /display/

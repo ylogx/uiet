@@ -1,0 +1,11 @@
+/*
+ * Balagurusamy 6.3 - Manange a book inventory
+ */
+#include<iostream>
+#include"6-3.h"
+using namespace std;
+
+int main(int c,char * v[]){
+    cout<<c<<v[0]<<v[1]<<v[2]<<endl;
+    return 0;
+}

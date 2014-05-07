@@ -1,0 +1,72 @@
+# depslib dependency file v1.0
+1366962905 source:r:\canteen-master\canteen-master\class\stud.cpp
+	<iostream>
+	<iostream>
+	<conio.h>
+	<iomanip>
+	<fstream>
+	"Stud.h"
+
+1366905477 r:\canteen-master\canteen-master\class\stud.h
+	<iostream>
+	<iostream>
+	<conio.h>
+	<fstream>
+	<iostream>
+	<typeinfo>
+	<stdlib.h>
+	"../function.h"
+
+1366901702 r:\canteen-master\canteen-master\function.h
+	<iostream>
+	<iostream>
+	<conio.h>
+	"class/Item.h"
+	"class/Student.h"
+	"class/Stud.h"
+
+1366901659 r:\canteen-master\canteen-master\class\item.h
+	<iostream>
+	<iostream>
+	<conio.h>
+
+1366901696 r:\canteen-master\canteen-master\class\student.h
+	<iostream>
+	<iostream>
+	<conio.h>
+
+1366792628 source:r:\canteen-master\canteen-master\class\student.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<iomanip>
+	<fstream>
+	"Student.h"
+
+1366963068 source:r:\canteen-master\canteen-master\function.cpp
+	<iostream>
+	<iostream>
+	<conio.h>
+	"function.h"
+	<iomanip>
+	<ctime>
+
+1366920215 source:r:\canteen-master\canteen-master\main.cpp
+	<iostream>
+	<iostream>
+	<conio.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<iomanip>
+	<fstream>
+	"function.h"
+
+1366901682 source:r:\canteen-master\canteen-master\class\item.cpp
+	<iostream>
+	<iostream>
+	<conio.h>
+	<fstream>
+	"Item.h"
+

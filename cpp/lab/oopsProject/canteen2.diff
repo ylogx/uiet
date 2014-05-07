@@ -1,0 +1,537 @@
+diff -rpuN canteen/canteen.cpp canteen_rg2/canteen.cpp
+--- canteen/canteen.cpp	2013-03-29 21:27:09.471601908 +0530
++++ canteen_rg2/canteen.cpp	2013-03-29 22:10:34.000000000 +0530
+@@ -36,12 +36,14 @@
+  *              main function,
+  *      * Modified: -
+  *  2013-02-29 : Rishabh Gupta <UE113080>
+- *      > Modified : main()   // camel casing preferred.// function def first brace brought to new line.
++ *      > Modified : main()   // camel casing preferred.// function def first brace brought to new line.
++ *   2013-03-30 : Rishabh Gupta <UE113080>
++ *      >New : new menu display & menu input created;
+  *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+@@ -52,13 +54,16 @@
+ 
+ #include <iostream>
+ #include <stdio.h>
++#include"conio.h"
++#include<ctype.h>
+ #include <stdlib.h>
+ #include<string>
+ 
+ //#include "declarations.h"
+ #include "definitions.cpp"
+-//#include<iomanip>     //already included in definitions.cpp, why waste lines here
+-//#include<ctime>
++#include<iomanip>
++#include<ctime>  // to display time on top-right corner.
++#include<fstream>
+ 
+ using namespace std;
+ 
+@@ -73,14 +78,14 @@ using namespace std;
+  * @return int: 0- successful, 1- exit by programmer, rand- other error
+  *
+  */
+-int main (int argc, char* argv[]){
++int main (int argc, char* argv[])
++{    /*    write func to count no of students in record &  display students accounts.      */
+ 
+     #ifdef LINUX
+-    system("clear");    //TODO portability
++    //system("clear");    //TODO portability
+     #endif
+     #ifdef WINDOWS
+-   // clrscr();         //not working
+-  // system("clear");
++    system("cls");
+     #endif
+ 
+ 
+@@ -88,8 +93,7 @@ int main (int argc, char* argv[]){
+ 
+     welcome();   // after this user is asked for particular command.
+     menu_display();      // menu displayed to user.
+-    menu_input();     // this func takes input from user and operates as necessary.
+-    ///XXX do we really need 2 seperate functions for menu?
++    //menu_input();     // this func takes input from user and operates as necessary.
+ /*
+     //testing class item
+     item egg(5);
+@@ -107,7 +111,6 @@ int main (int argc, char* argv[]){
+ }
+ 
+ 
+-
+ /*
+ 
+ //=========================FORMATS============================
+@@ -115,7 +118,6 @@ Follow these formats when make any chang
+ 
+     * Tab size: 4 spaces
+     * Mark a //TODO flag if something needs to be changed
+-    -> use   ///TODO for high priority tasks
+     * Mark a //XXX flag if something may cause error in future
+ 
+ --------------------------------------------------------------
+diff -rpuN canteen/data canteen_rg2/data
+--- canteen/data	1970-01-01 05:30:00.000000000 +0530
++++ canteen_rg2/data	2013-03-29 22:11:00.000000000 +0530
+@@ -0,0 +1 @@
++53$453$53$45$2130567168
+diff -rpuN canteen/declarations.h canteen_rg2/declarations.h
+--- canteen/declarations.h	2013-03-30 14:28:51.583716987 +0530
++++ canteen_rg2/declarations.h	2013-03-29 22:11:02.000000000 +0530
+@@ -48,7 +48,7 @@
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -57,13 +57,13 @@
+ 
+ #include "definitions.cpp"
+ 
+-
+ //!!!!!!!!!!!!!!!!!!! Start Editing Here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+ //****Class Definitions******
+ 
+ //Information about a particular food item
+-class item{
++class item
++{
+     private:
+         float cost;   //cost of food item
+     public:
+@@ -74,8 +74,8 @@ class item{
+ 
+ //Information about student
+ class student  // used to hold temp values between database transactions.
+-{
+-    private:
++{          // declare functions as static
++    private:  // update variable names in member functions too.
+         int rollNo;
+         char name[40];  //TODO use string class object instead.
+         //char fName[20],lName[20];     //TODO make name class with default constructor only first name
+@@ -89,10 +89,11 @@ class student  // used to hold temp valu
+         { }    //empty constructor
+         //student(char )
+         //student(char nameIn[],char deptIn[],int rollIn,int phoneIn); //TODO make another constructor to copy input
+-        void inputInfo(char);    //DONE
+-        void inputInfo();       //I don't think we really need to call it with a character, it's clumsy that way
++        void inputInfo(char);    //DONE
+         void outputInfo();
+-        void updateInfo();      //TODO
++        void updateInfo();      //TODO
++        void saveToFile(student);
++        void searchByRoll();
+ };
+ 
+ //  exception class
+@@ -102,7 +103,13 @@ class excep
+     {
+ 
+     };
+-};
++};
++//-----------ends---------------------
++
++//----- functions ----
++void menu_display();
++void menu_input(int);
++////ends---------
+ 
+ //!!!!!!!!!!!!!!!!!!!! End Editing Here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+@@ -115,7 +122,6 @@ Follow these formats when make any chang
+ 
+     * Tab size: 4 spaces
+     * Mark a //TODO flag if something needs to be changed
+-    -> use   ///TODO for high priority tasks
+     * Mark a //XXX flag if something may cause error in future
+ 
+ --------------------------------------------------------------
+diff -rpuN canteen/definitions.cpp canteen_rg2/definitions.cpp
+--- canteen/definitions.cpp	2013-03-30 21:27:26.863712466 +0530
++++ canteen_rg2/definitions.cpp	2013-03-29 22:11:04.000000000 +0530
+@@ -38,19 +38,19 @@
+  *      * Modified: student::inputInfo, student::inputInfo
+  *  2013-03-29 : Rishabh Gupta <UE113080>
+  *       > New: menu_input(),     // labels preferred over loops in case of wrong enteries.
+- *       > Modified : menu_display(),menu_input(),student::outputInfo() : added manipulators.
+- *  2013-03-29  Shubham Chaudhary <UE113090>
+- *      * Modified: Function menu_input(): used loops instead of goto.
+- *
++ *       > Modified : menu_display(),menu_input(),student::outputInfo() : added manipulators.
++ *   2013-03-30 : Rishabh Gupta <UE113080>
++ *       > New : added keyboard arrow key input facility for menu,,, File Handling Begun.
++ *       > Modified : menu_display(),menu_input()
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -58,10 +58,12 @@
+ #define DEFINITIONS
+ #include "declarations.h"
+ #include<iomanip>
+-#include<ctime>  // to display time on top-right corner.
+-//#include<cstdlib>     //Why and what's the difference b/w cstdlib and stdlib.h
+-//#include<stdio.h>     //WHY?
+-
++#include<cstdlib>
++#include<stdio.h>
++#include<conio.h>
++#include<ctype.h>
++#include<ctime>
++#include<fstream>
+ using namespace std;
+ 
+ //!!!!!!!!!!!!!!!!!!! Start Editing Here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+@@ -70,93 +72,108 @@ using namespace std;
+ //====================== Function Definitions ==========================
+ //======================================================================
+ 
+-void welcome()
++void welcome()    //*TODO  use thread sleep like functions too (needed at various places.)  */
+ {
+     cout<<"\n\n================ W e l C o m e ===================\n\n"; //TODO cout<<(static_cast<string>(time_t()));
+-    cout<<"Easily Maintain Your canteen record here.."<<endl;
++    cout<<"Easily Maintain Your canteen record here.."<<endl;  //TODO find a way to show time on top right corner.
+     //TODO make it more vivid and detailed
+     //TODO google ascii art and add one here
+     //TODO display current date and time on top-right corner at all times.
+ }
+ //---menu to be displayed to user--
+-void menu_display(){
+-    //TODO include functionality that user inputs values using keyboard arrow keys instead of entering numbers.
++void menu_display()
++{    //TODO include functionality that user inputs values using keyboard arrow keys instead of entering numbers.
+     //TODO make a menu displayed to shopkeeper    // add an option to directly add a daily expenditure of a student.
+-    cout<<endl<<"1. Add new customer.\n"
+-            <<"2. View Customer details\n"
+-            <<"3. Change rates of a Quantity"<<endl;
+     // add more options.
++     // location 1 to 3.
++     string str[3] = {"  Add new customer." , "  View Customer details" , "  Change rates of a Quantity"};
++    int choice=-1,location=1;   str[0].insert(0,"*");
++    do
++    {  cout<<endl<<"press Esc to exit & enter key to Select";
++        for(int i=0;i<3;i++)
++         cout<<endl<<str[i];
++         choice = getch();
++         if(choice == 13)
++             { menu_input(location); }
++         if( kbhit())
++         {  choice = getch();
++             if(choice == 80 && location!=3) // down
++             {   str[location-1].erase(0,1);
++                 str[location].insert(0,"*");
++                 location++;
++             }
++             else if(choice == 72 && location != 1)  //up
++             {   str[location-1].erase(0,1);
++                 location--;
++                 str[location-1].insert(0,"*");
++             }
++         }
++        system("cls");
++        welcome();
++        if(choice==0x1B)  exit(0);
++    }while(choice != 0x1B);  // for escape key
+ 
+ }
+ //----------------------end of menu()------------------
+-// user inputs values according to menu displayed.
+-void menu_input(){
+-    char option='0';
+-    int choice;
+-    bool validInput=false;
+-    //start:
+-    while(!validInput){
+-        cout<<'\n'<<"Choose what to do: "; ///TIP: don't use endl when not necessary, it slows the program
+-        //fflush(stdin);    ///TIP: You don't need that, c++ does that automatically
+-        //TODO  use try-catch block to prevent program crash from alphabet enteries. else //XXX
+-        cin>>option;
+-        if(option<'1' || option > '3'){   // bounds checking.
+-            cout<<"Invalid choice! Retry: \n";
+-            validInput=false;
+-            //goto start; // goto works good here as to jump directly instead of loop.
+-            ///TIP: google this -> Go To Statement Considered Harmful - Edsger W. Dijkstra
+-        }else{
+-            validInput=true;
+-        }
+-    }
+-    //now we've a valid option
+-    switch(option){ ///TODO XXX REMOVE goto statements and also use proper function notations
+-          case '1':{  // this brace is important. do not DELETE.
+-                  student s;  // uses no-arg ctor to manually assign initial values to data-members.
+-                  char ch;
+-                  cout<<endl<<"Enter Billing information too? y/n:";    //TODO ask this in input function instead
+-                  cin>>ch;
+-                  s.inputInfo(ch);  //TODO is bound checking for ch required here?
+-                  //TODO use inputInfo() here
+-
+-                 // s.outputInfo();//testing manipulators.
+-         repeat : cout<<endl<<endl<<"Save information?  y/n :"; //XXX
+-                  cin>>ch;
+-                  if(ch == 'y' || ch == 'Y') { /*TODO make a func which saves this object data in a text file at a dir.  */  break; }
+-                  else if( ch=='n' || ch == 'N') { cout<<endl<<"Information not saved!"<<endl; break;     }
+-                  else {goto repeat;}   //XXX
+-                  break;
+-                  }
+-          case '2':
+-         again : cout<<endl<<"Search by roll no? press r"<<endl<<"Search by phoneNumber? press p"<<"   ";
+-                  char ch; cin>>ch;
+-                  if(ch=='r' || ch =='R') {  /*TODO call a func to search database by rollno and return values by copying them into a student object  */}
+-                  else if (ch =='p' || ch == 'P' ) {}
+-                  else { goto again; } break;
+-          case '3':  cout<<endl<<"Select Quantity to change price of:"<<endl;
+-              //TODO call a func to display items and take specific input.
++void menu_input(int option)
++{          system("cls");
++           welcome();
++          switch(option)
++          {
++              case 1:{  // this brace is important. do not DELETE.
++                      student s;  // uses no-arg ctor to manually assign initial values to data-members.
++                      char ch;
++                      cout<<endl<<"Enter Billing information too? y/n:";
++                      cin>>ch;
++                      s.inputInfo(ch);  //TODO is bound checking for ch required here?
+ 
+-    }
++                     // s.outputInfo();//testing manipulators.
++                    repeat : cout<<endl<<endl<<"Save information?  y/n :";
++                      cin>>ch;
++                      if(ch == 'y' || ch == 'Y')
++                       {  s.saveToFile(s);
++                           /* make a func which saves this object data in a text file at a dir.  */  break; }
++                      else if( ch=='n' || ch == 'N') { cout<<endl<<"Information not saved!"<<endl; break;     }
++                      else {goto repeat;}
++                      break;
++                      }
++              case 2:{
++                     again : cout<<endl<<"Search by roll no? press r"<<endl<<"Search by phoneNumber? press p"<<"   ";
++                      char ch; cin>>ch;
++                      student s;
++                      if(ch=='r' || ch =='R') {   s.searchByRoll();    }
++                      /*TODO call a func to search database by rollno and return values by copying them into a student object  */
++                      else if (ch =='p' || ch == 'P' ) {}
++                      else { goto again; } break;
++                       }
++              case 3:  cout<<endl<<"Select Quantity to change price of:"<<endl;
++                  //TODO call a func to display items and take specific input.
++
++          }
+ }
+ //----------------------------end of input()--------------
+ 
+ 
+ //**********************************************************************
+-//*********************** Class releated *******************************
++//*********************** Class related *******************************
+ //**********************************************************************
+ 
+ //-------------- Class: item -------------------
+-item::item(float input){   //constructor
++item::item(float input)
++{   //constructor
+     cost=input;
+ }
+-void item::updateCost(float input){
++void item::updateCost(float input)
++{
+     char choice;
+     cout<<"Are you sure you want to change the cost of this item from "<<cost<<" to "<<input<<" ? <y/n>: ";
+     cin>>choice;
+-    if(choice=='y'){
++    if(choice=='y')
++    {
+         cost=input;
+     }
+-    else{
++    else
++    {
+         cout<<"No changes made !\n";
+     }
+ }
+@@ -166,42 +183,55 @@ void item::updateCost(float input){
+ 
+ //--------------ends-----------
+ //-------------- Class: student -------------------
+-void student::inputInfo(char ch){
+-    cout<<endl<<"Enter Roll #: \t";
+-    cin>>rollNo;
+-    cout<<setw(22)<<"Enter Name  :";
+-    cin>>name;  //TODO gets(name);  //XXX
+-    cout<<setw(22)<<"Enter Phone #   :";
+-    cin>>phoneNo;   //long
+-    cout<<setw(22)<<"Enter Department   :"; //TODO default deptif nothing entered
+-    cin>>dept;
+-    if(ch == 'y' || ch == 'Y')
+-    {
+-        cout<<setw(22)<<"Enter present bill :"; cin>>bill;
+-    }
+-}
+-void student::inputInfo(){
+-    cout<<endl<<"Enter Roll #: \t";
+-    cin>>rollNo;
+-    cout<<setw(22)<<"Enter Name  :";
+-    cin>>name;  //TODO gets(name);  //XXX
+-    cout<<setw(22)<<"Enter Phone #   :";
+-    cin>>phoneNo;   //long
+-    cout<<setw(22)<<"Enter Department   :"; //TODO default deptif nothing entered
+-    cin>>dept;
+-    cout<<"Is there an existing bill: ";
+-    char ch;
+-    cin>>ch;
+-    if(ch == 'y' || ch == 'Y'){
+-        cout<<setw(22)<<"Enter present bill :"; cin>>bill;
+-    }
++void student::inputInfo(char ch)
++{
++    cout<<endl<<setw(22)<<"Enter Roll #  :";
++    cin>>rollNo;
++    cout<<setw(22)<<"Enter Name  :";
++    cin>>name;  //TODO gets(name);  //XXX
++    cout<<setw(22)<<"Enter Phone #   :";
++    cin>>phoneNo;   //long
++    cout<<setw(22)<<"Enter Department   :"; //TODO default deptif nothing entered
++    cin>>dept;
++    if(ch == 'y' || ch == 'Y')
++    {
++        cout<<setw(22)<<"Enter present bill :"; cin>>bill;
++    }
+ }
+-void student::outputInfo(){
++void student::outputInfo()
++{
+     cout<<endl;
+-    cout<<"Roll #      :   "<<rollNo<<"\n"
+-        <<"Name        :   "<<name<<"\n"
+-        <<"Department  :   "<<dept<<"\n"
+-        <<"Phone #     :   "<<phoneNo<<endl;
++    cout<<setw(11)<<"Roll #:"<<rollNo<<"\n"
++        <<setw(11)<<"Name:"<<name<<"\n"
++        <<setw(11)<<"Department:"<<dept<<"\n"
++        <<setw(11)<<"Phone #:"<<phoneNo<<endl;
++}
++void student::saveToFile(student s)
++{
++        start : ofstream Save("data");  // change extension to .dat
++        if(!Save)
++         {   char choice;
++           cout<<endl<<"data.txt file not found! Pls locate this file and retry..";
++           cout<<endl<<"press c to retry or e to return & discard changes"; cin>>choice;
++           if(choice == 'c') goto start;
++           else return;
++         }
++        Save.eof() ;
++        Save<<rollNo<<'$';
++       //   Save<<write(name,40)<<write(dept,20)<<write(phoneNo,10)<<bill;
++        Save<<name<<'$'<<dept<<'$'<<phoneNo<<'$'<<bill<<endl;
++        Save.close();
++        ifstream View("data");
++        char str[40]; char i[6];
++        View.getline(i,'$');
++        View.getline(str,'$');
++        cout<<endl<<i<<"           "<<str;
++
++
++}
++void student::searchByRoll()
++{
++
+ }
+ //--------------------- end of class student --------------------------
+ 
+@@ -217,7 +247,6 @@ Follow these formats when make any chang
+ 
+     * Tab size: 4 spaces
+     * Mark a //TODO flag if something needs to be changed
+-    -> use   ///TODO for high priority tasks
+     * Mark a //XXX flag if something may cause problem somehow
+ 
+ --------------------------------------------------------------
+Binary files canteen/.git.7z and canteen_rg2/.git.7z differ
+diff -rpuN canteen/README.txt canteen_rg2/README.txt
+--- canteen/README.txt	2013-03-30 14:24:34.687710110 +0530
++++ canteen_rg2/README.txt	2013-03-29 22:11:12.000000000 +0530
+@@ -10,31 +10,8 @@ This is a set of instructions you need t
+     it seperatly in changelog.
+ *   Don't add useless new-lines because that will create problem
+     while merging changes that you will submit.
+-*   Tab width is mentioned in everyfile. Use spaces instead of tabs, 4 spaces in place of one tab.
+-    Also keep removing trailing whitespaces.
+-    CodeBlocks: Setting > Editor > General Setting:
+-        1. Untick use tab
+-        2. set tab size as 4 spaces
+-        3. tick strips trailing spaces
+-    It's expected from you to follow same coding style as of surrounding code.
+-*   CodeBlocks: Setting > Editor > Margin & Crates:
+-        1. Right Margin Hint > visible line
+-    Try to keep your code shorter than this line.
+-*   Please use this international notation for function 
+-        void foo(char ch){
+-            //bla bla
+-        }//end foo
+-    instead of
+-        void foo(char ch)
+-        {
+-            //bla bla
+-        }
+-    or anything else.
+-    Easy to read and stops wastage of lines and scrolling.
+-*   The name of a class will start with a capital letter e.g Student, Account.
+-*   Use '\n' for newline instead of endl. WHY: endl slows the program
+-*   Please Please Please set tab width in your editor as 4 spaces
+-    & tick the 'use spaces instead of tab' option also
++*   Tab width is mentioned in everyfile. It's expected from you to follow same
++    coding style as of surrounding.
+ 
+ --------------------------------- F A Q ----------------------------------------
+ 
+@@ -56,7 +33,7 @@ A.  => canteen.cpp - try to keep it as n
+        declared in declarations.h
+ 
+ Q.  I'm getting errors when I compile. What should I do ?
+-A.  You should not face this error in codeblocks no matter what you're using linux or windows.
++A.  You should not face this error in codeblocks.
+     However I tried to correct that. Follow theese steps:
+     1. There is a //#define WINDOWS in each file. Uncomment it.
+     2. Uncomment #define LINUX and you will be able to run it on windows (codeblocks).
+@@ -65,9 +42,6 @@ A.  You should not face this error in co
+ Q.  When will I  get changes made by other team members?
+ A.  As soon as someone submits their codes I will merge them and mail all of you
+     new files with a file containing change summary.
+-    NOTE: Please make sure that you're working on the latest available files, if you submit
+-          changes that you made in an old version, it will be really difficult to merge them
+-          with the current version. So stay up-to-date when adding something new.
+ 
+ Q.  I've question that maybe useful for other also. What do I do?
+ A.  Simple - Add them here.

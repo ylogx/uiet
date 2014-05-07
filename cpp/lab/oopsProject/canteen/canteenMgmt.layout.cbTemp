@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="class/Item.cpp" open="1" top="1" tabpos="6">
+		<Cursor position="3241" topLine="84" />
+	</File>
+	<File name="class/Item.h" open="0" top="0" tabpos="4">
+		<Cursor position="2061" topLine="54" />
+	</File>
+	<File name="class/Stud.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="4672" topLine="117" />
+	</File>
+	<File name="class/Stud.h" open="1" top="0" tabpos="5">
+		<Cursor position="2513" topLine="63" />
+	</File>
+	<File name="class/Student.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="function.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="2081" topLine="159" />
+	</File>
+	<File name="function.h" open="1" top="0" tabpos="4">
+		<Cursor position="2012" topLine="54" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="2198" topLine="95" />
+	</File>
+</CodeBlocks_layout_file>

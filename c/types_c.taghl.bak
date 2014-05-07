@@ -1,0 +1,13 @@
+syn keyword CTagsStructure tile s_expr_token Database token_queue point _node player Connection dict_entry_s board Address dict_s nodeS
+syn keyword CTagsMember set letter color back value file operand id x next type email dataitem db len y numTiles rows link key entry front hand premiumValue desc info name linked_token cap placed pointTotal status op_code pointValue
+syn keyword CTagsUnion token_value
+syn keyword CTagsGlobalVariable locb arr loca wrong_O win wrong_X tes pos_marked pos_for_O chk moves pos_for_X mat hashtab count i name_X j s limit x name_O
+syn keyword CTagsConstant numPlayerTiles op_precedences color numPlayers column leftLetters op_associativity op_operands row
+syn keyword CTagsEnumeratorName token_type assoc op
+syn keyword CTagsEnumerationValue OPERAND RIGHT LPARENS DIVIDE OPERATOR RPARENS NEGATE ADD MULTIPLY SUBTRACT LEFT
+syn keyword CTagsFunction dist expr_to_infix isInside DatabaseOpen DatabaseCreate loadBoard DatabaseWrite menu init dequeue main AddressPrint func1 get evaluate stop enqueue game rec fac insert die RemoveItem dict_free leftOver getNode right DatabaseDelete m_strdup swapr print new_token dict_new hash modify displaytable inithashtab signalHandler generate search assignTiles DatabaseLoad AddItem dict_add strcpy dis fun1 fun2 pop down Board is_empty_stack displayBoard area top start ClearQueue Player_win
+syn keyword CTagsFunction DatabaseClose printCounting dict_find playerHand DatabaseSet up install fun delete freeNode func2 Menu joaat_hash evaluate_postfix check PrintQueue infix_to_postfix DatabaseGet cleanup lookup make_empty_stack alpha dict_find_index PlayerO push PlayerX DatabaseList left
+syn keyword CTagsType node node_s dict_entry_s p_expr_token NODEPTR dict_s listelement dict_t
+syn keyword CTagsDefinedName FALSE BUF_SIZE MAX DELIMS_STR PARSE_PARENS MAXDATA MAXROW length HASHSIZE LIMIT NULL INPUT_MAX SIZE
+
+syn match CTagsFunction /display/

@@ -1,0 +1,4 @@
+name: Canteen Project Site
+markdown: redcarpet
+pygments: true
+baseurl: /canteen

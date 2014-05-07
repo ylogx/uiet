@@ -1,0 +1,12 @@
+syn keyword CTagsStructure Node node my_struct nodetype treenode graph my_list list stack queue arc stack_varying address_s stack_array gnode nodeType1 nodeS nodeType2
+syn keyword CTagsMember arr right weight num postal_code qarr city ele_last_rem ver top father next tail nodes adj head arcs vertex link front data rear info country region brother item s street items left
+syn keyword CTagsGlobalVariable arr ele_pushed qarr ele_last_rem ele_poped top avail start valid new node queue_arr address front infix stack rear input temp g postfix p limit
+syn keyword CTagsConstant TRUE FALSE
+syn keyword CTagsEnumeratorName operations
+syn keyword CTagsEnumerationValue PUSH false true NOP POP
+syn keyword CTagsFunction list_add_element insAfter freeNode intrav5 dequeue top insertAtBeginning printGraph pop print_an_address modify deleteElement in2post isleft minimumSpanningTreePrim check getnode list_new expop popandtest bottom pretrav isfull invert print list_remove_element init createWeightedGraph find bfs add isEmpty adjacent isFull intrav divop main empty arpr addop pushandtest get_string deleteGraph insert_in_tree quicksort findPath search enqueue remv isempty setright isRight maketree
+syn keyword CTagsFunction isNotEmpty concat list_free insert list_print createGraph join posttrav list_print_element subop delAfter inputGraph remove postfix del isLeft mulop menu push display_stack getNode setleft delete
+syn keyword CTagsType node tnp ADDRESS_p_t gNode2 gNode1 BYTE4_t N ADDRESS_t boolean NODEPTR gnode2 gnode1 nodeptr
+syn keyword CTagsDefinedName QSIZE FALSE NUMNODES MAX MAXNODES LIMIT ARRAYSIZE STACKSIZE TRUE SIZE
+
+syn match CTagsFunction /display/

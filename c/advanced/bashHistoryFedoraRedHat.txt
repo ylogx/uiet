@@ -1,0 +1,69 @@
+    1  ls
+    2  vi
+    3  ls
+    4  gcc hello.c -o hello
+    5  gcc
+    6  g++
+    7  vimtutor
+    8  vim
+    9  vi
+   10  ls
+   11  vimtutor
+   12  vim
+   13  vi
+   14  ls
+   15  sudo -i
+   16  cp /media/HP\ V165W/.vimrc /home/chaudhary/.vimrc
+   17  ls -la
+   18  vi
+   19  sudo -i 
+   20  exit
+   21  history >> bashHistoryFedoraRedHat.txt
+   22  ls -l
+   23  cat bashHistoryFedoraRedHat.txt 
+   24  vim
+   25  vi
+   26  vi /etc/rc.d/rc.local
+   27  rm .vimrc 
+   28  vi /etc/rc.d/rc.local
+   29  /sbin/shutdown --help
+   30  /sbin/shutdown -r
+   31  sudo /sbin/shutdown -r
+   32  sudo /sbin/shutdown -rp
+   33  sudo /sbin/shutdown -rP
+   34  sudo /sbin/shutdown -P
+   35  sudo shutdown -P
+   36  shutdown -P
+   37  sudo shutdown -P
+   38  hdpram
+   39  ls
+   40  hdpram
+   41  ls
+   42  history >> bashHistoryFedoraRedHat.txt
+    1  exit
+    2  
+    3  ls
+    4  vi -v
+    5  gedit anaconda-ks.cfg 
+    6  ls
+    7  vi 
+    8  vi /boot/grub2/grub.cfg 
+    9  ls -l /boot/grub2/grub.cfg 
+   10  chmod 777 /boot/grub2/grub.cfg 
+   11  ls -l /boot/grub2/grub.cfg 
+   12  chmod 333 /boot/grub2/grub.cfg 
+   13  ls - /boot/grub2/grub.cfg 
+   14  ls -l /boot/grub2/grub.cfg 
+   15  chmod 666 /boot/grub2/grub.cfg 
+   16  ls -l /boot/grub2/grub.cfg 
+   17  ls
+   18  gedit /boot/grub2/grub.cfg 
+   19  ls -l /boot/grub2/grub.cfg 
+   20  gedit /boot/grub2/grub.cfg 
+   21  exit
+   22  ls
+   23  ls ..
+   24  ls .
+   25  ls -al
+   26  history
+   27  history >> ../home/chaudhary/bashHistoryFedoraRedHat.txt 

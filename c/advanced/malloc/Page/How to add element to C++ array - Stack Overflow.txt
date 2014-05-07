@@ -1,0 +1,197 @@
+How to add element to C++ array?
+15
+3
+I want to add an int into an array, but the problem is that I don't know what the index is now.
+int []  arr  = new int [ 15 ];
+arr [ 0 ] = 1 ;
+arr [ 1 ] = 2 ;
+arr [ 2 ] = 3 ;
+arr [ 3 ] = 4 ;
+arr [ 4 ] = 5 ;
+That code works because I knowwhat index I am assigning to, but what if I don't know the index...
+In PHP, I can just do arr[]=22; , which will automatically add 22 to the next empty index of the array. But in C++ I can't do that, it gives me a compiler error. What do you guys suggest?
+c++ arrays
+share | improve this question
+edited Feb 22 at 18:51
+CoffeeRain
+754 1 17
+asked Apr 16 '09 at 12:05
+r4ccoon
+553 2 6 15
+79% accept rate
+5
+Actually, "that codes" doesn't even compile. "int[] arr" is not how you declare an array in C/C++ -- it's "int arr[]". But your code has more serious problems, which the other answers address. – j_random_hacker Apr 16 '09 at 12:16
+feedback
+8 Answers active oldest votes
+7
+There is no way to do what you say in C++ with plain arrays. The C++ solution for that is by using the STL library that gives you the std::vector .
+You can use a vector in this way:
+std :: vector < int >  arr ;
+arr . push_back ( 1 );
+arr . push_back ( 2 );
+arr . push_back ( 3 );
+share | improve this answer
+edited Apr 20 '09 at 10:10
+Mehrdad Afshari
+137k 19 386 528
+answered Apr 16 '09 at 12:09
+jab
+830 3 14
+feedback
+37
+Arrays in C++ cannot change sizeat runtime. For that purpose, you should use vector<int> instead.
+vector <int>  arr ;
+arr . push_back ( 1 );
+arr . push_back ( 2 );
+// arr.size() will be the number of elements in the vector at the moment.
+As mentioned in the comments, vector is defined in vector header and std namespace. To use it, you should:
+#include <vector>
+and also, either use std::vector in your code or add
+using  std :: vector ;
+or
+using namespace  std ;
+after the #include <vector> line.
+share | improve this answer
+edited Apr 16 '09 at 13:48
+answered Apr 16 '09 at 12:07
+Mehrdad Afshari
+137k 19 386 528
++1 -> I agree, vectors are by far the simplest way to do this. Don't forget you need: #include <vector> – Jon Cage Apr 16 '09 at12:11
+1
+Also, use std::vector or add usingstd::vector before the instantiation. – Bastien Léonard Apr 16 '09 at 12:16
+feedback
+10
+Use a vector:
+#include <vector>
+void  foo () {
+    std :: vector  <int>  v ;
+    v . push_back ( 1 );         // equivalent to v[0] = 1
+}
+share | improve this answer
+answered Apr 16 '09 at 12:09 anon
+feedback
+5
+int  arr [] = new int [ 15 ];
+The variable arr holds a memory address. At the memory address, there are 15 consecutive ints in a row. They can be referenced with index 0 to 14 inclusive.
+In php i can just do this arr[]=22;this will automatically add 22 tothe next empty index of array.
+There is no concept of 'next' when dealing with arrays.
+One important thing that I thinkyou are missing is that as soon as the array is created, all elements of the array already exist. They are uninitialized, butthey all do exist already. So you aren't 'filling' the elements of the array as you go, they are already filled, just with uninitialized values. There is no way to test for an uninitialized element in an array.
+It sounds like you want to use a data structure such as a queue or stack or vector .
+share | improve this answer
+edited Apr 16 '09 at 12:23
+answered Apr 16 '09 at 12:12
+Brian R. Bondy
+89.1k 28 259 411
+feedback
+3
+I fully agree with the vector way when implementing a dynamic array. However, bear inmind that STL provides you witha host of containers that cater to different runtime requirements.You should chooseone with care. E.g: For fast insertion at back you have the choice between a vector and a deque .
+And I almost forgot, with great power comes great responsibility :-) Since vector s are flexible in size, they often reallocate automagically to adjust for adding elements.So beware about iterator invalidation (yes, it applies as well to pointers). However, as long as you are using operator[] for accessing the individual elements you are safe.
+share | improve this answer
+answered Apr 16 '09 at 12:12
+dirkgently
+43.8k 1 49 101
++1 for the automagically reference :) – Hao Wooi Lim Apr 20 '09 at 10:34
+feedback
+0
+If you are writing in C++ -- it is a way better to use data structures from standard library such as vector.
+C-style arrays are very error-prone, and should be avoided whenever possible.
+share | improve this answer
+answered Apr 16 '09 at 12:20
+Glorphindale
+540 4 11
+feedback
+0
+I may be missing the point of your question here, and if so I apologise. But, if you're not going to be deleting any items only adding them, why not simply assign a variable to the next empty slot? Everytime you add a new value to the array, increment the value to point to the next one.
+In C++ a better solution is to usethe standard library type std::list< type > which also allows the array to grow dynamically e.g.
+#include <list>
+std :: list <int>  arr ;
+for ( int  i  = 0 ;  i  < 10 ;  i ++)
+{
+     // add new value from 0 to 9 to next slot
+    arr . push_back ( i );
+}
+// add arbitrary value to the next free slot
+arr . push_back ( 22 );
+share | improve this answer
+edited Apr 16 '09 at 12:34
+answered Apr 16 '09 at 12:14
+binarybob
+1,219 6 14
+feedback
+0
+everybody kindly answering my question with STL. i am also planning to delete the content of that array after it has been used. and put the new value to that empty or whatever next slot available. to keep it simple, i was thinking to keep in first infirst out or first in last out. i dont know.
+ok i m going to try to apply vector to it.
+share | improve this answer
+answered Apr 17 '09 at 11:01
+r4ccoon
+553 2 6 15
+Perhaps you could accept an answer then? – jilles de wit Apr 19 '09 at 21:06
+for FIFO you can use std::queue and for LIFO you can use std::stack – fengshaun Apr 19 '09at 21:29
+feedback
+ok
+Your Answer
+Thanks for contributing an answer to Stack Overflow!
+*. Please be sure to answer the question . Provide details and share your research!
+But avoid …
+*. Asking for help, clarification, or responding to other answers.
+*. Making statements based on opinion; back them up with references or personal experience.
+To learn more, see our tips on writing great answers .
+Links Images Styling/Headers Lists Blockquotes Code HTML advanced help »  
+log in or
+Name  
+Email required, but never shown   
+Home Page   Post Your Answer 
+By posting your answer, you agree to the privacy policy and terms of service .
+Not the answer you're looking for? Browse other questions tagged c++ arrays or ask your own question .
+Hello World!
+This is a collaboratively edited question and answer site for professional and enthusiast programmers . It's 100% free, no registration required.
+about » faq »
+tagged
+c++ × 140560
+arrays × 33101
+asked
+3 years ago
+viewed
+26,658 times
+active
+5 months ago
+Django Web Developer (6237)
+Discovery Communications
+Silver Spring, MD
+Scientific & Engineering Software Developer
+Stellar Science
+Dayton, OH; Albuquerque, NM;…
+Software Engineers (Digital Forensics) – Northern Virginia
+Basis Technology
+Reston, VA
+More jobs near Herndon...
+Related
+How to add an element To Array
+How to initialise an array inside a struct without doing each element separately? (C++)
+How to add up rows (and columns) of a 2D array
+Array shifting to the next element
+c++ array class problems
+How do I find a particular value in an array and return it's index?
+How to add an element to an Array in C?
+Sorting an array according to other array
+How to can I print values using vectors and how can I add a value to the end of an array?
+How to add an element containing fields to an array
+How to add an element to an array inside a SimpleXMLElement Object
+How to add an element to array?
+How to add element to next free space in an array?
+How to pass two dimensions array to a function and how to call it
+How to add new element into an array
+Move element in array in order
+How to add element in this Array?
+getting row/column of dynamic 2d array element
+How to delete an element from custom array
+Java - Add Element to an Array
+Add element to multidimensional array
+How to get the address of an array element ?
+How to add elements of an array to a set
+How do I pass an array to a constructor?
+C++ array shift to element question feed
+about | faq | blog | chat | data | legal | privacy policy | advertising info | mobile | contact us | feedback
+■ stackoverflow.com ■ api/apps ■ careers ■ serverfault.com ■ superuser.com ■ meta ■ area 51 ■ webapps ■ gaming ■ ubuntu ■ webmasters ■ cooking ■ game development ■ math ■ photography ■ stats ■ tex ■ english ■ theoretical cs ■ programmers ■ unix ■ apple ■ wordpress ■ physics ■ home improvement ■ gis ■ electrical engineering ■ android ■ security ■ bicycles ■ dba ■ drupal ■ sharepoint ■ scifi & fantasy ■ user experience ■ skeptics ■ rpg ■ judaism ■ mathematica
+rev 2012.8.7.3584
+site design / logo © 2012 stack exchange inc; user contributionslicensed under cc-wiki with attribution required

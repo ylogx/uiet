@@ -1,0 +1,1840 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AccType	lab/8ch8-1.cpp	/^enum AccType{ current, saving, fixed };$/;"	g	file:
+Account::Account	home/5-1_old.cpp	/^        Account(void){}       \/\/constructor does nothing$/;"	f	class:Account	access:public	signature:(void)
+Account::Account	home/5-1_old.cpp	/^Account::Account(int input){$/;"	f	class:Account	signature:(int input)
+Account::Account	home/5-1_old.cpp	/^        Account(int);        \/\/constructor$/;"	p	class:Account	file:	access:public	signature:(int)
+Account::accno	home/5-1.h	/^        int accno;$/;"	m	class:Account	access:public
+Account::accno	home/5-1_old.cpp	/^        int accno;$/;"	m	class:Account	file:	access:public
+Account::balance	home/5-1.h	/^        float balance;$/;"	m	class:Account	access:private
+Account::balance	home/5-1_old.cpp	/^        float balance;$/;"	m	class:Account	file:	access:private
+Account::create	lab/9ch8-5.cpp	/^        void create(){$/;"	f	class:Account	access:public	signature:()
+Account::deposit	home/5-1.h	/^void Account::deposit(){$/;"	f	class:Account	signature:()
+Account::deposit	home/5-1_old.cpp	/^void Account::deposit(){$/;"	f	class:Account	signature:()
+Account::deposit	home/5-1.h	/^        void deposit();    \/\/acc,amt deposited$/;"	p	class:Account	access:public	signature:()
+Account::deposit	home/5-1_old.cpp	/^        void deposit();       \/\/acc,amt deposited$/;"	p	class:Account	file:	access:public	signature:()
+Account::display	home/5-1.h	/^void Account::display(){$/;"	f	class:Account	signature:()
+Account::display	home/5-1_old.cpp	/^void Account::display(){$/;"	f	class:Account	signature:()
+Account::display	lab/9ch8-5.cpp	/^        void display(){$/;"	f	class:Account	access:public	signature:()
+Account::display	home/5-1.h	/^        void display();  \/\/acc#$/;"	p	class:Account	access:public	signature:()
+Account::display	home/5-1_old.cpp	/^        void display();       \/\/acc#$/;"	p	class:Account	file:	access:public	signature:()
+Account::initial	home/5-1.h	/^void Account::initial(){$/;"	f	class:Account	signature:()
+Account::initial	home/5-1_old.cpp	/^void Account::initial(){$/;"	f	class:Account	signature:()
+Account::initial	home/5-1.h	/^        void initial();    \/\/name,acc#,balance,type$/;"	p	class:Account	access:public	signature:()
+Account::initial	home/5-1_old.cpp	/^        void initial();       \/\/name,acc#,balance,type$/;"	p	class:Account	file:	access:public	signature:()
+Account::name	home/5-1.h	/^        char name[30];$/;"	m	class:Account	access:public
+Account::name	home/5-1_old.cpp	/^        char name[30];$/;"	m	class:Account	file:	access:public
+Account::pay	lab/9ch8-5.cpp	/^        int pay;$/;"	m	class:Account	file:	access:protected
+Account::type	home/5-1.h	/^        int type;$/;"	m	class:Account	access:private
+Account::type	home/5-1_old.cpp	/^        int type;$/;"	m	class:Account	file:	access:private
+Account::withdraw	home/5-1.h	/^void Account::withdraw(){$/;"	f	class:Account	signature:()
+Account::withdraw	home/5-1_old.cpp	/^void Account::withdraw(){$/;"	f	class:Account	signature:()
+Account::withdraw	home/5-1.h	/^        void withdraw();   \/\/acc#,withdrawal amt$/;"	p	class:Account	access:public	signature:()
+Account::withdraw	home/5-1_old.cpp	/^        void withdraw();      \/\/acc#,withdrawal amt$/;"	p	class:Account	file:	access:public	signature:()
+Account	home/5-1.h	/^class Account{$/;"	c
+Account	home/5-1_old.cpp	/^class Account{$/;"	c	file:
+Account	lab/9ch8-5.cpp	/^class Account : public Person {$/;"	c	file:	inherits:Person
+Account	home/5-1_old.cpp	/^        Account(void){}       \/\/constructor does nothing$/;"	f	class:Account	access:public	signature:(void)
+Account	home/5-1_old.cpp	/^Account::Account(int input){$/;"	f	class:Account	signature:(int input)
+Account	home/5-1_old.cpp	/^        Account(int);        \/\/constructor$/;"	p	class:Account	file:	access:public	signature:(int)
+Admin::create	lab/9ch8-5.cpp	/^        void create(){$/;"	f	class:Admin	access:public	signature:()
+Admin::display	lab/9ch8-5.cpp	/^        void display(){$/;"	f	class:Admin	access:public	signature:()
+Admin::exp	lab/9ch8-5.cpp	/^        int exp;$/;"	m	class:Admin	file:	access:protected
+Admin	lab/9ch8-5.cpp	/^class Admin : public Person {$/;"	c	file:	inherits:Person
+BASIC	home/5-1.cpp	/^enum accountType{BASIC,EMPLOYEE};$/;"	e	enum:accountType	file:
+BASIC	home/5-1_old.cpp	/^enum accountType{BASIC,EMPLOYEE};$/;"	e	enum:accountType	file:
+Base::BaseInput	lab/10ptrBase.cpp	/^        void BaseInput(){$/;"	f	class:Base	access:public	signature:()
+Base::daseInput	lab/10virSize.cpp	/^        void daseInput(){$/;"	f	class:Base	access:public	signature:()
+Base::demo	lab/10ptrBase.cpp	/^        void demo(){$/;"	f	class:Base	access:public	signature:()
+Base::demo	lab/10virSize.cpp	/^        virtual void demo(){$/;"	f	class:Base	access:public	signature:()
+Base::iv	lab/10ptrBase.cpp	/^        int iv;$/;"	m	class:Base	file:	access:private
+Base::iv	lab/10virSize.cpp	/^   public:    int iv;$/;"	m	class:Base	file:	access:public
+BaseInput	lab/10ptrBase.cpp	/^        void BaseInput(){$/;"	f	class:Base	access:public	signature:()
+Base	lab/10ptrBase.cpp	/^class Base{$/;"	c	file:
+Base	lab/10virSize.cpp	/^class Base{$/;"	c	file:
+COLUMN	lab/7overMatrix.cpp	/^const int ROW=3,COLUMN=3;$/;"	v
+CasualTypist::CasualTypist	lab/9ch8-3.cpp	/^        CasualTypist():Typist(){    \/\/actual syntax$/;"	f	class:CasualTypist	access:public	signature:()
+CasualTypist::CasualTypist	lab/9ch8-6.cpp	/^        CasualTypist(){$/;"	f	class:CasualTypist	access:public	signature:()
+CasualTypist::display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:CasualTypist	access:public	signature:()
+CasualTypist::display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:CasualTypist	access:public	signature:()
+CasualTypist::wage	lab/9ch8-3.cpp	/^        int wage;$/;"	m	class:CasualTypist	file:	access:private
+CasualTypist::wage	lab/9ch8-6.cpp	/^        int wage;$/;"	m	class:CasualTypist	file:	access:private
+CasualTypist	lab/9ch8-3.cpp	/^class CasualTypist: public Typist {$/;"	c	file:	inherits:Typist
+CasualTypist	lab/9ch8-6.cpp	/^class CasualTypist: public Typist {$/;"	c	file:	inherits:Typist
+CasualTypist	lab/9ch8-3.cpp	/^        CasualTypist():Typist(){    \/\/actual syntax$/;"	f	class:CasualTypist	access:public	signature:()
+CasualTypist	lab/9ch8-6.cpp	/^        CasualTypist(){$/;"	f	class:CasualTypist	access:public	signature:()
+Cat::Cat	home/class_constructor.cpp	/^ Cat::Cat(int initialAge)$/;"	f	class:Cat	signature:(int initialAge)
+Cat::Cat	home/class_constructor.cpp	/^ Cat(int initialAge);\/\/constructor$/;"	p	class:Cat	file:	access:public	signature:(int initialAge)
+Cat::GetAge	home/class_cat.cpp	/^int Cat::GetAge()$/;"	f	class:Cat	signature:()
+Cat::GetAge	home/class_constructor.cpp	/^ int Cat::GetAge()$/;"	f	class:Cat	signature:()
+Cat::GetAge	home/class_cat.cpp	/^  int GetAge();	\/\/ accessor function$/;"	p	class:Cat	file:	access:public	signature:()
+Cat::GetAge	home/class_constructor.cpp	/^ int GetAge();\/\/accessor function$/;"	p	class:Cat	file:	access:public	signature:()
+Cat::Meow	home/class_cat.cpp	/^void Cat::Meow()$/;"	f	class:Cat	signature:()
+Cat::Meow	home/class_constructor.cpp	/^ void Cat::Meow()$/;"	f	class:Cat	signature:()
+Cat::Meow	home/class_cat.cpp	/^  void Meow();	\/\/ general function$/;"	p	class:Cat	file:	access:public	signature:()
+Cat::Meow	home/class_constructor.cpp	/^ void Meow();$/;"	p	class:Cat	file:	access:public	signature:()
+Cat::SetAge	home/class_cat.cpp	/^void Cat::SetAge(int age)$/;"	f	class:Cat	signature:(int age)
+Cat::SetAge	home/class_constructor.cpp	/^ void Cat::SetAge(int age)$/;"	f	class:Cat	signature:(int age)
+Cat::SetAge	home/class_cat.cpp	/^  void SetAge (int age);	\/\/ accessor function$/;"	p	class:Cat	file:	access:public	signature:(int age)
+Cat::SetAge	home/class_constructor.cpp	/^ void SetAge(int age);\/\/ accessor function$/;"	p	class:Cat	file:	access:public	signature:(int age)
+Cat::itsAge	home/class.cpp	/^    unsigned int itsAge;$/;"	m	class:Cat	file:	access:public
+Cat::itsAge	home/class_cat.cpp	/^  int itsAge;	\/\/ member variable$/;"	m	class:Cat	file:	access:private
+Cat::itsAge	home/class_constructor.cpp	/^ int itsAge;$/;"	m	class:Cat	file:	access:private
+Cat::itsWeight	home/class.cpp	/^    unsigned int itsWeight;$/;"	m	class:Cat	file:	access:public
+Cat::~Cat	home/class_constructor.cpp	/^ Cat::~Cat()$/;"	f	class:Cat	signature:()
+Cat::~Cat	home/class_constructor.cpp	/^ ~Cat();\/\/destructor$/;"	p	class:Cat	file:	access:public	signature:()
+Cat	home/class.cpp	/^class Cat$/;"	c	file:
+Cat	home/class_cat.cpp	/^class Cat	\/\/ begin declaration of the cla $/;"	c	file:
+Cat	home/class_constructor.cpp	/^ class Cat\/\/ begin declaration of the  $/;"	c	file:
+Cat	home/class_constructor.cpp	/^ Cat::Cat(int initialAge)$/;"	f	class:Cat	signature:(int initialAge)
+Cat	home/class_constructor.cpp	/^ Cat(int initialAge);\/\/constructor$/;"	p	class:Cat	file:	access:public	signature:(int initialAge)
+DECLARATIONS	lab/oopsProject/canteen website/code/declarations.h	55;"	d
+DEFINITIONS	lab/oopsProject/canteen website/code/definitions.cpp	55;"	d	file:
+Der1::Der1Input	lab/10ptrBase.cpp	/^        void Der1Input(){$/;"	f	class:Der1	access:public	signature:()
+Der1::demo	lab/10ptrBase.cpp	/^        void demo(){$/;"	f	class:Der1	access:public	signature:()
+Der1::demo	lab/10virSize.cpp	/^        void demo(){$/;"	f	class:Der1	access:public	signature:()
+Der1::der1Input	lab/10virSize.cpp	/^        void der1Input(){$/;"	f	class:Der1	access:public	signature:()
+Der1::i1	lab/10ptrBase.cpp	/^        int i1;$/;"	m	class:Der1	file:	access:private
+Der1::i1	lab/10virSize.cpp	/^        int i1;$/;"	m	class:Der1	file:	access:private
+Der1Input	lab/10ptrBase.cpp	/^        void Der1Input(){$/;"	f	class:Der1	access:public	signature:()
+Der1	lab/10ptrBase.cpp	/^class Der1 : public Base{$/;"	c	file:	inherits:Base
+Der1	lab/10virSize.cpp	/^class Der1 : public Base{$/;"	c	file:	inherits:Base
+Der2::Der2Input	lab/10ptrBase.cpp	/^        void Der2Input(){$/;"	f	class:Der2	access:public	signature:()
+Der2::demo	lab/10ptrBase.cpp	/^        void demo(){$/;"	f	class:Der2	access:public	signature:()
+Der2::i2	lab/10ptrBase.cpp	/^        int i2;$/;"	m	class:Der2	file:	access:private
+Der2Input	lab/10ptrBase.cpp	/^        void Der2Input(){$/;"	f	class:Der2	access:public	signature:()
+Der2	lab/10ptrBase.cpp	/^class Der2 : public Base{$/;"	c	file:	inherits:Base
+EMPLOYEE	home/5-1.cpp	/^enum accountType{BASIC,EMPLOYEE};$/;"	e	enum:accountType	file:
+EMPLOYEE	home/5-1_old.cpp	/^enum accountType{BASIC,EMPLOYEE};$/;"	e	enum:accountType	file:
+Education::Education	lab/9ch8-3.cpp	/^        Education(){$/;"	f	class:Education	access:public	signature:()
+Education::Education	lab/9ch8-6.cpp	/^        Education(){$/;"	f	class:Education	access:public	signature:()
+Education::display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:Education	access:public	signature:()
+Education::display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:Education	access:public	signature:()
+Education::eduQual	lab/9ch8-3.cpp	/^        string eduQual;$/;"	m	class:Education	file:	access:private
+Education::eduQual	lab/9ch8-6.cpp	/^        string eduQual;$/;"	m	class:Education	file:	access:private
+Education::proQual	lab/9ch8-3.cpp	/^        string proQual;$/;"	m	class:Education	file:	access:private
+Education::proQual	lab/9ch8-6.cpp	/^        string proQual;$/;"	m	class:Education	file:	access:private
+Education	lab/9ch8-3.cpp	/^class Education {   \/\/Problem 8-4$/;"	c	file:
+Education	lab/9ch8-6.cpp	/^class Education {   \/\/Problem 8-4$/;"	c	file:
+Education	lab/9ch8-3.cpp	/^        Education(){$/;"	f	class:Education	access:public	signature:()
+Education	lab/9ch8-6.cpp	/^        Education(){$/;"	f	class:Education	access:public	signature:()
+FAILURE	lab/8ch8-1.cpp	/^typedef enum{ FAILURE, SUCCESS } stat;$/;"	e	enum:__anon1	file:
+FUNCTION	lab/oopsProject/canteen/function.h	49;"	d
+FUNCTION	lab/oopsProject/github/function.h	54;"	d
+FUNCTION	lab/oopsProject/ris/function.h	49;"	d
+False	lab/2_1130902.cpp	/^const int False=0;$/;"	v
+GetAge	home/class_cat.cpp	/^int Cat::GetAge()$/;"	f	class:Cat	signature:()
+GetAge	home/class_constructor.cpp	/^ int Cat::GetAge()$/;"	f	class:Cat	signature:()
+GetAge	home/class_cat.cpp	/^  int GetAge();	\/\/ accessor function$/;"	p	class:Cat	file:	access:public	signature:()
+GetAge	home/class_constructor.cpp	/^ int GetAge();\/\/accessor function$/;"	p	class:Cat	file:	access:public	signature:()
+ITEM_H	lab/oopsProject/canteen/class/Item.h	54;"	d
+ITEM_H	lab/oopsProject/github/class/Item.h	59;"	d
+ITEM_H	lab/oopsProject/ris/class/Item.h	54;"	d
+Item::Item	lab/oopsProject/canteen/class/Item.cpp	/^Item::Item(float input){   \/\/constructor$/;"	f	class:Item	signature:(float input)
+Item::Item	lab/oopsProject/canteen/class/Item.h	/^        Item(){ isStored=false; }$/;"	f	class:Item	access:public	signature:()
+Item::Item	lab/oopsProject/github/class/Item.cpp	/^Item::Item(float input){   \/\/constructor$/;"	f	class:Item	signature:(float input)
+Item::Item	lab/oopsProject/github/class/Item.h	/^        Item(){ isStored=false; }    \/\/empty constructor$/;"	f	class:Item	access:public	signature:()
+Item::Item	lab/oopsProject/ris/class/Item.cpp	/^Item::Item(float input){   \/\/constructor$/;"	f	class:Item	signature:(float input)
+Item::Item	lab/oopsProject/ris/class/Item.h	/^        Item(){ isStored=false; }$/;"	f	class:Item	access:public	signature:()
+Item::Item	lab/oopsProject/canteen/class/Item.h	/^        Item(float); \/\/Constructor$/;"	p	class:Item	access:public	signature:(float)
+Item::Item	lab/oopsProject/github/class/Item.h	/^        Item(float); \/\/Constructor$/;"	p	class:Item	access:public	signature:(float)
+Item::Item	lab/oopsProject/ris/class/Item.h	/^        Item(float); \/\/Constructor$/;"	p	class:Item	access:public	signature:(float)
+Item::add	lab/oopsProject/github/class/Item.cpp	/^void Item::add()$/;"	f	class:Item	signature:()
+Item::add	lab/oopsProject/github/class/Item.h	/^        static void add();          \/\/add a new item$/;"	p	class:Item	access:public	signature:()
+Item::arrapItem	lab/oopsProject/github/class/Item.cpp	/^Item* Item::arrapItem[MAXITEM]; \/\/array of ptrs to emps$/;"	m	class:Item	file:
+Item::arrapItem	lab/oopsProject/github/class/Item.h	/^        static Item* arrapItem[]; \/\/array of ptrs to Studs$/;"	m	class:Item	access:protected
+Item::code	lab/oopsProject/github/class/Item.h	/^        char code[MAXCODE];$/;"	m	class:Item	access:private
+Item::cost	lab/oopsProject/canteen/class/Item.h	/^        float cost;   \/\/cost of food Item$/;"	m	class:Item	access:private
+Item::cost	lab/oopsProject/github/class/Item.h	/^        float cost;   \/\/cost of food Item$/;"	m	class:Item	access:private
+Item::cost	lab/oopsProject/ris/class/Item.h	/^        float cost;   \/\/cost of food Item$/;"	m	class:Item	access:private
+Item::description	lab/oopsProject/github/class/Item.h	/^        char description[MAXDESC];  \/\/Item description$/;"	m	class:Item	access:private
+Item::display	lab/oopsProject/github/class/Item.cpp	/^void Item::display()$/;"	f	class:Item	signature:()
+Item::display	lab/oopsProject/github/class/Item.h	/^        static void display();      \/\/display all item and codes$/;"	p	class:Item	access:public	signature:()
+Item::getData	lab/oopsProject/github/class/Item.cpp	/^void Item::getData(){$/;"	f	class:Item	signature:()
+Item::getData	lab/oopsProject/github/class/Item.h	/^        void getData();$/;"	p	class:Item	access:public	signature:()
+Item::getData	lab/oopsProject/github/class/Item.h	/^        void getData(char);    \/\/DONE$/;"	p	class:Item	access:public	signature:(char)
+Item::isStored	lab/oopsProject/canteen/class/Item.h	/^        bool isStored;$/;"	m	class:Item	access:private
+Item::isStored	lab/oopsProject/github/class/Item.h	/^        bool isStored;$/;"	m	class:Item	access:private
+Item::isStored	lab/oopsProject/ris/class/Item.h	/^        bool isStored;$/;"	m	class:Item	access:private
+Item::n	lab/oopsProject/github/class/Item.cpp	/^int Item::n; \/\/current number of employees, init 0$/;"	m	class:Item	file:
+Item::n	lab/oopsProject/github/class/Item.h	/^        static int n; \/\/current number of items$/;"	m	class:Item	access:protected
+Item::outputCost	lab/oopsProject/canteen/class/Item.h	/^        float outputCost(){ return cost; }$/;"	f	class:Item	access:public	signature:()
+Item::outputCost	lab/oopsProject/github/class/Item.h	/^        float outputCost(){ return cost; }$/;"	f	class:Item	access:public	signature:()
+Item::outputCost	lab/oopsProject/ris/class/Item.h	/^        float outputCost(){ return cost; }$/;"	f	class:Item	access:public	signature:()
+Item::putData	lab/oopsProject/github/class/Item.cpp	/^void Item::putData()$/;"	f	class:Item	signature:()
+Item::putData	lab/oopsProject/github/class/Item.h	/^        void putData();$/;"	p	class:Item	access:public	signature:()
+Item::readItemFromDisk	lab/oopsProject/github/class/Item.cpp	/^void Item::readItemFromDisk()$/;"	f	class:Item	signature:()
+Item::readItemFromDisk	lab/oopsProject/github/class/Item.h	/^        static void readItemFromDisk(); \/\/read from disk file$/;"	p	class:Item	access:public	signature:()
+Item::readItemOnce	lab/oopsProject/github/class/Item.cpp	/^bool Item::readItemOnce=false;$/;"	m	class:Item	file:
+Item::readItemOnce	lab/oopsProject/github/class/Item.h	/^        static bool readItemOnce;$/;"	m	class:Item	access:protected
+Item::retrieve	lab/oopsProject/canteen/class/Item.cpp	/^void Item::retrieve(){$/;"	f	class:Item	signature:()
+Item::retrieve	lab/oopsProject/github/class/Item.cpp	/^void Item::retrieve(){$/;"	f	class:Item	signature:()
+Item::retrieve	lab/oopsProject/ris/class/Item.cpp	/^void Item::retrieve(){$/;"	f	class:Item	signature:()
+Item::retrieve	lab/oopsProject/canteen/class/Item.h	/^        void retrieve();$/;"	p	class:Item	access:public	signature:()
+Item::retrieve	lab/oopsProject/github/class/Item.h	/^        void retrieve();$/;"	p	class:Item	access:public	signature:()
+Item::retrieve	lab/oopsProject/ris/class/Item.h	/^        void retrieve();$/;"	p	class:Item	access:public	signature:()
+Item::searchByCode	lab/oopsProject/github/class/Item.cpp	/^int Item::searchByCode(bool print){$/;"	f	class:Item	signature:(bool print)
+Item::searchByCode	lab/oopsProject/github/class/Item.h	/^        static int searchByCode(bool print = false) ;    \/\/be default don't print data$/;"	p	class:Item	access:public	signature:(bool print = false)
+Item::searchCost	lab/oopsProject/github/class/Item.cpp	/^float Item::searchCost(){$/;"	f	class:Item	signature:()
+Item::searchCost	lab/oopsProject/github/class/Item.h	/^        static float searchCost();$/;"	p	class:Item	access:public	signature:()
+Item::store	lab/oopsProject/canteen/class/Item.cpp	/^void Item::store(){$/;"	f	class:Item	signature:()
+Item::store	lab/oopsProject/github/class/Item.cpp	/^void Item::store(){$/;"	f	class:Item	signature:()
+Item::store	lab/oopsProject/ris/class/Item.cpp	/^void Item::store(){$/;"	f	class:Item	signature:()
+Item::store	lab/oopsProject/canteen/class/Item.h	/^        void store();$/;"	p	class:Item	access:public	signature:()
+Item::store	lab/oopsProject/github/class/Item.h	/^        void store();$/;"	p	class:Item	access:public	signature:()
+Item::store	lab/oopsProject/ris/class/Item.h	/^        void store();$/;"	p	class:Item	access:public	signature:()
+Item::updateCost	lab/oopsProject/canteen/class/Item.cpp	/^void Item::updateCost(float input){$/;"	f	class:Item	signature:(float input)
+Item::updateCost	lab/oopsProject/github/class/Item.cpp	/^void Item::updateCost(float input){$/;"	f	class:Item	signature:(float input)
+Item::updateCost	lab/oopsProject/ris/class/Item.cpp	/^void Item::updateCost(float input){$/;"	f	class:Item	signature:(float input)
+Item::updateCost	lab/oopsProject/canteen/class/Item.h	/^        void updateCost(float);$/;"	p	class:Item	access:public	signature:(float)
+Item::updateCost	lab/oopsProject/github/class/Item.h	/^        void updateCost(float);$/;"	p	class:Item	access:public	signature:(float)
+Item::updateCost	lab/oopsProject/ris/class/Item.h	/^        void updateCost(float);$/;"	p	class:Item	access:public	signature:(float)
+Item::writeItemToDisk	lab/oopsProject/github/class/Item.cpp	/^void Item::writeItemToDisk()$/;"	f	class:Item	signature:()
+Item::writeItemToDisk	lab/oopsProject/github/class/Item.h	/^        static void writeItemToDisk();  \/\/write to disk file$/;"	p	class:Item	access:public	signature:()
+Item::~Item	lab/oopsProject/github/class/Item.cpp	/^Item::~Item(){$/;"	f	class:Item	signature:()
+Item::~Item	lab/oopsProject/github/class/Item.h	/^        ~Item();$/;"	p	class:Item	access:public	signature:()
+Item	lab/oopsProject/canteen/class/Item.h	/^class Item{$/;"	c
+Item	lab/oopsProject/github/class/Item.h	/^class Item{$/;"	c
+Item	lab/oopsProject/ris/class/Item.h	/^class Item{$/;"	c
+Item	lab/oopsProject/canteen/class/Item.cpp	/^Item::Item(float input){   \/\/constructor$/;"	f	class:Item	signature:(float input)
+Item	lab/oopsProject/canteen/class/Item.h	/^        Item(){ isStored=false; }$/;"	f	class:Item	access:public	signature:()
+Item	lab/oopsProject/github/class/Item.cpp	/^Item::Item(float input){   \/\/constructor$/;"	f	class:Item	signature:(float input)
+Item	lab/oopsProject/github/class/Item.h	/^        Item(){ isStored=false; }    \/\/empty constructor$/;"	f	class:Item	access:public	signature:()
+Item	lab/oopsProject/ris/class/Item.cpp	/^Item::Item(float input){   \/\/constructor$/;"	f	class:Item	signature:(float input)
+Item	lab/oopsProject/ris/class/Item.h	/^        Item(){ isStored=false; }$/;"	f	class:Item	access:public	signature:()
+Item	lab/oopsProject/canteen/class/Item.h	/^        Item(float); \/\/Constructor$/;"	p	class:Item	access:public	signature:(float)
+Item	lab/oopsProject/github/class/Item.h	/^        Item(float); \/\/Constructor$/;"	p	class:Item	access:public	signature:(float)
+Item	lab/oopsProject/ris/class/Item.h	/^        Item(float); \/\/Constructor$/;"	p	class:Item	access:public	signature:(float)
+LEN	home/empio.cpp	/^const int LEN = 32; \/\/maximum length of last names$/;"	v
+LINUX	lab/oopsProject/canteen website/code/canteen.cpp	43;"	d	file:
+LINUX	lab/oopsProject/canteen website/code/declarations.h	44;"	d
+LINUX	lab/oopsProject/canteen website/code/definitions.cpp	44;"	d	file:
+LINUX	lab/oopsProject/canteen/class/Item.cpp	44;"	d	file:
+LINUX	lab/oopsProject/canteen/class/Item.h	43;"	d
+LINUX	lab/oopsProject/canteen/class/Stud.cpp	54;"	d	file:
+LINUX	lab/oopsProject/canteen/class/Stud.h	54;"	d
+LINUX	lab/oopsProject/canteen/class/Student.cpp	39;"	d	file:
+LINUX	lab/oopsProject/canteen/class/Student.h	45;"	d
+LINUX	lab/oopsProject/canteen/function.cpp	46;"	d	file:
+LINUX	lab/oopsProject/canteen/function.h	38;"	d
+LINUX	lab/oopsProject/canteen/main.cpp	48;"	d	file:
+LINUX	lab/oopsProject/function.cpp	41;"	d	file:
+LINUX	lab/oopsProject/github/class/Item.cpp	61;"	d	file:
+LINUX	lab/oopsProject/github/class/Item.h	46;"	d
+LINUX	lab/oopsProject/github/class/Stud.cpp	61;"	d	file:
+LINUX	lab/oopsProject/github/class/Stud.h	57;"	d
+LINUX	lab/oopsProject/github/class/Student.cpp	42;"	d	file:
+LINUX	lab/oopsProject/github/class/Student.h	48;"	d
+LINUX	lab/oopsProject/github/function.cpp	53;"	d	file:
+LINUX	lab/oopsProject/github/function.h	41;"	d
+LINUX	lab/oopsProject/github/main.cpp	52;"	d	file:
+LINUX	lab/oopsProject/ris/class/Student.cpp	39;"	d	file:
+MAXCODE	lab/oopsProject/github/class/Item.h	/^const int MAXCODE = 10; \/\/maximum length of last names  \/\/TODO extern$/;"	v
+MAXDESC	lab/oopsProject/github/class/Item.h	/^const int MAXDESC = 100;$/;"	v
+MAXEM	home/empio.cpp	/^const int MAXEM = 100; \/\/maximum number of employees$/;"	v
+MAXITEM	lab/oopsProject/github/class/Item.h	/^const int MAXITEM = 100; \/\/maximum number of employees$/;"	v
+MAXNAME	lab/oopsProject/canteen/class/Stud.h	/^const int MAXNAME = 32; \/\/maximum length of last names  \/\/TODO extern$/;"	v
+MAXNAME	lab/oopsProject/github/class/Stud.h	/^const int MAXNAME = 32; \/\/maximum length of last names  \/\/TODO extern$/;"	v
+MAXNAME	lab/oopsProject/ris/class/Stud.h	/^const int MAXNAME = 32; \/\/maximum length of last names  \/\/TODO extern$/;"	v
+MAXSTUD	lab/oopsProject/canteen/class/Stud.h	/^const int MAXSTUD = 100; \/\/maximum number of employees$/;"	v
+MAXSTUD	lab/oopsProject/github/class/Stud.h	/^const int MAXSTUD = 100; \/\/maximum number of employees$/;"	v
+MAXSTUD	lab/oopsProject/ris/class/Stud.h	/^const int MAXSTUD = 100; \/\/maximum number of employees$/;"	v
+MAX	home/fbinio.cpp	/^ const int MAX = 100; \/\/size of buffer$/;"	v
+Master::create	lab/9ch8-5.cpp	/^        void create(){$/;"	f	class:Master	access:public	signature:()
+Master::display	lab/9ch8-5.cpp	/^        void display(){$/;"	f	class:Master	access:public	signature:()
+Master	lab/9ch8-5.cpp	/^class Master : public Account, public Admin {$/;"	c	file:	inherits:Account,Admin
+Meow	home/class_cat.cpp	/^void Cat::Meow()$/;"	f	class:Cat	signature:()
+Meow	home/class_constructor.cpp	/^ void Cat::Meow()$/;"	f	class:Cat	signature:()
+Meow	home/class_cat.cpp	/^  void Meow();	\/\/ general function$/;"	p	class:Cat	file:	access:public	signature:()
+Meow	home/class_constructor.cpp	/^ void Meow();$/;"	p	class:Cat	file:	access:public	signature:()
+No1::var1	lab/5class.cpp	/^        int var1,var2,var3;$/;"	m	class:No1	file:	access:public
+No1::var2	lab/5class.cpp	/^        int var1,var2,var3;$/;"	m	class:No1	file:	access:public
+No1::var3	lab/5class.cpp	/^        int var1,var2,var3;$/;"	m	class:No1	file:	access:public
+No1	lab/5class.cpp	/^class No1{$/;"	c	file:
+No2::a	lab/5class.cpp	/^        int a,b,c;$/;"	m	class:No2	file:	access:private
+No2::b	lab/5class.cpp	/^        int a,b,c;$/;"	m	class:No2	file:	access:private
+No2::c	lab/5class.cpp	/^        int a,b,c;$/;"	m	class:No2	file:	access:private
+No2::inA	lab/5class.cpp	/^        void inA(int in){a=in;}$/;"	f	class:No2	access:public	signature:(int in)
+No2::inB	lab/5class.cpp	/^        void inB(int in){ b=in;}$/;"	f	class:No2	access:public	signature:(int in)
+No2::inC	lab/5class.cpp	/^        void inC(int in){ c= in; }$/;"	f	class:No2	access:public	signature:(int in)
+No2::outA	lab/5class.cpp	/^        int outA(){return a;}$/;"	f	class:No2	access:public	signature:()
+No2::outB	lab/5class.cpp	/^        int outB(){return b;}$/;"	f	class:No2	access:public	signature:()
+No2::outC	lab/5class.cpp	/^        int outC(){return c; }$/;"	f	class:No2	access:public	signature:()
+No2	lab/5class.cpp	/^class No2{$/;"	c	file:
+No3::a	lab/5class.cpp	/^        int a,b,c;$/;"	m	class:No3	file:	access:private
+No3::b	lab/5class.cpp	/^        int a,b,c;$/;"	m	class:No3	file:	access:private
+No3::c	lab/5class.cpp	/^        int a,b,c;$/;"	m	class:No3	file:	access:private
+No3::inA	lab/5class.cpp	/^        void inA(int in){a=in;}$/;"	f	class:No3	file:	access:private	signature:(int in)
+No3::inB	lab/5class.cpp	/^        void inB(int in){ b=in;}$/;"	f	class:No3	file:	access:private	signature:(int in)
+No3::inC	lab/5class.cpp	/^        void inC(int in){ c= in; }$/;"	f	class:No3	file:	access:private	signature:(int in)
+No3::initA0	lab/5class.cpp	/^        void initA0(){ inA(0); cout<<"\\na= "<<outA(); }$/;"	f	class:No3	access:public	signature:()
+No3::initB0	lab/5class.cpp	/^        void initB0(){ inB(0); cout<<"\\na= "<<outB(); }$/;"	f	class:No3	access:public	signature:()
+No3::initC0	lab/5class.cpp	/^        void initC0(){ inC(0); cout<<"\\na= "<<outC(); }$/;"	f	class:No3	access:public	signature:()
+No3::outA	lab/5class.cpp	/^        int outA(){return a;}$/;"	f	class:No3	file:	access:private	signature:()
+No3::outB	lab/5class.cpp	/^        int outB(){return b;}$/;"	f	class:No3	file:	access:private	signature:()
+No3::outC	lab/5class.cpp	/^        int outC(){return c; }$/;"	f	class:No3	file:	access:private	signature:()
+No3	lab/5class.cpp	/^class No3{$/;"	c	file:
+Officer::Officer	lab/9ch8-3.cpp	/^        Officer(){$/;"	f	class:Officer	access:public	signature:()
+Officer::Officer	lab/9ch8-6.cpp	/^        Officer(){$/;"	f	class:Officer	access:public	signature:()
+Officer::display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:Officer	access:public	signature:()
+Officer::display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:Officer	access:public	signature:()
+Officer::grade	lab/9ch8-3.cpp	/^        string grade;$/;"	m	class:Officer	file:	access:private
+Officer::grade	lab/9ch8-6.cpp	/^        string grade;$/;"	m	class:Officer	file:	access:private
+Officer::ofr	lab/9ch8-6.cpp	/^        Staff ofr;$/;"	m	class:Officer	file:	access:private
+Officer	lab/9ch8-3.cpp	/^class Officer: public Education , public Staff {$/;"	c	file:	inherits:Education,Staff
+Officer	lab/9ch8-6.cpp	/^class Officer: public Education {$/;"	c	file:	inherits:Education
+Officer	lab/9ch8-3.cpp	/^        Officer(){$/;"	f	class:Officer	access:public	signature:()
+Officer	lab/9ch8-6.cpp	/^        Officer(){$/;"	f	class:Officer	access:public	signature:()
+PI	home/4-9.cpp	/^const float PI=3.141;$/;"	v
+Person::code	lab/9ch8-5.cpp	/^        int code;$/;"	m	class:Person	file:	access:protected
+Person::create	lab/9ch8-5.cpp	/^        virtual void create(){$/;"	f	class:Person	access:public	signature:()
+Person::display	lab/9ch8-5.cpp	/^        void display(){$/;"	f	class:Person	access:public	signature:()
+Person::name	lab/9ch8-5.cpp	/^        string name;$/;"	m	class:Person	file:	access:protected
+Person	lab/9ch8-5.cpp	/^class Person {$/;"	c	file:
+RACK_SIZE	home/6-3.cpp	/^const int RACK_SIZE=10;$/;"	v
+RACK_SIZE	home/6-3full.cpp	/^const int RACK_SIZE=10;$/;"	v
+ROW	lab/7overMatrix.cpp	/^const int ROW=3,COLUMN=3;$/;"	v
+RegTypist::RegTypist	lab/9ch8-3.cpp	/^        RegTypist(){$/;"	f	class:RegTypist	access:public	signature:()
+RegTypist::RegTypist	lab/9ch8-6.cpp	/^        RegTypist(){$/;"	f	class:RegTypist	access:public	signature:()
+RegTypist::display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:RegTypist	access:public	signature:()
+RegTypist::display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:RegTypist	access:public	signature:()
+RegTypist::sal	lab/9ch8-3.cpp	/^        int sal;$/;"	m	class:RegTypist	file:	access:private
+RegTypist::sal	lab/9ch8-6.cpp	/^        int sal;$/;"	m	class:RegTypist	file:	access:private
+RegTypist	lab/9ch8-3.cpp	/^class RegTypist: public Typist {$/;"	c	file:	inherits:Typist
+RegTypist	lab/9ch8-6.cpp	/^class RegTypist: public Typist {$/;"	c	file:	inherits:Typist
+RegTypist	lab/9ch8-3.cpp	/^        RegTypist(){$/;"	f	class:RegTypist	access:public	signature:()
+RegTypist	lab/9ch8-6.cpp	/^        RegTypist(){$/;"	f	class:RegTypist	access:public	signature:()
+SIZE	lab/2_1130902.cpp	/^const int SIZE=115;$/;"	v
+SIZE	lab/5string.cpp	/^const int SIZE=20;$/;"	v
+SIZE	lab/5string_2.cpp	/^const int SIZE=20;$/;"	v
+SIZE	lab/5string_3.cpp	/^const int SIZE=20;$/;"	v
+SIZE	lab/6constDest.cpp	/^const int SIZE = 20;$/;"	v
+STUDENT_H	lab/oopsProject/canteen/class/Student.h	56;"	d
+STUDENT_H	lab/oopsProject/github/class/Student.h	61;"	d
+STUDENT_H	lab/oopsProject/ris/class/Student.h	56;"	d
+STUD_H	lab/oopsProject/canteen/class/Stud.h	65;"	d
+STUD_H	lab/oopsProject/github/class/Stud.h	70;"	d
+STUD_H	lab/oopsProject/ris/class/Stud.h	65;"	d
+SUCCESS	lab/8ch8-1.cpp	/^typedef enum{ FAILURE, SUCCESS } stat;$/;"	e	enum:__anon1	file:
+SetAge	home/class_cat.cpp	/^void Cat::SetAge(int age)$/;"	f	class:Cat	signature:(int age)
+SetAge	home/class_constructor.cpp	/^ void Cat::SetAge(int age)$/;"	f	class:Cat	signature:(int age)
+SetAge	home/class_cat.cpp	/^  void SetAge (int age);	\/\/ accessor function$/;"	p	class:Cat	file:	access:public	signature:(int age)
+SetAge	home/class_constructor.cpp	/^ void SetAge(int age);\/\/ accessor function$/;"	p	class:Cat	file:	access:public	signature:(int age)
+Staff::Staff	lab/9ch8-3.cpp	/^        Staff(){$/;"	f	class:Staff	access:public	signature:()
+Staff::Staff	lab/9ch8-3.cpp	/^        Staff(int in1,string in2){  \/\/constructor$/;"	f	class:Staff	access:public	signature:(int in1,string in2)
+Staff::Staff	lab/9ch8-6.cpp	/^        Staff(){$/;"	f	class:Staff	access:public	signature:()
+Staff::Staff	lab/9ch8-6.cpp	/^        Staff(int in1,string in2){  \/\/constructor$/;"	f	class:Staff	access:public	signature:(int in1,string in2)
+Staff::code	lab/9ch8-3.cpp	/^        int code;$/;"	m	class:Staff	file:	access:private
+Staff::code	lab/9ch8-6.cpp	/^        int code;$/;"	m	class:Staff	file:	access:private
+Staff::display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:Staff	access:public	signature:()
+Staff::display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:Staff	access:public	signature:()
+Staff::name	lab/9ch8-3.cpp	/^        string name;$/;"	m	class:Staff	file:	access:private
+Staff::name	lab/9ch8-6.cpp	/^        string name;$/;"	m	class:Staff	file:	access:private
+Staff	lab/9ch8-3.cpp	/^class Staff{$/;"	c	file:
+Staff	lab/9ch8-6.cpp	/^class Staff{$/;"	c	file:
+Staff	lab/9ch8-3.cpp	/^        Staff(){$/;"	f	class:Staff	access:public	signature:()
+Staff	lab/9ch8-3.cpp	/^        Staff(int in1,string in2){  \/\/constructor$/;"	f	class:Staff	access:public	signature:(int in1,string in2)
+Staff	lab/9ch8-6.cpp	/^        Staff(){$/;"	f	class:Staff	access:public	signature:()
+Staff	lab/9ch8-6.cpp	/^        Staff(int in1,string in2){  \/\/constructor$/;"	f	class:Staff	access:public	signature:(int in1,string in2)
+String::String	home/6-2.h	/^String::String(String &ref){$/;"	f	class:String	signature:(String &ref)
+String::String	home/6-2.h	/^String::String(char *in){$/;"	f	class:String	signature:(char *in)
+String::String	home/6-2.h	/^inline String::String(){$/;"	f	class:String	signature:()
+String::String	home/6-2.h	/^        String();           \/\/empty string constructor$/;"	p	class:String	access:public	signature:()
+String::String	home/6-2.h	/^        String(String &);   \/\/copy constructor$/;"	p	class:String	access:public	signature:(String &)
+String::String	home/6-2.h	/^        String(char *);     \/\/given string constructor$/;"	p	class:String	access:public	signature:(char *)
+String::data	home/6-2.h	/^        char *data;$/;"	m	class:String	access:private
+String::display	home/6-2.h	/^void String::display(){$/;"	f	class:String	signature:()
+String::display	home/6-2.h	/^        void display();$/;"	p	class:String	access:public	signature:()
+String::size	home/6-2.h	/^        int size;$/;"	m	class:String	access:private
+String	home/6-2.h	/^class String{$/;"	c
+String	home/6-2.h	/^String::String(String &ref){$/;"	f	class:String	signature:(String &ref)
+String	home/6-2.h	/^String::String(char *in){$/;"	f	class:String	signature:(char *in)
+String	home/6-2.h	/^inline String::String(){$/;"	f	class:String	signature:()
+String	home/6-2.h	/^        String();           \/\/empty string constructor$/;"	p	class:String	access:public	signature:()
+String	home/6-2.h	/^        String(String &);   \/\/copy constructor$/;"	p	class:String	access:public	signature:(String &)
+String	home/6-2.h	/^        String(char *);     \/\/given string constructor$/;"	p	class:String	access:public	signature:(char *)
+Stud::Stud	lab/oopsProject/canteen/class/Stud.h	/^    Stud(){ isStored=false; bill=0; }    \/\/empty constructor$/;"	f	class:Stud	access:public	signature:()
+Stud::Stud	lab/oopsProject/github/class/Stud.h	/^    Stud(){ isStored=false; bill=0; }    \/\/empty constructor$/;"	f	class:Stud	access:public	signature:()
+Stud::Stud	lab/oopsProject/ris/class/Stud.h	/^    Stud(){ isStored=false; bill=0; }    \/\/empty constructor$/;"	f	class:Stud	access:public	signature:()
+Stud::addBillInfo_rs	lab/oopsProject/github/class/Stud.cpp	/^void Stud :: addBillInfo_rs()     \/\/  code finalised and checked..$/;"	f	class:Stud	signature:()
+Stud::addBillInfo_rs	lab/oopsProject/github/class/Stud.h	/^    static void addBillInfo_rs () ;$/;"	p	class:Stud	access:public	signature:()
+Stud::addBillInfo	lab/oopsProject/github/class/Stud.cpp	/^void Stud :: addBillInfo()     \/\/  code finalised and checked..$/;"	f	class:Stud	signature:()
+Stud::addBillInfo	lab/oopsProject/ris/class/Stud.cpp	/^void Stud :: addBillInfo()     \/\/  code finalised and checked..$/;"	f	class:Stud	signature:()
+Stud::addBillInfo	lab/oopsProject/github/class/Stud.h	/^    static void addBillInfo () ;$/;"	p	class:Stud	access:public	signature:()
+Stud::addBillInfo	lab/oopsProject/ris/class/Stud.h	/^    static void addBillInfo () ;$/;"	p	class:Stud	access:public	signature:()
+Stud::add	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::add()$/;"	f	class:Stud	signature:()
+Stud::add	lab/oopsProject/github/class/Stud.cpp	/^void Stud::add()$/;"	f	class:Stud	signature:()
+Stud::add	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::add()$/;"	f	class:Stud	signature:()
+Stud::add	lab/oopsProject/canteen/class/Stud.h	/^    static void add();          \/\/add a new student$/;"	p	class:Stud	access:public	signature:()
+Stud::add	lab/oopsProject/github/class/Stud.h	/^    static void add();          \/\/add a new student$/;"	p	class:Stud	access:public	signature:()
+Stud::add	lab/oopsProject/ris/class/Stud.h	/^    static void add();          \/\/add a new student$/;"	p	class:Stud	access:public	signature:()
+Stud::arrap	lab/oopsProject/canteen/class/Stud.cpp	/^Stud* Stud::arrap[MAXSTUD]; \/\/array of ptrs to emps$/;"	m	class:Stud	file:
+Stud::arrap	lab/oopsProject/canteen/class/Stud.h	/^    static Stud* arrap[]; \/\/array of ptrs to Studs$/;"	m	class:Stud	access:protected
+Stud::arrap	lab/oopsProject/github/class/Stud.cpp	/^Stud* Stud::arrap[MAXSTUD]; \/\/array of ptrs to emps$/;"	m	class:Stud	file:
+Stud::arrap	lab/oopsProject/github/class/Stud.h	/^    static Stud* arrap[]; \/\/array of ptrs to Studs$/;"	m	class:Stud	access:protected
+Stud::arrap	lab/oopsProject/ris/class/Stud.cpp	/^Stud* Stud::arrap[MAXSTUD]; \/\/array of ptrs to emps$/;"	m	class:Stud	file:
+Stud::arrap	lab/oopsProject/ris/class/Stud.h	/^    static Stud* arrap[]; \/\/array of ptrs to Studs$/;"	m	class:Stud	access:protected
+Stud::bill	lab/oopsProject/canteen/class/Stud.h	/^    int bill;  \/\/ stores total bill till now.$/;"	m	class:Stud	access:private
+Stud::bill	lab/oopsProject/github/class/Stud.h	/^    int bill;  \/\/ stores total bill till now.$/;"	m	class:Stud	access:private
+Stud::bill	lab/oopsProject/ris/class/Stud.h	/^    int bill;  \/\/ stores total bill till now.$/;"	m	class:Stud	access:private
+Stud::dept	lab/oopsProject/canteen/class/Stud.h	/^    char dept[MAXNAME];$/;"	m	class:Stud	access:private
+Stud::dept	lab/oopsProject/github/class/Stud.h	/^    char dept[MAXNAME];$/;"	m	class:Stud	access:private
+Stud::dept	lab/oopsProject/ris/class/Stud.h	/^    char dept[MAXNAME];$/;"	m	class:Stud	access:private
+Stud::displayTotalPendingBill	lab/oopsProject/github/class/Stud.cpp	/^void Stud::displayTotalPendingBill(){$/;"	f	class:Stud	signature:()
+Stud::displayTotalPendingBill	lab/oopsProject/github/class/Stud.h	/^    static void displayTotalPendingBill();$/;"	p	class:Stud	access:public	signature:()
+Stud::display	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::display()$/;"	f	class:Stud	signature:()
+Stud::display	lab/oopsProject/github/class/Stud.cpp	/^void Stud::display()$/;"	f	class:Stud	signature:()
+Stud::display	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::display()$/;"	f	class:Stud	signature:()
+Stud::display	lab/oopsProject/canteen/class/Stud.h	/^    static void display();      \/\/display all student's info$/;"	p	class:Stud	access:public	signature:()
+Stud::display	lab/oopsProject/github/class/Stud.h	/^    static void display();      \/\/display all student's info$/;"	p	class:Stud	access:public	signature:()
+Stud::display	lab/oopsProject/ris/class/Stud.h	/^    static void display();      \/\/display all student's info$/;"	p	class:Stud	access:public	signature:()
+Stud::getData	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::getData(){$/;"	f	class:Stud	signature:()
+Stud::getData	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::getData(char ch)$/;"	f	class:Stud	signature:(char ch)
+Stud::getData	lab/oopsProject/github/class/Stud.cpp	/^void Stud::getData(){$/;"	f	class:Stud	signature:()
+Stud::getData	lab/oopsProject/github/class/Stud.cpp	/^void Stud::getData(char ch)$/;"	f	class:Stud	signature:(char ch)
+Stud::getData	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::getData(){$/;"	f	class:Stud	signature:()
+Stud::getData	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::getData(char ch)$/;"	f	class:Stud	signature:(char ch)
+Stud::getData	lab/oopsProject/canteen/class/Stud.h	/^    void getData();$/;"	p	class:Stud	access:public	signature:()
+Stud::getData	lab/oopsProject/canteen/class/Stud.h	/^    void getData(char);    \/\/DONE$/;"	p	class:Stud	access:public	signature:(char)
+Stud::getData	lab/oopsProject/github/class/Stud.h	/^    void getData();$/;"	p	class:Stud	access:public	signature:()
+Stud::getData	lab/oopsProject/github/class/Stud.h	/^    void getData(char);    \/\/DONE$/;"	p	class:Stud	access:public	signature:(char)
+Stud::getData	lab/oopsProject/ris/class/Stud.h	/^    void getData();$/;"	p	class:Stud	access:public	signature:()
+Stud::getData	lab/oopsProject/ris/class/Stud.h	/^    void getData(char);    \/\/DONE$/;"	p	class:Stud	access:public	signature:(char)
+Stud::isStored	lab/oopsProject/canteen/class/Stud.h	/^    bool isStored;  \/\/true if student info is stored, false otherwise$/;"	m	class:Stud	access:private
+Stud::isStored	lab/oopsProject/github/class/Stud.h	/^    bool isStored;  \/\/true if student info is stored, false otherwise$/;"	m	class:Stud	access:private
+Stud::isStored	lab/oopsProject/ris/class/Stud.h	/^    bool isStored;  \/\/true if student info is stored, false otherwise$/;"	m	class:Stud	access:private
+Stud::name	lab/oopsProject/canteen/class/Stud.h	/^    char name[MAXNAME];  \/\/TODO use string class object instead.$/;"	m	class:Stud	access:private
+Stud::name	lab/oopsProject/github/class/Stud.h	/^    char name[MAXNAME];  \/\/TODO use string class object instead.$/;"	m	class:Stud	access:private
+Stud::name	lab/oopsProject/ris/class/Stud.h	/^    char name[MAXNAME];  \/\/TODO use string class object instead.$/;"	m	class:Stud	access:private
+Stud::n	lab/oopsProject/canteen/class/Stud.cpp	/^int Stud::n; \/\/current number of employees, init 0$/;"	m	class:Stud	file:
+Stud::n	lab/oopsProject/canteen/class/Stud.h	/^    static int n; \/\/current number of studs$/;"	m	class:Stud	access:protected
+Stud::n	lab/oopsProject/github/class/Stud.cpp	/^int Stud::n; \/\/current number of employees, init 0$/;"	m	class:Stud	file:
+Stud::n	lab/oopsProject/github/class/Stud.h	/^    static int n; \/\/current number of studs$/;"	m	class:Stud	access:protected
+Stud::n	lab/oopsProject/ris/class/Stud.cpp	/^int Stud::n; \/\/current number of employees, init 0$/;"	m	class:Stud	file:
+Stud::n	lab/oopsProject/ris/class/Stud.h	/^    static int n; \/\/current number of studs$/;"	m	class:Stud	access:protected
+Stud::phoneNo	lab/oopsProject/canteen/class/Stud.h	/^    char phoneNo[11]; \/\/TODO 10 max chars entered with bound checking.$/;"	m	class:Stud	access:private
+Stud::phoneNo	lab/oopsProject/github/class/Stud.h	/^    char phoneNo[11]; \/\/TODO 10 max chars entered with bound checking.$/;"	m	class:Stud	access:private
+Stud::phoneNo	lab/oopsProject/ris/class/Stud.h	/^    char phoneNo[11]; \/\/TODO 10 max chars entered with bound checking.$/;"	m	class:Stud	access:private
+Stud::putData	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::putData()$/;"	f	class:Stud	signature:()
+Stud::putData	lab/oopsProject/github/class/Stud.cpp	/^void Stud::putData()$/;"	f	class:Stud	signature:()
+Stud::putData	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::putData()$/;"	f	class:Stud	signature:()
+Stud::putData	lab/oopsProject/canteen/class/Stud.h	/^    void putData();$/;"	p	class:Stud	access:public	signature:()
+Stud::putData	lab/oopsProject/github/class/Stud.h	/^    void putData();$/;"	p	class:Stud	access:public	signature:()
+Stud::putData	lab/oopsProject/ris/class/Stud.h	/^    void putData();$/;"	p	class:Stud	access:public	signature:()
+Stud::readDataOnce	lab/oopsProject/github/class/Stud.cpp	/^bool Stud::readDataOnce=false;$/;"	m	class:Stud	file:
+Stud::readDataOnce	lab/oopsProject/github/class/Stud.h	/^    static bool readDataOnce;$/;"	m	class:Stud	access:protected
+Stud::readFromDisk	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::readFromDisk()$/;"	f	class:Stud	signature:()
+Stud::readFromDisk	lab/oopsProject/github/class/Stud.cpp	/^void Stud::readFromDisk()$/;"	f	class:Stud	signature:()
+Stud::readFromDisk	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::readFromDisk()$/;"	f	class:Stud	signature:()
+Stud::readFromDisk	lab/oopsProject/canteen/class/Stud.h	/^    static void readFromDisk(); \/\/read from disk file$/;"	p	class:Stud	access:public	signature:()
+Stud::readFromDisk	lab/oopsProject/github/class/Stud.h	/^    static void readFromDisk(); \/\/read from disk file$/;"	p	class:Stud	access:public	signature:()
+Stud::readFromDisk	lab/oopsProject/ris/class/Stud.h	/^    static void readFromDisk(); \/\/read from disk file$/;"	p	class:Stud	access:public	signature:()
+Stud::retrieve	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::retrieve(){  \/\/old method$/;"	f	class:Stud	signature:()
+Stud::retrieve	lab/oopsProject/github/class/Stud.cpp	/^void Stud::retrieve(){  \/\/old method$/;"	f	class:Stud	signature:()
+Stud::retrieve	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::retrieve(){  \/\/old method$/;"	f	class:Stud	signature:()
+Stud::retrieve	lab/oopsProject/canteen/class/Stud.h	/^    void retrieve();$/;"	p	class:Stud	access:public	signature:()
+Stud::retrieve	lab/oopsProject/github/class/Stud.h	/^    void retrieve();$/;"	p	class:Stud	access:public	signature:()
+Stud::retrieve	lab/oopsProject/ris/class/Stud.h	/^    void retrieve();$/;"	p	class:Stud	access:public	signature:()
+Stud::rollNo	lab/oopsProject/canteen/class/Stud.h	/^    int rollNo;$/;"	m	class:Stud	access:private
+Stud::rollNo	lab/oopsProject/github/class/Stud.h	/^    int rollNo;$/;"	m	class:Stud	access:private
+Stud::rollNo	lab/oopsProject/ris/class/Stud.h	/^    int rollNo;$/;"	m	class:Stud	access:private
+Stud::saveToFile	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::saveToFile(Stud s)$/;"	f	class:Stud	signature:(Stud s)
+Stud::saveToFile	lab/oopsProject/github/class/Stud.cpp	/^void Stud::saveToFile(Stud s)$/;"	f	class:Stud	signature:(Stud s)
+Stud::saveToFile	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::saveToFile(Stud s)$/;"	f	class:Stud	signature:(Stud s)
+Stud::saveToFile	lab/oopsProject/canteen/class/Stud.h	/^    void saveToFile(Stud);$/;"	p	class:Stud	access:public	signature:(Stud)
+Stud::saveToFile	lab/oopsProject/github/class/Stud.h	/^    void saveToFile(Stud);$/;"	p	class:Stud	access:public	signature:(Stud)
+Stud::saveToFile	lab/oopsProject/ris/class/Stud.h	/^    void saveToFile(Stud);$/;"	p	class:Stud	access:public	signature:(Stud)
+Stud::searchByRoll	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::searchByRoll(){$/;"	f	class:Stud	signature:()
+Stud::searchByRoll	lab/oopsProject/github/class/Stud.cpp	/^int Stud::searchByRoll(bool print){$/;"	f	class:Stud	signature:(bool print)
+Stud::searchByRoll	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::searchByRoll(){$/;"	f	class:Stud	signature:()
+Stud::searchByRoll	lab/oopsProject/canteen/class/Stud.h	/^    static void searchByRoll();$/;"	p	class:Stud	access:public	signature:()
+Stud::searchByRoll	lab/oopsProject/github/class/Stud.h	/^    static int searchByRoll(bool print = true) ;    \/\/be default print data$/;"	p	class:Stud	access:public	signature:(bool print = true)
+Stud::searchByRoll	lab/oopsProject/ris/class/Stud.h	/^    static void searchByRoll() ;$/;"	p	class:Stud	access:public	signature:()
+Stud::store	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::store(){ \/\/old method$/;"	f	class:Stud	signature:()
+Stud::store	lab/oopsProject/github/class/Stud.cpp	/^void Stud::store(){ \/\/old method$/;"	f	class:Stud	signature:()
+Stud::store	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::store(){ \/\/old method$/;"	f	class:Stud	signature:()
+Stud::store	lab/oopsProject/canteen/class/Stud.h	/^    void store();$/;"	p	class:Stud	access:public	signature:()
+Stud::store	lab/oopsProject/github/class/Stud.h	/^    void store();$/;"	p	class:Stud	access:public	signature:()
+Stud::store	lab/oopsProject/ris/class/Stud.h	/^    void store();$/;"	p	class:Stud	access:public	signature:()
+Stud::updateInfo	lab/oopsProject/canteen/class/Stud.h	/^    void updateInfo();      \/\/TODO$/;"	p	class:Stud	access:public	signature:()
+Stud::updateInfo	lab/oopsProject/github/class/Stud.h	/^    void updateInfo();      \/\/TODO$/;"	p	class:Stud	access:public	signature:()
+Stud::updateInfo	lab/oopsProject/ris/class/Stud.h	/^    void updateInfo();      \/\/TODO$/;"	p	class:Stud	access:public	signature:()
+Stud::writeToDisk	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::writeToDisk()$/;"	f	class:Stud	signature:()
+Stud::writeToDisk	lab/oopsProject/github/class/Stud.cpp	/^void Stud::writeToDisk()$/;"	f	class:Stud	signature:()
+Stud::writeToDisk	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::writeToDisk()$/;"	f	class:Stud	signature:()
+Stud::writeToDisk	lab/oopsProject/canteen/class/Stud.h	/^    static void writeToDisk();  \/\/write to disk file$/;"	p	class:Stud	access:public	signature:()
+Stud::writeToDisk	lab/oopsProject/github/class/Stud.h	/^    static void writeToDisk();  \/\/write to disk file$/;"	p	class:Stud	access:public	signature:()
+Stud::writeToDisk	lab/oopsProject/ris/class/Stud.h	/^    static void writeToDisk();  \/\/write to disk file$/;"	p	class:Stud	access:public	signature:()
+Stud::~Stud	lab/oopsProject/canteen/class/Stud.cpp	/^Stud::~Stud(){$/;"	f	class:Stud	signature:()
+Stud::~Stud	lab/oopsProject/github/class/Stud.cpp	/^Stud::~Stud(){$/;"	f	class:Stud	signature:()
+Stud::~Stud	lab/oopsProject/ris/class/Stud.cpp	/^Stud::~Stud(){$/;"	f	class:Stud	signature:()
+Stud::~Stud	lab/oopsProject/canteen/class/Stud.h	/^    ~Stud();$/;"	p	class:Stud	access:public	signature:()
+Stud::~Stud	lab/oopsProject/github/class/Stud.h	/^    ~Stud();$/;"	p	class:Stud	access:public	signature:()
+Stud::~Stud	lab/oopsProject/ris/class/Stud.h	/^    ~Stud();$/;"	p	class:Stud	access:public	signature:()
+Stud	lab/oopsProject/canteen/class/Stud.h	/^class Stud \/\/employee class$/;"	c
+Stud	lab/oopsProject/github/class/Stud.h	/^class Stud \/\/employee class$/;"	c
+Stud	lab/oopsProject/ris/class/Stud.h	/^class Stud \/\/employee class$/;"	c
+Student::Student	lab/oopsProject/canteen/class/Student.h	/^        Student(){ isStored=false; bill=0; }    \/\/empty constructor$/;"	f	class:Student	access:public	signature:()
+Student::Student	lab/oopsProject/github/class/Student.h	/^        Student(){ isStored=false; bill=0; }    \/\/empty constructor$/;"	f	class:Student	access:public	signature:()
+Student::Student	lab/oopsProject/ris/class/Student.h	/^        Student(){ isStored=false; bill=0; }    \/\/empty constructor$/;"	f	class:Student	access:public	signature:()
+Student::bill	lab/oopsProject/canteen/class/Student.h	/^        int bill;  \/\/ stores total bill till now.$/;"	m	class:Student	access:private
+Student::bill	lab/oopsProject/github/class/Student.h	/^        int bill;  \/\/ stores total bill till now.$/;"	m	class:Student	access:private
+Student::bill	lab/oopsProject/ris/class/Student.h	/^        int bill;  \/\/ stores total bill till now.$/;"	m	class:Student	access:private
+Student::dept	lab/oopsProject/canteen/class/Student.h	/^        char dept[20];$/;"	m	class:Student	access:private
+Student::dept	lab/oopsProject/github/class/Student.h	/^        char dept[20];$/;"	m	class:Student	access:private
+Student::dept	lab/oopsProject/ris/class/Student.h	/^        char dept[20];$/;"	m	class:Student	access:private
+Student::inputInfo	lab/oopsProject/canteen/class/Student.cpp	/^void Student::inputInfo(){$/;"	f	class:Student	signature:()
+Student::inputInfo	lab/oopsProject/canteen/class/Student.cpp	/^void Student::inputInfo(char ch)$/;"	f	class:Student	signature:(char ch)
+Student::inputInfo	lab/oopsProject/github/class/Student.cpp	/^void Student::inputInfo(){$/;"	f	class:Student	signature:()
+Student::inputInfo	lab/oopsProject/github/class/Student.cpp	/^void Student::inputInfo(char ch)$/;"	f	class:Student	signature:(char ch)
+Student::inputInfo	lab/oopsProject/ris/class/Student.cpp	/^void Student::inputInfo(){$/;"	f	class:Student	signature:()
+Student::inputInfo	lab/oopsProject/ris/class/Student.cpp	/^void Student::inputInfo(char ch)$/;"	f	class:Student	signature:(char ch)
+Student::inputInfo	lab/oopsProject/canteen/class/Student.h	/^        void inputInfo();$/;"	p	class:Student	access:public	signature:()
+Student::inputInfo	lab/oopsProject/canteen/class/Student.h	/^        void inputInfo(char);    \/\/DONE$/;"	p	class:Student	access:public	signature:(char)
+Student::inputInfo	lab/oopsProject/github/class/Student.h	/^        void inputInfo();$/;"	p	class:Student	access:public	signature:()
+Student::inputInfo	lab/oopsProject/github/class/Student.h	/^        void inputInfo(char);    \/\/DONE$/;"	p	class:Student	access:public	signature:(char)
+Student::inputInfo	lab/oopsProject/ris/class/Student.h	/^        void inputInfo();$/;"	p	class:Student	access:public	signature:()
+Student::inputInfo	lab/oopsProject/ris/class/Student.h	/^        void inputInfo(char);    \/\/DONE$/;"	p	class:Student	access:public	signature:(char)
+Student::isStored	lab/oopsProject/canteen/class/Student.h	/^        bool isStored;  \/\/true if student info is stored, false otherwise$/;"	m	class:Student	access:private
+Student::isStored	lab/oopsProject/github/class/Student.h	/^        bool isStored;  \/\/true if student info is stored, false otherwise$/;"	m	class:Student	access:private
+Student::isStored	lab/oopsProject/ris/class/Student.h	/^        bool isStored;  \/\/true if student info is stored, false otherwise$/;"	m	class:Student	access:private
+Student::name	lab/oopsProject/canteen/class/Student.h	/^        char name[40];  \/\/TODO use string class object instead.$/;"	m	class:Student	access:private
+Student::name	lab/oopsProject/github/class/Student.h	/^        char name[40];  \/\/TODO use string class object instead.$/;"	m	class:Student	access:private
+Student::name	lab/oopsProject/ris/class/Student.h	/^        char name[40];  \/\/TODO use string class object instead.$/;"	m	class:Student	access:private
+Student::outputInfo	lab/oopsProject/canteen/class/Student.cpp	/^void Student::outputInfo()$/;"	f	class:Student	signature:()
+Student::outputInfo	lab/oopsProject/github/class/Student.cpp	/^void Student::outputInfo()$/;"	f	class:Student	signature:()
+Student::outputInfo	lab/oopsProject/ris/class/Student.cpp	/^void Student::outputInfo()$/;"	f	class:Student	signature:()
+Student::outputInfo	lab/oopsProject/canteen/class/Student.h	/^        void outputInfo();$/;"	p	class:Student	access:public	signature:()
+Student::outputInfo	lab/oopsProject/github/class/Student.h	/^        void outputInfo();$/;"	p	class:Student	access:public	signature:()
+Student::outputInfo	lab/oopsProject/ris/class/Student.h	/^        void outputInfo();$/;"	p	class:Student	access:public	signature:()
+Student::phoneNo	lab/oopsProject/canteen/class/Student.h	/^        char phoneNo[11]; \/\/TODO 10 max chars entered with bound checking.$/;"	m	class:Student	access:private
+Student::phoneNo	lab/oopsProject/github/class/Student.h	/^        char phoneNo[11]; \/\/TODO 10 max chars entered with bound checking.$/;"	m	class:Student	access:private
+Student::phoneNo	lab/oopsProject/ris/class/Student.h	/^        char phoneNo[11]; \/\/TODO 10 max chars entered with bound checking.$/;"	m	class:Student	access:private
+Student::retrieve	lab/oopsProject/canteen/class/Student.cpp	/^void Student::retrieve(){$/;"	f	class:Student	signature:()
+Student::retrieve	lab/oopsProject/github/class/Student.cpp	/^void Student::retrieve(){$/;"	f	class:Student	signature:()
+Student::retrieve	lab/oopsProject/ris/class/Student.cpp	/^void Student::retrieve(){$/;"	f	class:Student	signature:()
+Student::retrieve	lab/oopsProject/canteen/class/Student.h	/^        void retrieve();$/;"	p	class:Student	access:public	signature:()
+Student::retrieve	lab/oopsProject/github/class/Student.h	/^        void retrieve();$/;"	p	class:Student	access:public	signature:()
+Student::retrieve	lab/oopsProject/ris/class/Student.h	/^        void retrieve();$/;"	p	class:Student	access:public	signature:()
+Student::rollNo	lab/oopsProject/canteen/class/Student.h	/^        int rollNo;$/;"	m	class:Student	access:private
+Student::rollNo	lab/oopsProject/github/class/Student.h	/^        int rollNo;$/;"	m	class:Student	access:private
+Student::rollNo	lab/oopsProject/ris/class/Student.h	/^        int rollNo;$/;"	m	class:Student	access:private
+Student::saveToFile	lab/oopsProject/canteen/class/Student.cpp	/^void Student::saveToFile(Student s)$/;"	f	class:Student	signature:(Student s)
+Student::saveToFile	lab/oopsProject/github/class/Student.cpp	/^void Student::saveToFile(Student)$/;"	f	class:Student	signature:(Student)
+Student::saveToFile	lab/oopsProject/ris/class/Student.cpp	/^void Student::saveToFile(Student s)$/;"	f	class:Student	signature:(Student s)
+Student::saveToFile	lab/oopsProject/canteen/class/Student.h	/^        void saveToFile(Student);$/;"	p	class:Student	access:public	signature:(Student)
+Student::saveToFile	lab/oopsProject/github/class/Student.h	/^        void saveToFile(Student);$/;"	p	class:Student	access:public	signature:(Student)
+Student::saveToFile	lab/oopsProject/ris/class/Student.h	/^        void saveToFile(Student);$/;"	p	class:Student	access:public	signature:(Student)
+Student::searchByRoll	lab/oopsProject/canteen/class/Student.cpp	/^void Student::searchByRoll()$/;"	f	class:Student	signature:()
+Student::searchByRoll	lab/oopsProject/github/class/Student.cpp	/^void Student::searchByRoll()$/;"	f	class:Student	signature:()
+Student::searchByRoll	lab/oopsProject/ris/class/Student.cpp	/^void Student::searchByRoll()$/;"	f	class:Student	signature:()
+Student::searchByRoll	lab/oopsProject/canteen/class/Student.h	/^        void searchByRoll();$/;"	p	class:Student	access:public	signature:()
+Student::searchByRoll	lab/oopsProject/github/class/Student.h	/^        void searchByRoll();$/;"	p	class:Student	access:public	signature:()
+Student::searchByRoll	lab/oopsProject/ris/class/Student.h	/^        void searchByRoll();$/;"	p	class:Student	access:public	signature:()
+Student::store	lab/oopsProject/canteen/class/Student.cpp	/^void Student::store(){$/;"	f	class:Student	signature:()
+Student::store	lab/oopsProject/github/class/Student.cpp	/^void Student::store(){$/;"	f	class:Student	signature:()
+Student::store	lab/oopsProject/ris/class/Student.cpp	/^void Student::store(){$/;"	f	class:Student	signature:()
+Student::store	lab/oopsProject/canteen/class/Student.h	/^        void store();$/;"	p	class:Student	access:public	signature:()
+Student::store	lab/oopsProject/github/class/Student.h	/^        void store();$/;"	p	class:Student	access:public	signature:()
+Student::store	lab/oopsProject/ris/class/Student.h	/^        void store();$/;"	p	class:Student	access:public	signature:()
+Student::updateInfo	lab/oopsProject/canteen/class/Student.h	/^        void updateInfo();      \/\/TODO$/;"	p	class:Student	access:public	signature:()
+Student::updateInfo	lab/oopsProject/github/class/Student.h	/^        void updateInfo();      \/\/TODO$/;"	p	class:Student	access:public	signature:()
+Student::updateInfo	lab/oopsProject/ris/class/Student.h	/^        void updateInfo();      \/\/TODO$/;"	p	class:Student	access:public	signature:()
+Student	lab/oopsProject/canteen/class/Student.h	/^class Student  \/\/ used to hold temp values between database transactions.$/;"	c
+Student	lab/oopsProject/github/class/Student.h	/^class Student  \/\/ used to hold temp values between database transactions.$/;"	c
+Student	lab/oopsProject/ris/class/Student.h	/^class Student  \/\/ used to hold temp values between database transactions.$/;"	c
+Student	lab/oopsProject/canteen/class/Student.h	/^        Student(){ isStored=false; bill=0; }    \/\/empty constructor$/;"	f	class:Student	access:public	signature:()
+Student	lab/oopsProject/github/class/Student.h	/^        Student(){ isStored=false; bill=0; }    \/\/empty constructor$/;"	f	class:Student	access:public	signature:()
+Student	lab/oopsProject/ris/class/Student.h	/^        Student(){ isStored=false; bill=0; }    \/\/empty constructor$/;"	f	class:Student	access:public	signature:()
+Stud	lab/oopsProject/canteen/class/Stud.h	/^    Stud(){ isStored=false; bill=0; }    \/\/empty constructor$/;"	f	class:Stud	access:public	signature:()
+Stud	lab/oopsProject/github/class/Stud.h	/^    Stud(){ isStored=false; bill=0; }    \/\/empty constructor$/;"	f	class:Stud	access:public	signature:()
+Stud	lab/oopsProject/ris/class/Stud.h	/^    Stud(){ isStored=false; bill=0; }    \/\/empty constructor$/;"	f	class:Stud	access:public	signature:()
+Teacher::Teacher	lab/9ch8-3.cpp	/^        Teacher(){$/;"	f	class:Teacher	access:public	signature:()
+Teacher::Teacher	lab/9ch8-6.cpp	/^        Teacher(){$/;"	f	class:Teacher	access:public	signature:()
+Teacher::display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:Teacher	access:public	signature:()
+Teacher::display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:Teacher	access:public	signature:()
+Teacher::noPublications	lab/9ch8-3.cpp	/^        int noPublications;$/;"	m	class:Teacher	file:	access:private
+Teacher::noPublications	lab/9ch8-6.cpp	/^        int noPublications;$/;"	m	class:Teacher	file:	access:private
+Teacher::noSubjects	lab/9ch8-3.cpp	/^        int noSubjects;$/;"	m	class:Teacher	file:	access:private
+Teacher::noSubjects	lab/9ch8-6.cpp	/^        int noSubjects;$/;"	m	class:Teacher	file:	access:private
+Teacher::tcr	lab/9ch8-6.cpp	/^        Staff tcr;$/;"	m	class:Teacher	file:	access:private
+Teacher	lab/9ch8-3.cpp	/^class Teacher: public Staff , public Education{$/;"	c	file:	inherits:Staff,Education
+Teacher	lab/9ch8-6.cpp	/^class Teacher: public Education{$/;"	c	file:	inherits:Education
+Teacher	lab/9ch8-3.cpp	/^        Teacher(){$/;"	f	class:Teacher	access:public	signature:()
+Teacher	lab/9ch8-6.cpp	/^        Teacher(){$/;"	f	class:Teacher	access:public	signature:()
+True	lab/2_1130902.cpp	/^const int True=1;$/;"	v
+Typist::Typist	lab/9ch8-3.cpp	/^        Typist(){$/;"	f	class:Typist	access:public	signature:()
+Typist::Typist	lab/9ch8-6.cpp	/^        Typist(){$/;"	f	class:Typist	access:public	signature:()
+Typist::display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:Typist	access:public	signature:()
+Typist::display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:Typist	access:public	signature:()
+Typist::speed	lab/9ch8-3.cpp	/^        int speed;$/;"	m	class:Typist	file:	access:protected
+Typist::speed	lab/9ch8-6.cpp	/^        int speed;$/;"	m	class:Typist	file:	access:protected
+Typist::typ	lab/9ch8-6.cpp	/^        Staff typ;$/;"	m	class:Typist	file:	access:private
+Typist	lab/9ch8-3.cpp	/^class Typist: public Staff {$/;"	c	file:	inherits:Staff
+Typist	lab/9ch8-6.cpp	/^class Typist {$/;"	c	file:
+Typist	lab/9ch8-3.cpp	/^        Typist(){$/;"	f	class:Typist	access:public	signature:()
+Typist	lab/9ch8-6.cpp	/^        Typist(){$/;"	f	class:Typist	access:public	signature:()
+WINDOWS	lab/oopsProject/github/class/Item.cpp	58;"	d	file:
+WINDOWS	lab/oopsProject/github/class/Item.h	43;"	d
+WINDOWS	lab/oopsProject/github/class/Stud.cpp	58;"	d	file:
+WINDOWS	lab/oopsProject/github/class/Stud.h	54;"	d
+WINDOWS	lab/oopsProject/github/class/Student.cpp	39;"	d	file:
+WINDOWS	lab/oopsProject/github/class/Student.h	45;"	d
+WINDOWS	lab/oopsProject/github/function.cpp	50;"	d	file:
+WINDOWS	lab/oopsProject/github/function.h	38;"	d
+WINDOWS	lab/oopsProject/github/main.cpp	49;"	d	file:
+WINDOWS	lab/oopsProject/ris/class/Item.cpp	45;"	d	file:
+WINDOWS	lab/oopsProject/ris/class/Item.h	44;"	d
+WINDOWS	lab/oopsProject/ris/class/Stud.cpp	57;"	d	file:
+WINDOWS	lab/oopsProject/ris/class/Stud.h	55;"	d
+WINDOWS	lab/oopsProject/ris/class/Student.h	46;"	d
+WINDOWS	lab/oopsProject/ris/function.cpp	47;"	d	file:
+WINDOWS	lab/oopsProject/ris/function.h	39;"	d
+WINDOWS	lab/oopsProject/ris/main.cpp	49;"	d	file:
+aDiff	lab/6passObj.cpp	/^inline int pass::aDiff(pass objIn){$/;"	f	class:pass	signature:(pass objIn)
+aDiff	lab/6passObj.cpp	/^        int aDiff(pass);$/;"	p	class:pass	file:	access:public	signature:(pass)
+accNo	lab/8ch8-1.cpp	/^        int accNo;$/;"	m	class:account	file:	access:private
+accno	home/5-1.h	/^        int accno;$/;"	m	class:Account	access:public
+accno	home/5-1_old.cpp	/^        int accno;$/;"	m	class:Account	file:	access:public
+account::accNo	lab/8ch8-1.cpp	/^        int accNo;$/;"	m	class:account	file:	access:private
+account::account	lab/8ch8-1.cpp	/^        account(){ initialized=false; }$/;"	f	class:account	access:public	signature:()
+account::balance	lab/8ch8-1.cpp	/^        float balance;$/;"	m	class:account	file:	access:protected
+account::deposit	lab/8ch8-1.cpp	/^        bool deposit(float amtDep){ balance+=amtDep; return SUCCESS; }$/;"	f	class:account	access:public	signature:(float amtDep)
+account::display	lab/8ch8-1.cpp	/^        void display(){$/;"	f	class:account	access:public	signature:()
+account::init	lab/8ch8-1.cpp	/^        void init(){$/;"	f	class:account	access:public	signature:()
+account::initialized	lab/8ch8-1.cpp	/^        bool initialized;$/;"	m	class:account	file:	access:private
+account::name	lab/8ch8-1.cpp	/^        char name[20];$/;"	m	class:account	file:	access:private
+account::type	lab/8ch8-1.cpp	/^        AccType type;$/;"	m	class:account	file:	access:protected
+account::withdraw	lab/8ch8-1.cpp	/^        bool withdraw(float amtWtd){$/;"	f	class:account	access:public	signature:(float amtWtd)
+accountType	home/5-1.cpp	/^enum accountType{BASIC,EMPLOYEE};$/;"	g	file:
+accountType	home/5-1_old.cpp	/^enum accountType{BASIC,EMPLOYEE};$/;"	g	file:
+account	lab/8ch8-1.cpp	/^class account{$/;"	c	file:
+account	lab/8ch8-1.cpp	/^        account(){ initialized=false; }$/;"	f	class:account	access:public	signature:()
+addBillInfo_rs	lab/oopsProject/github/class/Stud.cpp	/^void Stud :: addBillInfo_rs()     \/\/  code finalised and checked..$/;"	f	class:Stud	signature:()
+addBillInfo_rs	lab/oopsProject/github/class/Stud.h	/^    static void addBillInfo_rs () ;$/;"	p	class:Stud	access:public	signature:()
+addBillInfo	lab/oopsProject/github/class/Stud.cpp	/^void Stud :: addBillInfo()     \/\/  code finalised and checked..$/;"	f	class:Stud	signature:()
+addBillInfo	lab/oopsProject/ris/class/Stud.cpp	/^void Stud :: addBillInfo()     \/\/  code finalised and checked..$/;"	f	class:Stud	signature:()
+addBillInfo	lab/oopsProject/github/class/Stud.h	/^    static void addBillInfo () ;$/;"	p	class:Stud	access:public	signature:()
+addBillInfo	lab/oopsProject/ris/class/Stud.h	/^    static void addBillInfo () ;$/;"	p	class:Stud	access:public	signature:()
+addBook	home/6-3full.cpp	/^void books::addBook(){$/;"	f	class:books	signature:()
+addBook	home/6-3.h	/^        void addBook();$/;"	p	class:books	access:public	signature:()
+addBook	home/6-3full.cpp	/^        void addBook();$/;"	p	class:books	file:	access:public	signature:()
+addVec	home/5-4.h	/^void vector::addVec(vector v1,vector v2){$/;"	f	class:vector	signature:(vector v1,vector v2)
+addVec	home/5-4.h	/^        void addVec(vector,vector);$/;"	p	class:vector	access:public	signature:(vector,vector)
+add	home/5-4.h	/^vector add(vector v1,vector v2){$/;"	f	signature:(vector v1,vector v2)
+add	home/6-3.cpp	/^void add(){$/;"	f	signature:()
+add	home/empio.cpp	/^void employee::add()$/;"	f	class:employee	signature:()
+add	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::add()$/;"	f	class:Stud	signature:()
+add	lab/oopsProject/github/class/Item.cpp	/^void Item::add()$/;"	f	class:Item	signature:()
+add	lab/oopsProject/github/class/Stud.cpp	/^void Stud::add()$/;"	f	class:Stud	signature:()
+add	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::add()$/;"	f	class:Stud	signature:()
+add	home/5-4.h	/^        friend vector add(vector,vector);$/;"	p	class:vector	access:friend	signature:(vector,vector)
+add	home/6-3.cpp	/^void add();$/;"	p	file:	signature:()
+add	home/6-3full.cpp	/^void add();$/;"	p	file:	signature:()
+add	home/empio.cpp	/^  static void add(); \/\/add an employee$/;"	p	class:employee	file:	access:public	signature:()
+add	lab/oopsProject/canteen/class/Stud.h	/^    static void add();          \/\/add a new student$/;"	p	class:Stud	access:public	signature:()
+add	lab/oopsProject/github/class/Item.h	/^        static void add();          \/\/add a new item$/;"	p	class:Item	access:public	signature:()
+add	lab/oopsProject/github/class/Stud.h	/^    static void add();          \/\/add a new student$/;"	p	class:Stud	access:public	signature:()
+add	lab/oopsProject/ris/class/Stud.h	/^    static void add();          \/\/add a new student$/;"	p	class:Stud	access:public	signature:()
+age	home/file1.cpp	/^short age; \/\/person’s age$/;"	m	class:person	file:	access:protected
+age	home/file1o.cpp	/^short age; \/\/person’s age$/;"	m	class:person	file:	access:protected
+a	home/overload.cpp	/^      int a[10];$/;"	m	class:myArray	file:	access:private
+a	lab/5class.cpp	/^        int a,b,c;$/;"	m	class:No2	file:	access:private
+a	lab/5class.cpp	/^        int a,b,c;$/;"	m	class:No3	file:	access:private
+a	lab/6passObj.cpp	/^        int a,b;$/;"	m	class:pass	file:	access:private
+a	lab/7overMatrix.cpp	/^        int a[ROW][COLUMN];$/;"	m	class:matrix	file:	access:public
+area	home/4-9.cpp	/^float area(float a,float b,float c){$/;"	f	signature:(float a,float b,float c)
+area	home/4-9.cpp	/^float area(float h,float a){$/;"	f	signature:(float h,float a)
+area	home/4-9.cpp	/^float area(float r){$/;"	f	signature:(float r)
+area	lab/10areaVir.cpp	/^        int area(){$/;"	f	class:circle	access:public	signature:()
+area	lab/10areaVir.cpp	/^        int area(){$/;"	f	class:square	access:public	signature:()
+area	home/4-9.cpp	/^float area(float);  \/\/circle$/;"	p	file:	signature:(float)
+area	home/4-9.cpp	/^float area(float, float);   \/\/triangle - h&b=height and base$/;"	p	file:	signature:(float, float)
+area	home/4-9.cpp	/^float area(float, float, float);    \/\/triangle - a,b,c area=s*s-a*s-b*s-c$/;"	p	file:	signature:(float, float, float)
+arrapItem	lab/oopsProject/github/class/Item.cpp	/^Item* Item::arrapItem[MAXITEM]; \/\/array of ptrs to emps$/;"	m	class:Item	file:
+arrapItem	lab/oopsProject/github/class/Item.h	/^        static Item* arrapItem[]; \/\/array of ptrs to Studs$/;"	m	class:Item	access:protected
+arrap	home/empio.cpp	/^  static employee* arrap[]; \/\/array of ptrs to emps$/;"	m	class:employee	file:	access:private
+arrap	home/empio.cpp	/^employee* employee::arrap[MAXEM]; \/\/array of ptrs to emps$/;"	m	class:employee	file:
+arrap	lab/oopsProject/canteen/class/Stud.cpp	/^Stud* Stud::arrap[MAXSTUD]; \/\/array of ptrs to emps$/;"	m	class:Stud	file:
+arrap	lab/oopsProject/canteen/class/Stud.h	/^    static Stud* arrap[]; \/\/array of ptrs to Studs$/;"	m	class:Stud	access:protected
+arrap	lab/oopsProject/github/class/Stud.cpp	/^Stud* Stud::arrap[MAXSTUD]; \/\/array of ptrs to emps$/;"	m	class:Stud	file:
+arrap	lab/oopsProject/github/class/Stud.h	/^    static Stud* arrap[]; \/\/array of ptrs to Studs$/;"	m	class:Stud	access:protected
+arrap	lab/oopsProject/ris/class/Stud.cpp	/^Stud* Stud::arrap[MAXSTUD]; \/\/array of ptrs to emps$/;"	m	class:Stud	file:
+arrap	lab/oopsProject/ris/class/Stud.h	/^    static Stud* arrap[]; \/\/array of ptrs to Studs$/;"	m	class:Stud	access:protected
+array	lab/6constDest.cpp	/^        char *array;$/;"	m	class:demo	file:	access:private
+asciiArt	home/6-3.cpp	/^void asciiArt(){$/;"	f	signature:()
+asciiArt	home/6-3full.cpp	/^void asciiArt(){$/;"	f	signature:()
+asciiArt	home/6-3.cpp	/^void asciiArt();$/;"	p	file:	signature:()
+asciiArt	home/6-3full.cpp	/^void asciiArt();$/;"	p	file:	signature:()
+assignTiles	advanced/msm_pro.cpp	/^void assignTiles(tile boneyard[leftLetters], player user[numPlayers])$/;"	f	signature:(tile boneyard[leftLetters], player user[numPlayers])
+assignTiles	advanced/msm_pro.cpp	/^void assignTiles(tile boneyard[leftLetters], player user[numPlayers]);$/;"	p	file:	signature:(tile boneyard[leftLetters], player user[numPlayers])
+author	home/6-3.h	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	access:private
+author	home/6-3_old.cpp	/^    char *author, *title, *pub, *stack;$/;"	m	struct:blist	file:	access:public
+author	home/6-3full.cpp	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	file:	access:private
+a	advanced/game.cpp	/^       int a[5][5];$/;"	v
+a	lab/0_113095.cpp	/^char a[20];$/;"	v
+bDiff	lab/6passObj.cpp	/^inline int pass::bDiff(pass objIn){$/;"	f	class:pass	signature:(pass objIn)
+bDiff	lab/6passObj.cpp	/^        int bDiff(pass);$/;"	p	class:pass	file:	access:public	signature:(pass)
+balPenalty	lab/8ch8-1.cpp	/^        bool balPenalty(){$/;"	f	class:currAcc	access:public	signature:()
+balance	home/5-1.h	/^        float balance;$/;"	m	class:Account	access:private
+balance	home/5-1_old.cpp	/^        float balance;$/;"	m	class:Account	file:	access:private
+balance	lab/8ch8-1.cpp	/^        float balance;$/;"	m	class:account	file:	access:protected
+bill	lab/oopsProject/canteen/class/Stud.h	/^    int bill;  \/\/ stores total bill till now.$/;"	m	class:Stud	access:private
+bill	lab/oopsProject/canteen/class/Student.h	/^        int bill;  \/\/ stores total bill till now.$/;"	m	class:Student	access:private
+bill	lab/oopsProject/github/class/Stud.h	/^    int bill;  \/\/ stores total bill till now.$/;"	m	class:Stud	access:private
+bill	lab/oopsProject/github/class/Student.h	/^        int bill;  \/\/ stores total bill till now.$/;"	m	class:Student	access:private
+bill	lab/oopsProject/ris/class/Stud.h	/^    int bill;  \/\/ stores total bill till now.$/;"	m	class:Stud	access:private
+bill	lab/oopsProject/ris/class/Student.h	/^        int bill;  \/\/ stores total bill till now.$/;"	m	class:Student	access:private
+binSearchIn	lab/3_1130903.cpp	/^void binSearchIn(nodeS*start,int key){$/;"	f	signature:(nodeS*start,int key)
+binSearchIn	lab/3_1130903.cpp	/^void binSearchIn(nodeS*start,int key);$/;"	p	file:	signature:(nodeS*start,int key)
+binSearch	lab/3_1130903.cpp	/^void binSearch(nodeS*start,int key){$/;"	f	signature:(nodeS*start,int key)
+binSearch	lab/3_1130903.cpp	/^void binSearch(nodeS*,int);$/;"	p	file:	signature:(nodeS*,int)
+blist::author	home/6-3_old.cpp	/^    char *author, *title, *pub, *stack;$/;"	m	struct:blist	file:	access:public
+blist::price	home/6-3_old.cpp	/^    float price;$/;"	m	struct:blist	file:	access:public
+blist::pub	home/6-3_old.cpp	/^    char *author, *title, *pub, *stack;$/;"	m	struct:blist	file:	access:public
+blist::stack	home/6-3_old.cpp	/^    char *author, *title, *pub, *stack;$/;"	m	struct:blist	file:	access:public
+blist::title	home/6-3_old.cpp	/^    char *author, *title, *pub, *stack;$/;"	m	struct:blist	file:	access:public
+blist	home/6-3_old.cpp	/^struct blist{$/;"	s	file:
+b	lab/5class.cpp	/^        int a,b,c;$/;"	m	class:No2	file:	access:private
+b	lab/5class.cpp	/^        int a,b,c;$/;"	m	class:No3	file:	access:private
+b	lab/6passObj.cpp	/^        int a,b;$/;"	m	class:pass	file:	access:private
+board::color	advanced/msm_pro.cpp	/^        char color[5];$/;"	m	struct:board	file:	access:public
+board::placed	advanced/msm_pro.cpp	/^        tile placed;$/;"	m	struct:board	file:	access:public
+board::premiumValue	advanced/msm_pro.cpp	/^        char premiumValue[15];$/;"	m	struct:board	file:	access:public
+board::status	advanced/msm_pro.cpp	/^        bool status;$/;"	m	struct:board	file:	access:public
+board	advanced/msm_pro.cpp	/^struct board$/;"	s	file:
+books::addBook	home/6-3full.cpp	/^void books::addBook(){$/;"	f	class:books	signature:()
+books::addBook	home/6-3.h	/^        void addBook();$/;"	p	class:books	access:public	signature:()
+books::addBook	home/6-3full.cpp	/^        void addBook();$/;"	p	class:books	file:	access:public	signature:()
+books::author	home/6-3.h	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	access:private
+books::author	home/6-3full.cpp	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	file:	access:private
+books::books	home/6-3.h	/^books::books(){$/;"	f	class:books	signature:()
+books::books	home/6-3.h	/^books::books(books &ref){$/;"	f	class:books	signature:(books &ref)
+books::books	home/6-3.h	/^books::books(char *tit,char*aut,char*pb,char*po,float pr,int cop){$/;"	f	class:books	signature:(char *tit,char*aut,char*pb,char*po,float pr,int cop)
+books::books	home/6-3full.cpp	/^books::books(){$/;"	f	class:books	signature:()
+books::books	home/6-3full.cpp	/^books::books(books &ref){$/;"	f	class:books	signature:(books &ref)
+books::books	home/6-3full.cpp	/^books::books(char *tit,char*aut,char*pb,char*po,float pr,int cop){$/;"	f	class:books	signature:(char *tit,char*aut,char*pb,char*po,float pr,int cop)
+books::books	home/6-3.h	/^        books();  \/\/constructor$/;"	p	class:books	access:public	signature:()
+books::books	home/6-3.h	/^        books(books&);  \/\/copy constructor$/;"	p	class:books	access:public	signature:(books&)
+books::books	home/6-3.h	/^        books(char *tit,char*aut,char*pb,char*po,float pr,int cop);$/;"	p	class:books	access:public	signature:(char *tit,char*aut,char*pb,char*po,float pr,int cop)
+books::books	home/6-3full.cpp	/^        books();  \/\/constructor$/;"	p	class:books	file:	access:public	signature:()
+books::books	home/6-3full.cpp	/^        books(books&);  \/\/copy constructor$/;"	p	class:books	file:	access:public	signature:(books&)
+books::books	home/6-3full.cpp	/^        books(char *tit,char*aut,char*pb,char*po,float pr,int cop);$/;"	p	class:books	file:	access:public	signature:(char *tit,char*aut,char*pb,char*po,float pr,int cop)
+books::copies	home/6-3.h	/^        int copies;$/;"	m	class:books	access:private
+books::copies	home/6-3full.cpp	/^        int copies;$/;"	m	class:books	file:	access:private
+books::delBook	home/6-3.h	/^        void delBook();$/;"	p	class:books	access:public	signature:()
+books::delBook	home/6-3full.cpp	/^        void delBook();$/;"	p	class:books	file:	access:public	signature:()
+books::display	home/6-3.h	/^void books::display(){$/;"	f	class:books	signature:()
+books::display	home/6-3full.cpp	/^void books::display(){$/;"	f	class:books	signature:()
+books::display	home/6-3.h	/^        void display();$/;"	p	class:books	access:public	signature:()
+books::display	home/6-3full.cpp	/^        void display();$/;"	p	class:books	file:	access:public	signature:()
+books::pos	home/6-3.h	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	access:private
+books::pos	home/6-3full.cpp	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	file:	access:private
+books::price	home/6-3.h	/^        float price;$/;"	m	class:books	access:private
+books::price	home/6-3full.cpp	/^        float price;$/;"	m	class:books	file:	access:private
+books::pub	home/6-3.h	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	access:private
+books::pub	home/6-3full.cpp	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	file:	access:private
+books::search	home/6-3.h	/^        void search();$/;"	p	class:books	access:public	signature:()
+books::search	home/6-3full.cpp	/^        void search();$/;"	p	class:books	file:	access:public	signature:()
+books::title	home/6-3.h	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	access:private
+books::title	home/6-3full.cpp	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	file:	access:private
+books::~books	home/6-3.h	/^books::~books(){$/;"	f	class:books	signature:()
+books::~books	home/6-3full.cpp	/^books::~books(){$/;"	f	class:books	signature:()
+books::~books	home/6-3.h	/^        ~books();   \/\/destructor$/;"	p	class:books	access:public	signature:()
+books::~books	home/6-3full.cpp	/^        ~books();   \/\/destructor$/;"	p	class:books	file:	access:public	signature:()
+books	home/6-3.h	/^class books{$/;"	c
+books	home/6-3full.cpp	/^class books{$/;"	c	file:
+books	home/6-3.h	/^books::books(){$/;"	f	class:books	signature:()
+books	home/6-3.h	/^books::books(books &ref){$/;"	f	class:books	signature:(books &ref)
+books	home/6-3.h	/^books::books(char *tit,char*aut,char*pb,char*po,float pr,int cop){$/;"	f	class:books	signature:(char *tit,char*aut,char*pb,char*po,float pr,int cop)
+books	home/6-3full.cpp	/^books::books(){$/;"	f	class:books	signature:()
+books	home/6-3full.cpp	/^books::books(books &ref){$/;"	f	class:books	signature:(books &ref)
+books	home/6-3full.cpp	/^books::books(char *tit,char*aut,char*pb,char*po,float pr,int cop){$/;"	f	class:books	signature:(char *tit,char*aut,char*pb,char*po,float pr,int cop)
+books	home/6-3.h	/^        books();  \/\/constructor$/;"	p	class:books	access:public	signature:()
+books	home/6-3.h	/^        books(books&);  \/\/copy constructor$/;"	p	class:books	access:public	signature:(books&)
+books	home/6-3.h	/^        books(char *tit,char*aut,char*pb,char*po,float pr,int cop);$/;"	p	class:books	access:public	signature:(char *tit,char*aut,char*pb,char*po,float pr,int cop)
+books	home/6-3full.cpp	/^        books();  \/\/constructor$/;"	p	class:books	file:	access:public	signature:()
+books	home/6-3full.cpp	/^        books(books&);  \/\/copy constructor$/;"	p	class:books	file:	access:public	signature:(books&)
+books	home/6-3full.cpp	/^        books(char *tit,char*aut,char*pb,char*po,float pr,int cop);$/;"	p	class:books	file:	access:public	signature:(char *tit,char*aut,char*pb,char*po,float pr,int cop)
+breadth	lab/10areaVir.cpp	/^        int length, breadth;$/;"	m	class:square	file:	access:protected
+bubbleSort	lab/1_linkk.cpp	/^void bubbleSort(nodeS* ptr){$/;"	f	signature:(nodeS* ptr)
+bubbleSort	lab/2_1130902.cpp	/^void bubbleSort(int*ptr){$/;"	f	signature:(int*ptr)
+bubbleSort	lab/3_1130903.cpp	/^void bubbleSort(nodeS* ptr){$/;"	f	signature:(nodeS* ptr)
+bubbleSort	lab/2_1130902.cpp	/^void bubbleSort(int*);$/;"	p	file:	signature:(int*)
+bubbleSort	lab/3_1130903.cpp	/^void bubbleSort(nodeS*);$/;"	p	file:	signature:(nodeS*)
+buff	home/fbinio.cpp	/^ int buff[MAX]; \/\/buffer for integers$/;"	v
+bug_message	lab/oopsProject/canteen/function.cpp	/^void bug_message(){$/;"	f	signature:()
+bug_message	lab/oopsProject/github/function.cpp	/^void bug_message(){$/;"	f	signature:()
+bug_message	lab/oopsProject/ris/function.cpp	/^void bug_message(){$/;"	f	signature:()
+bug_message	lab/oopsProject/canteen/function.h	/^void bug_message();$/;"	p	signature:()
+bug_message	lab/oopsProject/github/function.h	/^void bug_message();$/;"	p	signature:()
+bug_message	lab/oopsProject/ris/function.h	/^void bug_message();$/;"	p	signature:()
+calcInterest	lab/8ch8-1.cpp	/^        float calcInterest(){ return ( (balance*rate*timeInt)\/100 ); }$/;"	f	class:savAcc	access:public	signature:()
+circle::area	lab/10areaVir.cpp	/^        int area(){$/;"	f	class:circle	access:public	signature:()
+circle::radius	lab/10areaVir.cpp	/^        int radius;$/;"	m	class:circle	file:	access:protected
+circle	lab/10areaVir.cpp	/^class circle : public shape {$/;"	c	file:	inherits:shape
+c	lab/5class.cpp	/^        int a,b,c;$/;"	m	class:No2	file:	access:private
+c	lab/5class.cpp	/^        int a,b,c;$/;"	m	class:No3	file:	access:private
+code	lab/9ch8-3.cpp	/^        int code;$/;"	m	class:Staff	file:	access:private
+code	lab/9ch8-5.cpp	/^        int code;$/;"	m	class:Person	file:	access:protected
+code	lab/9ch8-6.cpp	/^        int code;$/;"	m	class:Staff	file:	access:private
+code	lab/oopsProject/github/class/Item.h	/^        char code[MAXCODE];$/;"	m	class:Item	access:private
+color	advanced/msm_pro.cpp	/^        char color[5];$/;"	m	struct:board	file:	access:public
+color	advanced/msm_pro.cpp	/^const int color = 5;$/;"	v
+column	advanced/msm_pro.cpp	/^const int column = 15;$/;"	v
+col	advanced/game.cpp	/^     int row=4,col=4;$/;"	v
+concat	lab/5string_3.cpp	/^void s3::concat(s1 in1, s2 in2){$/;"	f	class:s3	signature:(s1 in1, s2 in2)
+concat	lab/5string_3.cpp	/^        void concat( s1 , s2 );$/;"	p	class:s3	file:	access:public	signature:( s1 , s2 )
+copies	home/6-3.h	/^        int copies;$/;"	m	class:books	access:private
+copies	home/6-3full.cpp	/^        int copies;$/;"	m	class:books	file:	access:private
+copy	lab/6friendobj.cpp	/^void copy(demo1 src1, demo2& des2 ){    \/\/friend function$/;"	f	signature:(demo1 src1, demo2& des2 )
+copy	lab/6friendobj.cpp	/^        friend void copy(demo1 src1, demo2& des2 );     \/\/reference of object 2$/;"	p	class:demo1	file:	access:friend	signature:(demo1 src1, demo2& des2 )
+copy	lab/6friendobj.cpp	/^        friend void copy(demo1 src1, demo2& des2 );$/;"	p	class:demo2	file:	access:friend	signature:(demo1 src1, demo2& des2 )
+cost	lab/oopsProject/canteen website/code/declarations.h	/^        float cost;   \/\/cost of food item$/;"	m	class:item	access:private
+cost	lab/oopsProject/canteen/class/Item.h	/^        float cost;   \/\/cost of food Item$/;"	m	class:Item	access:private
+cost	lab/oopsProject/github/class/Item.h	/^        float cost;   \/\/cost of food Item$/;"	m	class:Item	access:private
+cost	lab/oopsProject/ris/class/Item.h	/^        float cost;   \/\/cost of food Item$/;"	m	class:Item	access:private
+count	home/6-3.cpp	/^static int count=0;$/;"	v	file:
+count	home/6-3full.cpp	/^static int count=0;$/;"	v	file:
+create	home/5-2.h	/^inline void vector::create(){$/;"	f	class:vector	signature:()
+create	home/5-4.h	/^inline void vector::create(){$/;"	f	class:vector	signature:()
+create	lab/9ch8-5.cpp	/^        virtual void create(){$/;"	f	class:Person	access:public	signature:()
+create	lab/9ch8-5.cpp	/^        void create(){$/;"	f	class:Account	access:public	signature:()
+create	lab/9ch8-5.cpp	/^        void create(){$/;"	f	class:Admin	access:public	signature:()
+create	lab/9ch8-5.cpp	/^        void create(){$/;"	f	class:Master	access:public	signature:()
+create	home/5-2.h	/^        void create();$/;"	p	class:vector	access:public	signature:()
+create	home/5-4.h	/^        void create();$/;"	p	class:vector	access:public	signature:()
+currAcc::balPenalty	lab/8ch8-1.cpp	/^        bool balPenalty(){$/;"	f	class:currAcc	access:public	signature:()
+currAcc::currAcc	lab/8ch8-1.cpp	/^        currAcc(){ type=current; }$/;"	f	class:currAcc	access:public	signature:()
+currAcc::display	lab/8ch8-1.cpp	/^        void display(){$/;"	f	class:currAcc	access:public	signature:()
+currAcc::init	lab/8ch8-1.cpp	/^        void init(){$/;"	f	class:currAcc	access:public	signature:()
+currAcc::minBalance	lab/8ch8-1.cpp	/^        int minBalance, penaltyRate, timeLow;$/;"	m	class:currAcc	file:	access:private
+currAcc::penaltyRate	lab/8ch8-1.cpp	/^        int minBalance, penaltyRate, timeLow;$/;"	m	class:currAcc	file:	access:private
+currAcc::timeLow	lab/8ch8-1.cpp	/^        int minBalance, penaltyRate, timeLow;$/;"	m	class:currAcc	file:	access:private
+currAcc	lab/8ch8-1.cpp	/^class currAcc : public account {$/;"	c	file:	inherits:account
+currAcc	lab/8ch8-1.cpp	/^        currAcc(){ type=current; }$/;"	f	class:currAcc	access:public	signature:()
+currentDateTime	lab/oopsProject/github/function.cpp	/^const string currentDateTime() {$/;"	f	signature:()
+currentDateTime	lab/oopsProject/github/function.h	/^const string currentDateTime();$/;"	p	signature:()
+current	lab/8ch8-1.cpp	/^enum AccType{ current, saving, fixed };$/;"	e	enum:AccType	file:
+daseInput	lab/10virSize.cpp	/^        void daseInput(){$/;"	f	class:Base	access:public	signature:()
+data	home/5-2.h	/^        float data[size];$/;"	m	class:vector	access:private
+data	home/5-4.h	/^        float data[size];$/;"	m	class:vector	access:private
+data	home/6-2.h	/^        char *data;$/;"	m	class:String	access:private
+delBook	home/6-3.h	/^        void delBook();$/;"	p	class:books	access:public	signature:()
+delBook	home/6-3full.cpp	/^        void delBook();$/;"	p	class:books	file:	access:public	signature:()
+deletion	lab/1_linkk.cpp	/^void deletion()$/;"	f	signature:()
+deletion	lab/2_1130902.cpp	/^void deletion(int *ptr,int loc){     \/\/To delete a specific location in array$/;"	f	signature:(int *ptr,int loc)
+deletion	lab/2_1130902.cpp	/^void deletion(int *,int);$/;"	p	file:	signature:(int *,int)
+del	lab/1_1130901.cpp	/^void del(nodeS* list,int key){     \/\/To delete a specific key from linked list$/;"	f	signature:(nodeS* list,int key)
+del	lab/3_1130903.cpp	/^void del(nodeS* list,int key){     \/\/To delete a specific key from linked list$/;"	f	signature:(nodeS* list,int key)
+del	lab/1_1130901.cpp	/^void del(nodeS*,int);$/;"	p	file:	signature:(nodeS*,int)
+del	lab/3_1130903.cpp	/^void del(nodeS*,int);$/;"	p	file:	signature:(nodeS*,int)
+demo1::copy	lab/6friendobj.cpp	/^        friend void copy(demo1 src1, demo2& des2 );     \/\/reference of object 2$/;"	p	class:demo1	file:	access:friend	signature:(demo1 src1, demo2& des2 )
+demo1::display	lab/6friend3.cpp	/^        friend void display(demo1 obj1, demo2 obj2, demo3 obj3);$/;"	p	class:demo1	file:	access:friend	signature:(demo1 obj1, demo2 obj2, demo3 obj3)
+demo1::input	lab/6friend3.cpp	/^        void input(int in){ var1=in; }$/;"	f	class:demo1	access:public	signature:(int in)
+demo1::input	lab/6friendobj.cpp	/^        void input(int in){ var1=in; }$/;"	f	class:demo1	access:public	signature:(int in)
+demo1::output	lab/6friendobj.cpp	/^        int output(){ return var1; }$/;"	f	class:demo1	access:public	signature:()
+demo1::var1	lab/6friend3.cpp	/^        int var1;$/;"	m	class:demo1	file:	access:private
+demo1::var1	lab/6friendobj.cpp	/^        int var1;$/;"	m	class:demo1	file:	access:private
+demo1	lab/6friend3.cpp	/^class demo1{$/;"	c	file:
+demo1	lab/6friendobj.cpp	/^class demo1{$/;"	c	file:
+demo2::copy	lab/6friendobj.cpp	/^        friend void copy(demo1 src1, demo2& des2 );$/;"	p	class:demo2	file:	access:friend	signature:(demo1 src1, demo2& des2 )
+demo2::display	lab/6friend3.cpp	/^        friend void display(demo1 obj1, demo2 obj2, demo3 obj3);$/;"	p	class:demo2	file:	access:friend	signature:(demo1 obj1, demo2 obj2, demo3 obj3)
+demo2::input	lab/6friend3.cpp	/^        void input(int in){ var2=in; }$/;"	f	class:demo2	access:public	signature:(int in)
+demo2::input	lab/6friendobj.cpp	/^        void input(int in){ var2=in; }$/;"	f	class:demo2	access:public	signature:(int in)
+demo2::output	lab/6friendobj.cpp	/^        int output(){ return var2; }$/;"	f	class:demo2	access:public	signature:()
+demo2::var2	lab/6friend3.cpp	/^        int var2;$/;"	m	class:demo2	file:	access:private
+demo2::var2	lab/6friendobj.cpp	/^        int var2;$/;"	m	class:demo2	file:	access:private
+demo2	lab/6friend3.cpp	/^class demo2{$/;"	c	file:
+demo2	lab/6friendobj.cpp	/^class demo2{$/;"	c	file:
+demo3::display	lab/6friend3.cpp	/^        friend void display(demo1 obj1, demo2 obj2, demo3 obj3);$/;"	p	class:demo3	file:	access:friend	signature:(demo1 obj1, demo2 obj2, demo3 obj3)
+demo3::input	lab/6friend3.cpp	/^        void input(int in){ var3=in; }$/;"	f	class:demo3	access:public	signature:(int in)
+demo3::var3	lab/6friend3.cpp	/^        int var3;$/;"	m	class:demo3	file:	access:private
+demo3	lab/6friend3.cpp	/^class demo3{$/;"	c	file:
+demo::array	lab/6constDest.cpp	/^        char *array;$/;"	m	class:demo	file:	access:private
+demo::demo	lab/6constDest.cpp	/^        demo(){ }    \/\/empty constructor$/;"	f	class:demo	access:public	signature:()
+demo::demo	lab/6constDest.cpp	/^demo::demo(char *in){$/;"	f	class:demo	signature:(char *in)
+demo::demo	lab/6constDest.cpp	/^demo::demo(int len, char * in){$/;"	f	class:demo	signature:(int len, char * in)
+demo::demo	lab/6static.cpp	/^        demo(){     \/\/empty constructor just to show change in static variable$/;"	f	class:demo	access:public	signature:()
+demo::demo	lab/7constCopy.cpp	/^        demo(int in){ var=in; }$/;"	f	class:demo	access:public	signature:(int in)
+demo::demo	lab/7constCopy.cpp	/^demo::demo(demo& in){$/;"	f	class:demo	signature:(demo& in)
+demo::demo	lab/6constDest.cpp	/^        demo(char *);   \/\/constructor # 2$/;"	p	class:demo	file:	access:public	signature:(char *)
+demo::demo	lab/6constDest.cpp	/^        demo(int len, char * in);   \/\/constructor # 3$/;"	p	class:demo	file:	access:public	signature:(int len, char * in)
+demo::demo	lab/7constCopy.cpp	/^        demo(demo&); \/\/copy constructor$/;"	p	class:demo	file:	access:public	signature:(demo&)
+demo::display	lab/6constDest.cpp	/^        void display(){$/;"	f	class:demo	access:public	signature:()
+demo::input	lab/7constCopy.cpp	/^        void input(){ cin>>var; }$/;"	f	class:demo	access:public	signature:()
+demo::output	lab/7constCopy.cpp	/^        void output(){ cout<<var; }$/;"	f	class:demo	access:public	signature:()
+demo::readStatic	lab/6static.cpp	/^void demo::readStatic(){$/;"	f	class:demo	signature:()
+demo::readStatic	lab/6static.cpp	/^        static void readStatic();$/;"	p	class:demo	file:	access:public	signature:()
+demo::varStatic	lab/6static.cpp	/^        static int varStatic;$/;"	m	class:demo	file:	access:private
+demo::varStatic	lab/6static.cpp	/^int demo::varStatic;$/;"	m	class:demo	file:
+demo::var	lab/7constCopy.cpp	/^        int var;$/;"	m	class:demo	file:	access:private
+demo::~demo	lab/6constDest.cpp	/^demo::~demo(){$/;"	f	class:demo	signature:()
+demo::~demo	lab/6constDest.cpp	/^        ~demo();$/;"	p	class:demo	file:	access:public	signature:()
+demo	lab/6constDest.cpp	/^class demo{$/;"	c	file:
+demo	lab/6static.cpp	/^class demo{$/;"	c	file:
+demo	lab/7constCopy.cpp	/^class demo{$/;"	c	file:
+demo	lab/10ptrBase.cpp	/^        void demo(){$/;"	f	class:Base	access:public	signature:()
+demo	lab/10ptrBase.cpp	/^        void demo(){$/;"	f	class:Der1	access:public	signature:()
+demo	lab/10ptrBase.cpp	/^        void demo(){$/;"	f	class:Der2	access:public	signature:()
+demo	lab/10virSize.cpp	/^        virtual void demo(){$/;"	f	class:Base	access:public	signature:()
+demo	lab/10virSize.cpp	/^        void demo(){$/;"	f	class:Der1	access:public	signature:()
+demo	lab/6constDest.cpp	/^        demo(){ }    \/\/empty constructor$/;"	f	class:demo	access:public	signature:()
+demo	lab/6constDest.cpp	/^demo::demo(char *in){$/;"	f	class:demo	signature:(char *in)
+demo	lab/6constDest.cpp	/^demo::demo(int len, char * in){$/;"	f	class:demo	signature:(int len, char * in)
+demo	lab/6static.cpp	/^        demo(){     \/\/empty constructor just to show change in static variable$/;"	f	class:demo	access:public	signature:()
+demo	lab/7constCopy.cpp	/^        demo(int in){ var=in; }$/;"	f	class:demo	access:public	signature:(int in)
+demo	lab/7constCopy.cpp	/^demo::demo(demo& in){$/;"	f	class:demo	signature:(demo& in)
+demo	lab/6constDest.cpp	/^        demo(char *);   \/\/constructor # 2$/;"	p	class:demo	file:	access:public	signature:(char *)
+demo	lab/6constDest.cpp	/^        demo(int len, char * in);   \/\/constructor # 3$/;"	p	class:demo	file:	access:public	signature:(int len, char * in)
+demo	lab/7constCopy.cpp	/^        demo(demo&); \/\/copy constructor$/;"	p	class:demo	file:	access:public	signature:(demo&)
+depositInterest	lab/8ch8-1.cpp	/^        bool depositInterest(){$/;"	f	class:savAcc	access:public	signature:()
+deposit	home/5-1.h	/^void Account::deposit(){$/;"	f	class:Account	signature:()
+deposit	home/5-1_old.cpp	/^void Account::deposit(){$/;"	f	class:Account	signature:()
+deposit	lab/8ch8-1.cpp	/^        bool deposit(float amtDep){ balance+=amtDep; return SUCCESS; }$/;"	f	class:account	access:public	signature:(float amtDep)
+deposit	home/5-1.h	/^        void deposit();    \/\/acc,amt deposited$/;"	p	class:Account	access:public	signature:()
+deposit	home/5-1_old.cpp	/^        void deposit();       \/\/acc,amt deposited$/;"	p	class:Account	file:	access:public	signature:()
+dept	lab/oopsProject/canteen website/code/declarations.h	/^        char dept[20];$/;"	m	class:student	access:private
+dept	lab/oopsProject/canteen/class/Stud.h	/^    char dept[MAXNAME];$/;"	m	class:Stud	access:private
+dept	lab/oopsProject/canteen/class/Student.h	/^        char dept[20];$/;"	m	class:Student	access:private
+dept	lab/oopsProject/github/class/Stud.h	/^    char dept[MAXNAME];$/;"	m	class:Stud	access:private
+dept	lab/oopsProject/github/class/Student.h	/^        char dept[20];$/;"	m	class:Student	access:private
+dept	lab/oopsProject/ris/class/Stud.h	/^    char dept[MAXNAME];$/;"	m	class:Stud	access:private
+dept	lab/oopsProject/ris/class/Student.h	/^        char dept[20];$/;"	m	class:Student	access:private
+der1Input	lab/10virSize.cpp	/^        void der1Input(){$/;"	f	class:Der1	access:public	signature:()
+description	lab/oopsProject/github/class/Item.h	/^        char description[MAXDESC];  \/\/Item description$/;"	m	class:Item	access:private
+disk_message	lab/oopsProject/canteen/function.cpp	/^void disk_message(){$/;"	f	signature:()
+disk_message	lab/oopsProject/github/function.cpp	/^void disk_message(){$/;"	f	signature:()
+disk_message	lab/oopsProject/ris/function.cpp	/^void disk_message(){$/;"	f	signature:()
+disk_message	lab/oopsProject/canteen/function.h	/^void disk_message();$/;"	p	signature:()
+disk_message	lab/oopsProject/github/function.h	/^void disk_message();$/;"	p	signature:()
+disk_message	lab/oopsProject/ris/function.h	/^void disk_message();$/;"	p	signature:()
+displayBoard	advanced/msm_pro.cpp	/^void displayBoard (board gameBoard[row][column]);$/;"	p	file:	signature:(board gameBoard[row][column])
+displayTotalPendingBill	lab/oopsProject/github/class/Stud.cpp	/^void Stud::displayTotalPendingBill(){$/;"	f	class:Stud	signature:()
+displayTotalPendingBill	lab/oopsProject/github/class/Stud.h	/^    static void displayTotalPendingBill();$/;"	p	class:Stud	access:public	signature:()
+display	home/5-1.h	/^void Account::display(){$/;"	f	class:Account	signature:()
+display	home/5-1_old.cpp	/^void Account::display(){$/;"	f	class:Account	signature:()
+display	home/5-2.h	/^void vector::display(){$/;"	f	class:vector	signature:()
+display	home/5-4.h	/^void vector::display(){$/;"	f	class:vector	signature:()
+display	home/6-2.h	/^void String::display(){$/;"	f	class:String	signature:()
+display	home/6-3.cpp	/^void display(){$/;"	f	signature:()
+display	home/6-3.h	/^void books::display(){$/;"	f	class:books	signature:()
+display	home/6-3full.cpp	/^void books::display(){$/;"	f	class:books	signature:()
+display	home/6-3full.cpp	/^void display(){$/;"	f	signature:()
+display	home/empio.cpp	/^void employee::display()$/;"	f	class:employee	signature:()
+display	lab/0_113095.cpp	/^void display()$/;"	f	signature:()
+display	lab/1_1130901.cpp	/^void display(nodeS* list){     \/\/To display the linked list$/;"	f	signature:(nodeS* list)
+display	lab/1_linkk.cpp	/^void display()$/;"	f	signature:()
+display	lab/2_1130902.cpp	/^void display(int*ptr){     \/\/To display the array$/;"	f	signature:(int*ptr)
+display	lab/3_1130903.cpp	/^void display(nodeS* list){     \/\/To display the linked list$/;"	f	signature:(nodeS* list)
+display	lab/4string.cpp	/^void display(char* ptr){$/;"	f	signature:(char* ptr)
+display	lab/5string.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var); } \/\/putS(var); }$/;"	f	class:s1	access:public	signature:()
+display	lab/5string.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var); }\/\/ putS(var); }$/;"	f	class:s2	access:public	signature:()
+display	lab/5string.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var); }\/\/ putS(var); }$/;"	f	class:s3	access:public	signature:()
+display	lab/5string_2.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var,SIZE); }$/;"	f	class:s1	access:public	signature:()
+display	lab/5string_2.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var,SIZE); }$/;"	f	class:s2	access:public	signature:()
+display	lab/5string_2.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var,SIZE<<1); }$/;"	f	class:s3	access:public	signature:()
+display	lab/5string_3.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var); }$/;"	f	class:s1	access:public	signature:()
+display	lab/5string_3.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var); }$/;"	f	class:s2	access:public	signature:()
+display	lab/5string_3.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var); }$/;"	f	class:s3	access:public	signature:()
+display	lab/6constDest.cpp	/^        void display(){$/;"	f	class:demo	access:public	signature:()
+display	lab/6friend3.cpp	/^void display(demo1 obj1, demo2 obj2, demo3 obj3){   \/\/friend function$/;"	f	signature:(demo1 obj1, demo2 obj2, demo3 obj3)
+display	lab/8ch8-1.cpp	/^        void display(){$/;"	f	class:account	access:public	signature:()
+display	lab/8ch8-1.cpp	/^        void display(){$/;"	f	class:currAcc	access:public	signature:()
+display	lab/8ch8-1.cpp	/^        void display(){$/;"	f	class:savAcc	access:public	signature:()
+display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:CasualTypist	access:public	signature:()
+display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:Education	access:public	signature:()
+display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:Officer	access:public	signature:()
+display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:RegTypist	access:public	signature:()
+display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:Staff	access:public	signature:()
+display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:Teacher	access:public	signature:()
+display	lab/9ch8-3.cpp	/^        void display(){$/;"	f	class:Typist	access:public	signature:()
+display	lab/9ch8-5.cpp	/^        void display(){$/;"	f	class:Account	access:public	signature:()
+display	lab/9ch8-5.cpp	/^        void display(){$/;"	f	class:Admin	access:public	signature:()
+display	lab/9ch8-5.cpp	/^        void display(){$/;"	f	class:Master	access:public	signature:()
+display	lab/9ch8-5.cpp	/^        void display(){$/;"	f	class:Person	access:public	signature:()
+display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:CasualTypist	access:public	signature:()
+display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:Education	access:public	signature:()
+display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:Officer	access:public	signature:()
+display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:RegTypist	access:public	signature:()
+display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:Staff	access:public	signature:()
+display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:Teacher	access:public	signature:()
+display	lab/9ch8-6.cpp	/^        void display(){$/;"	f	class:Typist	access:public	signature:()
+display	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::display()$/;"	f	class:Stud	signature:()
+display	lab/oopsProject/github/class/Item.cpp	/^void Item::display()$/;"	f	class:Item	signature:()
+display	lab/oopsProject/github/class/Stud.cpp	/^void Stud::display()$/;"	f	class:Stud	signature:()
+display	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::display()$/;"	f	class:Stud	signature:()
+display	home/5-1.h	/^        void display();  \/\/acc#$/;"	p	class:Account	access:public	signature:()
+display	home/5-1_old.cpp	/^        void display();       \/\/acc#$/;"	p	class:Account	file:	access:public	signature:()
+display	home/5-2.h	/^        void display();$/;"	p	class:vector	access:public	signature:()
+display	home/5-4.h	/^        void display();$/;"	p	class:vector	access:public	signature:()
+display	home/6-2.h	/^        void display();$/;"	p	class:String	access:public	signature:()
+display	home/6-3.cpp	/^void display();$/;"	p	file:	signature:()
+display	home/6-3.h	/^        void display();$/;"	p	class:books	access:public	signature:()
+display	home/6-3full.cpp	/^        void display();$/;"	p	class:books	file:	access:public	signature:()
+display	home/6-3full.cpp	/^void display();$/;"	p	file:	signature:()
+display	home/empio.cpp	/^  static void display(); \/\/display all employees$/;"	p	class:employee	file:	access:public	signature:()
+display	lab/0_113095.cpp	/^void display();$/;"	p	file:	signature:()
+display	lab/1_1130901.cpp	/^void display(nodeS*);$/;"	p	file:	signature:(nodeS*)
+display	lab/2_1130902.cpp	/^void display(int*);$/;"	p	file:	signature:(int*)
+display	lab/3_1130903.cpp	/^void display(nodeS*);$/;"	p	file:	signature:(nodeS*)
+display	lab/4string.cpp	/^void display(char*);$/;"	p	file:	signature:(char*)
+display	lab/6friend3.cpp	/^        friend void display(demo1 obj1, demo2 obj2, demo3 obj3);$/;"	p	class:demo1	file:	access:friend	signature:(demo1 obj1, demo2 obj2, demo3 obj3)
+display	lab/6friend3.cpp	/^        friend void display(demo1 obj1, demo2 obj2, demo3 obj3);$/;"	p	class:demo2	file:	access:friend	signature:(demo1 obj1, demo2 obj2, demo3 obj3)
+display	lab/6friend3.cpp	/^        friend void display(demo1 obj1, demo2 obj2, demo3 obj3);$/;"	p	class:demo3	file:	access:friend	signature:(demo1 obj1, demo2 obj2, demo3 obj3)
+display	lab/oopsProject/canteen/class/Stud.h	/^    static void display();      \/\/display all student's info$/;"	p	class:Stud	access:public	signature:()
+display	lab/oopsProject/github/class/Item.h	/^        static void display();      \/\/display all item and codes$/;"	p	class:Item	access:public	signature:()
+display	lab/oopsProject/github/class/Stud.h	/^    static void display();      \/\/display all student's info$/;"	p	class:Stud	access:public	signature:()
+display	lab/oopsProject/ris/class/Stud.h	/^    static void display();      \/\/display all student's info$/;"	p	class:Stud	access:public	signature:()
+dues	home/empio.cpp	/^  double dues; \/\/golf club dues$/;"	m	class:manager	file:	access:private
+eduQual	lab/9ch8-3.cpp	/^        string eduQual;$/;"	m	class:Education	file:	access:private
+eduQual	lab/9ch8-6.cpp	/^        string eduQual;$/;"	m	class:Education	file:	access:private
+employee::add	home/empio.cpp	/^void employee::add()$/;"	f	class:employee	signature:()
+employee::add	home/empio.cpp	/^  static void add(); \/\/add an employee$/;"	p	class:employee	file:	access:public	signature:()
+employee::arrap	home/empio.cpp	/^  static employee* arrap[]; \/\/array of ptrs to emps$/;"	m	class:employee	file:	access:private
+employee::arrap	home/empio.cpp	/^employee* employee::arrap[MAXEM]; \/\/array of ptrs to emps$/;"	m	class:employee	file:
+employee::display	home/empio.cpp	/^void employee::display()$/;"	f	class:employee	signature:()
+employee::display	home/empio.cpp	/^  static void display(); \/\/display all employees$/;"	p	class:employee	file:	access:public	signature:()
+employee::get_type	home/empio.cpp	/^employee_type employee::get_type()$/;"	f	class:employee	signature:()
+employee::get_type	home/empio.cpp	/^  virtual employee_type get_type(); \/\/get type$/;"	p	class:employee	file:	access:public	signature:()
+employee::getdata	home/empio.cpp	/^  virtual void getdata()$/;"	f	class:employee	access:public	signature:()
+employee::name	home/empio.cpp	/^  char name[LEN]; \/\/employee name$/;"	m	class:employee	file:	access:private
+employee::n	home/empio.cpp	/^  static int n; \/\/current number of employees$/;"	m	class:employee	file:	access:private
+employee::n	home/empio.cpp	/^int employee::n; \/\/current number of employees$/;"	m	class:employee	file:
+employee::number	home/empio.cpp	/^  unsigned long number; \/\/employee number$/;"	m	class:employee	file:	access:private
+employee::putdata	home/empio.cpp	/^  virtual void putdata()$/;"	f	class:employee	access:public	signature:()
+employee::read	home/empio.cpp	/^void employee::read()$/;"	f	class:employee	signature:()
+employee::read	home/empio.cpp	/^  static void read(); \/\/read from disk file$/;"	p	class:employee	file:	access:public	signature:()
+employee::write	home/empio.cpp	/^void employee::write()$/;"	f	class:employee	signature:()
+employee::write	home/empio.cpp	/^  static void write(); \/\/write to disk file$/;"	p	class:employee	file:	access:public	signature:()
+employee_type	home/empio.cpp	/^enum employee_type {tmanager, tscientist, tlaborer};$/;"	g	file:
+employee	home/empio.cpp	/^class employee \/\/employee class$/;"	c	file:
+eval::eval	lab/7overEval.cpp	/^        eval(){ }   \/\/empty$/;"	f	class:eval	access:public	signature:()
+eval::eval	lab/7overEval.cpp	/^        eval(int in){ var=in; }$/;"	f	class:eval	access:public	signature:(int in)
+eval::input	lab/7overEval.cpp	/^        void input(int in){ var = in; }$/;"	f	class:eval	access:public	signature:(int in)
+eval::operator *	lab/7overEval.cpp	/^eval eval:: operator *(int in) {$/;"	f	class:eval	signature:(int in)
+eval::operator *	lab/7overEval.cpp	/^        eval operator *( int );$/;"	p	class:eval	file:	access:public	signature:( int )
+eval::operator *	lab/7overEval.cpp	/^        friend eval operator *(int,eval);$/;"	p	class:eval	file:	access:friend	signature:(int,eval)
+eval::output	lab/7overEval.cpp	/^        int output(){ return var; }$/;"	f	class:eval	access:public	signature:()
+eval::var	lab/7overEval.cpp	/^        int var;$/;"	m	class:eval	file:	access:private
+eval	lab/7overEval.cpp	/^class eval {$/;"	c	file:
+eval	lab/7overEval.cpp	/^        eval(){ }   \/\/empty$/;"	f	class:eval	access:public	signature:()
+eval	lab/7overEval.cpp	/^        eval(int in){ var=in; }$/;"	f	class:eval	access:public	signature:(int in)
+exit_message	lab/oopsProject/canteen/function.cpp	/^void exit_message(){$/;"	f	signature:()
+exit_message	lab/oopsProject/github/function.cpp	/^void exit_message(){$/;"	f	signature:()
+exit_message	lab/oopsProject/ris/function.cpp	/^void exit_message(){$/;"	f	signature:()
+exit_message	lab/oopsProject/canteen/function.h	/^void exit_message();$/;"	p	signature:()
+exit_message	lab/oopsProject/github/function.h	/^void exit_message();$/;"	p	signature:()
+exit_message	lab/oopsProject/ris/function.h	/^void exit_message();$/;"	p	signature:()
+exp	lab/9ch8-5.cpp	/^        int exp;$/;"	m	class:Admin	file:	access:protected
+fixed	lab/8ch8-1.cpp	/^enum AccType{ current, saving, fixed };$/;"	e	enum:AccType	file:
+freeMem	lab/3_1130903.cpp	/^void freeMem(nodeS* ptr){$/;"	f	signature:(nodeS* ptr)
+freeMem	lab/3_1130903.cpp	/^void freeMem(nodeS*);$/;"	p	file:	signature:(nodeS*)
+game	advanced/game.cpp	/^     void game(int s)$/;"	f	signature:(int s)
+game	advanced/game.cpp	/^     void game(int); \/\/MOVEMENT$/;"	p	file:	signature:(int)
+getData	home/file1.cpp	/^void getData() \/\/get person’s data$/;"	f	class:person	access:public	signature:()
+getData	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::getData(){$/;"	f	class:Stud	signature:()
+getData	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::getData(char ch)$/;"	f	class:Stud	signature:(char ch)
+getData	lab/oopsProject/github/class/Item.cpp	/^void Item::getData(){$/;"	f	class:Item	signature:()
+getData	lab/oopsProject/github/class/Stud.cpp	/^void Stud::getData(){$/;"	f	class:Stud	signature:()
+getData	lab/oopsProject/github/class/Stud.cpp	/^void Stud::getData(char ch)$/;"	f	class:Stud	signature:(char ch)
+getData	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::getData(){$/;"	f	class:Stud	signature:()
+getData	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::getData(char ch)$/;"	f	class:Stud	signature:(char ch)
+getData	lab/oopsProject/canteen/class/Stud.h	/^    void getData();$/;"	p	class:Stud	access:public	signature:()
+getData	lab/oopsProject/canteen/class/Stud.h	/^    void getData(char);    \/\/DONE$/;"	p	class:Stud	access:public	signature:(char)
+getData	lab/oopsProject/github/class/Item.h	/^        void getData();$/;"	p	class:Item	access:public	signature:()
+getData	lab/oopsProject/github/class/Item.h	/^        void getData(char);    \/\/DONE$/;"	p	class:Item	access:public	signature:(char)
+getData	lab/oopsProject/github/class/Stud.h	/^    void getData();$/;"	p	class:Stud	access:public	signature:()
+getData	lab/oopsProject/github/class/Stud.h	/^    void getData(char);    \/\/DONE$/;"	p	class:Stud	access:public	signature:(char)
+getData	lab/oopsProject/ris/class/Stud.h	/^    void getData();$/;"	p	class:Stud	access:public	signature:()
+getData	lab/oopsProject/ris/class/Stud.h	/^    void getData(char);    \/\/DONE$/;"	p	class:Stud	access:public	signature:(char)
+getS	lab/5string.cpp	/^void getS(char* ptr){$/;"	f	signature:(char* ptr)
+getS	lab/5string.cpp	/^void getS(char* );$/;"	p	file:	signature:(char* )
+get_type	home/empio.cpp	/^employee_type employee::get_type()$/;"	f	class:employee	signature:()
+get_type	home/empio.cpp	/^  virtual employee_type get_type(); \/\/get type$/;"	p	class:employee	file:	access:public	signature:()
+getdata	home/empio.cpp	/^  virtual void getdata()$/;"	f	class:employee	access:public	signature:()
+getdata	home/empio.cpp	/^  void getdata()$/;"	f	class:manager	access:public	signature:()
+getdata	home/empio.cpp	/^  void getdata()$/;"	f	class:scientist	access:public	signature:()
+get	lab/7overMatrix.cpp	/^void matrix::get(){$/;"	f	class:matrix	signature:()
+getkey	advanced/game.cpp	/^    int getkey()$/;"	f	signature:()
+getkey	advanced/game.cpp	/^     int getkey();   \/\/ TO TRACE KEY PRESSED$/;"	p	file:	signature:()
+get	lab/7overMatrix.cpp	/^        void get();$/;"	p	class:matrix	file:	access:public	signature:()
+gets	lab/5string_2.cpp	/^void gets(char* ptr,int size){$/;"	f	signature:(char* ptr,int size)
+gets	lab/5string_2.cpp	/^void gets(char*,int);$/;"	p	file:	signature:(char*,int)
+gopr	advanced/game.cpp	/^	void gopr(int x, int y)$/;"	f	signature:(int x, int y)
+gopr	advanced/game.cpp	/^     void gopr(int,int);   \/\/TO PRINT NUMBER IN GAME$/;"	p	file:	signature:(int,int)
+grade	lab/9ch8-3.cpp	/^        string grade;$/;"	m	class:Officer	file:	access:private
+grade	lab/9ch8-6.cpp	/^        string grade;$/;"	m	class:Officer	file:	access:private
+hand	advanced/msm_pro.cpp	/^        tile hand[numPlayerTiles];$/;"	m	struct:player	file:	access:public
+head	lab/1_linkk.cpp	/^node *head;$/;"	v
+h	advanced/game.cpp	/^       int h,v;$/;"	m	struct:pos	file:	access:public
+i1	lab/10ptrBase.cpp	/^        int i1;$/;"	m	class:Der1	file:	access:private
+i1	lab/10virSize.cpp	/^        int i1;$/;"	m	class:Der1	file:	access:private
+i2	lab/10ptrBase.cpp	/^        int i2;$/;"	m	class:Der2	file:	access:private
+inA	lab/5class.cpp	/^        void inA(int in){a=in;}$/;"	f	class:No2	access:public	signature:(int in)
+inA	lab/5class.cpp	/^        void inA(int in){a=in;}$/;"	f	class:No3	file:	access:private	signature:(int in)
+inB	lab/5class.cpp	/^        void inB(int in){ b=in;}$/;"	f	class:No2	access:public	signature:(int in)
+inB	lab/5class.cpp	/^        void inB(int in){ b=in;}$/;"	f	class:No3	file:	access:private	signature:(int in)
+inC	lab/5class.cpp	/^        void inC(int in){ c= in; }$/;"	f	class:No2	access:public	signature:(int in)
+inC	lab/5class.cpp	/^        void inC(int in){ c= in; }$/;"	f	class:No3	file:	access:private	signature:(int in)
+index	lab/3_1130903.cpp	/^    int index;$/;"	m	struct:nodeS	file:	access:public
+info	lab/1_1130901.cpp	/^    int info;$/;"	m	struct:nodeS	file:	access:public
+info	lab/1_linkk.cpp	/^  int info;                                                                      $/;"	m	struct:list	file:	access:public
+info	lab/3_1130903.cpp	/^    int info;$/;"	m	struct:nodeS	file:	access:public
+initA0	lab/5class.cpp	/^        void initA0(){ inA(0); cout<<"\\na= "<<outA(); }$/;"	f	class:No3	access:public	signature:()
+initB0	lab/5class.cpp	/^        void initB0(){ inB(0); cout<<"\\na= "<<outB(); }$/;"	f	class:No3	access:public	signature:()
+initC0	lab/5class.cpp	/^        void initC0(){ inC(0); cout<<"\\na= "<<outC(); }$/;"	f	class:No3	access:public	signature:()
+init	advanced/paradox.cpp	23;"	d	file:
+init	advanced/game.cpp	/^ void init()$/;"	f	signature:()
+init	lab/8ch8-1.cpp	/^        void init(){$/;"	f	class:account	access:public	signature:()
+init	lab/8ch8-1.cpp	/^        void init(){$/;"	f	class:currAcc	access:public	signature:()
+init	lab/8ch8-1.cpp	/^        void init(){$/;"	f	class:savAcc	access:public	signature:()
+initial	home/5-1.h	/^void Account::initial(){$/;"	f	class:Account	signature:()
+initial	home/5-1_old.cpp	/^void Account::initial(){$/;"	f	class:Account	signature:()
+initialized	lab/8ch8-1.cpp	/^        bool initialized;$/;"	m	class:account	file:	access:private
+initial	home/5-1.h	/^        void initial();    \/\/name,acc#,balance,type$/;"	p	class:Account	access:public	signature:()
+initial	home/5-1_old.cpp	/^        void initial();       \/\/name,acc#,balance,type$/;"	p	class:Account	file:	access:public	signature:()
+init	advanced/game.cpp	/^     void init();   \/\/TO STORE CO-ORDINATES$/;"	p	file:	signature:()
+inputInfo	lab/oopsProject/canteen website/code/definitions.cpp	/^void student::inputInfo(){$/;"	f	class:student	signature:()
+inputInfo	lab/oopsProject/canteen/class/Student.cpp	/^void Student::inputInfo(){$/;"	f	class:Student	signature:()
+inputInfo	lab/oopsProject/canteen/class/Student.cpp	/^void Student::inputInfo(char ch)$/;"	f	class:Student	signature:(char ch)
+inputInfo	lab/oopsProject/github/class/Student.cpp	/^void Student::inputInfo(){$/;"	f	class:Student	signature:()
+inputInfo	lab/oopsProject/github/class/Student.cpp	/^void Student::inputInfo(char ch)$/;"	f	class:Student	signature:(char ch)
+inputInfo	lab/oopsProject/ris/class/Student.cpp	/^void Student::inputInfo(){$/;"	f	class:Student	signature:()
+inputInfo	lab/oopsProject/ris/class/Student.cpp	/^void Student::inputInfo(char ch)$/;"	f	class:Student	signature:(char ch)
+inputInfo	lab/oopsProject/canteen website/code/declarations.h	/^        void inputInfo();    \/\/DONE$/;"	p	class:student	access:public	signature:()
+inputInfo	lab/oopsProject/canteen/class/Student.h	/^        void inputInfo();$/;"	p	class:Student	access:public	signature:()
+inputInfo	lab/oopsProject/canteen/class/Student.h	/^        void inputInfo(char);    \/\/DONE$/;"	p	class:Student	access:public	signature:(char)
+inputInfo	lab/oopsProject/github/class/Student.h	/^        void inputInfo();$/;"	p	class:Student	access:public	signature:()
+inputInfo	lab/oopsProject/github/class/Student.h	/^        void inputInfo(char);    \/\/DONE$/;"	p	class:Student	access:public	signature:(char)
+inputInfo	lab/oopsProject/ris/class/Student.h	/^        void inputInfo();$/;"	p	class:Student	access:public	signature:()
+inputInfo	lab/oopsProject/ris/class/Student.h	/^        void inputInfo(char);    \/\/DONE$/;"	p	class:Student	access:public	signature:(char)
+input	lab/5string.cpp	/^        void input(){ gets(var); }\/\/getS(var); }$/;"	f	class:s1	access:public	signature:()
+input	lab/5string.cpp	/^        void input(){ gets(var); }\/\/getS(var); }$/;"	f	class:s2	access:public	signature:()
+input	lab/5string.cpp	/^        void input(){ gets(var); }\/\/getS(var); }$/;"	f	class:s3	access:public	signature:()
+input	lab/5string_2.cpp	/^        void input(){ gets(var); }$/;"	f	class:s1	access:public	signature:()
+input	lab/5string_2.cpp	/^        void input(){ gets(var); }$/;"	f	class:s2	access:public	signature:()
+input	lab/5string_2.cpp	/^        void input(){ gets(var); }$/;"	f	class:s3	access:public	signature:()
+input	lab/5string_3.cpp	/^        void input(){ gets(var); }$/;"	f	class:s1	access:public	signature:()
+input	lab/5string_3.cpp	/^        void input(){ gets(var); }$/;"	f	class:s2	access:public	signature:()
+input	lab/5string_3.cpp	/^        void input(){ gets(var); }$/;"	f	class:s3	access:public	signature:()
+input	lab/6friend3.cpp	/^        void input(int in){ var1=in; }$/;"	f	class:demo1	access:public	signature:(int in)
+input	lab/6friend3.cpp	/^        void input(int in){ var2=in; }$/;"	f	class:demo2	access:public	signature:(int in)
+input	lab/6friend3.cpp	/^        void input(int in){ var3=in; }$/;"	f	class:demo3	access:public	signature:(int in)
+input	lab/6friendobj.cpp	/^        void input(int in){ var1=in; }$/;"	f	class:demo1	access:public	signature:(int in)
+input	lab/6friendobj.cpp	/^        void input(int in){ var2=in; }$/;"	f	class:demo2	access:public	signature:(int in)
+input	lab/6passObj.cpp	/^inline void pass::input(int input1, int input2){$/;"	f	class:pass	signature:(int input1, int input2)
+input	lab/7constCopy.cpp	/^        void input(){ cin>>var; }$/;"	f	class:demo	access:public	signature:()
+input	lab/7overEval.cpp	/^        void input(int in){ var = in; }$/;"	f	class:eval	access:public	signature:(int in)
+input	lab/7overload1.cpp	/^        void input(int in){ it=in; }$/;"	f	class:over	access:public	signature:(int in)
+input	lab/6passObj.cpp	/^        void input(int,int);$/;"	p	class:pass	file:	access:public	signature:(int,int)
+insertbeg	lab/1_linkk.cpp	/^void insertbeg()$/;"	f	signature:()
+insertend	lab/1_linkk.cpp	/^void insertend()$/;"	f	signature:()
+insert	lab/0_113095.cpp	/^void insert()$/;"	f	signature:()
+insert	lab/1_1130901.cpp	/^void insert(nodeS* list,int data){     \/\/To Insert at the end of linked list$/;"	f	signature:(nodeS* list,int data)
+insert	lab/2_1130902.cpp	/^void insert(int *ptr,int loc,int input){     \/\/To Insert at the given location in array$/;"	f	signature:(int *ptr,int loc,int input)
+insert	lab/3_1130903.cpp	/^void insert(nodeS* list,int data){     \/\/To Insert at the end of linked list$/;"	f	signature:(nodeS* list,int data)
+insertmid	lab/1_linkk.cpp	/^void insertmid()$/;"	f	signature:()
+insert	lab/0_113095.cpp	/^void insert();$/;"	p	file:	signature:()
+insert	lab/1_1130901.cpp	/^void insert(nodeS*,int);$/;"	p	file:	signature:(nodeS*,int)
+insert	lab/2_1130902.cpp	/^void insert(int*,int,int);$/;"	p	file:	signature:(int*,int,int)
+insert	lab/3_1130903.cpp	/^void insert(nodeS*,int);$/;"	p	file:	signature:(nodeS*,int)
+isStored	lab/oopsProject/canteen/class/Item.h	/^        bool isStored;$/;"	m	class:Item	access:private
+isStored	lab/oopsProject/canteen/class/Stud.h	/^    bool isStored;  \/\/true if student info is stored, false otherwise$/;"	m	class:Stud	access:private
+isStored	lab/oopsProject/canteen/class/Student.h	/^        bool isStored;  \/\/true if student info is stored, false otherwise$/;"	m	class:Student	access:private
+isStored	lab/oopsProject/github/class/Item.h	/^        bool isStored;$/;"	m	class:Item	access:private
+isStored	lab/oopsProject/github/class/Stud.h	/^    bool isStored;  \/\/true if student info is stored, false otherwise$/;"	m	class:Stud	access:private
+isStored	lab/oopsProject/github/class/Student.h	/^        bool isStored;  \/\/true if student info is stored, false otherwise$/;"	m	class:Student	access:private
+isStored	lab/oopsProject/ris/class/Item.h	/^        bool isStored;$/;"	m	class:Item	access:private
+isStored	lab/oopsProject/ris/class/Stud.h	/^    bool isStored;  \/\/true if student info is stored, false otherwise$/;"	m	class:Stud	access:private
+isStored	lab/oopsProject/ris/class/Student.h	/^        bool isStored;  \/\/true if student info is stored, false otherwise$/;"	m	class:Student	access:private
+item::cost	lab/oopsProject/canteen website/code/declarations.h	/^        float cost;   \/\/cost of food item$/;"	m	class:item	access:private
+item::item	lab/oopsProject/canteen website/code/definitions.cpp	/^item::item(float input){   \/\/constructor$/;"	f	class:item	signature:(float input)
+item::item	lab/oopsProject/canteen website/code/declarations.h	/^        item(float); \/\/Constructor$/;"	p	class:item	access:public	signature:(float)
+item::outputCost	lab/oopsProject/canteen website/code/declarations.h	/^        float outputCost(){ return cost; }$/;"	f	class:item	access:public	signature:()
+item::updateCost	lab/oopsProject/canteen website/code/definitions.cpp	/^void item::updateCost(float input){$/;"	f	class:item	signature:(float input)
+item::updateCost	lab/oopsProject/canteen website/code/declarations.h	/^        void updateCost(float);$/;"	p	class:item	access:public	signature:(float)
+item	lab/oopsProject/canteen website/code/declarations.h	/^class item{$/;"	c
+item	lab/oopsProject/canteen website/code/definitions.cpp	/^item::item(float input){   \/\/constructor$/;"	f	class:item	signature:(float input)
+item	lab/oopsProject/canteen website/code/declarations.h	/^        item(float); \/\/Constructor$/;"	p	class:item	access:public	signature:(float)
+it	lab/7overload1.cpp	/^        int it;$/;"	m	class:over	file:	access:private
+itsAge	home/class.cpp	/^    unsigned int itsAge;$/;"	m	class:Cat	file:	access:public
+itsAge	home/class_cat.cpp	/^  int itsAge;	\/\/ member variable$/;"	m	class:Cat	file:	access:private
+itsAge	home/class_constructor.cpp	/^ int itsAge;$/;"	m	class:Cat	file:	access:private
+itsWeight	home/class.cpp	/^    unsigned int itsWeight;$/;"	m	class:Cat	file:	access:public
+i	lab/0_113095.cpp	/^int i;$/;"	v
+iv	lab/10ptrBase.cpp	/^        int iv;$/;"	m	class:Base	file:	access:private
+iv	lab/10virSize.cpp	/^   public:    int iv;$/;"	m	class:Base	file:	access:public
+laborer	home/empio.cpp	/^class laborer : public employee$/;"	c	file:	inherits:employee
+leftLetters	advanced/msm_pro.cpp	/^const int leftLetters = 100;$/;"	v
+leftOver	advanced/msm_pro.cpp	/^void leftOver ( tile boneyard[leftLetters] );$/;"	p	file:	signature:( tile boneyard[leftLetters] )
+length	lab/10areaVir.cpp	/^        int length, breadth;$/;"	m	class:square	file:	access:protected
+letter	advanced/msm_pro.cpp	/^        char letter;$/;"	m	struct:tile	file:	access:public
+linSearch	lab/2_1130902.cpp	/^void linSearch(int *ptr,int key){$/;"	f	signature:(int *ptr,int key)
+linSearch	lab/3_1130903.cpp	/^void linSearch(nodeS*ptr,int key){$/;"	f	signature:(nodeS*ptr,int key)
+linSearch	lab/2_1130902.cpp	/^void linSearch(int *, int);$/;"	p	file:	signature:(int *, int)
+linSearch	lab/3_1130903.cpp	/^void linSearch(nodeS*,int);$/;"	p	file:	signature:(nodeS*,int)
+list::info	lab/1_linkk.cpp	/^  int info;                                                                      $/;"	m	struct:list	file:	access:public
+list::next	lab/1_linkk.cpp	/^  struct list *next;$/;"	m	struct:list	typeref:struct:list::list	file:	access:public
+list	lab/1_linkk.cpp	/^struct list$/;"	s	file:
+ll	advanced/paradox.cpp	24;"	d	file:
+loadBoard	advanced/msm_pro.cpp	/^void loadBoard( board gameBoard[row][column])$/;"	f	signature:( board gameBoard[row][column])
+loadBoard	advanced/msm_pro.cpp	/^void loadBoard(board gameBoard[row][column]);$/;"	p	file:	signature:(board gameBoard[row][column])
+locateIn	lab/3_1130903.cpp	/^int locateIn(nodeS* list,int loc){    \/\/locate item at location 'loc'$/;"	f	signature:(nodeS* list,int loc)
+locateIn	lab/3_1130903.cpp	/^int locateIn(nodeS* list,int loc);$/;"	p	file:	signature:(nodeS* list,int loc)
+locate	lab/3_1130903.cpp	/^int locate(nodeS* list,int loc){    \/\/locate item at location 'loc'$/;"	f	signature:(nodeS* list,int loc)
+locate	lab/3_1130903.cpp	/^int locate(nodeS* list,int loc);$/;"	p	file:	signature:(nodeS* list,int loc)
+main	advanced/game.cpp	/^ void main()$/;"	f	signature:()
+main	advanced/msm_pro.cpp	/^int main()$/;"	f	signature:()
+main	advanced/paradox.cpp	/^int main(){$/;"	f	signature:()
+main	advanced/traffic.cpp	/^main()$/;"	f	signature:()
+main	home/3-3.cpp	/^int main(){$/;"	f	signature:()
+main	home/4-7.cpp	/^int main(){$/;"	f	signature:()
+main	home/4-9.cpp	/^int main(){$/;"	f	signature:()
+main	home/5-1.cpp	/^int main(){$/;"	f	signature:()
+main	home/5-1_old.cpp	/^int main(){$/;"	f	signature:()
+main	home/5-2.cpp	/^int main(){$/;"	f	signature:()
+main	home/5-4.cpp	/^int main(){$/;"	f	signature:()
+main	home/6-2.cpp	/^int main(){$/;"	f	signature:()
+main	home/6-3.cpp	/^int main(){$/;"	f	signature:()
+main	home/6-3_old.cpp	/^int main(){$/;"	f	signature:()
+main	home/6-3full.cpp	/^int main(){$/;"	f	signature:()
+main	home/bLength.cpp	/^int main(){$/;"	f	signature:()
+main	home/calCLArg.cpp	/^int main(int argc, char*argv[]){$/;"	f	signature:(int argc, char*argv[])
+main	home/class.cpp	/^int main()$/;"	f	signature:()
+main	home/class_cat.cpp	/^int main()$/;"	f	signature:()
+main	home/class_constructor.cpp	/^ int main()$/;"	f	signature:()
+main	home/cont_vector2.cpp	/^int main(){$/;"	f	signature:()
+main	home/cont_vectorFirst.cpp	/^int main(){$/;"	f	signature:()
+main	home/cout.cpp	/^int main(){$/;"	f	signature:()
+main	home/dynamicMem.cpp	/^int main(){$/;"	f	signature:()
+main	home/empio.cpp	/^int main()$/;"	f	signature:()
+main	home/fbinio.cpp	/^ int main()$/;"	f	signature:()
+main	home/file.cpp	/^int main(){$/;"	f	signature:()
+main	home/file1.cpp	/^int main()$/;"	f	signature:()
+main	home/file1o.cpp	/^int main()$/;"	f	signature:()
+main	home/formati.cpp	/^int main()$/;"	f	signature:()
+main	home/formato.cpp	/^int main(){$/;"	f	signature:()
+main	home/frdbuf.cpp	/^int main()$/;"	f	signature:()
+main	home/hello.cpp	/^int main(){$/;"	f	signature:()
+main	home/login_web_shit.cpp	/^void main()$/;"	f	signature:()
+main	home/mysql.cpp	/^int main() {$/;"	f	signature:()
+main	home/overload.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	home/ptr.cpp	/^int main(){$/;"	f	signature:()
+main	home/streams.cpp	/^int main (int argc, char *argv[]) {$/;"	f	signature:(int argc, char *argv[])
+main	home/tmp.cpp	/^int main(){$/;"	f	signature:()
+main	lab/0_113095.cpp	/^int main()$/;"	f	signature:()
+main	lab/10ptrBase.cpp	/^int main(){$/;"	f	signature:()
+main	lab/10virSize.cpp	/^int main(){$/;"	f	signature:()
+main	lab/1_1130901.cpp	/^int main(){$/;"	f	signature:()
+main	lab/1_linkk.cpp	/^int main()$/;"	f	signature:()
+main	lab/2_1130902.cpp	/^int main(){$/;"	f	signature:()
+main	lab/3_1130903.cpp	/^int main(){$/;"	f	signature:()
+main	lab/4string.cpp	/^int main(){$/;"	f	signature:()
+main	lab/5class.cpp	/^int main(){$/;"	f	signature:()
+main	lab/5string.cpp	/^int main(){$/;"	f	signature:()
+main	lab/5string_2.cpp	/^int main(){$/;"	f	signature:()
+main	lab/5string_3.cpp	/^int main(){$/;"	f	signature:()
+main	lab/6constDest.cpp	/^int main(){$/;"	f	signature:()
+main	lab/6friend3.cpp	/^int main(){$/;"	f	signature:()
+main	lab/6friendobj.cpp	/^int main(){$/;"	f	signature:()
+main	lab/6passObj.cpp	/^int main(){$/;"	f	signature:()
+main	lab/6static.cpp	/^int main(){$/;"	f	signature:()
+main	lab/7constCopy.cpp	/^int main(){$/;"	f	signature:()
+main	lab/7overEval.cpp	/^int main(){$/;"	f	signature:()
+main	lab/7overMatrix.cpp	/^int main(){$/;"	f	signature:()
+main	lab/7overload1.cpp	/^int main(){$/;"	f	signature:()
+main	lab/8ch8-1.cpp	/^int main(){$/;"	f	signature:()
+main	lab/9ch8-3.cpp	/^int main(){$/;"	f	signature:()
+main	lab/9ch8-5.cpp	/^int main(){$/;"	f	signature:()
+main	lab/9ch8-6.cpp	/^int main(){$/;"	f	signature:()
+main	lab/oopsProject/Untitled Folder/TIME.cpp	/^int main(){$/;"	f	signature:()
+main	lab/oopsProject/canteen website/code/canteen.cpp	/^int main (int argc, char* argv[]){$/;"	f	signature:(int argc, char* argv[])
+main	lab/oopsProject/canteen/main.cpp	/^int main (int argc, char* argv[]){$/;"	f	signature:(int argc, char* argv[])
+main	lab/oopsProject/github/main.cpp	/^int main (int argc, char* argv[]){$/;"	f	signature:(int argc, char* argv[])
+main	lab/oopsProject/ris/main.cpp	/^int main (int argc, char* argv[]){$/;"	f	signature:(int argc, char* argv[])
+manage_display	lab/oopsProject/github/function.cpp	/^void manage_display(){$/;"	f	signature:()
+manage_display	lab/oopsProject/github/function.h	/^void manage_display();$/;"	p	signature:()
+manager::dues	home/empio.cpp	/^  double dues; \/\/golf club dues$/;"	m	class:manager	file:	access:private
+manager::getdata	home/empio.cpp	/^  void getdata()$/;"	f	class:manager	access:public	signature:()
+manager::putdata	home/empio.cpp	/^  void putdata()$/;"	f	class:manager	access:public	signature:()
+manager::title	home/empio.cpp	/^  char title[LEN]; \/\/"vice-president" etc.$/;"	m	class:manager	file:	access:private
+manager	home/empio.cpp	/^class manager : public employee$/;"	c	file:	inherits:employee
+matrix::a	lab/7overMatrix.cpp	/^        int a[ROW][COLUMN];$/;"	m	class:matrix	file:	access:public
+matrix::get	lab/7overMatrix.cpp	/^void matrix::get(){$/;"	f	class:matrix	signature:()
+matrix::get	lab/7overMatrix.cpp	/^        void get();$/;"	p	class:matrix	file:	access:public	signature:()
+matrix::matrix	lab/7overMatrix.cpp	/^        matrix(){ memset(a,0,sizeof(a)); }  \/\/it's a constructor for objects$/;"	f	class:matrix	access:public	signature:()
+matrix::operator *	lab/7overMatrix.cpp	/^matrix matrix::operator *(matrix in){$/;"	f	class:matrix	signature:(matrix in)
+matrix::operator *	lab/7overMatrix.cpp	/^        matrix operator *(matrix);$/;"	p	class:matrix	file:	access:public	signature:(matrix)
+matrix::operator +	lab/7overMatrix.cpp	/^matrix matrix::operator +(matrix in){$/;"	f	class:matrix	signature:(matrix in)
+matrix::operator +	lab/7overMatrix.cpp	/^        matrix operator +(matrix);$/;"	p	class:matrix	file:	access:public	signature:(matrix)
+matrix::operator -	lab/7overMatrix.cpp	/^matrix matrix::operator -(matrix in){$/;"	f	class:matrix	signature:(matrix in)
+matrix::operator -	lab/7overMatrix.cpp	/^        matrix operator -(matrix);$/;"	p	class:matrix	file:	access:public	signature:(matrix)
+matrix::put	lab/7overMatrix.cpp	/^void matrix::put(){$/;"	f	class:matrix	signature:()
+matrix::put	lab/7overMatrix.cpp	/^        void put();$/;"	p	class:matrix	file:	access:public	signature:()
+matrix	lab/7overMatrix.cpp	/^class matrix{$/;"	c	file:
+matrix	lab/7overMatrix.cpp	/^        matrix(){ memset(a,0,sizeof(a)); }  \/\/it's a constructor for objects$/;"	f	class:matrix	access:public	signature:()
+menu_display_windows	lab/oopsProject/canteen/function.cpp	/^void menu_display_windows(){$/;"	f	signature:()
+menu_display_windows	lab/oopsProject/github/function.cpp	/^void menu_display_windows(){$/;"	f	signature:()
+menu_display_windows	lab/oopsProject/ris/function.cpp	/^void menu_display_windows(){$/;"	f	signature:()
+menu_display_windows	lab/oopsProject/canteen/function.h	/^void menu_display_windows();$/;"	p	signature:()
+menu_display_windows	lab/oopsProject/github/function.h	/^void menu_display_windows();$/;"	p	signature:()
+menu_display_windows	lab/oopsProject/ris/function.h	/^void menu_display_windows();$/;"	p	signature:()
+menu_display	lab/oopsProject/canteen/function.cpp	/^void menu_display(){$/;"	f	signature:()
+menu_display	lab/oopsProject/function.cpp	/^void menu_display(){$/;"	f	signature:()
+menu_display	lab/oopsProject/github/function.cpp	/^void menu_display(){$/;"	f	signature:()
+menu_display	lab/oopsProject/ris/function.cpp	/^void menu_display(){$/;"	f	signature:()
+menu_display	lab/oopsProject/canteen/function.h	/^void menu_display();$/;"	p	signature:()
+menu_display	lab/oopsProject/github/function.h	/^void menu_display();$/;"	p	signature:()
+menu_display	lab/oopsProject/ris/function.h	/^void menu_display();$/;"	p	signature:()
+menu_input	lab/oopsProject/canteen/function.cpp	/^void menu_input(int option){$/;"	f	signature:(int option)
+menu_input	lab/oopsProject/function.cpp	/^void menu_input(){$/;"	f	signature:()
+menu_input	lab/oopsProject/github/function.cpp	/^void menu_input(int option){$/;"	f	signature:(int option)
+menu_input	lab/oopsProject/ris/function.cpp	/^void menu_input(int option){$/;"	f	signature:(int option)
+menu_input	lab/oopsProject/canteen/function.h	/^void menu_input(int);$/;"	p	signature:(int)
+menu_input	lab/oopsProject/github/function.h	/^void menu_input(int);$/;"	p	signature:(int)
+menu_input	lab/oopsProject/ris/function.h	/^void menu_input(int);$/;"	p	signature:(int)
+menu	lab/oopsProject/canteen website/code/definitions.cpp	/^void menu(){$/;"	f	signature:()
+minBalance	lab/8ch8-1.cpp	/^        int minBalance, penaltyRate, timeLow;$/;"	m	class:currAcc	file:	access:private
+modify	home/5-2.h	/^        void modify(int pos, float newVal){ data[pos-1]=newVal; }  \/\/inline function$/;"	f	class:vector	access:public	signature:(int pos, float newVal)
+modify	home/5-4.h	/^        void modify(int pos, float newVal){ data[pos-1]=newVal; }  \/\/inline function$/;"	f	class:vector	access:public	signature:(int pos, float newVal)
+modify	lab/1_1130901.cpp	/^void modify(nodeS* list, int key, int data){   \/\/To modify a specific key with new data$/;"	f	signature:(nodeS* list, int key, int data)
+modify	lab/1_linkk.cpp	/^void modify()$/;"	f	signature:()
+modify	lab/2_1130902.cpp	/^void modify(int* ptr,int key, int data){   \/\/To modify a specific key with new data$/;"	f	signature:(int* ptr,int key, int data)
+modify	lab/3_1130903.cpp	/^void modify(nodeS* list, int key, int data){   \/\/To modify a specific key with new data$/;"	f	signature:(nodeS* list, int key, int data)
+modify	lab/1_1130901.cpp	/^void modify(nodeS*,int,int);$/;"	p	file:	signature:(nodeS*,int,int)
+modify	lab/2_1130902.cpp	/^void modify(int*,int,int);$/;"	p	file:	signature:(int*,int,int)
+modify	lab/3_1130903.cpp	/^void modify(nodeS*,int,int);$/;"	p	file:	signature:(nodeS*,int,int)
+multiply	home/5-2.h	/^inline void vector::multiply(float scaler){$/;"	f	class:vector	signature:(float scaler)
+multiply	home/5-4.h	/^inline void vector::multiply(float scaler){$/;"	f	class:vector	signature:(float scaler)
+multiply	home/5-2.h	/^        void multiply(float);$/;"	p	class:vector	access:public	signature:(float)
+multiply	home/5-4.h	/^        void multiply(float);$/;"	p	class:vector	access:public	signature:(float)
+myArray::a	home/overload.cpp	/^      int a[10];$/;"	m	class:myArray	file:	access:private
+myArray::operator []	home/overload.cpp	/^      int& operator[] (int x) {$/;"	f	class:myArray	access:public	signature:(int x)
+myArray::print_array	home/overload.cpp	/^void myArray::print_array()$/;"	f	class:myArray	signature:()
+myArray::print_array	home/overload.cpp	/^      void print_array();   \/\/ I included this just to show the operator[] works!   $/;"	p	class:myArray	file:	access:public	signature:()
+myArray::size	home/overload.cpp	/^      int size;$/;"	m	class:myArray	file:	access:private
+myArray	home/overload.cpp	/^class myArray {$/;"	c	file:
+myprintline	home/5-1.cpp	/^void myprintline(char ch,int len){$/;"	f	signature:(char ch,int len)
+myprintline	home/5-1_old.cpp	/^void myprintline(int len,char ch='-'){$/;"	f	signature:(int len,char ch=�)
+myprintline	home/5-1.cpp	/^void myprintline(char ch='-',int len=20);\/\/(char ch='-', int len=20);$/;"	p	file:	signature:(char ch=�,int len=20)
+myprintline	home/5-1_old.cpp	/^void myprintline(int,char);\/\/(char ch='-', int len=20);$/;"	p	file:	signature:(int,char)
+name	advanced/msm_pro.cpp	/^        char name[30];$/;"	m	struct:player	file:	access:public
+name	home/5-1.h	/^        char name[30];$/;"	m	class:Account	access:public
+name	home/5-1_old.cpp	/^        char name[30];$/;"	m	class:Account	file:	access:public
+name	home/empio.cpp	/^  char name[LEN]; \/\/employee name$/;"	m	class:employee	file:	access:private
+name	home/file1.cpp	/^char name[80]; \/\/person’s name$/;"	m	class:person	file:	access:protected
+name	home/file1o.cpp	/^char name[80]; \/\/person’s name$/;"	m	class:person	file:	access:protected
+name	lab/8ch8-1.cpp	/^        char name[20];$/;"	m	class:account	file:	access:private
+name	lab/9ch8-3.cpp	/^        string name;$/;"	m	class:Staff	file:	access:private
+name	lab/9ch8-5.cpp	/^        string name;$/;"	m	class:Person	file:	access:protected
+name	lab/9ch8-6.cpp	/^        string name;$/;"	m	class:Staff	file:	access:private
+name	lab/oopsProject/canteen website/code/declarations.h	/^        char name[40];$/;"	m	class:student	access:private
+name	lab/oopsProject/canteen/class/Stud.h	/^    char name[MAXNAME];  \/\/TODO use string class object instead.$/;"	m	class:Stud	access:private
+name	lab/oopsProject/canteen/class/Student.h	/^        char name[40];  \/\/TODO use string class object instead.$/;"	m	class:Student	access:private
+name	lab/oopsProject/github/class/Stud.h	/^    char name[MAXNAME];  \/\/TODO use string class object instead.$/;"	m	class:Stud	access:private
+name	lab/oopsProject/github/class/Student.h	/^        char name[40];  \/\/TODO use string class object instead.$/;"	m	class:Student	access:private
+name	lab/oopsProject/ris/class/Stud.h	/^    char name[MAXNAME];  \/\/TODO use string class object instead.$/;"	m	class:Stud	access:private
+name	lab/oopsProject/ris/class/Student.h	/^        char name[40];  \/\/TODO use string class object instead.$/;"	m	class:Student	access:private
+next	lab/1_1130901.cpp	/^    nodeS *next;    \/\/points to the next link$/;"	m	struct:nodeS	file:	access:public
+next	lab/1_linkk.cpp	/^  struct list *next;$/;"	m	struct:list	typeref:struct:list::list	file:	access:public
+next	lab/3_1130903.cpp	/^    nodeS *next;    \/\/points to the next link$/;"	m	struct:nodeS	file:	access:public
+n	home/empio.cpp	/^  static int n; \/\/current number of employees$/;"	m	class:employee	file:	access:private
+n	home/empio.cpp	/^int employee::n; \/\/current number of employees$/;"	m	class:employee	file:
+n	lab/oopsProject/canteen/class/Stud.cpp	/^int Stud::n; \/\/current number of employees, init 0$/;"	m	class:Stud	file:
+n	lab/oopsProject/canteen/class/Stud.h	/^    static int n; \/\/current number of studs$/;"	m	class:Stud	access:protected
+n	lab/oopsProject/github/class/Item.cpp	/^int Item::n; \/\/current number of employees, init 0$/;"	m	class:Item	file:
+n	lab/oopsProject/github/class/Item.h	/^        static int n; \/\/current number of items$/;"	m	class:Item	access:protected
+n	lab/oopsProject/github/class/Stud.cpp	/^int Stud::n; \/\/current number of employees, init 0$/;"	m	class:Stud	file:
+n	lab/oopsProject/github/class/Stud.h	/^    static int n; \/\/current number of studs$/;"	m	class:Stud	access:protected
+n	lab/oopsProject/ris/class/Stud.cpp	/^int Stud::n; \/\/current number of employees, init 0$/;"	m	class:Stud	file:
+n	lab/oopsProject/ris/class/Stud.h	/^    static int n; \/\/current number of studs$/;"	m	class:Stud	access:protected
+noPublications	lab/9ch8-3.cpp	/^        int noPublications;$/;"	m	class:Teacher	file:	access:private
+noPublications	lab/9ch8-6.cpp	/^        int noPublications;$/;"	m	class:Teacher	file:	access:private
+noSubjects	lab/9ch8-3.cpp	/^        int noSubjects;$/;"	m	class:Teacher	file:	access:private
+noSubjects	lab/9ch8-6.cpp	/^        int noSubjects;$/;"	m	class:Teacher	file:	access:private
+noVec	home/5-4.cpp	/^const int noVec=5;$/;"	v
+nodeS::index	lab/3_1130903.cpp	/^    int index;$/;"	m	struct:nodeS	file:	access:public
+nodeS::info	lab/1_1130901.cpp	/^    int info;$/;"	m	struct:nodeS	file:	access:public
+nodeS::info	lab/3_1130903.cpp	/^    int info;$/;"	m	struct:nodeS	file:	access:public
+nodeS::next	lab/1_1130901.cpp	/^    nodeS *next;    \/\/points to the next link$/;"	m	struct:nodeS	file:	access:public
+nodeS::next	lab/3_1130903.cpp	/^    nodeS *next;    \/\/points to the next link$/;"	m	struct:nodeS	file:	access:public
+nodeS	lab/1_1130901.cpp	/^struct nodeS{$/;"	s	file:
+nodeS	lab/3_1130903.cpp	/^struct nodeS{$/;"	s	file:
+node	lab/1_linkk.cpp	/^typedef struct list node;$/;"	t	typeref:struct:list	file:
+numPlayerTiles	advanced/msm_pro.cpp	/^const int numPlayerTiles = 7;$/;"	v
+numPlayers	advanced/msm_pro.cpp	/^const int numPlayers = 2;$/;"	v
+numTiles	advanced/msm_pro.cpp	/^        int numTiles;$/;"	m	struct:player	file:	access:public
+number	home/empio.cpp	/^  unsigned long number; \/\/employee number$/;"	m	class:employee	file:	access:private
+ofr	lab/9ch8-6.cpp	/^        Staff ofr;$/;"	m	class:Officer	file:	access:private
+operator *	lab/7overEval.cpp	/^eval eval:: operator *(int in) {$/;"	f	class:eval	signature:(int in)
+operator *	lab/7overEval.cpp	/^eval operator *(int in1,eval in2){  \/\/friend function used to overload operator$/;"	f	signature:(int in1,eval in2)
+operator *	lab/7overMatrix.cpp	/^matrix matrix::operator *(matrix in){$/;"	f	class:matrix	signature:(matrix in)
+operator *	lab/7overEval.cpp	/^        eval operator *( int );$/;"	p	class:eval	file:	access:public	signature:( int )
+operator *	lab/7overEval.cpp	/^        friend eval operator *(int,eval);$/;"	p	class:eval	file:	access:friend	signature:(int,eval)
+operator *	lab/7overMatrix.cpp	/^        matrix operator *(matrix);$/;"	p	class:matrix	file:	access:public	signature:(matrix)
+operator +	lab/7overMatrix.cpp	/^matrix matrix::operator +(matrix in){$/;"	f	class:matrix	signature:(matrix in)
+operator +	lab/7overMatrix.cpp	/^        matrix operator +(matrix);$/;"	p	class:matrix	file:	access:public	signature:(matrix)
+operator -	lab/7overMatrix.cpp	/^matrix matrix::operator -(matrix in){$/;"	f	class:matrix	signature:(matrix in)
+operator -	lab/7overMatrix.cpp	/^        matrix operator -(matrix);$/;"	p	class:matrix	file:	access:public	signature:(matrix)
+operator <	lab/7overload1.cpp	/^        bool operator<(over in){return (it<in.it)?true:false;}$/;"	f	class:over	access:public	signature:(over in)
+operator >	lab/7overload1.cpp	/^bool over::operator>(over in){$/;"	f	class:over	signature:(over in)
+operator >	lab/7overload1.cpp	/^        bool operator>(over);$/;"	p	class:over	file:	access:public	signature:(over)
+operator []	home/overload.cpp	/^      int& operator[] (int x) {$/;"	f	class:myArray	access:public	signature:(int x)
+outA	lab/5class.cpp	/^        int outA(){return a;}$/;"	f	class:No2	access:public	signature:()
+outA	lab/5class.cpp	/^        int outA(){return a;}$/;"	f	class:No3	file:	access:private	signature:()
+outB	lab/5class.cpp	/^        int outB(){return b;}$/;"	f	class:No2	access:public	signature:()
+outB	lab/5class.cpp	/^        int outB(){return b;}$/;"	f	class:No3	file:	access:private	signature:()
+outC	lab/5class.cpp	/^        int outC(){return c; }$/;"	f	class:No2	access:public	signature:()
+outC	lab/5class.cpp	/^        int outC(){return c; }$/;"	f	class:No3	file:	access:private	signature:()
+outputCost	lab/oopsProject/canteen website/code/declarations.h	/^        float outputCost(){ return cost; }$/;"	f	class:item	access:public	signature:()
+outputCost	lab/oopsProject/canteen/class/Item.h	/^        float outputCost(){ return cost; }$/;"	f	class:Item	access:public	signature:()
+outputCost	lab/oopsProject/github/class/Item.h	/^        float outputCost(){ return cost; }$/;"	f	class:Item	access:public	signature:()
+outputCost	lab/oopsProject/ris/class/Item.h	/^        float outputCost(){ return cost; }$/;"	f	class:Item	access:public	signature:()
+outputInfo	lab/oopsProject/canteen website/code/definitions.cpp	/^void student::outputInfo(){$/;"	f	class:student	signature:()
+outputInfo	lab/oopsProject/canteen/class/Student.cpp	/^void Student::outputInfo()$/;"	f	class:Student	signature:()
+outputInfo	lab/oopsProject/github/class/Student.cpp	/^void Student::outputInfo()$/;"	f	class:Student	signature:()
+outputInfo	lab/oopsProject/ris/class/Student.cpp	/^void Student::outputInfo()$/;"	f	class:Student	signature:()
+outputInfo	lab/oopsProject/canteen website/code/declarations.h	/^        void outputInfo();$/;"	p	class:student	access:public	signature:()
+outputInfo	lab/oopsProject/canteen/class/Student.h	/^        void outputInfo();$/;"	p	class:Student	access:public	signature:()
+outputInfo	lab/oopsProject/github/class/Student.h	/^        void outputInfo();$/;"	p	class:Student	access:public	signature:()
+outputInfo	lab/oopsProject/ris/class/Student.h	/^        void outputInfo();$/;"	p	class:Student	access:public	signature:()
+output	lab/6friendobj.cpp	/^        int output(){ return var1; }$/;"	f	class:demo1	access:public	signature:()
+output	lab/6friendobj.cpp	/^        int output(){ return var2; }$/;"	f	class:demo2	access:public	signature:()
+output	lab/7constCopy.cpp	/^        void output(){ cout<<var; }$/;"	f	class:demo	access:public	signature:()
+output	lab/7overEval.cpp	/^        int output(){ return var; }$/;"	f	class:eval	access:public	signature:()
+output	lab/7overload1.cpp	/^        int output(){ return it; }$/;"	f	class:over	access:public	signature:()
+over::input	lab/7overload1.cpp	/^        void input(int in){ it=in; }$/;"	f	class:over	access:public	signature:(int in)
+over::it	lab/7overload1.cpp	/^        int it;$/;"	m	class:over	file:	access:private
+over::operator <	lab/7overload1.cpp	/^        bool operator<(over in){return (it<in.it)?true:false;}$/;"	f	class:over	access:public	signature:(over in)
+over::operator >	lab/7overload1.cpp	/^bool over::operator>(over in){$/;"	f	class:over	signature:(over in)
+over::operator >	lab/7overload1.cpp	/^        bool operator>(over);$/;"	p	class:over	file:	access:public	signature:(over)
+over::output	lab/7overload1.cpp	/^        int output(){ return it; }$/;"	f	class:over	access:public	signature:()
+over	lab/7overload1.cpp	/^class over{$/;"	c	file:
+pass::aDiff	lab/6passObj.cpp	/^inline int pass::aDiff(pass objIn){$/;"	f	class:pass	signature:(pass objIn)
+pass::aDiff	lab/6passObj.cpp	/^        int aDiff(pass);$/;"	p	class:pass	file:	access:public	signature:(pass)
+pass::a	lab/6passObj.cpp	/^        int a,b;$/;"	m	class:pass	file:	access:private
+pass::bDiff	lab/6passObj.cpp	/^inline int pass::bDiff(pass objIn){$/;"	f	class:pass	signature:(pass objIn)
+pass::bDiff	lab/6passObj.cpp	/^        int bDiff(pass);$/;"	p	class:pass	file:	access:public	signature:(pass)
+pass::b	lab/6passObj.cpp	/^        int a,b;$/;"	m	class:pass	file:	access:private
+pass::input	lab/6passObj.cpp	/^inline void pass::input(int input1, int input2){$/;"	f	class:pass	signature:(int input1, int input2)
+pass::input	lab/6passObj.cpp	/^        void input(int,int);$/;"	p	class:pass	file:	access:public	signature:(int,int)
+pass	lab/6passObj.cpp	/^class pass{$/;"	c	file:
+pay	lab/9ch8-5.cpp	/^        int pay;$/;"	m	class:Account	file:	access:protected
+penaltyRate	lab/8ch8-1.cpp	/^        int minBalance, penaltyRate, timeLow;$/;"	m	class:currAcc	file:	access:private
+person::age	home/file1.cpp	/^short age; \/\/person’s age$/;"	m	class:person	file:	access:protected
+person::age	home/file1o.cpp	/^short age; \/\/person’s age$/;"	m	class:person	file:	access:protected
+person::getData	home/file1.cpp	/^void getData() \/\/get person’s data$/;"	f	class:person	access:public	signature:()
+person::name	home/file1.cpp	/^char name[80]; \/\/person’s name$/;"	m	class:person	file:	access:protected
+person::name	home/file1o.cpp	/^char name[80]; \/\/person’s name$/;"	m	class:person	file:	access:protected
+person::showData	home/file1o.cpp	/^void showData() \/\/display person’s data$/;"	f	class:person	access:public	signature:()
+person	home/file1.cpp	/^class person \/\/class of persons$/;"	c	file:
+person	home/file1o.cpp	/^class person \/\/class of persons$/;"	c	file:
+phoneNo	lab/oopsProject/canteen website/code/declarations.h	/^        char phoneNo[15];$/;"	m	class:student	access:private
+phoneNo	lab/oopsProject/canteen/class/Stud.h	/^    char phoneNo[11]; \/\/TODO 10 max chars entered with bound checking.$/;"	m	class:Stud	access:private
+phoneNo	lab/oopsProject/canteen/class/Student.h	/^        char phoneNo[11]; \/\/TODO 10 max chars entered with bound checking.$/;"	m	class:Student	access:private
+phoneNo	lab/oopsProject/github/class/Stud.h	/^    char phoneNo[11]; \/\/TODO 10 max chars entered with bound checking.$/;"	m	class:Stud	access:private
+phoneNo	lab/oopsProject/github/class/Student.h	/^        char phoneNo[11]; \/\/TODO 10 max chars entered with bound checking.$/;"	m	class:Student	access:private
+phoneNo	lab/oopsProject/ris/class/Stud.h	/^    char phoneNo[11]; \/\/TODO 10 max chars entered with bound checking.$/;"	m	class:Stud	access:private
+phoneNo	lab/oopsProject/ris/class/Student.h	/^        char phoneNo[11]; \/\/TODO 10 max chars entered with bound checking.$/;"	m	class:Student	access:private
+placed	advanced/msm_pro.cpp	/^        tile placed;$/;"	m	struct:board	file:	access:public
+player::hand	advanced/msm_pro.cpp	/^        tile hand[numPlayerTiles];$/;"	m	struct:player	file:	access:public
+player::name	advanced/msm_pro.cpp	/^        char name[30];$/;"	m	struct:player	file:	access:public
+player::numTiles	advanced/msm_pro.cpp	/^        int numTiles;$/;"	m	struct:player	file:	access:public
+player::pointTotal	advanced/msm_pro.cpp	/^        int pointTotal;$/;"	m	struct:player	file:	access:public
+playerHand	advanced/msm_pro.cpp	/^void playerHand ( player user[numPlayers]);$/;"	p	file:	signature:( player user[numPlayers])
+player	advanced/msm_pro.cpp	/^struct player$/;"	s	file:
+pointTotal	advanced/msm_pro.cpp	/^        int pointTotal;$/;"	m	struct:player	file:	access:public
+pointValue	advanced/msm_pro.cpp	/^        int pointValue;$/;"	m	struct:tile	file:	access:public
+pos::h	advanced/game.cpp	/^       int h,v;$/;"	m	struct:pos	file:	access:public
+pos::v	advanced/game.cpp	/^       int h,v;$/;"	m	struct:pos	file:	access:public
+pos	home/6-3.h	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	access:private
+pos	home/6-3full.cpp	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	file:	access:private
+pos	advanced/game.cpp	/^       struct pos$/;"	s	file:
+power	home/4-7.cpp	/^float power(float m,int n){$/;"	f	signature:(float m,int n)
+power	home/4-7.cpp	/^float power(float,int n=2);$/;"	p	file:	signature:(float,int n=2)
+premiumValue	advanced/msm_pro.cpp	/^        char premiumValue[15];$/;"	m	struct:board	file:	access:public
+price	home/6-3.h	/^        float price;$/;"	m	class:books	access:private
+price	home/6-3_old.cpp	/^    float price;$/;"	m	struct:blist	file:	access:public
+price	home/6-3full.cpp	/^        float price;$/;"	m	class:books	file:	access:private
+pri	advanced/game.cpp	/^   void pri()$/;"	f	signature:()
+print_array	home/overload.cpp	/^void myArray::print_array()$/;"	f	class:myArray	signature:()
+print_array	home/overload.cpp	/^      void print_array();   \/\/ I included this just to show the operator[] works!   $/;"	p	class:myArray	file:	access:public	signature:()
+print	advanced/game.cpp	/^     inline void print(int r,int c) { cout<<a[r][c]; }$/;"	f	signature:(int r,int c)
+printline	home/5-1.h	/^void printline(char ch, int len){$/;"	f	signature:(char ch, int len)
+printline	home/5-1_old.cpp	/^void printline(){\/\/(char ch='*', int len=15){$/;"	f	signature:()
+printline	home/5-1.h	/^void printline(char ch='*', int len=15);$/;"	p	signature:(char ch=�, int len=15)
+printline	home/5-1_old.cpp	/^void printline();\/\/(char , int );$/;"	p	file:	signature:()
+pri	advanced/game.cpp	/^     void pri();   \/\/PRINTING NUMBERS INITIALLY$/;"	p	file:	signature:()
+proQual	lab/9ch8-3.cpp	/^        string proQual;$/;"	m	class:Education	file:	access:private
+proQual	lab/9ch8-6.cpp	/^        string proQual;$/;"	m	class:Education	file:	access:private
+pub	home/6-3.h	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	access:private
+pub	home/6-3_old.cpp	/^    char *author, *title, *pub, *stack;$/;"	m	struct:blist	file:	access:public
+pub	home/6-3full.cpp	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	file:	access:private
+pubs	home/empio.cpp	/^  int pubs; \/\/number of publications$/;"	m	class:scientist	file:	access:private
+putData	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::putData()$/;"	f	class:Stud	signature:()
+putData	lab/oopsProject/github/class/Item.cpp	/^void Item::putData()$/;"	f	class:Item	signature:()
+putData	lab/oopsProject/github/class/Stud.cpp	/^void Stud::putData()$/;"	f	class:Stud	signature:()
+putData	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::putData()$/;"	f	class:Stud	signature:()
+putData	lab/oopsProject/canteen/class/Stud.h	/^    void putData();$/;"	p	class:Stud	access:public	signature:()
+putData	lab/oopsProject/github/class/Item.h	/^        void putData();$/;"	p	class:Item	access:public	signature:()
+putData	lab/oopsProject/github/class/Stud.h	/^    void putData();$/;"	p	class:Stud	access:public	signature:()
+putData	lab/oopsProject/ris/class/Stud.h	/^    void putData();$/;"	p	class:Stud	access:public	signature:()
+putS	lab/5string.cpp	/^void putS(char* ptr){$/;"	f	signature:(char* ptr)
+putS	lab/5string.cpp	/^void putS(char* );$/;"	p	file:	signature:(char* )
+putdata	home/empio.cpp	/^  virtual void putdata()$/;"	f	class:employee	access:public	signature:()
+putdata	home/empio.cpp	/^  void putdata()$/;"	f	class:manager	access:public	signature:()
+putdata	home/empio.cpp	/^  void putdata()$/;"	f	class:scientist	access:public	signature:()
+put	lab/7overMatrix.cpp	/^void matrix::put(){$/;"	f	class:matrix	signature:()
+put	lab/7overMatrix.cpp	/^        void put();$/;"	p	class:matrix	file:	access:public	signature:()
+puts	lab/5string_2.cpp	/^void puts(char* ptr,int size){$/;"	f	signature:(char* ptr,int size)
+puts	lab/5string_2.cpp	/^void puts(char*,int);$/;"	p	file:	signature:(char*,int)
+p	advanced/game.cpp	/^     }p[4][4];$/;"	v	typeref:struct:pos
+query_state	home/mysql.cpp	/^int query_state;$/;"	v
+rack	home/6-3.cpp	/^books rack[RACK_SIZE];$/;"	v
+rack	home/6-3full.cpp	/^books rack[RACK_SIZE];$/;"	v
+radius	lab/10areaVir.cpp	/^        int radius;$/;"	m	class:circle	file:	access:protected
+rate	lab/8ch8-1.cpp	/^        float rate;     \/\/Interest Rate$/;"	m	class:savAcc	file:	access:private
+readDataOnce	lab/oopsProject/github/class/Stud.cpp	/^bool Stud::readDataOnce=false;$/;"	m	class:Stud	file:
+readDataOnce	lab/oopsProject/github/class/Stud.h	/^    static bool readDataOnce;$/;"	m	class:Stud	access:protected
+readFromDisk	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::readFromDisk()$/;"	f	class:Stud	signature:()
+readFromDisk	lab/oopsProject/github/class/Stud.cpp	/^void Stud::readFromDisk()$/;"	f	class:Stud	signature:()
+readFromDisk	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::readFromDisk()$/;"	f	class:Stud	signature:()
+readFromDisk	lab/oopsProject/canteen/class/Stud.h	/^    static void readFromDisk(); \/\/read from disk file$/;"	p	class:Stud	access:public	signature:()
+readFromDisk	lab/oopsProject/github/class/Stud.h	/^    static void readFromDisk(); \/\/read from disk file$/;"	p	class:Stud	access:public	signature:()
+readFromDisk	lab/oopsProject/ris/class/Stud.h	/^    static void readFromDisk(); \/\/read from disk file$/;"	p	class:Stud	access:public	signature:()
+readItemFromDisk	lab/oopsProject/github/class/Item.cpp	/^void Item::readItemFromDisk()$/;"	f	class:Item	signature:()
+readItemFromDisk	lab/oopsProject/github/class/Item.h	/^        static void readItemFromDisk(); \/\/read from disk file$/;"	p	class:Item	access:public	signature:()
+readItemOnce	lab/oopsProject/github/class/Item.cpp	/^bool Item::readItemOnce=false;$/;"	m	class:Item	file:
+readItemOnce	lab/oopsProject/github/class/Item.h	/^        static bool readItemOnce;$/;"	m	class:Item	access:protected
+readStatic	lab/6static.cpp	/^void demo::readStatic(){$/;"	f	class:demo	signature:()
+readStatic	lab/6static.cpp	/^        static void readStatic();$/;"	p	class:demo	file:	access:public	signature:()
+readd	advanced/paradox.cpp	22;"	d	file:
+readf	advanced/paradox.cpp	21;"	d	file:
+read	home/empio.cpp	/^void employee::read()$/;"	f	class:employee	signature:()
+readint	advanced/paradox.cpp	18;"	d	file:
+readll	advanced/paradox.cpp	20;"	d	file:
+read	home/empio.cpp	/^  static void read(); \/\/read from disk file$/;"	p	class:employee	file:	access:public	signature:()
+readull	advanced/paradox.cpp	19;"	d	file:
+rec	advanced/game.cpp	/^   void rec()$/;"	f	signature:()
+rec	advanced/game.cpp	/^     void rec();   \/\/DRAWING RECTANGLE$/;"	p	file:	signature:()
+result	home/mysql.cpp	/^MYSQL_RES *result;$/;"	v
+retrieve	lab/oopsProject/canteen/class/Item.cpp	/^void Item::retrieve(){$/;"	f	class:Item	signature:()
+retrieve	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::retrieve(){  \/\/old method$/;"	f	class:Stud	signature:()
+retrieve	lab/oopsProject/canteen/class/Student.cpp	/^void Student::retrieve(){$/;"	f	class:Student	signature:()
+retrieve	lab/oopsProject/github/class/Item.cpp	/^void Item::retrieve(){$/;"	f	class:Item	signature:()
+retrieve	lab/oopsProject/github/class/Stud.cpp	/^void Stud::retrieve(){  \/\/old method$/;"	f	class:Stud	signature:()
+retrieve	lab/oopsProject/github/class/Student.cpp	/^void Student::retrieve(){$/;"	f	class:Student	signature:()
+retrieve	lab/oopsProject/ris/class/Item.cpp	/^void Item::retrieve(){$/;"	f	class:Item	signature:()
+retrieve	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::retrieve(){  \/\/old method$/;"	f	class:Stud	signature:()
+retrieve	lab/oopsProject/ris/class/Student.cpp	/^void Student::retrieve(){$/;"	f	class:Student	signature:()
+retrieve	lab/oopsProject/canteen/class/Item.h	/^        void retrieve();$/;"	p	class:Item	access:public	signature:()
+retrieve	lab/oopsProject/canteen/class/Stud.h	/^    void retrieve();$/;"	p	class:Stud	access:public	signature:()
+retrieve	lab/oopsProject/canteen/class/Student.h	/^        void retrieve();$/;"	p	class:Student	access:public	signature:()
+retrieve	lab/oopsProject/github/class/Item.h	/^        void retrieve();$/;"	p	class:Item	access:public	signature:()
+retrieve	lab/oopsProject/github/class/Stud.h	/^    void retrieve();$/;"	p	class:Stud	access:public	signature:()
+retrieve	lab/oopsProject/github/class/Student.h	/^        void retrieve();$/;"	p	class:Student	access:public	signature:()
+retrieve	lab/oopsProject/ris/class/Item.h	/^        void retrieve();$/;"	p	class:Item	access:public	signature:()
+retrieve	lab/oopsProject/ris/class/Stud.h	/^    void retrieve();$/;"	p	class:Stud	access:public	signature:()
+retrieve	lab/oopsProject/ris/class/Student.h	/^        void retrieve();$/;"	p	class:Student	access:public	signature:()
+rollNo	lab/oopsProject/canteen website/code/declarations.h	/^        int rollNo;$/;"	m	class:student	access:private
+rollNo	lab/oopsProject/canteen/class/Stud.h	/^    int rollNo;$/;"	m	class:Stud	access:private
+rollNo	lab/oopsProject/canteen/class/Student.h	/^        int rollNo;$/;"	m	class:Student	access:private
+rollNo	lab/oopsProject/github/class/Stud.h	/^    int rollNo;$/;"	m	class:Stud	access:private
+rollNo	lab/oopsProject/github/class/Student.h	/^        int rollNo;$/;"	m	class:Student	access:private
+rollNo	lab/oopsProject/ris/class/Stud.h	/^    int rollNo;$/;"	m	class:Stud	access:private
+rollNo	lab/oopsProject/ris/class/Student.h	/^        int rollNo;$/;"	m	class:Student	access:private
+row	advanced/game.cpp	/^     int row=4,col=4;$/;"	v
+row	advanced/msm_pro.cpp	/^const int row = 15;$/;"	v
+row	home/mysql.cpp	/^MYSQL_ROW row;$/;"	v
+s1::display	lab/5string.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var); } \/\/putS(var); }$/;"	f	class:s1	access:public	signature:()
+s1::display	lab/5string_2.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var,SIZE); }$/;"	f	class:s1	access:public	signature:()
+s1::display	lab/5string_3.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var); }$/;"	f	class:s1	access:public	signature:()
+s1::input	lab/5string.cpp	/^        void input(){ gets(var); }\/\/getS(var); }$/;"	f	class:s1	access:public	signature:()
+s1::input	lab/5string_2.cpp	/^        void input(){ gets(var); }$/;"	f	class:s1	access:public	signature:()
+s1::input	lab/5string_3.cpp	/^        void input(){ gets(var); }$/;"	f	class:s1	access:public	signature:()
+s1::var	lab/5string.cpp	/^        char var[SIZE];$/;"	m	class:s1	file:	access:private
+s1::var	lab/5string_2.cpp	/^        char var[SIZE];$/;"	m	class:s1	file:	access:private
+s1::var	lab/5string_3.cpp	/^        char var[SIZE];$/;"	m	class:s1	file:	access:public
+s1	lab/5string.cpp	/^class s1{$/;"	c	file:
+s1	lab/5string_2.cpp	/^class s1{$/;"	c	file:
+s1	lab/5string_3.cpp	/^class s1{$/;"	c	file:
+s2::display	lab/5string.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var); }\/\/ putS(var); }$/;"	f	class:s2	access:public	signature:()
+s2::display	lab/5string_2.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var,SIZE); }$/;"	f	class:s2	access:public	signature:()
+s2::display	lab/5string_3.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var); }$/;"	f	class:s2	access:public	signature:()
+s2::input	lab/5string.cpp	/^        void input(){ gets(var); }\/\/getS(var); }$/;"	f	class:s2	access:public	signature:()
+s2::input	lab/5string_2.cpp	/^        void input(){ gets(var); }$/;"	f	class:s2	access:public	signature:()
+s2::input	lab/5string_3.cpp	/^        void input(){ gets(var); }$/;"	f	class:s2	access:public	signature:()
+s2::var	lab/5string.cpp	/^        char var[SIZE];$/;"	m	class:s2	file:	access:private
+s2::var	lab/5string_2.cpp	/^        char var[SIZE];$/;"	m	class:s2	file:	access:private
+s2::var	lab/5string_3.cpp	/^        char var[SIZE];$/;"	m	class:s2	file:	access:public
+s2	lab/5string.cpp	/^class s2{$/;"	c	file:
+s2	lab/5string_2.cpp	/^class s2{$/;"	c	file:
+s2	lab/5string_3.cpp	/^class s2{$/;"	c	file:
+s3::concat	lab/5string_3.cpp	/^void s3::concat(s1 in1, s2 in2){$/;"	f	class:s3	signature:(s1 in1, s2 in2)
+s3::concat	lab/5string_3.cpp	/^        void concat( s1 , s2 );$/;"	p	class:s3	file:	access:public	signature:( s1 , s2 )
+s3::display	lab/5string.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var); }\/\/ putS(var); }$/;"	f	class:s3	access:public	signature:()
+s3::display	lab/5string_2.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var,SIZE<<1); }$/;"	f	class:s3	access:public	signature:()
+s3::display	lab/5string_3.cpp	/^        void display(){ cout<<"\\nvar= "; puts(var); }$/;"	f	class:s3	access:public	signature:()
+s3::input	lab/5string.cpp	/^        void input(){ gets(var); }\/\/getS(var); }$/;"	f	class:s3	access:public	signature:()
+s3::input	lab/5string_2.cpp	/^        void input(){ gets(var); }$/;"	f	class:s3	access:public	signature:()
+s3::input	lab/5string_3.cpp	/^        void input(){ gets(var); }$/;"	f	class:s3	access:public	signature:()
+s3::var	lab/5string.cpp	/^        char var[SIZE<<1];$/;"	m	class:s3	file:	access:private
+s3::var	lab/5string_2.cpp	/^        char var[1<<SIZE];$/;"	m	class:s3	file:	access:private
+s3::var	lab/5string_3.cpp	/^        char var[SIZE<<1];  \/\/size must be at least double the size of other arrays$/;"	m	class:s3	file:	access:private
+s3	lab/5string.cpp	/^class s3{$/;"	c	file:
+s3	lab/5string_2.cpp	/^class s3{$/;"	c	file:
+s3	lab/5string_3.cpp	/^class s3{$/;"	c	file:
+sal	lab/9ch8-3.cpp	/^        int sal;$/;"	m	class:RegTypist	file:	access:private
+sal	lab/9ch8-6.cpp	/^        int sal;$/;"	m	class:RegTypist	file:	access:private
+savAcc::calcInterest	lab/8ch8-1.cpp	/^        float calcInterest(){ return ( (balance*rate*timeInt)\/100 ); }$/;"	f	class:savAcc	access:public	signature:()
+savAcc::depositInterest	lab/8ch8-1.cpp	/^        bool depositInterest(){$/;"	f	class:savAcc	access:public	signature:()
+savAcc::display	lab/8ch8-1.cpp	/^        void display(){$/;"	f	class:savAcc	access:public	signature:()
+savAcc::init	lab/8ch8-1.cpp	/^        void init(){$/;"	f	class:savAcc	access:public	signature:()
+savAcc::rate	lab/8ch8-1.cpp	/^        float rate;     \/\/Interest Rate$/;"	m	class:savAcc	file:	access:private
+savAcc::savAcc	lab/8ch8-1.cpp	/^        savAcc(){ type=saving; }$/;"	f	class:savAcc	access:public	signature:()
+savAcc::timeInt	lab/8ch8-1.cpp	/^        int timeInt;    \/\/#ofdays account has been active$/;"	m	class:savAcc	file:	access:private
+savAcc	lab/8ch8-1.cpp	/^class savAcc : public account {$/;"	c	file:	inherits:account
+savAcc	lab/8ch8-1.cpp	/^        savAcc(){ type=saving; }$/;"	f	class:savAcc	access:public	signature:()
+saveToFile	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::saveToFile(Stud s)$/;"	f	class:Stud	signature:(Stud s)
+saveToFile	lab/oopsProject/canteen/class/Student.cpp	/^void Student::saveToFile(Student s)$/;"	f	class:Student	signature:(Student s)
+saveToFile	lab/oopsProject/github/class/Stud.cpp	/^void Stud::saveToFile(Stud s)$/;"	f	class:Stud	signature:(Stud s)
+saveToFile	lab/oopsProject/github/class/Student.cpp	/^void Student::saveToFile(Student)$/;"	f	class:Student	signature:(Student)
+saveToFile	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::saveToFile(Stud s)$/;"	f	class:Stud	signature:(Stud s)
+saveToFile	lab/oopsProject/ris/class/Student.cpp	/^void Student::saveToFile(Student s)$/;"	f	class:Student	signature:(Student s)
+saveToFile	lab/oopsProject/canteen/class/Stud.h	/^    void saveToFile(Stud);$/;"	p	class:Stud	access:public	signature:(Stud)
+saveToFile	lab/oopsProject/canteen/class/Student.h	/^        void saveToFile(Student);$/;"	p	class:Student	access:public	signature:(Student)
+saveToFile	lab/oopsProject/github/class/Stud.h	/^    void saveToFile(Stud);$/;"	p	class:Stud	access:public	signature:(Stud)
+saveToFile	lab/oopsProject/github/class/Student.h	/^        void saveToFile(Student);$/;"	p	class:Student	access:public	signature:(Student)
+saveToFile	lab/oopsProject/ris/class/Stud.h	/^    void saveToFile(Stud);$/;"	p	class:Stud	access:public	signature:(Stud)
+saveToFile	lab/oopsProject/ris/class/Student.h	/^        void saveToFile(Student);$/;"	p	class:Student	access:public	signature:(Student)
+saving	lab/8ch8-1.cpp	/^enum AccType{ current, saving, fixed };$/;"	e	enum:AccType	file:
+scientist::getdata	home/empio.cpp	/^  void getdata()$/;"	f	class:scientist	access:public	signature:()
+scientist::pubs	home/empio.cpp	/^  int pubs; \/\/number of publications$/;"	m	class:scientist	file:	access:private
+scientist::putdata	home/empio.cpp	/^  void putdata()$/;"	f	class:scientist	access:public	signature:()
+scientist	home/empio.cpp	/^class scientist : public employee$/;"	c	file:	inherits:employee
+searchByCode	lab/oopsProject/github/class/Item.cpp	/^int Item::searchByCode(bool print){$/;"	f	class:Item	signature:(bool print)
+searchByCode	lab/oopsProject/github/class/Item.h	/^        static int searchByCode(bool print = false) ;    \/\/be default don't print data$/;"	p	class:Item	access:public	signature:(bool print = false)
+searchByRoll	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::searchByRoll(){$/;"	f	class:Stud	signature:()
+searchByRoll	lab/oopsProject/canteen/class/Student.cpp	/^void Student::searchByRoll()$/;"	f	class:Student	signature:()
+searchByRoll	lab/oopsProject/github/class/Stud.cpp	/^int Stud::searchByRoll(bool print){$/;"	f	class:Stud	signature:(bool print)
+searchByRoll	lab/oopsProject/github/class/Student.cpp	/^void Student::searchByRoll()$/;"	f	class:Student	signature:()
+searchByRoll	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::searchByRoll(){$/;"	f	class:Stud	signature:()
+searchByRoll	lab/oopsProject/ris/class/Student.cpp	/^void Student::searchByRoll()$/;"	f	class:Student	signature:()
+searchByRoll	lab/oopsProject/canteen/class/Stud.h	/^    static void searchByRoll();$/;"	p	class:Stud	access:public	signature:()
+searchByRoll	lab/oopsProject/canteen/class/Student.h	/^        void searchByRoll();$/;"	p	class:Student	access:public	signature:()
+searchByRoll	lab/oopsProject/github/class/Stud.h	/^    static int searchByRoll(bool print = true) ;    \/\/be default print data$/;"	p	class:Stud	access:public	signature:(bool print = true)
+searchByRoll	lab/oopsProject/github/class/Student.h	/^        void searchByRoll();$/;"	p	class:Student	access:public	signature:()
+searchByRoll	lab/oopsProject/ris/class/Stud.h	/^    static void searchByRoll() ;$/;"	p	class:Stud	access:public	signature:()
+searchByRoll	lab/oopsProject/ris/class/Student.h	/^        void searchByRoll();$/;"	p	class:Student	access:public	signature:()
+searchCost	lab/oopsProject/github/class/Item.cpp	/^float Item::searchCost(){$/;"	f	class:Item	signature:()
+searchCost	lab/oopsProject/github/class/Item.h	/^        static float searchCost();$/;"	p	class:Item	access:public	signature:()
+search	lab/1_linkk.cpp	/^void search()$/;"	f	signature:()
+search	home/6-3.cpp	/^void search();$/;"	p	file:	signature:()
+search	home/6-3.h	/^        void search();$/;"	p	class:books	access:public	signature:()
+search	home/6-3full.cpp	/^        void search();$/;"	p	class:books	file:	access:public	signature:()
+search	home/6-3full.cpp	/^void search();$/;"	p	file:	signature:()
+shape	lab/10areaVir.cpp	/^class shape{$/;"	c	file:
+showData	home/file1o.cpp	/^void showData() \/\/display person’s data$/;"	f	class:person	access:public	signature:()
+size	home/6-2.h	/^        int size;$/;"	m	class:String	access:private
+size	home/overload.cpp	/^      int size;$/;"	m	class:myArray	file:	access:private
+size	home/5-2.h	/^const int size=3;$/;"	v
+size	home/5-4.h	/^const int size=3;$/;"	v
+sort	lab/1_linkk.cpp	/^void sort()$/;"	f	signature:()
+space	advanced/game.cpp	/^     inline void space() { cout<<"    "; }$/;"	f	signature:()
+speed	lab/9ch8-3.cpp	/^        int speed;$/;"	m	class:Typist	file:	access:protected
+speed	lab/9ch8-6.cpp	/^        int speed;$/;"	m	class:Typist	file:	access:protected
+square::area	lab/10areaVir.cpp	/^        int area(){$/;"	f	class:square	access:public	signature:()
+square::breadth	lab/10areaVir.cpp	/^        int length, breadth;$/;"	m	class:square	file:	access:protected
+square::length	lab/10areaVir.cpp	/^        int length, breadth;$/;"	m	class:square	file:	access:protected
+square	lab/10areaVir.cpp	/^class square : public shape {$/;"	c	file:	inherits:shape
+stack	home/6-3_old.cpp	/^    char *author, *title, *pub, *stack;$/;"	m	struct:blist	file:	access:public
+stat	lab/8ch8-1.cpp	/^typedef enum{ FAILURE, SUCCESS } stat;$/;"	t	typeref:enum:__anon1	file:
+status	advanced/msm_pro.cpp	/^        bool status;$/;"	m	struct:board	file:	access:public
+std_io	home/streams.cpp	/^void std_io() {$/;"	f	signature:()
+stop	advanced/game.cpp	/^      int stop()$/;"	f	signature:()
+stop	advanced/game.cpp	/^     int stop();     \/\/ STOPING CRITERION$/;"	p	file:	signature:()
+store	lab/oopsProject/canteen/class/Item.cpp	/^void Item::store(){$/;"	f	class:Item	signature:()
+store	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::store(){ \/\/old method$/;"	f	class:Stud	signature:()
+store	lab/oopsProject/canteen/class/Student.cpp	/^void Student::store(){$/;"	f	class:Student	signature:()
+store	lab/oopsProject/github/class/Item.cpp	/^void Item::store(){$/;"	f	class:Item	signature:()
+store	lab/oopsProject/github/class/Stud.cpp	/^void Stud::store(){ \/\/old method$/;"	f	class:Stud	signature:()
+store	lab/oopsProject/github/class/Student.cpp	/^void Student::store(){$/;"	f	class:Student	signature:()
+store	lab/oopsProject/ris/class/Item.cpp	/^void Item::store(){$/;"	f	class:Item	signature:()
+store	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::store(){ \/\/old method$/;"	f	class:Stud	signature:()
+store	lab/oopsProject/ris/class/Student.cpp	/^void Student::store(){$/;"	f	class:Student	signature:()
+store	lab/oopsProject/canteen/class/Item.h	/^        void store();$/;"	p	class:Item	access:public	signature:()
+store	lab/oopsProject/canteen/class/Stud.h	/^    void store();$/;"	p	class:Stud	access:public	signature:()
+store	lab/oopsProject/canteen/class/Student.h	/^        void store();$/;"	p	class:Student	access:public	signature:()
+store	lab/oopsProject/github/class/Item.h	/^        void store();$/;"	p	class:Item	access:public	signature:()
+store	lab/oopsProject/github/class/Stud.h	/^    void store();$/;"	p	class:Stud	access:public	signature:()
+store	lab/oopsProject/github/class/Student.h	/^        void store();$/;"	p	class:Student	access:public	signature:()
+store	lab/oopsProject/ris/class/Item.h	/^        void store();$/;"	p	class:Item	access:public	signature:()
+store	lab/oopsProject/ris/class/Stud.h	/^    void store();$/;"	p	class:Stud	access:public	signature:()
+store	lab/oopsProject/ris/class/Student.h	/^        void store();$/;"	p	class:Student	access:public	signature:()
+strCompare	lab/4string.cpp	/^int strCompare(char* ptr1,char* ptr2);$/;"	p	file:	signature:(char* ptr1,char* ptr2)
+strConcat	lab/4string.cpp	/^char* strConcat(char*ptr1,char*ptr2){$/;"	f	signature:(char*ptr1,char*ptr2)
+strConcat	lab/4string.cpp	/^char* strConcat(char*ptr1,char*ptr2);$/;"	p	file:	signature:(char*ptr1,char*ptr2)
+strCopy	lab/4string.cpp	/^void strCopy(char* src,char* des);$/;"	p	file:	signature:(char* src,char* des)
+strInputGet	lab/4string.cpp	/^void strInputGet(char *ptr){$/;"	f	signature:(char *ptr)
+strInputGet	lab/4string.cpp	/^void strInputGet(char*);$/;"	p	file:	signature:(char*)
+strInput	lab/4string.cpp	/^void strInput(char *ptr){$/;"	f	signature:(char *ptr)
+strInput	lab/4string.cpp	/^void strInput(char*);$/;"	p	file:	signature:(char*)
+strLength	lab/4string.cpp	/^int strLength(char* ptr){$/;"	f	signature:(char* ptr)
+strLength	lab/4string.cpp	/^int strLength(char* ptr);$/;"	p	file:	signature:(char* ptr)
+strLower	lab/4string.cpp	/^void strLower(char* src,char* des);$/;"	p	file:	signature:(char* src,char* des)
+strReverse	lab/4string.cpp	/^void strReverse(char* src,char* des);$/;"	p	file:	signature:(char* src,char* des)
+strUpper	lab/4string.cpp	/^void strUpper(char* src,char* des);$/;"	p	file:	signature:(char* src,char* des)
+strcpy	advanced/msm_pro.cpp	/^void strcpy ( char string1[], char string2[])$/;"	f	signature:( char string1[], char string2[])
+strcpy	home/6-3.h	/^void strcpy(char *src,char* des){$/;"	f	signature:(char *src,char* des)
+strcpy	home/6-3full.cpp	/^void strcpy(char *src,char* des){$/;"	f	signature:(char *src,char* des)
+strcpy	advanced/msm_pro.cpp	/^void strcpy( char string1[], char string2[]);$/;"	p	file:	signature:( char string1[], char string2[])
+strcpy	home/6-3.h	/^void strcpy(char*,char*);$/;"	p	signature:(char*,char*)
+strcpy	home/6-3full.cpp	/^void strcpy(char*,char*);$/;"	p	file:	signature:(char*,char*)
+strlen	home/6-3.h	/^int strlen(char*in){$/;"	f	signature:(char*in)
+strlen	home/6-3full.cpp	/^int strlen(char*in){$/;"	f	signature:(char*in)
+strlen	home/6-3.h	/^int strlen(char*);$/;"	p	signature:(char*)
+strlen	home/6-3full.cpp	/^int strlen(char*);$/;"	p	file:	signature:(char*)
+student::dept	lab/oopsProject/canteen website/code/declarations.h	/^        char dept[20];$/;"	m	class:student	access:private
+student::inputInfo	lab/oopsProject/canteen website/code/definitions.cpp	/^void student::inputInfo(){$/;"	f	class:student	signature:()
+student::inputInfo	lab/oopsProject/canteen website/code/declarations.h	/^        void inputInfo();    \/\/DONE$/;"	p	class:student	access:public	signature:()
+student::name	lab/oopsProject/canteen website/code/declarations.h	/^        char name[40];$/;"	m	class:student	access:private
+student::outputInfo	lab/oopsProject/canteen website/code/definitions.cpp	/^void student::outputInfo(){$/;"	f	class:student	signature:()
+student::outputInfo	lab/oopsProject/canteen website/code/declarations.h	/^        void outputInfo();$/;"	p	class:student	access:public	signature:()
+student::phoneNo	lab/oopsProject/canteen website/code/declarations.h	/^        char phoneNo[15];$/;"	m	class:student	access:private
+student::rollNo	lab/oopsProject/canteen website/code/declarations.h	/^        int rollNo;$/;"	m	class:student	access:private
+student::student	lab/oopsProject/canteen website/code/declarations.h	/^        student(){ }    \/\/empty constructor$/;"	f	class:student	access:public	signature:()
+student::updateInfo	lab/oopsProject/canteen website/code/declarations.h	/^        void updateInfo();      \/\/TODO$/;"	p	class:student	access:public	signature:()
+student	lab/oopsProject/canteen website/code/declarations.h	/^class student{$/;"	c
+student	lab/oopsProject/canteen website/code/declarations.h	/^        student(){ }    \/\/empty constructor$/;"	f	class:student	access:public	signature:()
+swch	lab/0_113095.cpp	/^void swch()$/;"	f	signature:()
+swch	lab/0_113095.cpp	/^void swch();$/;"	p	file:	signature:()
+synced	home/streams.cpp	/^void synced() {$/;"	f	signature:()
+tcr	lab/9ch8-6.cpp	/^        Staff tcr;$/;"	m	class:Teacher	file:	access:private
+test	home/streams.cpp	/^void test (Test t)$/;"	f	signature:(Test t)
+test	advanced/game.cpp	/^       int test[16]={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};$/;"	v
+test	home/6-3.cpp	/^books test;$/;"	v
+test	home/6-3full.cpp	/^books test;$/;"	v
+tile::letter	advanced/msm_pro.cpp	/^        char letter;$/;"	m	struct:tile	file:	access:public
+tile::pointValue	advanced/msm_pro.cpp	/^        int pointValue;$/;"	m	struct:tile	file:	access:public
+tile	advanced/msm_pro.cpp	/^struct tile$/;"	s	file:
+timeInt	lab/8ch8-1.cpp	/^        int timeInt;    \/\/#ofdays account has been active$/;"	m	class:savAcc	file:	access:private
+timeLow	lab/8ch8-1.cpp	/^        int minBalance, penaltyRate, timeLow;$/;"	m	class:currAcc	file:	access:private
+title	home/6-3.h	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	access:private
+title	home/6-3_old.cpp	/^    char *author, *title, *pub, *stack;$/;"	m	struct:blist	file:	access:public
+title	home/6-3full.cpp	/^        char *author,*title,*pub,*pos;$/;"	m	class:books	file:	access:private
+title	home/empio.cpp	/^  char title[LEN]; \/\/"vice-president" etc.$/;"	m	class:manager	file:	access:private
+tlaborer	home/empio.cpp	/^enum employee_type {tmanager, tscientist, tlaborer};$/;"	e	enum:employee_type	file:
+tmanager	home/empio.cpp	/^enum employee_type {tmanager, tscientist, tlaborer};$/;"	e	enum:employee_type	file:
+tscientist	home/empio.cpp	/^enum employee_type {tmanager, tscientist, tlaborer};$/;"	e	enum:employee_type	file:
+t	advanced/game.cpp	/^       int t[16]={0,4,11,12,7,1,15,5,13,6,10,3,2,14,8,9};$/;"	v
+type	home/5-1.h	/^        int type;$/;"	m	class:Account	access:private
+type	home/5-1_old.cpp	/^        int type;$/;"	m	class:Account	file:	access:private
+type	lab/8ch8-1.cpp	/^        AccType type;$/;"	m	class:account	file:	access:protected
+typ	lab/9ch8-6.cpp	/^        Staff typ;$/;"	m	class:Typist	file:	access:private
+ull	advanced/paradox.cpp	25;"	d	file:
+unsynced	home/streams.cpp	/^void unsynced() {$/;"	f	signature:()
+updateCost	lab/oopsProject/canteen website/code/definitions.cpp	/^void item::updateCost(float input){$/;"	f	class:item	signature:(float input)
+updateCost	lab/oopsProject/canteen/class/Item.cpp	/^void Item::updateCost(float input){$/;"	f	class:Item	signature:(float input)
+updateCost	lab/oopsProject/github/class/Item.cpp	/^void Item::updateCost(float input){$/;"	f	class:Item	signature:(float input)
+updateCost	lab/oopsProject/ris/class/Item.cpp	/^void Item::updateCost(float input){$/;"	f	class:Item	signature:(float input)
+updateCost	lab/oopsProject/canteen website/code/declarations.h	/^        void updateCost(float);$/;"	p	class:item	access:public	signature:(float)
+updateCost	lab/oopsProject/canteen/class/Item.h	/^        void updateCost(float);$/;"	p	class:Item	access:public	signature:(float)
+updateCost	lab/oopsProject/github/class/Item.h	/^        void updateCost(float);$/;"	p	class:Item	access:public	signature:(float)
+updateCost	lab/oopsProject/ris/class/Item.h	/^        void updateCost(float);$/;"	p	class:Item	access:public	signature:(float)
+updateInfo	lab/oopsProject/canteen website/code/declarations.h	/^        void updateInfo();      \/\/TODO$/;"	p	class:student	access:public	signature:()
+updateInfo	lab/oopsProject/canteen/class/Stud.h	/^    void updateInfo();      \/\/TODO$/;"	p	class:Stud	access:public	signature:()
+updateInfo	lab/oopsProject/canteen/class/Student.h	/^        void updateInfo();      \/\/TODO$/;"	p	class:Student	access:public	signature:()
+updateInfo	lab/oopsProject/github/class/Stud.h	/^    void updateInfo();      \/\/TODO$/;"	p	class:Stud	access:public	signature:()
+updateInfo	lab/oopsProject/github/class/Student.h	/^        void updateInfo();      \/\/TODO$/;"	p	class:Student	access:public	signature:()
+updateInfo	lab/oopsProject/ris/class/Stud.h	/^    void updateInfo();      \/\/TODO$/;"	p	class:Stud	access:public	signature:()
+updateInfo	lab/oopsProject/ris/class/Student.h	/^        void updateInfo();      \/\/TODO$/;"	p	class:Student	access:public	signature:()
+usage	home/streams.cpp	/^void usage() { std::cout << "one of (synced|unsynced|stdio), pls\\n"; }$/;"	f	signature:()
+var1	lab/5class.cpp	/^        int var1,var2,var3;$/;"	m	class:No1	file:	access:public
+var1	lab/6friend3.cpp	/^        int var1;$/;"	m	class:demo1	file:	access:private
+var1	lab/6friendobj.cpp	/^        int var1;$/;"	m	class:demo1	file:	access:private
+var2	lab/5class.cpp	/^        int var1,var2,var3;$/;"	m	class:No1	file:	access:public
+var2	lab/6friend3.cpp	/^        int var2;$/;"	m	class:demo2	file:	access:private
+var2	lab/6friendobj.cpp	/^        int var2;$/;"	m	class:demo2	file:	access:private
+var3	lab/5class.cpp	/^        int var1,var2,var3;$/;"	m	class:No1	file:	access:public
+var3	lab/6friend3.cpp	/^        int var3;$/;"	m	class:demo3	file:	access:private
+varStatic	lab/6static.cpp	/^        static int varStatic;$/;"	m	class:demo	file:	access:private
+varStatic	lab/6static.cpp	/^int demo::varStatic;$/;"	m	class:demo	file:
+var	lab/5string.cpp	/^        char var[SIZE<<1];$/;"	m	class:s3	file:	access:private
+var	lab/5string.cpp	/^        char var[SIZE];$/;"	m	class:s1	file:	access:private
+var	lab/5string.cpp	/^        char var[SIZE];$/;"	m	class:s2	file:	access:private
+var	lab/5string_2.cpp	/^        char var[1<<SIZE];$/;"	m	class:s3	file:	access:private
+var	lab/5string_2.cpp	/^        char var[SIZE];$/;"	m	class:s1	file:	access:private
+var	lab/5string_2.cpp	/^        char var[SIZE];$/;"	m	class:s2	file:	access:private
+var	lab/5string_3.cpp	/^        char var[SIZE<<1];  \/\/size must be at least double the size of other arrays$/;"	m	class:s3	file:	access:private
+var	lab/5string_3.cpp	/^        char var[SIZE];$/;"	m	class:s1	file:	access:public
+var	lab/5string_3.cpp	/^        char var[SIZE];$/;"	m	class:s2	file:	access:public
+var	lab/7constCopy.cpp	/^        int var;$/;"	m	class:demo	file:	access:private
+var	lab/7overEval.cpp	/^        int var;$/;"	m	class:eval	file:	access:private
+vector::addVec	home/5-4.h	/^void vector::addVec(vector v1,vector v2){$/;"	f	class:vector	signature:(vector v1,vector v2)
+vector::addVec	home/5-4.h	/^        void addVec(vector,vector);$/;"	p	class:vector	access:public	signature:(vector,vector)
+vector::add	home/5-4.h	/^        friend vector add(vector,vector);$/;"	p	class:vector	access:friend	signature:(vector,vector)
+vector::create	home/5-2.h	/^inline void vector::create(){$/;"	f	class:vector	signature:()
+vector::create	home/5-4.h	/^inline void vector::create(){$/;"	f	class:vector	signature:()
+vector::create	home/5-2.h	/^        void create();$/;"	p	class:vector	access:public	signature:()
+vector::create	home/5-4.h	/^        void create();$/;"	p	class:vector	access:public	signature:()
+vector::data	home/5-2.h	/^        float data[size];$/;"	m	class:vector	access:private
+vector::data	home/5-4.h	/^        float data[size];$/;"	m	class:vector	access:private
+vector::display	home/5-2.h	/^void vector::display(){$/;"	f	class:vector	signature:()
+vector::display	home/5-4.h	/^void vector::display(){$/;"	f	class:vector	signature:()
+vector::display	home/5-2.h	/^        void display();$/;"	p	class:vector	access:public	signature:()
+vector::display	home/5-4.h	/^        void display();$/;"	p	class:vector	access:public	signature:()
+vector::modify	home/5-2.h	/^        void modify(int pos, float newVal){ data[pos-1]=newVal; }  \/\/inline function$/;"	f	class:vector	access:public	signature:(int pos, float newVal)
+vector::modify	home/5-4.h	/^        void modify(int pos, float newVal){ data[pos-1]=newVal; }  \/\/inline function$/;"	f	class:vector	access:public	signature:(int pos, float newVal)
+vector::multiply	home/5-2.h	/^inline void vector::multiply(float scaler){$/;"	f	class:vector	signature:(float scaler)
+vector::multiply	home/5-4.h	/^inline void vector::multiply(float scaler){$/;"	f	class:vector	signature:(float scaler)
+vector::multiply	home/5-2.h	/^        void multiply(float);$/;"	p	class:vector	access:public	signature:(float)
+vector::multiply	home/5-4.h	/^        void multiply(float);$/;"	p	class:vector	access:public	signature:(float)
+vector	home/5-2.h	/^class vector{$/;"	c
+vector	home/5-4.h	/^class vector{$/;"	c
+v	advanced/game.cpp	/^       int h,v;$/;"	m	struct:pos	file:	access:public
+wage	lab/9ch8-3.cpp	/^        int wage;$/;"	m	class:CasualTypist	file:	access:private
+wage	lab/9ch8-6.cpp	/^        int wage;$/;"	m	class:CasualTypist	file:	access:private
+welcome_message	lab/oopsProject/canteen/function.cpp	/^void welcome_message()    \/\/*TODO  use thread sleep like functions too (needed at various places.)  *\/$/;"	f	signature:()
+welcome_message	lab/oopsProject/github/function.cpp	/^void welcome_message()    \/\/*TODO  use thread sleep like functions too (needed at various places.)  *\/$/;"	f	signature:()
+welcome_message	lab/oopsProject/ris/function.cpp	/^void welcome_message()    \/\/*TODO  use thread sleep like functions too (needed at various places.)  *\/$/;"	f	signature:()
+welcome_message	lab/oopsProject/canteen/function.h	/^void welcome_message();$/;"	p	signature:()
+welcome_message	lab/oopsProject/github/function.h	/^void welcome_message();$/;"	p	signature:()
+welcome_message	lab/oopsProject/ris/function.h	/^void welcome_message();$/;"	p	signature:()
+welcome	lab/oopsProject/canteen website/code/definitions.cpp	/^void welcome(){$/;"	f	signature:()
+welcome	lab/oopsProject/function.cpp	/^void welcome()$/;"	f	signature:()
+withdraw	home/5-1.h	/^void Account::withdraw(){$/;"	f	class:Account	signature:()
+withdraw	home/5-1_old.cpp	/^void Account::withdraw(){$/;"	f	class:Account	signature:()
+withdraw	lab/8ch8-1.cpp	/^        bool withdraw(float amtWtd){$/;"	f	class:account	access:public	signature:(float amtWtd)
+withdraw	home/5-1.h	/^        void withdraw();   \/\/acc#,withdrawal amt$/;"	p	class:Account	access:public	signature:()
+withdraw	home/5-1_old.cpp	/^        void withdraw();      \/\/acc#,withdrawal amt$/;"	p	class:Account	file:	access:public	signature:()
+writeItemToDisk	lab/oopsProject/github/class/Item.cpp	/^void Item::writeItemToDisk()$/;"	f	class:Item	signature:()
+writeItemToDisk	lab/oopsProject/github/class/Item.h	/^        static void writeItemToDisk();  \/\/write to disk file$/;"	p	class:Item	access:public	signature:()
+writeToDisk	lab/oopsProject/canteen/class/Stud.cpp	/^void Stud::writeToDisk()$/;"	f	class:Stud	signature:()
+writeToDisk	lab/oopsProject/github/class/Stud.cpp	/^void Stud::writeToDisk()$/;"	f	class:Stud	signature:()
+writeToDisk	lab/oopsProject/ris/class/Stud.cpp	/^void Stud::writeToDisk()$/;"	f	class:Stud	signature:()
+writeToDisk	lab/oopsProject/canteen/class/Stud.h	/^    static void writeToDisk();  \/\/write to disk file$/;"	p	class:Stud	access:public	signature:()
+writeToDisk	lab/oopsProject/github/class/Stud.h	/^    static void writeToDisk();  \/\/write to disk file$/;"	p	class:Stud	access:public	signature:()
+writeToDisk	lab/oopsProject/ris/class/Stud.h	/^    static void writeToDisk();  \/\/write to disk file$/;"	p	class:Stud	access:public	signature:()
+write	home/empio.cpp	/^void employee::write()$/;"	f	class:employee	signature:()
+write	home/empio.cpp	/^  static void write(); \/\/write to disk file$/;"	p	class:employee	file:	access:public	signature:()
+~Cat	home/class_constructor.cpp	/^ Cat::~Cat()$/;"	f	class:Cat	signature:()
+~Cat	home/class_constructor.cpp	/^ ~Cat();\/\/destructor$/;"	p	class:Cat	file:	access:public	signature:()
+~Item	lab/oopsProject/github/class/Item.cpp	/^Item::~Item(){$/;"	f	class:Item	signature:()
+~Item	lab/oopsProject/github/class/Item.h	/^        ~Item();$/;"	p	class:Item	access:public	signature:()
+~Stud	lab/oopsProject/canteen/class/Stud.cpp	/^Stud::~Stud(){$/;"	f	class:Stud	signature:()
+~Stud	lab/oopsProject/github/class/Stud.cpp	/^Stud::~Stud(){$/;"	f	class:Stud	signature:()
+~Stud	lab/oopsProject/ris/class/Stud.cpp	/^Stud::~Stud(){$/;"	f	class:Stud	signature:()
+~Stud	lab/oopsProject/canteen/class/Stud.h	/^    ~Stud();$/;"	p	class:Stud	access:public	signature:()
+~Stud	lab/oopsProject/github/class/Stud.h	/^    ~Stud();$/;"	p	class:Stud	access:public	signature:()
+~Stud	lab/oopsProject/ris/class/Stud.h	/^    ~Stud();$/;"	p	class:Stud	access:public	signature:()
+~books	home/6-3.h	/^books::~books(){$/;"	f	class:books	signature:()
+~books	home/6-3full.cpp	/^books::~books(){$/;"	f	class:books	signature:()
+~books	home/6-3.h	/^        ~books();   \/\/destructor$/;"	p	class:books	access:public	signature:()
+~books	home/6-3full.cpp	/^        ~books();   \/\/destructor$/;"	p	class:books	file:	access:public	signature:()
+~demo	lab/6constDest.cpp	/^demo::~demo(){$/;"	f	class:demo	signature:()
+~demo	lab/6constDest.cpp	/^        ~demo();$/;"	p	class:demo	file:	access:public	signature:()

@@ -1,0 +1,145 @@
+﻿
+Search:   Go 
+*. Forum
+*. Articles
+*. Dynamic allocation in C/C++
+Dynamic allocation in C/C++
+Graham (15)
+WHAT IT IS
+----------
+Dynamic allocation is the automatic allocation of memoryin C/C++, Unlike declarations, which load data onto the programs data segment, dynamic allocation creates new usable space on the programs STACK (an area of RAM specifically allocated to that program).
+It is accomplished by two functions (in C) and two operators (in C++):
+malloc and free, new and delete.
+WHY YOU USE IT
+--------------
+Dynamic allocation can be quite useful. For example, a dynamically sized array:
+Assume you have variable size as a variable (it is NOT defined as constant). The compiler will give you an error if you try this:
+BOTH VERSIONS
+ 
+int  array[size];
+What you can do is allocate this memory dynamically. For example:
+C VERSION:
+1
+2
+int  *array;array=( int  *) malloc(size* sizeof ( int ));
+C++ VERSION:
+1
+2
+int  *array;array= new int [size]l
+NOTICE:
+Since this data is pushed on the stack, not the segment, a possibility of MEMORY LEAKS occurs. Memory leaks are where allocated memory is not freed before the program returns. For example, to safely deallocate the array just created (and normally return from the program):
+C VERSION:
+ 
+free(array);
+C++ VERSION:
+ 
+delete  [] array
+Another special notice: the brackets immediately following delete are only necessary if you allocated an array originally.
+Dynamic allocation is NECESSARY to there use of linked lists. Assuming self-referential structure Node has been declared with nextptr being the link:
+C VERSION:
+1
+2
+3
+4
+5
+6
+7
+struct  Node *newptr;newptr=( struct  Node *) malloc( sizeof (Node));  /*We'll insert this into this linked list justat the second item, assuming topptr is the nameof the top of this list.*/ newptr->nextptr=topptr->nextptr;topptr->nextptr=newptr;
+C++ VERSION:
+1
+2
+3
+4
+5
+Node *newptr;newptr= new  Node;  //We'll insert this as the second item, using topptr. newptr->nextptr=topptr->nextptr;topptr->nextptr=newptr;
+Of course, in both of these examples, no other members within structure Node are used, which defeats the purpose of this linked list. To free a node:
+C VERSION:
+1
+2
+3
+4
+5
+6
+7
+struct  Node *tempptr;  /*The node we'll free is, again, the second.*/ tempptr=topptr->nextptr;  /*We'll unbind this node first, soas not to lose all of the rest of the list with it.*/ topptr->nextptr=tempptr->nextptr; /*It's free, get rid of it.*/ free(tempptr);
+C++ VERSION:
+1
+2
+3
+4
+5
+6
+7
+Node *tempptr;  //We'll get the second node again. tempptr=topptr->nextptr;  //Unbind this node. topptr->nextptr=tempptr->nextptr; //Get rid of it. delete  tempptr;
+HOW TO USE IT
+-------------
+The syntax, for the C functions, is:
+1
+2
+3
+#include <stdlib.h> void  *malloc(size_t size)
+The casting in the previous examples is necessary because malloc returns a void pointer.
+1
+2
+3
+#include <stdlib.h> void  free( void  *);
+This doesn't need casting; anything passed is implicitly demoted.
+The operators in C++ are:
+ 
+NewAlloc= new  Type;
+C++ will automatically cast for you.
+1
+2
+3
+4
+//If this is an array delete  [] NewAlloc;       //Otherwise delete  NewAlloc;
+GOING FARTHER
+-------------
+Several classes, like vector and list, use this. Implement your own!
+Understanding this article requires a good understanding of pointers and arrays (and theirrelationships). I know, I should put this at the top.
+Define a class (I named mine SafeSpot) that will automatically handle the deallocation of memory definedwithin it when the object is destroyed. This will ELIMINATE all of those unforseen memory leaks. You may want to try different scopes of this class for different scopes of allocation (don't let a temp function objectexist for the whole program).
+Please reply, and tell me what you think of this article!
+Thank you,
+Graham Northup
+Last edited on
+Mayflower (25)
+I would have been doomed withmemory leaks if it wasn't for this.
+1
+2
+3
+4
+5
+6
+7
+8
+typedef unsigned char  byte;  struct  Color {    byte R;    byte G;    byte B;}Color * BitmapArray;
+Made a dispose method for my Bitmap class... THANKS!
+satm2008 (148)
+Graham:
+>>dynamic allocation creates new usable space on the programs STACK (an area of RAMspecifically allocated to that program).
+Correction: Dynamic allcoation does not create/allocate space in STACK segment where as it actually allocates in HEAP segment which is different fromSTACK.
+Every program has its own threememory segments, ie, code segment in which the compiled (object/machine) code residess, stack segment in which the local/temporary variables are stored and heap segment whichis used for dynamic memory allocation.
+Stack is very volatile as it changes every function (or a code-block) enters and exits. Meaning a variable created during a function call is created and destroyed as the call exits. When the segment is not initialized, it tends to have a garbage data.
+Where as the heap is for dynamic allocation (by malloc() or new) and keeps the data until the allocation is cleared (byfree() or delete).
+The allocated memory belongs to the pointer pointed-by until it is freed/destroyned or the main program ends.
+If the allocated memory is abandoned by its pointer then itcauses a memory leak, meaning the allocated memory is abandoned (left ignored) and not allowing the same to be reused by other parts of the program. That is called a memory leak.
+Please note that, malloc() or new do not guarantee that allocated space is blank and fresh hence you better use memset() or a constructor to make it fresh before using the allocated.
+Hope it is clear now.
+Good luck :)
+Topic archived. No new replies allowed.
+C++
+*. Information
+*. Documentation
+*. Reference
+*. Articles
+*. Forum
+Forum
+*. Beginners
+*. Windows Programming
+*. UNIX/Linux Programming
+*. General C++ Programming
+*. Lounge
+*. Jobs
+Home page | Privacy policy | old layout
+© cplusplus.com, 2000-2012 - Allrights reserved - v3.0
+Spotted an error? contact us

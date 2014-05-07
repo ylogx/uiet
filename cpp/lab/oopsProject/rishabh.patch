@@ -1,0 +1,475 @@
+Only in /home/chaudhary/Downloads/can/: bin
+Only in /home/chaudhary/Downloads/can/: canteenMgmt.depend
+Only in /home/chaudhary/Downloads/can/: canteenMgmt.layout
+diff -rpu ./github/class/Item.cpp /home/chaudhary/Downloads/can/class/Item.cpp
+--- ./github/class/Item.cpp	2013-04-14 06:10:54.000000000 +0530
++++ /home/chaudhary/Downloads/can/class/Item.cpp	2013-04-25 20:24:42.000000000 +0530
+@@ -41,13 +41,13 @@
+  *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -137,4 +137,4 @@ Date    Name    <email>
+  * @return  return type
+  *
+  */
+-//------------------------------------------------------------ 
++//------------------------------------------------------------
+diff -rpu ./github/class/Item.h /home/chaudhary/Downloads/can/class/Item.h
+--- ./github/class/Item.h	2013-04-14 05:18:56.000000000 +0530
++++ /home/chaudhary/Downloads/can/class/Item.h	2013-04-25 20:24:19.000000000 +0530
+@@ -40,13 +40,13 @@
+  *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -110,4 +110,4 @@ Date    Name    <email>
+  *
+  */
+ //------------------------------------------------------------
+- 
++
+diff -rpu ./github/class/Stud.cpp /home/chaudhary/Downloads/can/class/Stud.cpp
+--- ./github/class/Stud.cpp	2013-04-19 12:59:04.000000000 +0530
++++ /home/chaudhary/Downloads/can/class/Stud.cpp	2013-04-26 13:28:16.000000000 +0530
+@@ -48,16 +48,18 @@
+  *      * New:
+  *      * Modified: readFromDisk, writeToDisk, putData
+  *              Removed all possible read-write errors
+- *
++ *    2013 - 04 - 26 Rishabh Gupta < UE 113080 >
++ *        >New :  direct   bill input function Stud :: addBillInfo()
++ *        >Modified :  commented date facilities and added getch() at various places.
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -81,7 +83,58 @@ Stud::~Stud(){
+         delete arrap[i];
+     }
+ }
+-
++void Stud :: addBillInfo()     //  code finalised and checked..
++{  int roll ;  bool isFound = false ;
++   cout<<"\nEnter student roll_no  :" ;
++   cin>>roll ;      Stud* st =new Stud ;
++   ifstream file ;
++   file . open ( "data/stud.DAT", ios:: binary);
++   if  (!file) { cout<<"\nUnable to open file !"; getch(); return ;}
++   while ( !file. eof () )
++   {  file . read ( reinterpret_cast<char* > (st ) , sizeof(Stud) );
++       if ( st->rollNo == roll )  {  isFound = true ;    break ; }
++   }
++   if ( isFound )
++   {
++          int add ;
++          cout<<"\nEnter amount to add :";
++          cin>>add;
++          st->bill += add ;
++           ofstream first_half  ("data/temp.DAT" , ios::binary);
++           file . seekg ( ios :: beg) ;
++
++           while ( true )
++           {   Stud* student = new Stud ;
++               file . read ( reinterpret_cast<char*> ( student) , sizeof(Stud));
++               if ( student->rollNo == roll ) { break; }
++               first_half . write ( reinterpret_cast<char*> ( student ) , sizeof( Stud));
++           }
++           first_half . write ( reinterpret_cast<char*> ( st ) , sizeof( Stud));
++           while ( ! file . eof ())
++           {  Stud* student = new Stud ;
++               file . read ( reinterpret_cast<char*> ( student) , sizeof(Stud));    if( file . eof () ) break;
++               first_half . write ( reinterpret_cast<char*> ( student ) , sizeof( Stud));
++           }
++           file . close();
++           first_half . close();
++           #ifdef  WINDOWS
++          system("del data\\Stud.DAT > temp.txt");
++          system("move data\\temp.DAT data\\Stud.DAT  > temp.txt");
++          system ( " del temp.txt");
++          #endif
++          #ifdef LINUX   // TODO  modify according to LINUX
++          system ( "rm   data\\Stud.DAT > temp.txt");
++          system ( "mv   data\\temp.DAT   data\\Stud.DAT >  temp.txt");
++          system ( " rm temp.txt");
++          #endif
++          cout<<"\nSuccessfully Added!";
++   }
++   else
++   {
++       cout<<"\nRoll No. not found..";
++   }
++   getch();
++}
+ //add student to list in memory
+ void Stud::add()
+ {
+@@ -91,12 +144,29 @@ void Stud::add()
+ }
+ //--------------------------------------------------------------//display all students
+ void Stud::display()
+-{
++{  ifstream inf ;
++    inf . open ( "data/stud.DAT" , ios::binary);
++    if(!inf){ cout << "\nCan't open file\n"; return; }
++   n = 0; //no students in memory yet
++    while(inf)
++    {
++      int  size=sizeof(Stud);  //!XXX
++        arrap[n]=new Stud;
++        inf.read( reinterpret_cast<char*>(arrap[n]), size );
++        if(n==0 && !inf) //error but not eof
++        { cout << "\nCan't read data from file\n"; bug_message(); return; }
++        //arrap[n]->putData(); //display();
++        n++;
++    }
++        n--;
+     for(int j=0; j<n; j++){
+         cout << (j+1) << ":" ; //display number
+         arrap[j]->putData(); //display Stud data
+         cout << endl;
+-    }
++    }
++    //delete arrap[n--];
++    inf . close();
++    char ch = getch();
+ }
+ //--------------------------------------------------------------//write all current memory objects to file
+ void Stud::writeToDisk()
+@@ -113,7 +183,8 @@ void Stud::writeToDisk()
+         //write student object to file
+         ouf.write( (char*)(arrap[j]), size );
+         if(!ouf){ cout << "\nERROR: Can't write to file\n"; return; }
+-    }
++    }
++    char ch = getch();
+ }
+ //--------------------------------------------------------------//read data for all students from file into memory
+ void Stud::readFromDisk()
+@@ -124,10 +195,7 @@ void Stud::readFromDisk()
+     //Stud temparrap[MAXSTUD];
+     inf.open("data/Stud.DAT", ios::binary);
+     if(!inf){ cout << "\nCan't open file\n"; return; }
+-    //inf.seekg(0);
+-    for(int i=0;i<n;i++){
+-        delete arrap[i];
+-    }
++
+     n = 0; //no students in memory yet
+     while(inf)
+     {
+@@ -138,10 +206,13 @@ void Stud::readFromDisk()
+         { cout << "\nCan't read data from file\n"; bug_message(); return; }
+         //arrap[n]->putData(); //display();
+         n++;
+-    }//end while
++    }//end while
++
++    inf . close();
+     delete arrap[n--];  //empty no data in this record
+-    cout << "Read " << n << " students\n";
+-    //Stud::display();
++    cout << "Read " << n << " student(s)\n";
++    //Stud::display();
++    char ch = getch();
+ }
+ void Stud::getData(){
+     cout<<endl<<setw(22)<<"Enter Roll #: ";
+@@ -160,7 +231,8 @@ void Stud::getData(){
+     cin>>ch;
+     if(ch == 'y' || ch == 'Y'){
+         cout<<setw(22)<<"Enter present bill : "; cin>>bill;
+-    }
++    }
++     ch = getch();
+ }
+ void Stud::getData(char ch)
+ {
+@@ -175,7 +247,8 @@ void Stud::getData(char ch)
+     if(ch == 'y' || ch == 'Y')
+     {
+         cout<<setw(22)<<"Enter present bill :"; cin>>bill;
+-    }
++    }
++     ch = getch();
+ }
+ void Stud::putData()
+ {
+@@ -184,7 +257,8 @@ void Stud::putData()
+         <<setw(11)<<"Name : \t"<<name<<"\n"
+         <<setw(11)<<"Department : \t"<<dept<<"\n"
+         <<setw(11)<<"Phone # : \t"<<phoneNo<<"\n"
+-        <<setw(11)<<"Pending Bill : Rs.\t"<<bill<<endl;
++        <<setw(11)<<"Pending Bill : Rs.\t"<<bill<<endl;
++
+ }
+ void Stud::searchByRoll(){
+     cout<<"\nEnter Roll #: ";
+@@ -207,7 +281,8 @@ void Stud::searchByRoll(){
+     }
+     else{
+         cout<<"\nSorry student not found in database :(";
+-    }
++    }
++    char ch = getch();
+ }
+ 
+ 
+@@ -225,7 +300,8 @@ void Stud::store(){ //old method
+     ofstream fout("info.dat",ios::binary);
+     fout.write(reinterpret_cast<char*>(this),sizeof(Stud));
+     cout<<"\nstore(): Stored the information";
+-    fout.close();
++    fout.close();
++    char ch = getch();
+ }
+ void Stud::retrieve(){  //old method
+     if(1){//(!isStored){
+@@ -234,7 +310,8 @@ void Stud::retrieve(){  //old method
+         fin.close();
+     }
+     cout<<"\nRetreived Info:";
+-    this->putData();
++    this->putData();
++    char ch = getch();
+ }
+ 
+ void Stud::saveToFile(Stud s)
+diff -rpu ./github/class/Student.h /home/chaudhary/Downloads/can/class/Student.h
+--- ./github/class/Student.h	2013-04-14 00:25:28.000000000 +0530
++++ /home/chaudhary/Downloads/can/class/Student.h	2013-04-25 20:24:56.000000000 +0530
+@@ -42,13 +42,13 @@
+  *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -149,4 +149,4 @@ Date    Name    <email>
+  *
+  */
+ //------------------------------------------------------------
+- 
++
+diff -rpu ./github/class/Stud.h /home/chaudhary/Downloads/can/class/Stud.h
+--- ./github/class/Stud.h	2013-04-19 13:00:07.000000000 +0530
++++ /home/chaudhary/Downloads/can/class/Stud.h	2013-04-25 21:27:57.000000000 +0530
+@@ -51,13 +51,13 @@
+  *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -103,7 +103,8 @@ public:
+     static void display();      //display all student's info
+     static void readFromDisk(); //read from disk file
+     static void writeToDisk();  //write to disk file
+-    static void searchByRoll();
++    static void searchByRoll() ;
++    static void addBillInfo () ;
+     Stud(){ isStored=false; bill=0; }    //empty constructor
+     ~Stud();
+     //TODO : rollNo(0),name[0](0),dept[0](0),phoneNo[0](0) // initialised values. first element of each assigned to 0 .
+Only in ./github/data: info.dat
+Only in ./github/data: item.dat
+Only in /home/chaudhary/Downloads/can/data: Stud - Copy.DAT
+Binary files ./github/data/Stud.DAT and /home/chaudhary/Downloads/can/data/Stud.DAT differ
+diff -rpu ./github/function.cpp /home/chaudhary/Downloads/can/function.cpp
+--- ./github/function.cpp	2013-04-14 14:58:33.000000000 +0530
++++ /home/chaudhary/Downloads/can/function.cpp	2013-04-26 13:27:48.000000000 +0530
+@@ -40,16 +40,16 @@
+  *  2013-04-13  Shubham Chaudhary  <shubhamchaudhary92@gmail.com>
+  *      * Modified: menu_display for Stud class
+  *
+- * 
++ *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -83,17 +83,19 @@ void menu_display(){
+         if(system("date")) { cout<<"\n\n"; }
+     #endif
+     #ifdef WINDOWS
+-        clrscr();         //not working
+-        system("clear");
++        //clrscr();         //not working
++        system("cls");
+     #endif
+         cout << "\n##############################################################";
+-        cout << "\n#        'a'   --  add data for a new student                #"
+-                "\n#        'd'   --  display data for all stusents             #"
+-                "\n#        'w'   --  write all student data to disk            #"
+-                "\n#        'r'   --  read all student data from disk           #"
+-                "\n#        's'   --  search database by Roll No.               #"
+-                "\n#        'x'   --  exit                                      #";
+-        cout << "\n##############################################################";
++        cout << "\n#        'b'   --  add bill info                             #"
++                     "\n#        'a'   --  add data for a new student                #"
++                     "\n#        'd'   --  display data for all students             #"
++                     "\n#        'w'   --  write all student data to disk            #"
++                    "\n#        'r'   --  read all student data from disk           #"
++                    "\n#        's'   --  search database by Roll No.               #"
++                   "\n#        'x'   --  exit                                      #";
++        cout << "\n##############################################################";
++        Stud::readFromDisk();
+         cout << "\nEnter selection: ";
+         cin>>choice;
+         switch(choice){
+@@ -108,7 +110,8 @@ void menu_display(){
+             Stud::readFromDisk(); break;
+         case 's': //search by roll
+             Stud::searchByRoll(); break;
+-        case 'x': inLoop=false; break; //exit program
++        case 'x': inLoop=false; break; //exit program
++        case 'b' : Stud::addBillInfo(); break;
+         default: cout << "\nUnknown command";
+         }//end switch
+         //getchar();
+@@ -132,7 +135,7 @@ void welcome_message()    //*TODO  use t
+     cout<<"\n\n================ W e l C o m e ===================\n\n"; //TODO cout<<(static_cast<string>(time_t()));
+     cout<<"Easily Maintain Your canteen record here.."<<endl;  //DONE find a way to show time on top right corner.
+     //TODO make it more vivid and detailed
+-
++    char ch = getch();
+     //Done display current date and time on top-right corner at all times.
+ }
+ void exit_message(){
+@@ -147,7 +150,8 @@ void exit_message(){
+           "(_____)------------------------------------------------------------(_____) \n" ;
+     //TODO make it more vivid and detailed
+     //TODO google ascii art and add one here
+-    //Done display current date and time on top-right corner at all times.
++    //Done display current date and time on top-right corner at all times.
++    char ch = getch();
+ }
+ 
+ void bug_message(){
+@@ -155,7 +159,8 @@ void bug_message(){
+     cout<<"     \\__/    \n"
+           "     (@@)    \n"
+           "    //||\\\\   \n\n";
+-    cout<<"We are really sorry for the inconvinience  caused !";
++    cout<<"We are really sorry for the inconvinience  caused !";
++    char ch = getch();
+ }
+ 
+ void disk_message(){
+diff -rpu ./github/function.h /home/chaudhary/Downloads/can/function.h
+--- ./github/function.h	2013-04-14 14:48:55.000000000 +0530
++++ /home/chaudhary/Downloads/can/function.h	2013-04-25 20:25:02.000000000 +0530
+@@ -35,13 +35,13 @@
+  *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+Only in ./github/: .git
+diff -rpu ./github/main.cpp /home/chaudhary/Downloads/can/main.cpp
+--- ./github/main.cpp	2013-04-14 14:19:22.000000000 +0530
++++ /home/chaudhary/Downloads/can/main.cpp	2013-04-26 01:33:35.000000000 +0530
+@@ -45,8 +45,8 @@
+  *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+@@ -89,10 +89,9 @@ int main (int argc, char* argv[]){
+     if(system("date")) { cout<<"\n\n"; }
+     #endif
+     #ifdef WINDOWS
+-     clrscr();         //not working
+-     system("clear");
+-    #endif
+-
++//     clrscr();         //not working
++     system("cls");
++    #endif
+ 
+ //!!!!!!!!!!!!!!!! Start Editing Here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+Only in /home/chaudhary/Downloads/can/: obj
+Only in /home/chaudhary/Downloads/can/: README.txt

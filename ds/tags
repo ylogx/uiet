@@ -1,0 +1,561 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADDRESS_p_t	dshome/struct_typedef.c	/^} ADDRESS_t, *ADDRESS_p_t;$/;"	t	typeref:struct:address_s	file:
+ADDRESS_t	dshome/struct_typedef.c	/^} ADDRESS_t, *ADDRESS_p_t;$/;"	t	typeref:struct:address_s	file:
+ARRAYSIZE	dshome/revision/225.c	7;"	d	file:
+BYTE4_t	dshome/typedef.c	/^typedef int BYTE4_t;$/;"	t	file:
+BYTE4_t	dshome/typedef.c	/^typedef long BYTE4_t;$/;"	t	file:
+FALSE	ds3_queue.c	10;"	d	file:
+FALSE	ds4_stack_palin.c	28;"	d	file:
+FALSE	ds6ListStack.c	13;"	d	file:
+FALSE	ds6ListStack2.c	13;"	d	file:
+FALSE	dshome/dsadv/bfs.c	6;"	d	file:
+FALSE	dshome/parenthesis.c	23;"	d	file:
+FALSE	dshome/parenthesis_backup.c	23;"	d	file:
+FALSE	dshome/representin_stack_in.c	14;"	d	file:
+FALSE	ds7PostFixSingleFile.c	/^const int FALSE=0;$/;"	v
+FALSE	ds7postfix (another copy).c	/^const int FALSE=0;$/;"	v
+FALSE	ds7postfix.c	/^const int FALSE=0;$/;"	v
+FALSE	ds7test.c	/^const int FALSE=0;$/;"	v
+FALSE	ds8infix.c	/^const int FALSE=0;$/;"	v
+LIMIT	ds1.c	5;"	d	file:
+LIMIT	ds1_array_InsDelModSrch.c	7;"	d	file:
+MAXNODES	dshome/dsadv/adjacencyList.c	10;"	d	file:
+MAXNODES	dshome/dsadv/bfs.c	3;"	d	file:
+MAXNODES	dshome/dsadv/graphTenenbaum.c	9;"	d	file:
+MAXNODES	dshome/dsadv/mst.c	11;"	d	file:
+MAX	ds3_queue_2.c	3;"	d	file:
+MAX	dshome/palindrome_ds_4.c	17;"	d	file:
+NODEPTR	ds5_list_array3dynamic.c	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS	file:
+NODEPTR	ds5_list_array3dynamicPrint.c	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS	file:
+NODEPTR	ds6ListStack.c	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS	file:
+NODEPTR	ds6ListStack2.c	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS	file:
+NODEPTR	ds6StackRevised.c	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS	file:
+NODEPTR	ds6listQueue.c	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS	file:
+NODEPTR	ds6listStack0.c	/^typedef struct nodeS* NODEPTR;$/;"	t	typeref:struct:nodeS	file:
+NODEPTR	ds6listStack1.c	/^typedef struct nodeS* NODEPTR;$/;"	t	typeref:struct:nodeS	file:
+NODEPTR	ds6listStackFromds5.c	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS	file:
+NODEPTR	ds6listStackFromds5_2Print.c	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS	file:
+NODEPTR	ds7PostFixSingleFile.c	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS	file:
+NODEPTR	ds7headerBackup.h	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS
+NODEPTR	ds7postfix (another copy).h	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS
+NODEPTR	ds7postfix.h	/^typedef struct nodeS *NODEPTR;$/;"	t	typeref:struct:nodeS
+NOP	dshome/revision/222.c	/^    NOP$/;"	e	enum:operations	file:
+NUMNODES	ds5_list_array.c	11;"	d	file:
+NUMNODES	ds5_list_array2.c	11;"	d	file:
+Node	dshome/w/link_list.c	/^typedef struct Node $/;"	s	file:
+N	dshome/w/listStack.c	/^typedef struct node N;$/;"	t	typeref:struct:node	file:
+POP	dshome/revision/222.c	/^    POP,$/;"	e	enum:operations	file:
+PUSH	dshome/revision/222.c	/^    PUSH,$/;"	e	enum:operations	file:
+QSIZE	ds3_queue.c	8;"	d	file:
+QSIZE	dshome/dsadv/bfs.c	4;"	d	file:
+SIZE	ds2_stack_PushPop.c	10;"	d	file:
+STACKSIZE	dshome/representin_stack_in.c	6;"	d	file:
+STACKSIZE	dshome/revision/221.c	3;"	d	file:
+STACKSIZE	dshome/revision/222.c	7;"	d	file:
+STACKSIZE	dshome/revision/224.c	7;"	d	file:
+STACKSIZE	dshome/revision/225.c	6;"	d	file:
+TRUE	ds3_queue.c	9;"	d	file:
+TRUE	ds4_stack_palin.c	27;"	d	file:
+TRUE	ds6ListStack.c	12;"	d	file:
+TRUE	ds6ListStack2.c	12;"	d	file:
+TRUE	dshome/dsadv/bfs.c	5;"	d	file:
+TRUE	dshome/parenthesis.c	22;"	d	file:
+TRUE	dshome/parenthesis_backup.c	22;"	d	file:
+TRUE	dshome/representin_stack_in.c	13;"	d	file:
+TRUE	ds7PostFixSingleFile.c	/^const int TRUE=1;$/;"	v
+TRUE	ds7postfix (another copy).c	/^const int TRUE=1;$/;"	v
+TRUE	ds7postfix.c	/^const int TRUE=1;$/;"	v
+TRUE	ds7test.c	/^const int TRUE=1;$/;"	v
+TRUE	ds8infix.c	/^const int TRUE=1;$/;"	v
+add	dshome/w/linked_list.c	/^void add(struct node **q,int num)$/;"	f
+addop	ds7PostFixSingleFile.c	/^void addop(void){$/;"	f
+addop	ds7postfix (another copy).c	/^void addop(void){$/;"	f
+addop	ds7postfix.c	/^void addop(void){$/;"	f
+addop	ds7test.c	/^void addop(void){$/;"	f
+address_s	dshome/struct_traditional.c	/^struct address_s$/;"	s	file:
+address_s	dshome/struct_typedef.c	/^typedef struct address_s$/;"	s	file:
+address	dshome/struct_traditional.c	/^print_address( &address );$/;"	v
+adjacent	dshome/dsadv/graphTenenbaum.c	/^int adjacent(int adj[][MAXNODES],int node1,int node2){$/;"	f
+adj	dshome/dsadv/graphTenenbaum.c	/^    int adj;    \/\/information associated with each arc$/;"	m	struct:arc	file:
+arc	dshome/dsadv/graphTenenbaum.c	/^struct arc{     \/\/---represent every possible pair of nodes---$/;"	s	file:
+arcs	dshome/dsadv/graphTenenbaum.c	/^    struct arc arcs[MAXNODES][MAXNODES];    \/\/adjacency matrix$/;"	m	struct:graph	typeref:struct:graph::arc	file:
+arpr	ds1.c	/^void arpr(int *a)$/;"	f
+arr	dshome/revision/222.c	/^    int arr[STACKSIZE];$/;"	m	struct:stack	file:
+arr	dshome/revision/225.c	/^    int arr[ARRAYSIZE];$/;"	m	struct:stack_varying	file:
+arr	ds1_array_InsDelModSrch.c	/^int arr[LIMIT];$/;"	v
+arr	ds4_stack_palin.c	/^char arr[100];$/;"	v
+arr	dshome/palindrome_ds_4.c	/^int arr[MAX];$/;"	v
+arr	dshome/parenthesis.c	/^char arr[100];$/;"	v
+arr	dshome/parenthesis_backup.c	/^char arr[100];$/;"	v
+avail	ds5_list_array.c	/^int avail = 0;$/;"	v
+avail	ds5_list_array2.c	/^int avail=(-1);$/;"	v
+bfs	dshome/dsadv/bfs.c	/^void bfs(struct gnode **adj,int num,int source){$/;"	f
+boolean	dshome/dsadv/mst.c	/^typedef enum {false,true} boolean;$/;"	t	typeref:enum:__anon1	file:
+bottom	dshome/revision/221.c	/^bottom ( struct stack_array *stack ) {$/;"	f
+brother	dshome/dsadv/tree/duplicate.c	/^    struct nodetype *left, *right, *father, *brother;$/;"	m	struct:nodetype	typeref:struct:nodetype::	file:
+brother	dshome/dsadv/tree/tree.c	/^    struct nodetype *left, *right, *father, *brother;$/;"	m	struct:nodetype	typeref:struct:nodetype::	file:
+check	ds4_stack_palin.c	/^void check()$/;"	f
+check	dshome/parenthesis.c	/^void check()$/;"	f
+check	dshome/parenthesis_backup.c	/^void check()$/;"	f
+city	dshome/struct_traditional.c	/^char *city;$/;"	m	struct:address_s	file:
+city	dshome/struct_typedef.c	/^char *city;$/;"	m	struct:address_s	file:
+concat	dshome/w/linked_list.c	/^struct node * concat(struct node *p,struct node *q)$/;"	f
+country	dshome/struct_traditional.c	/^char *country;$/;"	m	struct:address_s	file:
+country	dshome/struct_typedef.c	/^char *country;$/;"	m	struct:address_s	file:
+createGraph	dshome/dsadv/adjacencyList.c	/^void createGraph(gNode1 *adj[],int num){$/;"	f
+createGraph	dshome/dsadv/bfs.c	/^void createGraph(struct gnode **adj,int num){$/;"	f
+createGraph	dshome/dsadv/mst.c	/^void createGraph(gnode2 *adj[],int num){$/;"	f
+createWeightedGraph	dshome/dsadv/adjacencyList.c	/^void createWeightedGraph(gNode2 *adj[],int num){$/;"	f
+data	dshome/w/link_list.c	/^        int data;$/;"	m	struct:Node	file:
+data	dshome/w/linked_list.c	/^  int data;$/;"	m	struct:node	file:
+delAfter	ds5_list_array.c	/^void delAfter(int p, int *px){$/;"	f
+delAfter	ds5_list_array2.c	/^void delAfter(int p, int *px){$/;"	f
+deleteElement	dshome/dsadv/mst.c	/^void deleteElement(gnode1 **fringeList,int d){$/;"	f
+deleteGraph	dshome/dsadv/adjacencyList.c	/^void deleteGraph(gNode1 *adj[],int num){$/;"	f
+deleteGraph	dshome/dsadv/mst.c	/^void deleteGraph(gnode2 *adj[],int num){$/;"	f
+delete	ds1_array_InsDelModSrch.c	/^void delete()		\/*to delete element at specified position*\/$/;"	f
+delete	ds5_list_array3dynamic.c	/^ void delete(NODEPTR tempStart,int data){$/;"	f
+delete	ds5_list_array3dynamicPrint.c	/^void delete(NODEPTR tempStart,int data){$/;"	f
+delete	ds6ListStack.c	/^int delete(NODEPTR tempStart){$/;"	f
+delete	ds6ListStack2.c	/^int delete(NODEPTR tempStart){$/;"	f
+delete	ds6listQueue.c	/^void delete(NODEPTR tempStart,int data){$/;"	f
+delete	dshome/w/link_list.c	/^void delete(node *pointer, int data)$/;"	f
+del	ds3_queue_2.c	/^del()$/;"	f
+dequeue	dshome/dsadv/bfs.c	/^int dequeue(struct queue* q)$/;"	f
+display_stack	ds2_stack_PushPop.c	/^void display_stack()$/;"	f
+display	ds1_array_InsDelModSrch.c	/^void display()		\/*function to print the array*\/$/;"	f
+display	ds3_queue.c	/^void display()$/;"	f
+display	ds3_queue_2.c	/^display()$/;"	f
+display	ds4_stack_palin.c	/^void display()$/;"	f
+display	ds5_list_array.c	/^void display( int p){$/;"	f
+display	ds5_list_array2.c	/^void display( int p){$/;"	f
+display	ds5_list_array3dynamic.c	/^ void display(NODEPTR p){$/;"	f
+display	ds5_list_array3dynamicPrint.c	/^void display(NODEPTR p){$/;"	f
+display	ds6ListStack.c	/^void display(NODEPTR tempStart){$/;"	f
+display	ds6ListStack2.c	/^void display(NODEPTR tempStart){$/;"	f
+display	ds6StackRevised.c	/^void display(NODEPTR p){$/;"	f
+display	ds6listQueue.c	/^void display(NODEPTR p){$/;"	f
+display	ds6listStackFromds5.c	/^void display(NODEPTR p){$/;"	f
+display	ds6listStackFromds5_2Print.c	/^void display(NODEPTR p){$/;"	f
+display	ds7PostFixSingleFile.c	/^void display(NODEPTR p){$/;"	f
+display	ds7headerBackup.h	/^void display(NODEPTR p){$/;"	f
+display	ds7postfix (another copy).h	/^void display(NODEPTR p){$/;"	f
+display	ds7postfix.h	/^void display(NODEPTR p){$/;"	f
+display	dshome/dsadv/bfs.c	/^void display(struct queue* q)$/;"	f
+display	dshome/revision/221.c	/^void display(struct stack_array temp) {$/;"	f
+display	dshome/revision/224.c	/^void display (struct stack st) {$/;"	f
+display	dshome/w/linked_list.c	/^void display(struct node *pt)$/;"	f
+display	dshome/w/listStack.c	/^void display()$/;"	f
+divop	ds7PostFixSingleFile.c	/^void divop(void){$/;"	f
+divop	ds7postfix (another copy).c	/^void divop(void){$/;"	f
+divop	ds7postfix.c	/^void divop(void){$/;"	f
+ele_last_rem	dshome/dsadv/bfs.c	/^    int front,rear,ele_last_rem;$/;"	m	struct:queue	file:
+ele_last_rem	ds3_queue.c	/^int front,rear,ele_last_rem;$/;"	v
+ele_poped	ds2_stack_PushPop.c	/^int stack[SIZE],top=(-1),ele_pushed,ele_poped;$/;"	v
+ele_pushed	ds2_stack_PushPop.c	/^int stack[SIZE],top=(-1),ele_pushed,ele_poped;$/;"	v
+empty	ds4_stack_palin.c	/^int empty()$/;"	f
+empty	ds6ListStack.c	/^int empty()$/;"	f
+empty	ds6ListStack2.c	/^int empty()$/;"	f
+empty	dshome/parenthesis.c	/^int empty()$/;"	f
+empty	dshome/parenthesis_backup.c	/^int empty()$/;"	f
+empty	dshome/representin_stack_in.c	/^int empty(struct stack *ps)$/;"	f
+empty	dshome/revision/221.c	/^int empty (struct stack_array *stack ) {$/;"	f
+empty	dshome/revision/222.c	/^int empty ( struct stack *s ) {$/;"	f
+empty	dshome/revision/224.c	/^int empty (struct stack *st) {$/;"	f
+enqueue	dshome/dsadv/bfs.c	/^void enqueue(struct queue* q,int added_item)$/;"	f
+expop	ds7PostFixSingleFile.c	/^void expop(void){$/;"	f
+expop	ds7postfix (another copy).c	/^void expop(void){$/;"	f
+expop	ds7postfix.c	/^void expop(void){$/;"	f
+false	dshome/dsadv/mst.c	/^typedef enum {false,true} boolean;$/;"	e	enum:__anon1	file:
+father	dshome/dsadv/tree/duplicate.c	/^    struct nodetype *left, *right, *father, *brother;$/;"	m	struct:nodetype	typeref:struct:nodetype::	file:
+father	dshome/dsadv/tree/intrav5.c	/^    struct treenode *left,*right,*father;$/;"	m	struct:treenode	typeref:struct:treenode::	file:
+father	dshome/dsadv/tree/tree.c	/^    struct nodetype *left, *right, *father, *brother;$/;"	m	struct:nodetype	typeref:struct:nodetype::	file:
+findPath	dshome/dsadv/graphTenenbaum.c	/^int findPath(int a,int b){$/;"	f
+find	dshome/w/link_list.c	/^int find(node *pointer, int key)$/;"	f
+freeNode	ds5_list_array.c	/^void freeNode(int p){$/;"	f
+freeNode	ds5_list_array2.c	/^void freeNode(int p){$/;"	f
+freeNode	ds5_list_array3dynamic.c	/^void freeNode(NODEPTR  p){$/;"	f
+freeNode	ds5_list_array3dynamicPrint.c	/^void freeNode(NODEPTR  p){$/;"	f
+freeNode	ds6ListStack.c	/^void freeNode(NODEPTR  p){$/;"	f
+freeNode	ds6ListStack2.c	/^void freeNode(NODEPTR  p){$/;"	f
+freeNode	ds6StackRevised.c	/^void freeNode(NODEPTR  p){$/;"	f
+freeNode	ds6listQueue.c	/^void freeNode(NODEPTR  p){$/;"	f
+freeNode	ds6listStackFromds5.c	/^void freeNode(NODEPTR  p){$/;"	f
+freeNode	ds6listStackFromds5_2Print.c	/^void freeNode(NODEPTR  p){$/;"	f
+freeNode	ds7PostFixSingleFile.c	/^void freeNode(NODEPTR  p){$/;"	f
+freeNode	ds7headerBackup.h	/^void freeNode(NODEPTR  p){$/;"	f
+freeNode	ds7postfix (another copy).h	/^void freeNode(NODEPTR  p){$/;"	f
+freeNode	ds7postfix.h	/^void freeNode(NODEPTR  p){$/;"	f
+front	dshome/dsadv/bfs.c	/^    int front,rear,ele_last_rem;$/;"	m	struct:queue	file:
+front	ds3_queue.c	/^int front,rear,ele_last_rem;$/;"	v
+front	ds3_queue_2.c	/^int front = - 1;$/;"	v
+gNode1	dshome/dsadv/adjacencyList.c	/^typedef struct nodeType1 gNode1;$/;"	t	typeref:struct:nodeType1	file:
+gNode2	dshome/dsadv/adjacencyList.c	/^typedef struct nodeType2 gNode2;$/;"	t	typeref:struct:nodeType2	file:
+getNode	ds5_list_array.c	/^int getNode(void){$/;"	f
+getNode	ds5_list_array2.c	/^int getNode(void){$/;"	f
+getNode	ds5_list_array3dynamic.c	/^  NODEPTR getNode(void){$/;"	f
+getNode	ds5_list_array3dynamicPrint.c	/^NODEPTR getNode(void){$/;"	f
+getNode	ds6ListStack.c	/^NODEPTR getNode(void){$/;"	f
+getNode	ds6ListStack2.c	/^NODEPTR getNode(void){$/;"	f
+getNode	ds6StackRevised.c	/^NODEPTR getNode(void){$/;"	f
+getNode	ds6listQueue.c	/^NODEPTR getNode(void){$/;"	f
+getNode	ds6listStackFromds5.c	/^NODEPTR getNode(void){$/;"	f
+getNode	ds6listStackFromds5_2Print.c	/^NODEPTR getNode(void){$/;"	f
+getNode	ds7PostFixSingleFile.c	/^NODEPTR getNode(void){$/;"	f
+getNode	ds7headerBackup.h	/^NODEPTR getNode(void){$/;"	f
+getNode	ds7postfix (another copy).h	/^NODEPTR getNode(void){$/;"	f
+getNode	ds7postfix.h	/^NODEPTR getNode(void){$/;"	f
+get_string	ds4_stack_palin.c	/^void get_string()$/;"	f
+get_string	dshome/parenthesis.c	/^void get_string()$/;"	f
+get_string	dshome/parenthesis_backup.c	/^void get_string()$/;"	f
+getnode	dshome/dsadv/tree/duplicate.c	/^nodeptr getnode(){$/;"	f
+getnode	dshome/dsadv/tree/intrav5.c	/^tnp getnode(){$/;"	f
+getnode	dshome/dsadv/tree/tree.c	/^nodeptr getnode(){$/;"	f
+gnode1	dshome/dsadv/mst.c	/^typedef struct nodeType1 gnode1;$/;"	t	typeref:struct:nodeType1	file:
+gnode2	dshome/dsadv/mst.c	/^typedef struct nodeType2 gnode2;$/;"	t	typeref:struct:nodeType2	file:
+gnode	dshome/dsadv/bfs.c	/^struct gnode{$/;"	s	file:
+graph	dshome/dsadv/graphTenenbaum.c	/^struct graph{$/;"	s	file:
+g	dshome/dsadv/graphTenenbaum.c	/^struct graph g;$/;"	v	typeref:struct:graph
+head	queue_struct.c	/^	  struct my_struct* head;$/;"	m	struct:my_list	typeref:struct:my_list::my_struct	file:
+in2post	ds8infix.c	/^in2post(char *inf){$/;"	f
+infix	ds8infix.c	/^char infix[30], postfix[30];$/;"	v
+info	ds5_list_array.c	/^  int info, next;$/;"	m	struct:nodetype	file:
+info	ds5_list_array2.c	/^  int info, next;$/;"	m	struct:nodetype	file:
+info	ds5_list_array3dynamic.c	/^  int info;$/;"	m	struct:nodeS	file:
+info	ds5_list_array3dynamicPrint.c	/^  int info;$/;"	m	struct:nodeS	file:
+info	ds6ListStack.c	/^  int info;$/;"	m	struct:nodeS	file:
+info	ds6ListStack2.c	/^  int info;$/;"	m	struct:nodeS	file:
+info	ds6StackRevised.c	/^  int info;$/;"	m	struct:nodeS	file:
+info	ds6listQueue.c	/^  int info;$/;"	m	struct:nodeS	file:
+info	ds6listStack0.c	/^    int info;$/;"	m	struct:nodeS	file:
+info	ds6listStack1.c	/^    int info;$/;"	m	struct:nodeS	file:
+info	ds6listStackFromds5.c	/^  int info;$/;"	m	struct:nodeS	file:
+info	ds6listStackFromds5_2Print.c	/^  int info;$/;"	m	struct:nodeS	file:
+info	ds7PostFixSingleFile.c	/^  int info;$/;"	m	struct:nodeS	file:
+info	ds7headerBackup.h	/^  int info;$/;"	m	struct:nodeS
+info	ds7postfix (another copy).h	/^  int info;$/;"	m	struct:nodeS
+info	ds7postfix.h	/^  int info;$/;"	m	struct:nodeS
+info	dshome/dsadv/graphTenenbaum.c	/^    int info;   \/\/information associated with each node$/;"	m	struct:node	file:
+info	dshome/dsadv/tree/duplicate.c	/^    int info;$/;"	m	struct:nodetype	file:
+info	dshome/dsadv/tree/intrav5.c	/^    int info;$/;"	m	struct:treenode	file:
+info	dshome/dsadv/tree/tree.c	/^    int info;$/;"	m	struct:nodetype	file:
+info	dshome/other/list90.c	/^int info;                                                                      \/\/ structure of a node$/;"	m	struct:list	file:
+info	dshome/other/listQueue.c	/^int info;$/;"	m	struct:queue	file:
+info	dshome/other/listStack.c	/^int info;						\/\/structure of a node$/;"	m	struct:stack	file:
+info	dshome/w/listStack.c	/^    int info;$/;"	m	struct:node	file:
+init	dshome/dsadv/bfs.c	/^void init(struct queue* q){  q->front= -1; q->rear= -1; }$/;"	f
+init	dshome/revision/222.c	/^void init (struct stack *s) {$/;"	f
+init	dshome/revision/224.c	/^void init(struct stack *st) {$/;"	f
+inputGraph	dshome/dsadv/adjacencyList.c	/^void inputGraph(gNode1 *adj[],int num){$/;"	f
+inputGraph	dshome/dsadv/bfs.c	/^void inputGraph(struct gnode **adj,int num){$/;"	f
+inputGraph	dshome/dsadv/mst.c	/^void inputGraph(gnode2 *adj[],int num){$/;"	f
+input	ds7PostFixSingleFile.c	/^char input[30];$/;"	v
+input	ds7postfix (another copy).c	/^char input[30];$/;"	v
+input	ds7postfix.c	/^char input[30];$/;"	v
+input	ds7test.c	/^char input[30];$/;"	v
+insAfter	ds5_list_array.c	/^void insAfter(int p,int x){$/;"	f
+insAfter	ds5_list_array2.c	/^void insAfter(int p,int x){$/;"	f
+insAfter	ds5_list_array3dynamic.c	/^ void insAfter(NODEPTR p,int x){$/;"	f
+insertAtBeginning	dshome/dsadv/mst.c	/^void insertAtBeginning(gnode1 **fringeList,int d){$/;"	f
+insert_in_tree	dshome/dsadv/tree/intrav5.c	/^void insert_in_tree(tnp tree,int data){$/;"	f
+insert	ds1_array_InsDelModSrch.c	/^void insert()		\/*functionn to insert at the end of array*\/$/;"	f
+insert	ds3_queue.c	/^void insert()$/;"	f
+insert	ds3_queue_2.c	/^insert()$/;"	f
+insert	ds5_list_array3dynamic.c	/^ void insert(NODEPTR tempStart,int x){$/;"	f
+insert	ds5_list_array3dynamicPrint.c	/^void insert(NODEPTR tempStart,int x){$/;"	f
+insert	ds6ListStack.c	/^void insert(NODEPTR tempStart,int x){$/;"	f
+insert	ds6ListStack2.c	/^void insert(NODEPTR tempStart,int x){$/;"	f
+insert	ds6listQueue.c	/^void insert(NODEPTR tempStart,int x){$/;"	f
+insert	dshome/w/link_list.c	/^void insert(node *pointer, int data)$/;"	f
+intrav5	dshome/dsadv/tree/intrav5.c	/^void intrav5(tnp tree){$/;"	f
+intrav	dshome/dsadv/tree/duplicate.c	/^void intrav(nodeptr tree){$/;"	f
+intrav	dshome/dsadv/tree/intrav5.c	/^void intrav(tnp tree){$/;"	f
+intrav	dshome/dsadv/tree/tree.c	/^void intrav(nodeptr tree){$/;"	f
+invert	dshome/w/linked_list.c	/^void invert(struct node *ptr)$/;"	f
+isEmpty	dshome/dsadv/mst.c	/^int isEmpty(gnode1 *ptr){$/;"	f
+isFull	dshome/dsadv/bfs.c	/^int isFull(struct queue* q)$/;"	f
+isLeft	dshome/dsadv/tree/duplicate.c	/^int isLeft(nodeptr p){$/;"	f
+isLeft	dshome/dsadv/tree/tree.c	/^int isLeft(nodeptr p){$/;"	f
+isNotEmpty	dshome/dsadv/bfs.c	/^int isNotEmpty(struct queue* q)$/;"	f
+isRight	dshome/dsadv/tree/duplicate.c	/^int isRight(nodeptr p){$/;"	f
+isRight	dshome/dsadv/tree/tree.c	/^int isRight(nodeptr p){$/;"	f
+isempty	ds3_queue.c	/^int isempty()$/;"	f
+isfull	ds3_queue.c	/^int isfull()$/;"	f
+isleft	dshome/dsadv/tree/intrav5.c	/^int isleft(tnp p){$/;"	f
+item	dshome/revision/221.c	/^    int item[STACKSIZE];$/;"	m	struct:stack_array	file:
+items	dshome/representin_stack_in.c	/^  int items[STACKSIZE];$/;"	m	struct:stack	file:
+join	dshome/dsadv/graphTenenbaum.c	/^void join(int adj[][MAXNODES],int node1,int node2){$/;"	f
+left	dshome/dsadv/tree/duplicate.c	/^    struct nodetype *left, *right, *father, *brother;$/;"	m	struct:nodetype	typeref:struct:nodetype::nodetype	file:
+left	dshome/dsadv/tree/intrav5.c	/^    struct treenode *left,*right,*father;$/;"	m	struct:treenode	typeref:struct:treenode::treenode	file:
+left	dshome/dsadv/tree/tree.c	/^    struct nodetype *left, *right, *father, *brother;$/;"	m	struct:nodetype	typeref:struct:nodetype::nodetype	file:
+limit	ds1_array_InsDelModSrch.c	/^int limit=LIMIT;$/;"	v
+link	dshome/w/linked_list.c	/^  struct node *link;$/;"	m	struct:node	typeref:struct:node::node	file:
+link	dshome/w/listStack.c	/^    struct node *link;$/;"	m	struct:node	typeref:struct:node::node	file:
+list_add_element	queue_struct.c	/^	struct my_list* list_add_element(struct my_list* s, const int i)$/;"	f
+list_free	queue_struct.c	/^struct my_list* list_free( struct my_list* s )$/;"	f
+list_new	queue_struct.c	/^struct my_list* list_new(void)$/;"	f
+list_print_element	queue_struct.c	/^	void list_print_element(const struct my_struct* p )$/;"	f
+list_print	queue_struct.c	/^void list_print( const struct my_list* ps )$/;"	f
+list_remove_element	queue_struct.c	/^struct my_list* list_remove_element( struct my_list* s )$/;"	f
+list	dshome/other/list90.c	/^struct list$/;"	s	file:
+main	demo.c	/^int main(){$/;"	f
+main	ds1.c	/^void main()$/;"	f
+main	ds1_array_InsDelModSrch.c	/^void main()$/;"	f
+main	ds2_stack_PushPop.c	/^void main()$/;"	f
+main	ds3_queue.c	/^void main()$/;"	f
+main	ds3_queue_2.c	/^void main()$/;"	f
+main	ds4_stack_palin.c	/^void main()$/;"	f
+main	ds5_list_array.c	/^int main(){$/;"	f
+main	ds5_list_array2.c	/^int main(){$/;"	f
+main	ds5_list_array3dynamic.c	/^int main(){$/;"	f
+main	ds5_list_array3dynamicPrint.c	/^int main(){$/;"	f
+main	ds6ListStack.c	/^int main(){$/;"	f
+main	ds6ListStack2.c	/^int main(){$/;"	f
+main	ds6StackRevised.c	/^int main(){$/;"	f
+main	ds6listQueue.c	/^int main(){$/;"	f
+main	ds6listStack0.c	/^int main(){$/;"	f
+main	ds6listStack1.c	/^int main(){$/;"	f
+main	ds6listStackFromds5.c	/^int main(){$/;"	f
+main	ds6listStackFromds5_2Print.c	/^int main(){$/;"	f
+main	ds7PostFixSingleFile.c	/^int main(){$/;"	f
+main	ds7postfix (another copy).c	/^int main(){$/;"	f
+main	ds7postfix.c	/^int main(){$/;"	f
+main	ds7test.c	/^int main(){$/;"	f
+main	ds8infix.c	/^int main(){$/;"	f
+main	dshome/dsadv/adjacencyList.c	/^int main(){$/;"	f
+main	dshome/dsadv/bfs.c	/^int main(){$/;"	f
+main	dshome/dsadv/graphTenenbaum.c	/^int main(){$/;"	f
+main	dshome/dsadv/mst.c	/^int main(){$/;"	f
+main	dshome/dsadv/tree/duplicate.c	/^int main() {$/;"	f
+main	dshome/dsadv/tree/intrav5.c	/^int main(){$/;"	f
+main	dshome/dsadv/tree/tree.c	/^int main() {$/;"	f
+main	dshome/malloc.c	/^int main(){$/;"	f
+main	dshome/other/list90.c	/^void main()$/;"	f
+main	dshome/other/listQueue.c	/^void main()$/;"	f
+main	dshome/other/listStack.c	/^void main()$/;"	f
+main	dshome/palindrome_ds_4.c	/^void main()$/;"	f
+main	dshome/parenthesis.c	/^void main()$/;"	f
+main	dshome/parenthesis_backup.c	/^void main()$/;"	f
+main	dshome/representin_stack_in.c	/^void main()$/;"	f
+main	dshome/revision/221.c	/^int main(){$/;"	f
+main	dshome/revision/222.c	/^int main ( ) {$/;"	f
+main	dshome/revision/224.c	/^int main(){$/;"	f
+main	dshome/revision/225.c	/^int main() {$/;"	f
+main	dshome/revision/unions.c	/^int main(){$/;"	f
+main	dshome/stack3.c	/^void main()$/;"	f
+main	dshome/typedef.c	/^void main()$/;"	f
+main	dshome/w/link_list.c	/^int main()$/;"	f
+main	dshome/w/linked_list.c	/^void main()$/;"	f
+main	dshome/w/listStack.c	/^int main()$/;"	f
+main	dshome/w/quicksort.c	/^int main(){$/;"	f
+main	queue_struct.c	/^int main(void)$/;"	f
+maketree	dshome/dsadv/tree/duplicate.c	/^nodeptr maketree(int init){$/;"	f
+maketree	dshome/dsadv/tree/intrav5.c	/^tnp maketree(int data){$/;"	f
+maketree	dshome/dsadv/tree/tree.c	/^nodeptr maketree(int init){$/;"	f
+menu	ds1_array_InsDelModSrch.c	/^void menu()$/;"	f
+menu	ds2_stack_PushPop.c	/^void menu()$/;"	f
+menu	ds3_queue.c	/^void menu()$/;"	f
+minimumSpanningTreePrim	dshome/dsadv/mst.c	/^void minimumSpanningTreePrim(gnode2 *adj[],int n){$/;"	f
+modify	ds1_array_InsDelModSrch.c	/^void modify()		\/*function to modify element at specified position*\/$/;"	f
+mulop	ds7PostFixSingleFile.c	/^void mulop(void){$/;"	f
+mulop	ds7postfix (another copy).c	/^void mulop(void){$/;"	f
+mulop	ds7postfix.c	/^void mulop(void){$/;"	f
+my_list	queue_struct.c	/^struct my_list$/;"	s	file:
+my_struct	queue_struct.c	/^struct my_struct$/;"	s	file:
+new	dshome/w/listStack.c	/^}*start=NULL, *new, *temp, *p;$/;"	v	typeref:struct:node
+next	ds5_list_array.c	/^  int info, next;$/;"	m	struct:nodetype	file:
+next	ds5_list_array2.c	/^  int info, next;$/;"	m	struct:nodetype	file:
+next	ds5_list_array3dynamic.c	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:
+next	ds5_list_array3dynamicPrint.c	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:
+next	ds6ListStack.c	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:
+next	ds6ListStack2.c	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:
+next	ds6StackRevised.c	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:
+next	ds6listQueue.c	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:
+next	ds6listStack0.c	/^    struct nodeS * next;$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:
+next	ds6listStack1.c	/^    struct nodeS * next;$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:
+next	ds6listStackFromds5.c	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:
+next	ds6listStackFromds5_2Print.c	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:
+next	ds7PostFixSingleFile.c	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:
+next	ds7headerBackup.h	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS
+next	ds7postfix (another copy).h	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS
+next	ds7postfix.h	/^  struct nodeS *next;    \/\/next points to var of type node$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS
+next	dshome/dsadv/adjacencyList.c	/^    struct nodeType1 *next;$/;"	m	struct:nodeType1	typeref:struct:nodeType1::nodeType1	file:
+next	dshome/dsadv/adjacencyList.c	/^    struct nodeType2 *next;$/;"	m	struct:nodeType2	typeref:struct:nodeType2::nodeType2	file:
+next	dshome/dsadv/bfs.c	/^    struct gnode * next;$/;"	m	struct:gnode	typeref:struct:gnode::gnode	file:
+next	dshome/dsadv/mst.c	/^    struct nodeType1 *next;$/;"	m	struct:nodeType1	typeref:struct:nodeType1::nodeType1	file:
+next	dshome/dsadv/mst.c	/^    struct nodeType2 *next;$/;"	m	struct:nodeType2	typeref:struct:nodeType2::nodeType2	file:
+next	dshome/other/list90.c	/^struct list *next;$/;"	m	struct:list	typeref:struct:list::list	file:
+next	dshome/other/listQueue.c	/^struct queue *next;$/;"	m	struct:queue	typeref:struct:queue::queue	file:
+next	dshome/other/listStack.c	/^struct stack *next;$/;"	m	struct:stack	typeref:struct:stack::stack	file:
+next	dshome/w/link_list.c	/^        struct Node *next;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+next	queue_struct.c	/^  struct my_struct* next;$/;"	m	struct:my_struct	typeref:struct:my_struct::my_struct	file:
+nodeS	ds5_list_array3dynamic.c	/^struct nodeS {$/;"	s	file:
+nodeS	ds5_list_array3dynamicPrint.c	/^struct nodeS {$/;"	s	file:
+nodeS	ds6ListStack.c	/^struct nodeS {$/;"	s	file:
+nodeS	ds6ListStack2.c	/^struct nodeS {$/;"	s	file:
+nodeS	ds6StackRevised.c	/^struct nodeS {$/;"	s	file:
+nodeS	ds6listQueue.c	/^struct nodeS {$/;"	s	file:
+nodeS	ds6listStack0.c	/^struct nodeS{$/;"	s	file:
+nodeS	ds6listStack1.c	/^struct nodeS{$/;"	s	file:
+nodeS	ds6listStackFromds5.c	/^struct nodeS {$/;"	s	file:
+nodeS	ds6listStackFromds5_2Print.c	/^struct nodeS {$/;"	s	file:
+nodeS	ds7PostFixSingleFile.c	/^struct nodeS {$/;"	s	file:
+nodeS	ds7headerBackup.h	/^struct nodeS {$/;"	s
+nodeS	ds7postfix (another copy).h	/^struct nodeS {$/;"	s
+nodeS	ds7postfix.h	/^struct nodeS {$/;"	s
+nodeType1	dshome/dsadv/adjacencyList.c	/^struct nodeType1{$/;"	s	file:
+nodeType1	dshome/dsadv/mst.c	/^struct nodeType1{$/;"	s	file:
+nodeType2	dshome/dsadv/adjacencyList.c	/^struct nodeType2{$/;"	s	file:
+nodeType2	dshome/dsadv/mst.c	/^struct nodeType2{$/;"	s	file:
+nodeptr	dshome/dsadv/tree/duplicate.c	/^typedef struct nodetype* nodeptr;$/;"	t	typeref:struct:nodetype	file:
+nodeptr	dshome/dsadv/tree/tree.c	/^typedef struct nodetype* nodeptr;$/;"	t	typeref:struct:nodetype	file:
+node	dshome/dsadv/graphTenenbaum.c	/^struct node{$/;"	s	file:
+node	dshome/w/linked_list.c	/^struct node$/;"	s	file:
+node	dshome/w/listStack.c	/^struct node$/;"	s	file:
+nodes	dshome/dsadv/graphTenenbaum.c	/^    struct node nodes[MAXNODES];$/;"	m	struct:graph	typeref:struct:graph::node	file:
+node	dshome/w/link_list.c	/^}node;$/;"	t	typeref:struct:Node	file:
+nodetype	ds5_list_array.c	/^struct nodetype {$/;"	s	file:
+nodetype	ds5_list_array2.c	/^struct nodetype {$/;"	s	file:
+nodetype	dshome/dsadv/tree/duplicate.c	/^struct nodetype {$/;"	s	file:
+nodetype	dshome/dsadv/tree/tree.c	/^struct nodetype {$/;"	s	file:
+node	ds5_list_array.c	/^struct nodetype node[NUMNODES];$/;"	v	typeref:struct:nodetype
+node	ds5_list_array2.c	/^struct nodetype node[NUMNODES];$/;"	v	typeref:struct:nodetype
+num	queue_struct.c	/^  int num;$/;"	m	struct:my_struct	file:
+operations	dshome/revision/222.c	/^enum operations {$/;"	g	file:
+popandtest	dshome/revision/224.c	/^void popandtest ( struct stack *s, int *ret, int *under_error) {$/;"	f
+pop	ds2_stack_PushPop.c	/^void pop()$/;"	f
+pop	ds4_stack_palin.c	/^int pop()$/;"	f
+pop	ds6ListStack.c	/^int pop(NODEPTR tempStart)$/;"	f
+pop	ds6ListStack2.c	/^int pop(NODEPTR tempStart)$/;"	f
+pop	ds6StackRevised.c	/^int pop(NODEPTR *tempTop){$/;"	f
+pop	ds6listStackFromds5.c	/^void pop(NODEPTR tempStart){$/;"	f
+pop	ds6listStackFromds5_2Print.c	/^int pop(NODEPTR tempStart){$/;"	f
+pop	ds7PostFixSingleFile.c	/^int pop(NODEPTR tempStart){$/;"	f
+pop	ds7headerBackup.h	/^int pop(NODEPTR *tempTop){$/;"	f
+pop	ds7postfix (another copy).h	/^int pop(NODEPTR *tempTop){$/;"	f
+pop	ds7postfix.h	/^int pop(NODEPTR *tempTop){$/;"	f
+pop	dshome/parenthesis.c	/^int pop()$/;"	f
+pop	dshome/parenthesis_backup.c	/^int pop()$/;"	f
+pop	dshome/representin_stack_in.c	/^int pop(struct stack *ps)$/;"	f
+pop	dshome/revision/221.c	/^int pop (struct stack_array *stack ) {$/;"	f
+pop	dshome/revision/222.c	/^int pop( struct stack *s ) {$/;"	f
+pop	dshome/revision/224.c	/^int pop (struct stack *st) {$/;"	f
+pop	dshome/w/listStack.c	/^void pop()$/;"	f
+postal_code	dshome/struct_traditional.c	/^char *postal_code;$/;"	m	struct:address_s	file:
+postal_code	dshome/struct_typedef.c	/^char *postal_code;$/;"	m	struct:address_s	file:
+postfix	ds7postfix (another copy).c	/^void postfix(char *input){$/;"	f
+postfix	ds7postfix.c	/^void postfix(char *input){$/;"	f
+postfix	ds7test.c	/^void postfix(char *input){$/;"	f
+postfix	ds8infix.c	/^char infix[30], postfix[30];$/;"	v
+posttrav	dshome/dsadv/tree/duplicate.c	/^void posttrav(nodeptr tree){$/;"	f
+posttrav	dshome/dsadv/tree/tree.c	/^void posttrav(nodeptr tree){$/;"	f
+pretrav	dshome/dsadv/tree/duplicate.c	/^void pretrav(nodeptr tree){$/;"	f
+pretrav	dshome/dsadv/tree/tree.c	/^void pretrav(nodeptr tree){$/;"	f
+printGraph	dshome/dsadv/adjacencyList.c	/^void printGraph(gNode1 *adj[],int num){$/;"	f
+printGraph	dshome/dsadv/mst.c	/^void printGraph(gnode2 *adj[],int num){$/;"	f
+print_an_address	dshome/struct_traditional.c	/^static void print_an_address( void )$/;"	f	file:
+print_an_address	dshome/struct_typedef.c	/^static void print_an_address( void )$/;"	f	file:
+print	dshome/w/link_list.c	/^void print(node *pointer)$/;"	f
+pushandtest	dshome/revision/224.c	/^void pushandtest (struct stack *st, int data, int *over_error) {$/;"	f
+push	ds2_stack_PushPop.c	/^void push()$/;"	f
+push	ds4_stack_palin.c	/^void push(int ele_pushed)$/;"	f
+push	ds6ListStack.c	/^void push(NODEPTR tempStart, int elePushed)$/;"	f
+push	ds6ListStack2.c	/^void push(NODEPTR tempStart, int elePushed)$/;"	f
+push	ds6StackRevised.c	/^void push(NODEPTR *tempTop,int x){$/;"	f
+push	ds6listStack0.c	/^push(){$/;"	f
+push	ds6listStack1.c	/^push(){$/;"	f
+push	ds6listStackFromds5.c	/^void push(NODEPTR tempStart,int x){$/;"	f
+push	ds6listStackFromds5_2Print.c	/^void push(NODEPTR tempStart,int x){$/;"	f
+push	ds7PostFixSingleFile.c	/^void push(NODEPTR tempStart,int x){$/;"	f
+push	ds7headerBackup.h	/^void push(NODEPTR tempStart,int x){$/;"	f
+push	ds7postfix (another copy).h	/^void push(NODEPTR *tempTop,int x){$/;"	f
+push	ds7postfix.h	/^void push(NODEPTR *tempTop,int x){$/;"	f
+push	dshome/parenthesis.c	/^void push(int ele_pushed)$/;"	f
+push	dshome/parenthesis_backup.c	/^void push(int ele_pushed)$/;"	f
+push	dshome/revision/221.c	/^void push (struct stack_array *stack, int data_to_push) {$/;"	f
+push	dshome/revision/222.c	/^void push ( struct stack *s, int data_in ) {$/;"	f
+push	dshome/revision/224.c	/^void push (struct stack *st, int data_in) {$/;"	f
+push	dshome/revision/225.c	/^void push (struct stack_varying *s, int *data_in, int length_data) {$/;"	f
+push	dshome/w/listStack.c	/^void push()$/;"	f
+p	dshome/w/listStack.c	/^}*start=NULL, *new, *temp, *p;$/;"	v	typeref:struct:node
+qarr	dshome/dsadv/bfs.c	/^    int qarr[QSIZE];$/;"	m	struct:queue	file:
+qarr	ds3_queue.c	/^int qarr[QSIZE];$/;"	v
+queue_arr	ds3_queue_2.c	/^int queue_arr[MAX];$/;"	v
+queue	dshome/dsadv/bfs.c	/^struct queue{$/;"	s	file:
+queue	dshome/other/listQueue.c	/^struct queue$/;"	s	file:
+quicksort	dshome/w/quicksort.c	/^void quicksort(int x[10],int first,int last)$/;"	f
+rear	dshome/dsadv/bfs.c	/^    int front,rear,ele_last_rem;$/;"	m	struct:queue	file:
+rear	ds3_queue.c	/^int front,rear,ele_last_rem;$/;"	v
+rear	ds3_queue_2.c	/^int rear = - 1;$/;"	v
+region	dshome/struct_traditional.c	/^char *region;$/;"	m	struct:address_s	file:
+region	dshome/struct_typedef.c	/^char *region;$/;"	m	struct:address_s	file:
+remove	ds3_queue.c	/^int remove()$/;"	f
+remv	dshome/dsadv/graphTenenbaum.c	/^void remv(int adj[][MAXNODES],int node1,int node2){$/;"	f
+right	dshome/dsadv/tree/duplicate.c	/^    struct nodetype *left, *right, *father, *brother;$/;"	m	struct:nodetype	typeref:struct:nodetype::	file:
+right	dshome/dsadv/tree/intrav5.c	/^    struct treenode *left,*right,*father;$/;"	m	struct:treenode	typeref:struct:treenode::	file:
+right	dshome/dsadv/tree/tree.c	/^    struct nodetype *left, *right, *father, *brother;$/;"	m	struct:nodetype	typeref:struct:nodetype::	file:
+search	ds1_array_InsDelModSrch.c	/^void search()		\/*function to search input in array and output its position*\/$/;"	f
+search	dshome/w/linked_list.c	/^struct node * search(struct node *p)$/;"	f
+setleft	dshome/dsadv/tree/duplicate.c	/^void setleft(nodeptr p, int x){$/;"	f
+setleft	dshome/dsadv/tree/intrav5.c	/^void setleft(tnp in,int data){$/;"	f
+setleft	dshome/dsadv/tree/tree.c	/^void setleft(nodeptr p, int x){$/;"	f
+setright	dshome/dsadv/tree/duplicate.c	/^void setright(nodeptr p, int x){$/;"	f
+setright	dshome/dsadv/tree/intrav5.c	/^void setright(tnp in,int data){$/;"	f
+setright	dshome/dsadv/tree/tree.c	/^void setright(nodeptr p, int x){$/;"	f
+s	dshome/revision/224.c	/^    int s[STACKSIZE];$/;"	m	struct:stack	file:
+stack_array	dshome/revision/221.c	/^struct stack_array {$/;"	s	file:
+stack_varying	dshome/revision/225.c	/^struct stack_varying {$/;"	s	file:
+stack	dshome/other/listStack.c	/^struct stack$/;"	s	file:
+stack	dshome/representin_stack_in.c	/^struct stack $/;"	s	file:
+stack	dshome/revision/222.c	/^struct stack {$/;"	s	file:
+stack	dshome/revision/224.c	/^struct stack {$/;"	s	file:
+stack	ds2_stack_PushPop.c	/^int stack[SIZE],top=(-1),ele_pushed,ele_poped;$/;"	v
+stack	ds8infix.c	/^NODEPTR stack;      \/\/p is a ptr to struct nodeS$/;"	v
+start	ds7PostFixSingleFile.c	/^NODEPTR start;      \/\/p is a ptr to struct nodeS$/;"	v
+start	ds7postfix (another copy).c	/^NODEPTR start,top;      \/\/p is a ptr to struct nodeS$/;"	v
+start	ds7postfix.c	/^NODEPTR start;      \/\/p is a ptr to struct nodeS$/;"	v
+start	ds7test.c	/^NODEPTR start,top;      \/\/p is a ptr to struct nodeS$/;"	v
+start	dshome/w/listStack.c	/^}*start=NULL, *new, *temp, *p;$/;"	v	typeref:struct:node
+street	dshome/struct_traditional.c	/^char *street;$/;"	m	struct:address_s	file:
+street	dshome/struct_typedef.c	/^char *street;$/;"	m	struct:address_s	file:
+subop	ds7PostFixSingleFile.c	/^void subop(void){$/;"	f
+subop	ds7postfix (another copy).c	/^void subop(void){$/;"	f
+subop	ds7postfix.c	/^void subop(void){$/;"	f
+tail	queue_struct.c	/^  struct my_struct* tail;$/;"	m	struct:my_list	typeref:struct:my_list::my_struct	file:
+temp	dshome/w/listStack.c	/^}*start=NULL, *new, *temp, *p;$/;"	v	typeref:struct:node
+tnp	dshome/dsadv/tree/intrav5.c	/^typedef struct treenode* tnp;$/;"	t	typeref:struct:treenode	file:
+top	ds6listStackFromds5_2Print.c	/^NODEPTR top(NODEPTR ptr){$/;"	f
+top	ds7PostFixSingleFile.c	/^NODEPTR top(NODEPTR ptr){$/;"	f
+top	ds6StackRevised.c	/^  struct nodeS *top;$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS	file:
+top	ds7postfix.h	/^  struct nodeS *top;$/;"	m	struct:nodeS	typeref:struct:nodeS::nodeS
+top	dshome/representin_stack_in.c	/^  int top;$/;"	m	struct:stack	file:
+top	dshome/revision/221.c	/^    int top;$/;"	m	struct:stack_array	file:
+top	dshome/revision/222.c	/^    int top;$/;"	m	struct:stack	file:
+top	dshome/revision/224.c	/^    int *top;$/;"	m	struct:stack	file:
+top	dshome/revision/225.c	/^    int top;$/;"	m	struct:stack_varying	file:
+top	ds2_stack_PushPop.c	/^int stack[SIZE],top=(-1),ele_pushed,ele_poped;$/;"	v
+top	ds4_stack_palin.c	/^int top,valid;$/;"	v
+top	ds6ListStack.c	/^int top=0;$/;"	v
+top	ds6ListStack2.c	/^NODEPTR top;$/;"	v
+top	ds7postfix (another copy).c	/^NODEPTR start,top;      \/\/p is a ptr to struct nodeS$/;"	v
+top	ds7test.c	/^NODEPTR start,top;      \/\/p is a ptr to struct nodeS$/;"	v
+top	dshome/palindrome_ds_4.c	/^int top;$/;"	v
+top	dshome/parenthesis.c	/^int top,valid;$/;"	v
+top	dshome/parenthesis_backup.c	/^int top,valid;$/;"	v
+treenode	dshome/dsadv/tree/intrav5.c	/^struct treenode{$/;"	s	file:
+true	dshome/dsadv/mst.c	/^typedef enum {false,true} boolean;$/;"	e	enum:__anon1	file:
+valid	ds4_stack_palin.c	/^int top,valid;$/;"	v
+valid	dshome/parenthesis.c	/^int top,valid;$/;"	v
+valid	dshome/parenthesis_backup.c	/^int top,valid;$/;"	v
+ver	dshome/dsadv/bfs.c	/^    int ver;$/;"	m	struct:gnode	file:
+vertex	dshome/dsadv/adjacencyList.c	/^    int vertex;$/;"	m	struct:nodeType1	file:
+vertex	dshome/dsadv/adjacencyList.c	/^    int vertex;$/;"	m	struct:nodeType2	file:
+vertex	dshome/dsadv/mst.c	/^    int vertex;$/;"	m	struct:nodeType1	file:
+vertex	dshome/dsadv/mst.c	/^    int vertex;$/;"	m	struct:nodeType2	file:
+weight	dshome/dsadv/adjacencyList.c	/^    int weight;$/;"	m	struct:nodeType2	file:
+weight	dshome/dsadv/mst.c	/^    int weight;$/;"	m	struct:nodeType2	file:

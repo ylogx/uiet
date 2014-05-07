@@ -1,0 +1,67 @@
+--- declarations.h	2013-03-10 15:07:41.619394600 +0530
++++ /home/chaudhary/code/cpp/canteen/declarations.h	2013-03-10 14:37:13.824230610 +0530
+@@ -1,6 +1,6 @@
+ /*
+  * canteen.cpp -> declarations.h
+- *
++ * 
+  * Copyright 2013 Shubham Chaudhary <shubhamchaudhary92@gmail.com>
+  *      Rishabh <>
+  *      Sachin Tehlan <UE113082>
+@@ -10,18 +10,18 @@
+  * it under the terms of the GNU General Public License as published by
+  * the Free Software Foundation; either version 2 of the License, or
+  * (at your option) any later version.
+- *
++ * 
+  * This program is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  * GNU General Public License for more details.
+- *
++ * 
+  * You should have received a copy of the GNU General Public License
+  * along with this program; if not, write to the Free Software
+  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+  * MA 02110-1301, USA.
+- *
+- *
++ * 
++ * 
+  */
+ 
+ /*
+@@ -79,8 +79,8 @@ class student{
+         student(){ }    //empty constructor
+         //student(char nameIn[],char deptIn[],int rollIn,int phoneIn); //TODO make another constructor to copy input
+         void info();    //TODO
+-
+-};
++        
++}
+ 
+ //!!!!!!!!!!!!!!!!!!!! End Editing Here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+@@ -94,7 +94,7 @@ Follow these formats when make any chang
+     * Tab size: 4 spaces
+     * Mark a //TODO flag if something needs to be changed
+     * Mark a //XXX flag if something may cause error in future
+-
++    
+ --------------------------------------------------------------
+ CHANGELOG ENTRY FORMAT:
+ 
+@@ -110,11 +110,11 @@ Date    Name    <email>
+ //------------------------------------------------------------
+ //FUNCTION DEFINITION FORMAT:
+ /*
+- *
++ * 
+  * name:    name_of_function
+  * @param   input parameters
+  * @return  return type
+- *
++ * 
+  */
+ //------------------------------------------------------------
+ 

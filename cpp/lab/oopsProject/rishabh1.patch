@@ -1,0 +1,1420 @@
+Binary files ./github/bin/Debug/canteenMgmt.exe and /home/chaudhary/Downloads/can/bin/Debug/canteenMgmt.exe differ
+diff -rpuN ./github/canteenMgmt.depend /home/chaudhary/Downloads/can/canteenMgmt.depend
+--- ./github/canteenMgmt.depend	1970-01-01 05:30:00.000000000 +0530
++++ /home/chaudhary/Downloads/can/canteenMgmt.depend	2013-04-26 13:28:17.000000000 +0530
+@@ -0,0 +1,72 @@
++# depslib dependency file v1.0
++1366962905 source:r:\canteen-master\canteen-master\class\stud.cpp
++	<iostream>
++	<iostream>
++	<conio.h>
++	<iomanip>
++	<fstream>
++	"Stud.h"
++
++1366905477 r:\canteen-master\canteen-master\class\stud.h
++	<iostream>
++	<iostream>
++	<conio.h>
++	<fstream>
++	<iostream>
++	<typeinfo>
++	<stdlib.h>
++	"../function.h"
++
++1366901702 r:\canteen-master\canteen-master\function.h
++	<iostream>
++	<iostream>
++	<conio.h>
++	"class/Item.h"
++	"class/Student.h"
++	"class/Stud.h"
++
++1366901659 r:\canteen-master\canteen-master\class\item.h
++	<iostream>
++	<iostream>
++	<conio.h>
++
++1366901696 r:\canteen-master\canteen-master\class\student.h
++	<iostream>
++	<iostream>
++	<conio.h>
++
++1366792628 source:r:\canteen-master\canteen-master\class\student.cpp
++	<iostream>
++	<iostream.h>
++	<conio.h>
++	<iomanip>
++	<fstream>
++	"Student.h"
++
++1366963068 source:r:\canteen-master\canteen-master\function.cpp
++	<iostream>
++	<iostream>
++	<conio.h>
++	"function.h"
++	<iomanip>
++	<ctime>
++
++1366920215 source:r:\canteen-master\canteen-master\main.cpp
++	<iostream>
++	<iostream>
++	<conio.h>
++	<iostream>
++	<stdio.h>
++	<stdlib.h>
++	<string>
++	<iomanip>
++	<fstream>
++	"function.h"
++
++1366901682 source:r:\canteen-master\canteen-master\class\item.cpp
++	<iostream>
++	<iostream>
++	<conio.h>
++	<fstream>
++	"Item.h"
++
+diff -rpuN ./github/canteenMgmt.layout /home/chaudhary/Downloads/can/canteenMgmt.layout
+--- ./github/canteenMgmt.layout	1970-01-01 05:30:00.000000000 +0530
++++ /home/chaudhary/Downloads/can/canteenMgmt.layout	2013-04-26 13:29:33.000000000 +0530
+@@ -0,0 +1,28 @@
++<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
++<CodeBlocks_layout_file>
++	<ActiveTarget name="Debug" />
++	<File name="class\Item.cpp" open="0" top="0" tabpos="1">
++		<Cursor position="3436" topLine="35" />
++	</File>
++	<File name="class\Item.h" open="0" top="0" tabpos="3">
++		<Cursor position="2607" topLine="76" />
++	</File>
++	<File name="class\Stud.cpp" open="1" top="0" tabpos="1">
++		<Cursor position="7422" topLine="0" />
++	</File>
++	<File name="class\Stud.h" open="1" top="1" tabpos="3">
++		<Cursor position="155" topLine="0" />
++	</File>
++	<File name="class\Student.h" open="0" top="0" tabpos="7">
++		<Cursor position="1619" topLine="32" />
++	</File>
++	<File name="function.cpp" open="1" top="0" tabpos="2">
++		<Cursor position="7451" topLine="0" />
++	</File>
++	<File name="function.h" open="0" top="0" tabpos="6">
++		<Cursor position="1312" topLine="53" />
++	</File>
++	<File name="main.cpp" open="0" top="0" tabpos="8">
++		<Cursor position="2528" topLine="77" />
++	</File>
++</CodeBlocks_layout_file>
+diff -rpuN ./github/class/Item.cpp /home/chaudhary/Downloads/can/class/Item.cpp
+--- ./github/class/Item.cpp	2013-04-14 06:10:54.000000000 +0530
++++ /home/chaudhary/Downloads/can/class/Item.cpp	2013-04-25 20:24:42.000000000 +0530
+@@ -41,13 +41,13 @@
+  *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -137,4 +137,4 @@ Date    Name    <email>
+  * @return  return type
+  *
+  */
+-//------------------------------------------------------------ 
++//------------------------------------------------------------
+diff -rpuN ./github/class/Item.h /home/chaudhary/Downloads/can/class/Item.h
+--- ./github/class/Item.h	2013-04-14 05:18:56.000000000 +0530
++++ /home/chaudhary/Downloads/can/class/Item.h	2013-04-25 20:24:19.000000000 +0530
+@@ -40,13 +40,13 @@
+  *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -110,4 +110,4 @@ Date    Name    <email>
+  *
+  */
+ //------------------------------------------------------------
+- 
++
+diff -rpuN ./github/class/Stud.cpp /home/chaudhary/Downloads/can/class/Stud.cpp
+--- ./github/class/Stud.cpp	2013-04-19 12:59:04.000000000 +0530
++++ /home/chaudhary/Downloads/can/class/Stud.cpp	2013-04-26 13:28:16.000000000 +0530
+@@ -48,16 +48,18 @@
+  *      * New:
+  *      * Modified: readFromDisk, writeToDisk, putData
+  *              Removed all possible read-write errors
+- *
++ *    2013 - 04 - 26 Rishabh Gupta < UE 113080 >
++ *        >New :  direct   bill input function Stud :: addBillInfo()
++ *        >Modified :  commented date facilities and added getch() at various places.
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -81,7 +83,58 @@ Stud::~Stud(){
+         delete arrap[i];
+     }
+ }
+-
++void Stud :: addBillInfo()     //  code finalised and checked..
++{  int roll ;  bool isFound = false ;
++   cout<<"\nEnter student roll_no  :" ;
++   cin>>roll ;      Stud* st =new Stud ;
++   ifstream file ;
++   file . open ( "data/stud.DAT", ios:: binary);
++   if  (!file) { cout<<"\nUnable to open file !"; getch(); return ;}
++   while ( !file. eof () )
++   {  file . read ( reinterpret_cast<char* > (st ) , sizeof(Stud) );
++       if ( st->rollNo == roll )  {  isFound = true ;    break ; }
++   }
++   if ( isFound )
++   {
++          int add ;
++          cout<<"\nEnter amount to add :";
++          cin>>add;
++          st->bill += add ;
++           ofstream first_half  ("data/temp.DAT" , ios::binary);
++           file . seekg ( ios :: beg) ;
++
++           while ( true )
++           {   Stud* student = new Stud ;
++               file . read ( reinterpret_cast<char*> ( student) , sizeof(Stud));
++               if ( student->rollNo == roll ) { break; }
++               first_half . write ( reinterpret_cast<char*> ( student ) , sizeof( Stud));
++           }
++           first_half . write ( reinterpret_cast<char*> ( st ) , sizeof( Stud));
++           while ( ! file . eof ())
++           {  Stud* student = new Stud ;
++               file . read ( reinterpret_cast<char*> ( student) , sizeof(Stud));    if( file . eof () ) break;
++               first_half . write ( reinterpret_cast<char*> ( student ) , sizeof( Stud));
++           }
++           file . close();
++           first_half . close();
++           #ifdef  WINDOWS
++          system("del data\\Stud.DAT > temp.txt");
++          system("move data\\temp.DAT data\\Stud.DAT  > temp.txt");
++          system ( " del temp.txt");
++          #endif
++          #ifdef LINUX   // TODO  modify according to LINUX
++          system ( "rm   data\\Stud.DAT > temp.txt");
++          system ( "mv   data\\temp.DAT   data\\Stud.DAT >  temp.txt");
++          system ( " rm temp.txt");
++          #endif
++          cout<<"\nSuccessfully Added!";
++   }
++   else
++   {
++       cout<<"\nRoll No. not found..";
++   }
++   getch();
++}
+ //add student to list in memory
+ void Stud::add()
+ {
+@@ -91,12 +144,29 @@ void Stud::add()
+ }
+ //--------------------------------------------------------------//display all students
+ void Stud::display()
+-{
++{  ifstream inf ;
++    inf . open ( "data/stud.DAT" , ios::binary);
++    if(!inf){ cout << "\nCan't open file\n"; return; }
++   n = 0; //no students in memory yet
++    while(inf)
++    {
++      int  size=sizeof(Stud);  //!XXX
++        arrap[n]=new Stud;
++        inf.read( reinterpret_cast<char*>(arrap[n]), size );
++        if(n==0 && !inf) //error but not eof
++        { cout << "\nCan't read data from file\n"; bug_message(); return; }
++        //arrap[n]->putData(); //display();
++        n++;
++    }
++        n--;
+     for(int j=0; j<n; j++){
+         cout << (j+1) << ":" ; //display number
+         arrap[j]->putData(); //display Stud data
+         cout << endl;
+-    }
++    }
++    //delete arrap[n--];
++    inf . close();
++    char ch = getch();
+ }
+ //--------------------------------------------------------------//write all current memory objects to file
+ void Stud::writeToDisk()
+@@ -113,7 +183,8 @@ void Stud::writeToDisk()
+         //write student object to file
+         ouf.write( (char*)(arrap[j]), size );
+         if(!ouf){ cout << "\nERROR: Can't write to file\n"; return; }
+-    }
++    }
++    char ch = getch();
+ }
+ //--------------------------------------------------------------//read data for all students from file into memory
+ void Stud::readFromDisk()
+@@ -124,10 +195,7 @@ void Stud::readFromDisk()
+     //Stud temparrap[MAXSTUD];
+     inf.open("data/Stud.DAT", ios::binary);
+     if(!inf){ cout << "\nCan't open file\n"; return; }
+-    //inf.seekg(0);
+-    for(int i=0;i<n;i++){
+-        delete arrap[i];
+-    }
++
+     n = 0; //no students in memory yet
+     while(inf)
+     {
+@@ -138,10 +206,13 @@ void Stud::readFromDisk()
+         { cout << "\nCan't read data from file\n"; bug_message(); return; }
+         //arrap[n]->putData(); //display();
+         n++;
+-    }//end while
++    }//end while
++
++    inf . close();
+     delete arrap[n--];  //empty no data in this record
+-    cout << "Read " << n << " students\n";
+-    //Stud::display();
++    cout << "Read " << n << " student(s)\n";
++    //Stud::display();
++    char ch = getch();
+ }
+ void Stud::getData(){
+     cout<<endl<<setw(22)<<"Enter Roll #: ";
+@@ -160,7 +231,8 @@ void Stud::getData(){
+     cin>>ch;
+     if(ch == 'y' || ch == 'Y'){
+         cout<<setw(22)<<"Enter present bill : "; cin>>bill;
+-    }
++    }
++     ch = getch();
+ }
+ void Stud::getData(char ch)
+ {
+@@ -175,7 +247,8 @@ void Stud::getData(char ch)
+     if(ch == 'y' || ch == 'Y')
+     {
+         cout<<setw(22)<<"Enter present bill :"; cin>>bill;
+-    }
++    }
++     ch = getch();
+ }
+ void Stud::putData()
+ {
+@@ -184,7 +257,8 @@ void Stud::putData()
+         <<setw(11)<<"Name : \t"<<name<<"\n"
+         <<setw(11)<<"Department : \t"<<dept<<"\n"
+         <<setw(11)<<"Phone # : \t"<<phoneNo<<"\n"
+-        <<setw(11)<<"Pending Bill : Rs.\t"<<bill<<endl;
++        <<setw(11)<<"Pending Bill : Rs.\t"<<bill<<endl;
++
+ }
+ void Stud::searchByRoll(){
+     cout<<"\nEnter Roll #: ";
+@@ -207,7 +281,8 @@ void Stud::searchByRoll(){
+     }
+     else{
+         cout<<"\nSorry student not found in database :(";
+-    }
++    }
++    char ch = getch();
+ }
+ 
+ 
+@@ -225,7 +300,8 @@ void Stud::store(){ //old method
+     ofstream fout("info.dat",ios::binary);
+     fout.write(reinterpret_cast<char*>(this),sizeof(Stud));
+     cout<<"\nstore(): Stored the information";
+-    fout.close();
++    fout.close();
++    char ch = getch();
+ }
+ void Stud::retrieve(){  //old method
+     if(1){//(!isStored){
+@@ -234,7 +310,8 @@ void Stud::retrieve(){  //old method
+         fin.close();
+     }
+     cout<<"\nRetreived Info:";
+-    this->putData();
++    this->putData();
++    char ch = getch();
+ }
+ 
+ void Stud::saveToFile(Stud s)
+diff -rpuN ./github/class/Student.h /home/chaudhary/Downloads/can/class/Student.h
+--- ./github/class/Student.h	2013-04-14 00:25:28.000000000 +0530
++++ /home/chaudhary/Downloads/can/class/Student.h	2013-04-25 20:24:56.000000000 +0530
+@@ -42,13 +42,13 @@
+  *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -149,4 +149,4 @@ Date    Name    <email>
+  *
+  */
+ //------------------------------------------------------------
+- 
++
+diff -rpuN ./github/class/Stud.h /home/chaudhary/Downloads/can/class/Stud.h
+--- ./github/class/Stud.h	2013-04-19 13:00:07.000000000 +0530
++++ /home/chaudhary/Downloads/can/class/Stud.h	2013-04-25 21:27:57.000000000 +0530
+@@ -51,13 +51,13 @@
+  *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -103,7 +103,8 @@ public:
+     static void display();      //display all student's info
+     static void readFromDisk(); //read from disk file
+     static void writeToDisk();  //write to disk file
+-    static void searchByRoll();
++    static void searchByRoll() ;
++    static void addBillInfo () ;
+     Stud(){ isStored=false; bill=0; }    //empty constructor
+     ~Stud();
+     //TODO : rollNo(0),name[0](0),dept[0](0),phoneNo[0](0) // initialised values. first element of each assigned to 0 .
+Binary files ./github/data/info.dat and /home/chaudhary/Downloads/can/data/info.dat differ
+Binary files ./github/data/item.dat and /home/chaudhary/Downloads/can/data/item.dat differ
+Binary files ./github/data/Stud - Copy.DAT and /home/chaudhary/Downloads/can/data/Stud - Copy.DAT differ
+Binary files ./github/data/Stud.DAT and /home/chaudhary/Downloads/can/data/Stud.DAT differ
+diff -rpuN ./github/function.cpp /home/chaudhary/Downloads/can/function.cpp
+--- ./github/function.cpp	2013-04-14 14:58:33.000000000 +0530
++++ /home/chaudhary/Downloads/can/function.cpp	2013-04-26 13:27:48.000000000 +0530
+@@ -40,16 +40,16 @@
+  *  2013-04-13  Shubham Chaudhary  <shubhamchaudhary92@gmail.com>
+  *      * Modified: menu_display for Stud class
+  *
+- * 
++ *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+@@ -83,17 +83,19 @@ void menu_display(){
+         if(system("date")) { cout<<"\n\n"; }
+     #endif
+     #ifdef WINDOWS
+-        clrscr();         //not working
+-        system("clear");
++        //clrscr();         //not working
++        system("cls");
+     #endif
+         cout << "\n##############################################################";
+-        cout << "\n#        'a'   --  add data for a new student                #"
+-                "\n#        'd'   --  display data for all stusents             #"
+-                "\n#        'w'   --  write all student data to disk            #"
+-                "\n#        'r'   --  read all student data from disk           #"
+-                "\n#        's'   --  search database by Roll No.               #"
+-                "\n#        'x'   --  exit                                      #";
+-        cout << "\n##############################################################";
++        cout << "\n#        'b'   --  add bill info                             #"
++                     "\n#        'a'   --  add data for a new student                #"
++                     "\n#        'd'   --  display data for all students             #"
++                     "\n#        'w'   --  write all student data to disk            #"
++                    "\n#        'r'   --  read all student data from disk           #"
++                    "\n#        's'   --  search database by Roll No.               #"
++                   "\n#        'x'   --  exit                                      #";
++        cout << "\n##############################################################";
++        Stud::readFromDisk();
+         cout << "\nEnter selection: ";
+         cin>>choice;
+         switch(choice){
+@@ -108,7 +110,8 @@ void menu_display(){
+             Stud::readFromDisk(); break;
+         case 's': //search by roll
+             Stud::searchByRoll(); break;
+-        case 'x': inLoop=false; break; //exit program
++        case 'x': inLoop=false; break; //exit program
++        case 'b' : Stud::addBillInfo(); break;
+         default: cout << "\nUnknown command";
+         }//end switch
+         //getchar();
+@@ -132,7 +135,7 @@ void welcome_message()    //*TODO  use t
+     cout<<"\n\n================ W e l C o m e ===================\n\n"; //TODO cout<<(static_cast<string>(time_t()));
+     cout<<"Easily Maintain Your canteen record here.."<<endl;  //DONE find a way to show time on top right corner.
+     //TODO make it more vivid and detailed
+-
++    char ch = getch();
+     //Done display current date and time on top-right corner at all times.
+ }
+ void exit_message(){
+@@ -147,7 +150,8 @@ void exit_message(){
+           "(_____)------------------------------------------------------------(_____) \n" ;
+     //TODO make it more vivid and detailed
+     //TODO google ascii art and add one here
+-    //Done display current date and time on top-right corner at all times.
++    //Done display current date and time on top-right corner at all times.
++    char ch = getch();
+ }
+ 
+ void bug_message(){
+@@ -155,7 +159,8 @@ void bug_message(){
+     cout<<"     \\__/    \n"
+           "     (@@)    \n"
+           "    //||\\\\   \n\n";
+-    cout<<"We are really sorry for the inconvinience  caused !";
++    cout<<"We are really sorry for the inconvinience  caused !";
++    char ch = getch();
+ }
+ 
+ void disk_message(){
+diff -rpuN ./github/function.h /home/chaudhary/Downloads/can/function.h
+--- ./github/function.h	2013-04-14 14:48:55.000000000 +0530
++++ /home/chaudhary/Downloads/can/function.h	2013-04-25 20:25:02.000000000 +0530
+@@ -35,13 +35,13 @@
+  *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+ #ifdef WINDOWS
+-#include <iostream.h>
++#include <iostream>
+ #include <conio.h>
+ #endif
+ 
+diff -rpuN ./github/.git/COMMIT_EDITMSG /home/chaudhary/Downloads/can/.git/COMMIT_EDITMSG
+--- ./github/.git/COMMIT_EDITMSG	2013-04-25 02:37:08.506202090 +0530
++++ /home/chaudhary/Downloads/can/.git/COMMIT_EDITMSG	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-version 2.3
+diff -rpuN ./github/.git/config /home/chaudhary/Downloads/can/.git/config
+--- ./github/.git/config	2013-04-25 02:24:55.722190212 +0530
++++ /home/chaudhary/Downloads/can/.git/config	1970-01-01 05:30:00.000000000 +0530
+@@ -1,8 +0,0 @@
+-[core]
+-	repositoryformatversion = 0
+-	filemode = true
+-	bare = false
+-	logallrefupdates = true
+-[remote "github"]
+-	url = https://github.com/ishubhamch/canteen.git
+-	fetch = +refs/heads/*:refs/remotes/github/*
+diff -rpuN ./github/.git/description /home/chaudhary/Downloads/can/.git/description
+--- ./github/.git/description	2013-04-25 02:24:37.930189922 +0530
++++ /home/chaudhary/Downloads/can/.git/description	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-Unnamed repository; edit this file 'description' to name the repository.
+diff -rpuN ./github/.git/FETCH_HEAD /home/chaudhary/Downloads/can/.git/FETCH_HEAD
+--- ./github/.git/FETCH_HEAD	2013-04-25 02:34:31.706199548 +0530
++++ /home/chaudhary/Downloads/can/.git/FETCH_HEAD	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-53dcfca327c716a7c79b220b11afd0c65fbcbf5b		branch 'master' of https://github.com/ishubhamch/canteen
+diff -rpuN ./github/.git/HEAD /home/chaudhary/Downloads/can/.git/HEAD
+--- ./github/.git/HEAD	2013-04-25 02:24:37.930189922 +0530
++++ /home/chaudhary/Downloads/can/.git/HEAD	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-ref: refs/heads/master
+diff -rpuN ./github/.git/hooks/applypatch-msg.sample /home/chaudhary/Downloads/can/.git/hooks/applypatch-msg.sample
+--- ./github/.git/hooks/applypatch-msg.sample	2013-04-25 02:24:37.930189922 +0530
++++ /home/chaudhary/Downloads/can/.git/hooks/applypatch-msg.sample	1970-01-01 05:30:00.000000000 +0530
+@@ -1,15 +0,0 @@
+-#!/bin/sh
+-#
+-# An example hook script to check the commit log message taken by
+-# applypatch from an e-mail message.
+-#
+-# The hook should exit with non-zero status after issuing an
+-# appropriate message if it wants to stop the commit.  The hook is
+-# allowed to edit the commit message file.
+-#
+-# To enable this hook, rename this file to "applypatch-msg".
+-
+-. git-sh-setup
+-test -x "$GIT_DIR/hooks/commit-msg" &&
+-	exec "$GIT_DIR/hooks/commit-msg" ${1+"$@"}
+-:
+diff -rpuN ./github/.git/hooks/commit-msg.sample /home/chaudhary/Downloads/can/.git/hooks/commit-msg.sample
+--- ./github/.git/hooks/commit-msg.sample	2013-04-25 02:24:37.930189922 +0530
++++ /home/chaudhary/Downloads/can/.git/hooks/commit-msg.sample	1970-01-01 05:30:00.000000000 +0530
+@@ -1,24 +0,0 @@
+-#!/bin/sh
+-#
+-# An example hook script to check the commit log message.
+-# Called by "git commit" with one argument, the name of the file
+-# that has the commit message.  The hook should exit with non-zero
+-# status after issuing an appropriate message if it wants to stop the
+-# commit.  The hook is allowed to edit the commit message file.
+-#
+-# To enable this hook, rename this file to "commit-msg".
+-
+-# Uncomment the below to add a Signed-off-by line to the message.
+-# Doing this in a hook is a bad idea in general, but the prepare-commit-msg
+-# hook is more suited to it.
+-#
+-# SOB=$(git var GIT_AUTHOR_IDENT | sed -n 's/^\(.*>\).*$/Signed-off-by: \1/p')
+-# grep -qs "^$SOB" "$1" || echo "$SOB" >> "$1"
+-
+-# This example catches duplicate Signed-off-by lines.
+-
+-test "" = "$(grep '^Signed-off-by: ' "$1" |
+-	 sort | uniq -c | sed -e '/^[ 	]*1[ 	]/d')" || {
+-	echo >&2 Duplicate Signed-off-by lines.
+-	exit 1
+-}
+diff -rpuN ./github/.git/hooks/post-update.sample /home/chaudhary/Downloads/can/.git/hooks/post-update.sample
+--- ./github/.git/hooks/post-update.sample	2013-04-25 02:24:37.930189922 +0530
++++ /home/chaudhary/Downloads/can/.git/hooks/post-update.sample	1970-01-01 05:30:00.000000000 +0530
+@@ -1,8 +0,0 @@
+-#!/bin/sh
+-#
+-# An example hook script to prepare a packed repository for use over
+-# dumb transports.
+-#
+-# To enable this hook, rename this file to "post-update".
+-
+-exec git update-server-info
+diff -rpuN ./github/.git/hooks/pre-applypatch.sample /home/chaudhary/Downloads/can/.git/hooks/pre-applypatch.sample
+--- ./github/.git/hooks/pre-applypatch.sample	2013-04-25 02:24:37.930189922 +0530
++++ /home/chaudhary/Downloads/can/.git/hooks/pre-applypatch.sample	1970-01-01 05:30:00.000000000 +0530
+@@ -1,14 +0,0 @@
+-#!/bin/sh
+-#
+-# An example hook script to verify what is about to be committed
+-# by applypatch from an e-mail message.
+-#
+-# The hook should exit with non-zero status after issuing an
+-# appropriate message if it wants to stop the commit.
+-#
+-# To enable this hook, rename this file to "pre-applypatch".
+-
+-. git-sh-setup
+-test -x "$GIT_DIR/hooks/pre-commit" &&
+-	exec "$GIT_DIR/hooks/pre-commit" ${1+"$@"}
+-:
+diff -rpuN ./github/.git/hooks/pre-commit.sample /home/chaudhary/Downloads/can/.git/hooks/pre-commit.sample
+--- ./github/.git/hooks/pre-commit.sample	2013-04-25 02:24:37.930189922 +0530
++++ /home/chaudhary/Downloads/can/.git/hooks/pre-commit.sample	1970-01-01 05:30:00.000000000 +0530
+@@ -1,50 +0,0 @@
+-#!/bin/sh
+-#
+-# An example hook script to verify what is about to be committed.
+-# Called by "git commit" with no arguments.  The hook should
+-# exit with non-zero status after issuing an appropriate message if
+-# it wants to stop the commit.
+-#
+-# To enable this hook, rename this file to "pre-commit".
+-
+-if git rev-parse --verify HEAD >/dev/null 2>&1
+-then
+-	against=HEAD
+-else
+-	# Initial commit: diff against an empty tree object
+-	against=4b825dc642cb6eb9a060e54bf8d69288fbee4904
+-fi
+-
+-# If you want to allow non-ascii filenames set this variable to true.
+-allownonascii=$(git config hooks.allownonascii)
+-
+-# Redirect output to stderr.
+-exec 1>&2
+-
+-# Cross platform projects tend to avoid non-ascii filenames; prevent
+-# them from being added to the repository. We exploit the fact that the
+-# printable range starts at the space character and ends with tilde.
+-if [ "$allownonascii" != "true" ] &&
+-	# Note that the use of brackets around a tr range is ok here, (it's
+-	# even required, for portability to Solaris 10's /usr/bin/tr), since
+-	# the square bracket bytes happen to fall in the designated range.
+-	test $(git diff --cached --name-only --diff-filter=A -z $against |
+-	  LC_ALL=C tr -d '[ -~]\0' | wc -c) != 0
+-then
+-	echo "Error: Attempt to add a non-ascii file name."
+-	echo
+-	echo "This can cause problems if you want to work"
+-	echo "with people on other platforms."
+-	echo
+-	echo "To be portable it is advisable to rename the file ..."
+-	echo
+-	echo "If you know what you are doing you can disable this"
+-	echo "check using:"
+-	echo
+-	echo "  git config hooks.allownonascii true"
+-	echo
+-	exit 1
+-fi
+-
+-# If there are whitespace errors, print the offending file names and fail.
+-exec git diff-index --check --cached $against --
+diff -rpuN ./github/.git/hooks/prepare-commit-msg.sample /home/chaudhary/Downloads/can/.git/hooks/prepare-commit-msg.sample
+--- ./github/.git/hooks/prepare-commit-msg.sample	2013-04-25 02:24:37.930189922 +0530
++++ /home/chaudhary/Downloads/can/.git/hooks/prepare-commit-msg.sample	1970-01-01 05:30:00.000000000 +0530
+@@ -1,36 +0,0 @@
+-#!/bin/sh
+-#
+-# An example hook script to prepare the commit log message.
+-# Called by "git commit" with the name of the file that has the
+-# commit message, followed by the description of the commit
+-# message's source.  The hook's purpose is to edit the commit
+-# message file.  If the hook fails with a non-zero status,
+-# the commit is aborted.
+-#
+-# To enable this hook, rename this file to "prepare-commit-msg".
+-
+-# This hook includes three examples.  The first comments out the
+-# "Conflicts:" part of a merge commit.
+-#
+-# The second includes the output of "git diff --name-status -r"
+-# into the message, just before the "git status" output.  It is
+-# commented because it doesn't cope with --amend or with squashed
+-# commits.
+-#
+-# The third example adds a Signed-off-by line to the message, that can
+-# still be edited.  This is rarely a good idea.
+-
+-case "$2,$3" in
+-  merge,)
+-    /usr/bin/perl -i.bak -ne 's/^/# /, s/^# #/#/ if /^Conflicts/ .. /#/; print' "$1" ;;
+-
+-# ,|template,)
+-#   /usr/bin/perl -i.bak -pe '
+-#      print "\n" . `git diff --cached --name-status -r`
+-#	 if /^#/ && $first++ == 0' "$1" ;;
+-
+-  *) ;;
+-esac
+-
+-# SOB=$(git var GIT_AUTHOR_IDENT | sed -n 's/^\(.*>\).*$/Signed-off-by: \1/p')
+-# grep -qs "^$SOB" "$1" || echo "$SOB" >> "$1"
+diff -rpuN ./github/.git/hooks/pre-rebase.sample /home/chaudhary/Downloads/can/.git/hooks/pre-rebase.sample
+--- ./github/.git/hooks/pre-rebase.sample	2013-04-25 02:24:37.930189922 +0530
++++ /home/chaudhary/Downloads/can/.git/hooks/pre-rebase.sample	1970-01-01 05:30:00.000000000 +0530
+@@ -1,169 +0,0 @@
+-#!/bin/sh
+-#
+-# Copyright (c) 2006, 2008 Junio C Hamano
+-#
+-# The "pre-rebase" hook is run just before "git rebase" starts doing
+-# its job, and can prevent the command from running by exiting with
+-# non-zero status.
+-#
+-# The hook is called with the following parameters:
+-#
+-# $1 -- the upstream the series was forked from.
+-# $2 -- the branch being rebased (or empty when rebasing the current branch).
+-#
+-# This sample shows how to prevent topic branches that are already
+-# merged to 'next' branch from getting rebased, because allowing it
+-# would result in rebasing already published history.
+-
+-publish=next
+-basebranch="$1"
+-if test "$#" = 2
+-then
+-	topic="refs/heads/$2"
+-else
+-	topic=`git symbolic-ref HEAD` ||
+-	exit 0 ;# we do not interrupt rebasing detached HEAD
+-fi
+-
+-case "$topic" in
+-refs/heads/??/*)
+-	;;
+-*)
+-	exit 0 ;# we do not interrupt others.
+-	;;
+-esac
+-
+-# Now we are dealing with a topic branch being rebased
+-# on top of master.  Is it OK to rebase it?
+-
+-# Does the topic really exist?
+-git show-ref -q "$topic" || {
+-	echo >&2 "No such branch $topic"
+-	exit 1
+-}
+-
+-# Is topic fully merged to master?
+-not_in_master=`git rev-list --pretty=oneline ^master "$topic"`
+-if test -z "$not_in_master"
+-then
+-	echo >&2 "$topic is fully merged to master; better remove it."
+-	exit 1 ;# we could allow it, but there is no point.
+-fi
+-
+-# Is topic ever merged to next?  If so you should not be rebasing it.
+-only_next_1=`git rev-list ^master "^$topic" ${publish} | sort`
+-only_next_2=`git rev-list ^master           ${publish} | sort`
+-if test "$only_next_1" = "$only_next_2"
+-then
+-	not_in_topic=`git rev-list "^$topic" master`
+-	if test -z "$not_in_topic"
+-	then
+-		echo >&2 "$topic is already up-to-date with master"
+-		exit 1 ;# we could allow it, but there is no point.
+-	else
+-		exit 0
+-	fi
+-else
+-	not_in_next=`git rev-list --pretty=oneline ^${publish} "$topic"`
+-	/usr/bin/perl -e '
+-		my $topic = $ARGV[0];
+-		my $msg = "* $topic has commits already merged to public branch:\n";
+-		my (%not_in_next) = map {
+-			/^([0-9a-f]+) /;
+-			($1 => 1);
+-		} split(/\n/, $ARGV[1]);
+-		for my $elem (map {
+-				/^([0-9a-f]+) (.*)$/;
+-				[$1 => $2];
+-			} split(/\n/, $ARGV[2])) {
+-			if (!exists $not_in_next{$elem->[0]}) {
+-				if ($msg) {
+-					print STDERR $msg;
+-					undef $msg;
+-				}
+-				print STDERR " $elem->[1]\n";
+-			}
+-		}
+-	' "$topic" "$not_in_next" "$not_in_master"
+-	exit 1
+-fi
+-
+-<<\DOC_END
+-
+-This sample hook safeguards topic branches that have been
+-published from being rewound.
+-
+-The workflow assumed here is:
+-
+- * Once a topic branch forks from "master", "master" is never
+-   merged into it again (either directly or indirectly).
+-
+- * Once a topic branch is fully cooked and merged into "master",
+-   it is deleted.  If you need to build on top of it to correct
+-   earlier mistakes, a new topic branch is created by forking at
+-   the tip of the "master".  This is not strictly necessary, but
+-   it makes it easier to keep your history simple.
+-
+- * Whenever you need to test or publish your changes to topic
+-   branches, merge them into "next" branch.
+-
+-The script, being an example, hardcodes the publish branch name
+-to be "next", but it is trivial to make it configurable via
+-$GIT_DIR/config mechanism.
+-
+-With this workflow, you would want to know:
+-
+-(1) ... if a topic branch has ever been merged to "next".  Young
+-    topic branches can have stupid mistakes you would rather
+-    clean up before publishing, and things that have not been
+-    merged into other branches can be easily rebased without
+-    affecting other people.  But once it is published, you would
+-    not want to rewind it.
+-
+-(2) ... if a topic branch has been fully merged to "master".
+-    Then you can delete it.  More importantly, you should not
+-    build on top of it -- other people may already want to
+-    change things related to the topic as patches against your
+-    "master", so if you need further changes, it is better to
+-    fork the topic (perhaps with the same name) afresh from the
+-    tip of "master".
+-
+-Let's look at this example:
+-
+-		   o---o---o---o---o---o---o---o---o---o "next"
+-		  /       /           /           /
+-		 /   a---a---b A     /           /
+-		/   /               /           /
+-	       /   /   c---c---c---c B         /
+-	      /   /   /             \         /
+-	     /   /   /   b---b C     \       /
+-	    /   /   /   /             \     /
+-    ---o---o---o---o---o---o---o---o---o---o---o "master"
+-
+-
+-A, B and C are topic branches.
+-
+- * A has one fix since it was merged up to "next".
+-
+- * B has finished.  It has been fully merged up to "master" and "next",
+-   and is ready to be deleted.
+-
+- * C has not merged to "next" at all.
+-
+-We would want to allow C to be rebased, refuse A, and encourage
+-B to be deleted.
+-
+-To compute (1):
+-
+-	git rev-list ^master ^topic next
+-	git rev-list ^master        next
+-
+-	if these match, topic has not merged in next at all.
+-
+-To compute (2):
+-
+-	git rev-list master..topic
+-
+-	if this is empty, it is fully merged to "master".
+-
+-DOC_END
+diff -rpuN ./github/.git/hooks/update.sample /home/chaudhary/Downloads/can/.git/hooks/update.sample
+--- ./github/.git/hooks/update.sample	2013-04-25 02:24:37.930189922 +0530
++++ /home/chaudhary/Downloads/can/.git/hooks/update.sample	1970-01-01 05:30:00.000000000 +0530
+@@ -1,128 +0,0 @@
+-#!/bin/sh
+-#
+-# An example hook script to blocks unannotated tags from entering.
+-# Called by "git receive-pack" with arguments: refname sha1-old sha1-new
+-#
+-# To enable this hook, rename this file to "update".
+-#
+-# Config
+-# ------
+-# hooks.allowunannotated
+-#   This boolean sets whether unannotated tags will be allowed into the
+-#   repository.  By default they won't be.
+-# hooks.allowdeletetag
+-#   This boolean sets whether deleting tags will be allowed in the
+-#   repository.  By default they won't be.
+-# hooks.allowmodifytag
+-#   This boolean sets whether a tag may be modified after creation. By default
+-#   it won't be.
+-# hooks.allowdeletebranch
+-#   This boolean sets whether deleting branches will be allowed in the
+-#   repository.  By default they won't be.
+-# hooks.denycreatebranch
+-#   This boolean sets whether remotely creating branches will be denied
+-#   in the repository.  By default this is allowed.
+-#
+-
+-# --- Command line
+-refname="$1"
+-oldrev="$2"
+-newrev="$3"
+-
+-# --- Safety check
+-if [ -z "$GIT_DIR" ]; then
+-	echo "Don't run this script from the command line." >&2
+-	echo " (if you want, you could supply GIT_DIR then run" >&2
+-	echo "  $0 <ref> <oldrev> <newrev>)" >&2
+-	exit 1
+-fi
+-
+-if [ -z "$refname" -o -z "$oldrev" -o -z "$newrev" ]; then
+-	echo "Usage: $0 <ref> <oldrev> <newrev>" >&2
+-	exit 1
+-fi
+-
+-# --- Config
+-allowunannotated=$(git config --bool hooks.allowunannotated)
+-allowdeletebranch=$(git config --bool hooks.allowdeletebranch)
+-denycreatebranch=$(git config --bool hooks.denycreatebranch)
+-allowdeletetag=$(git config --bool hooks.allowdeletetag)
+-allowmodifytag=$(git config --bool hooks.allowmodifytag)
+-
+-# check for no description
+-projectdesc=$(sed -e '1q' "$GIT_DIR/description")
+-case "$projectdesc" in
+-"Unnamed repository"* | "")
+-	echo "*** Project description file hasn't been set" >&2
+-	exit 1
+-	;;
+-esac
+-
+-# --- Check types
+-# if $newrev is 0000...0000, it's a commit to delete a ref.
+-zero="0000000000000000000000000000000000000000"
+-if [ "$newrev" = "$zero" ]; then
+-	newrev_type=delete
+-else
+-	newrev_type=$(git cat-file -t $newrev)
+-fi
+-
+-case "$refname","$newrev_type" in
+-	refs/tags/*,commit)
+-		# un-annotated tag
+-		short_refname=${refname##refs/tags/}
+-		if [ "$allowunannotated" != "true" ]; then
+-			echo "*** The un-annotated tag, $short_refname, is not allowed in this repository" >&2
+-			echo "*** Use 'git tag [ -a | -s ]' for tags you want to propagate." >&2
+-			exit 1
+-		fi
+-		;;
+-	refs/tags/*,delete)
+-		# delete tag
+-		if [ "$allowdeletetag" != "true" ]; then
+-			echo "*** Deleting a tag is not allowed in this repository" >&2
+-			exit 1
+-		fi
+-		;;
+-	refs/tags/*,tag)
+-		# annotated tag
+-		if [ "$allowmodifytag" != "true" ] && git rev-parse $refname > /dev/null 2>&1
+-		then
+-			echo "*** Tag '$refname' already exists." >&2
+-			echo "*** Modifying a tag is not allowed in this repository." >&2
+-			exit 1
+-		fi
+-		;;
+-	refs/heads/*,commit)
+-		# branch
+-		if [ "$oldrev" = "$zero" -a "$denycreatebranch" = "true" ]; then
+-			echo "*** Creating a branch is not allowed in this repository" >&2
+-			exit 1
+-		fi
+-		;;
+-	refs/heads/*,delete)
+-		# delete branch
+-		if [ "$allowdeletebranch" != "true" ]; then
+-			echo "*** Deleting a branch is not allowed in this repository" >&2
+-			exit 1
+-		fi
+-		;;
+-	refs/remotes/*,commit)
+-		# tracking branch
+-		;;
+-	refs/remotes/*,delete)
+-		# delete tracking branch
+-		if [ "$allowdeletebranch" != "true" ]; then
+-			echo "*** Deleting a tracking branch is not allowed in this repository" >&2
+-			exit 1
+-		fi
+-		;;
+-	*)
+-		# Anything else (is there anything else?)
+-		echo "*** Update hook: unknown type of update to ref $refname of type $newrev_type" >&2
+-		exit 1
+-		;;
+-esac
+-
+-# --- Finished
+-exit 0
+Binary files ./github/.git/index and /home/chaudhary/Downloads/can/.git/index differ
+diff -rpuN ./github/.git/info/exclude /home/chaudhary/Downloads/can/.git/info/exclude
+--- ./github/.git/info/exclude	2013-04-25 02:24:37.930189922 +0530
++++ /home/chaudhary/Downloads/can/.git/info/exclude	1970-01-01 05:30:00.000000000 +0530
+@@ -1,6 +0,0 @@
+-# git ls-files --others --exclude-from=.git/info/exclude
+-# Lines that start with '#' are comments.
+-# For a project mostly in C, the following would be a good set of
+-# exclude patterns (uncomment them if you want to use them):
+-# *.[oa]
+-# *~
+diff -rpuN ./github/.git/logs/HEAD /home/chaudhary/Downloads/can/.git/logs/HEAD
+--- ./github/.git/logs/HEAD	2013-04-25 02:37:08.510202093 +0530
++++ /home/chaudhary/Downloads/can/.git/logs/HEAD	1970-01-01 05:30:00.000000000 +0530
+@@ -1,2 +0,0 @@
+-0000000000000000000000000000000000000000 53dcfca327c716a7c79b220b11afd0c65fbcbf5b Shubham Chaudhary <shubhamchaudhary92@gmail.com> 1366836915 +0530	initial pull
+-53dcfca327c716a7c79b220b11afd0c65fbcbf5b 2fe7af840dc3a94be4cab9a3595fbc5e0cf515a3 Shubham Chaudhary <shubhamchaudhary92@gmail.com> 1366837628 +0530	commit: version 2.3
+diff -rpuN ./github/.git/logs/refs/heads/master /home/chaudhary/Downloads/can/.git/logs/refs/heads/master
+--- ./github/.git/logs/refs/heads/master	2013-04-25 02:37:08.510202093 +0530
++++ /home/chaudhary/Downloads/can/.git/logs/refs/heads/master	1970-01-01 05:30:00.000000000 +0530
+@@ -1,2 +0,0 @@
+-0000000000000000000000000000000000000000 53dcfca327c716a7c79b220b11afd0c65fbcbf5b Shubham Chaudhary <shubhamchaudhary92@gmail.com> 1366836915 +0530	initial pull
+-53dcfca327c716a7c79b220b11afd0c65fbcbf5b 2fe7af840dc3a94be4cab9a3595fbc5e0cf515a3 Shubham Chaudhary <shubhamchaudhary92@gmail.com> 1366837628 +0530	commit: version 2.3
+diff -rpuN ./github/.git/logs/refs/remotes/github/master /home/chaudhary/Downloads/can/.git/logs/refs/remotes/github/master
+--- ./github/.git/logs/refs/remotes/github/master	2013-04-25 02:37:39.966202601 +0530
++++ /home/chaudhary/Downloads/can/.git/logs/refs/remotes/github/master	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-0000000000000000000000000000000000000000 2fe7af840dc3a94be4cab9a3595fbc5e0cf515a3 Shubham Chaudhary <shubhamchaudhary92@gmail.com> 1366837659 +0530	update by push
+Binary files ./github/.git/objects/00/b9ed811ef7e2a91fe5eb91931560abae956d00 and /home/chaudhary/Downloads/can/.git/objects/00/b9ed811ef7e2a91fe5eb91931560abae956d00 differ
+diff -rpuN ./github/.git/objects/01/9eb512c97e223c523b33f98d8c3b75dc1c9659 /home/chaudhary/Downloads/can/.git/objects/01/9eb512c97e223c523b33f98d8c3b75dc1c9659
+--- ./github/.git/objects/01/9eb512c97e223c523b33f98d8c3b75dc1c9659	2013-04-25 02:37:08.506202090 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/01/9eb512c97e223c523b33f98d8c3b75dc1c9659	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-x+)JMU04∞`040031Q.)M—sqa`ÿ˘∂QÓ˚£ïÚO_Oú,ö∞z›‘\òöÃº¥|ΩîƒÜ∏˜Ê/"DgËL,pœnJ¸{˘pb"‘úÃí‘\∞öﬁüAsbÆÛw ›€¥ÂƒΩ≥”mÖÎÍ◊.˚
+\ No newline at end of file
+Binary files ./github/.git/objects/06/279acbae1562da7cb5ba1206fd84c527af90e7 and /home/chaudhary/Downloads/can/.git/objects/06/279acbae1562da7cb5ba1206fd84c527af90e7 differ
+diff -rpuN ./github/.git/objects/08/795246d7e049627a843625b2c7dadd89763547 /home/chaudhary/Downloads/can/.git/objects/08/795246d7e049627a843625b2c7dadd89763547
+--- ./github/.git/objects/08/795246d7e049627a843625b2c7dadd89763547	2013-04-25 02:25:14.906190521 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/08/795246d7e049627a843625b2c7dadd89763547	1970-01-01 05:30:00.000000000 +0530
+@@ -1,2 +0,0 @@
+-x•éΩ
+-¬0FùÛŸÖ“¸ÁÇàÇ] 7π1cKMﬂﬁNæÄá3æ8’:6.µ›µÖàKÉ®ºåîå!DìÎB^ªlUˆöàÕa°W„*íà.£FÃê=JÁù0ΩàYP…°Õ¬⁄ ¥Ò]V,°∆¬?k*a˘Ä<=jü]úÍëeÌ6/ﬂ˜Fıl≥€’FEÿ}N°øÁÀuËj˙b¸P(
+\ No newline at end of file
+Binary files ./github/.git/objects/0c/8906276d520b6fdcaa992223a2964404373e84 and /home/chaudhary/Downloads/can/.git/objects/0c/8906276d520b6fdcaa992223a2964404373e84 differ
+Binary files ./github/.git/objects/15/3c4823e0d7c8de1e36f9d606692a53d85ad038 and /home/chaudhary/Downloads/can/.git/objects/15/3c4823e0d7c8de1e36f9d606692a53d85ad038 differ
+Binary files ./github/.git/objects/19/66edbdcf2e8fe51eca5a7bf8f09eadd03b868b and /home/chaudhary/Downloads/can/.git/objects/19/66edbdcf2e8fe51eca5a7bf8f09eadd03b868b differ
+Binary files ./github/.git/objects/1f/5beec43372237e3ccbb73a63b70bd8913b5b65 and /home/chaudhary/Downloads/can/.git/objects/1f/5beec43372237e3ccbb73a63b70bd8913b5b65 differ
+Binary files ./github/.git/objects/20/f88a5ddd6dc4b3ffb2ea1ea7ac70ed1690a5f1 and /home/chaudhary/Downloads/can/.git/objects/20/f88a5ddd6dc4b3ffb2ea1ea7ac70ed1690a5f1 differ
+Binary files ./github/.git/objects/25/bb382ced55e49eefbd59687b9a8847f63f84ee and /home/chaudhary/Downloads/can/.git/objects/25/bb382ced55e49eefbd59687b9a8847f63f84ee differ
+diff -rpuN ./github/.git/objects/2f/ded759e54cdfb9c775f790b69fc8f6aeea08e9 /home/chaudhary/Downloads/can/.git/objects/2f/ded759e54cdfb9c775f790b69fc8f6aeea08e9
+--- ./github/.git/objects/2f/ded759e54cdfb9c775f790b69fc8f6aeea08e9	2013-04-25 02:32:13.334197305 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/2f/ded759e54cdfb9c775f790b69fc8f6aeea08e9	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-xçìOoÉ Üwm?·æ*Vù&⁄fÎ“d…nÎŒ*udF∞Yø˝œ“H›Õ ¯¸ûó◊åâƒq¯êl*Œ§ëT¢ï·π((/S¯yÿ?FHÖyÅô‡$Ö"!ÿnñ…N‰Öâ¸[æàVOîëÕrë<Áäû…7%QÄ„Jüz%Y[B‡tØ˜z€∏ú3,•Û¶Hµ ÎQìnî®S®GQ8´ÖLaı…E≤k)†ó®ÍÁ]{˛∞˚ùv√E˛»p:àˆıáÍ7(ﬂÇÚ‹–DÛ®’S^›gFØµ∫¡0⁄‡Öû¬Y±ûvõ»0∞∞|◊˜˙VˇE∏2›&Ç¥ÒL1˝‹wbÍæN-◊E‹ƒLhy-œçÃ˚B¡=Ø+Î^Äˆf 3¿ªÕ®0ùB6!ÎQ◊uÏ∫föŸ%éÌè¸ˇg,ñ
+\ No newline at end of file
+diff -rpuN ./github/.git/objects/2f/e7af840dc3a94be4cab9a3595fbc5e0cf515a3 /home/chaudhary/Downloads/can/.git/objects/2f/e7af840dc3a94be4cab9a3595fbc5e0cf515a3
+--- ./github/.git/objects/2f/e7af840dc3a94be4cab9a3595fbc5e0cf515a3	2013-04-25 02:37:08.510202093 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/2f/e7af840dc3a94be4cab9a3595fbc5e0cf515a3	1970-01-01 05:30:00.000000000 +0530
+@@ -1,5 +0,0 @@
+-x≠éA
+-¬0E]Á≥§ôò4¡#xÇôIb
+-∆JLoo@ºÅõøxã˜æ,•Ã–∫M´1¬ﬁâ∆¿L¬…[J)≤∑÷h„òbêΩ†L^©’xo`Mê$dpîQ;Í;1‚¿ZS
+-É8õ∏õ,+Z[^*\Ú ô
+-ú3≠!S}√·˘EÚ#ûÆÖÊ€NñrÑ^vﬁå=lk’i‹‚?\ÍÎs^ÓÄ;£>ŒuT€
+\ No newline at end of file
+Binary files ./github/.git/objects/31/3038f8eee422f308398a4140ba5f9cada2b9d8 and /home/chaudhary/Downloads/can/.git/objects/31/3038f8eee422f308398a4140ba5f9cada2b9d8 differ
+Binary files ./github/.git/objects/33/0b5c842a1082268e96d8dfa8e6bbebbae357ad and /home/chaudhary/Downloads/can/.git/objects/33/0b5c842a1082268e96d8dfa8e6bbebbae357ad differ
+Binary files ./github/.git/objects/33/e29b577eeb49f3609a1196d9d1a30cd478b28e and /home/chaudhary/Downloads/can/.git/objects/33/e29b577eeb49f3609a1196d9d1a30cd478b28e differ
+Binary files ./github/.git/objects/39/d3305560af21af7468aeef602b01d32693d1cd and /home/chaudhary/Downloads/can/.git/objects/39/d3305560af21af7468aeef602b01d32693d1cd differ
+diff -rpuN ./github/.git/objects/3f/9be599c7fb4bbf9f8b27871501cf1ed1d7b694 /home/chaudhary/Downloads/can/.git/objects/3f/9be599c7fb4bbf9f8b27871501cf1ed1d7b694
+--- ./github/.git/objects/3f/9be599c7fb4bbf9f8b27871501cf1ed1d7b694	2013-04-25 02:25:14.906190521 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/3f/9be599c7fb4bbf9f8b27871501cf1ed1d7b694	1970-01-01 05:30:00.000000000 +0530
+@@ -1,3 +0,0 @@
+-x•éÕ
+-¬0Ñ=˜)rJíÊoADI6õç)[bzÌÕ…f`¯3C[≠k⁄ÿSoÃ¬@í√»@Gîå,Ç#Ü§ì…Çœ*M;6~uëb ‰ ≤y	9{ÊX[cíıII&∆	è^∂&÷w9b¡JE\~èT∞}@ﬂ◊ÁL[Ω
+-µ87‰Égi9:Æv˛´d∫7∆ŒbÏºf⁄˜/ÃŒPa
+\ No newline at end of file
+Binary files ./github/.git/objects/3f/bdc99fa061ddd2dc09640f57900e21b84279e4 and /home/chaudhary/Downloads/can/.git/objects/3f/bdc99fa061ddd2dc09640f57900e21b84279e4 differ
+Binary files ./github/.git/objects/46/c12dbbacbf85affeb8553136baedc4c2c98cfa and /home/chaudhary/Downloads/can/.git/objects/46/c12dbbacbf85affeb8553136baedc4c2c98cfa differ
+Binary files ./github/.git/objects/49/118e7a1499fd92ff5aab7b521c2ea56235f6ae and /home/chaudhary/Downloads/can/.git/objects/49/118e7a1499fd92ff5aab7b521c2ea56235f6ae differ
+Binary files ./github/.git/objects/49/d049dae7992b4810b295a96c294c060d597f1d and /home/chaudhary/Downloads/can/.git/objects/49/d049dae7992b4810b295a96c294c060d597f1d differ
+Binary files ./github/.git/objects/4e/8d7e46cf08da9915587a4b043ed876838b793a and /home/chaudhary/Downloads/can/.git/objects/4e/8d7e46cf08da9915587a4b043ed876838b793a differ
+Binary files ./github/.git/objects/52/7ecd7e05b409c7ad8b190978abd92b86893dfb and /home/chaudhary/Downloads/can/.git/objects/52/7ecd7e05b409c7ad8b190978abd92b86893dfb differ
+Binary files ./github/.git/objects/52/ba6c234df50f750c43c32e59cb9c8182a279a8 and /home/chaudhary/Downloads/can/.git/objects/52/ba6c234df50f750c43c32e59cb9c8182a279a8 differ
+diff -rpuN ./github/.git/objects/53/dcfca327c716a7c79b220b11afd0c65fbcbf5b /home/chaudhary/Downloads/can/.git/objects/53/dcfca327c716a7c79b220b11afd0c65fbcbf5b
+--- ./github/.git/objects/53/dcfca327c716a7c79b220b11afd0c65fbcbf5b	2013-04-25 02:25:14.902190522 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/53/dcfca327c716a7c79b220b11afd0c65fbcbf5b	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-x•éMä1F]˜)≤$]ï »†å7–T*i”`Ï!¶s{{Â‹|<ﬁ‚Ò…RÎ‹⁄ıñ≥"àl–§âÙ‰HãAA»$Ò£ÿ‹Ú≥+?¶ú@¥B€‚Ë}§`ú`äÜ»ôIOB^{Yöö_eçÖ´u¸ Ø©p˚p∫WûYÍè—Z¥¡™Ω&‘√f∑´=~[Êû’µØÈp9ﬂﬁ€XNr
+\ No newline at end of file
+diff -rpuN ./github/.git/objects/5b/f48d0c17415c5c51701b05c8d8b2b2f255eb44 /home/chaudhary/Downloads/can/.git/objects/5b/f48d0c17415c5c51701b05c8d8b2b2f255eb44
+--- ./github/.git/objects/5b/f48d0c17415c5c51701b05c8d8b2b2f255eb44	2013-04-25 02:32:13.334197305 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/5b/f48d0c17415c5c51701b05c8d8b2b2f255eb44	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-xEÃ±Ç0FaÁˇ)ÓZKÅU¬‡\4qº@ì€5°Ì¿€´ìg˛r¶ı=ë2ıâa¡IôÑ7ÍÖÀ"ºË⁄ÍÚÕXÉ˚m©wô,‰¸ÜZiF›¿Ò,!“ËeÂàÆÆJôf)à¯ôW·Ù‚ùú$$…hçnî≠¥µˇπé=˜3>æv)⁄
+\ No newline at end of file
+Binary files ./github/.git/objects/5e/ef37e85815982c9170476b8261fb5dd3c36161 and /home/chaudhary/Downloads/can/.git/objects/5e/ef37e85815982c9170476b8261fb5dd3c36161 differ
+Binary files ./github/.git/objects/64/9c202b22b3a025481fa309dccdaf0ac788f60c and /home/chaudhary/Downloads/can/.git/objects/64/9c202b22b3a025481fa309dccdaf0ac788f60c differ
+Binary files ./github/.git/objects/66/fd8c1869d578cf328e6e73afb099b142bbc773 and /home/chaudhary/Downloads/can/.git/objects/66/fd8c1869d578cf328e6e73afb099b142bbc773 differ
+diff -rpuN ./github/.git/objects/6b/4213609cc7c3f9e38ebfcc6dc8f5b95aba1b01 /home/chaudhary/Downloads/can/.git/objects/6b/4213609cc7c3f9e38ebfcc6dc8f5b95aba1b01
+--- ./github/.git/objects/6b/4213609cc7c3f9e38ebfcc6dc8f5b95aba1b01	2013-04-25 02:25:14.906190521 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/6b/4213609cc7c3f9e38ebfcc6dc8f5b95aba1b01	1970-01-01 05:30:00.000000000 +0530
+@@ -1,3 +0,0 @@
+-x•éK
+-¬0@]˜Ÿ2˘t⁄Äà‡<¡dfb
+-∆JLﬁ^W^¿›„-è◊Zón\ªﬁTçœI8∆LÄVDú0Dê«)®≥inäÜ'5}tCI√åd{ÊâiTr)gßú"fI#XhÎemfyï-™\ÃÒá¥I°ˆéÓ|´¥‹º÷ì±—„da6{=_˚]Ì˙Wd∏4•ÆÊ⁄79î™OP
+\ No newline at end of file
+Binary files ./github/.git/objects/6f/78154f95f1d017524cdc5674c3fa24357b182a and /home/chaudhary/Downloads/can/.git/objects/6f/78154f95f1d017524cdc5674c3fa24357b182a differ
+diff -rpuN ./github/.git/objects/72/4fc33499251416ae6aa0656186bf1d77168eb0 /home/chaudhary/Downloads/can/.git/objects/72/4fc33499251416ae6aa0656186bf1d77168eb0
+--- ./github/.git/objects/72/4fc33499251416ae6aa0656186bf1d77168eb0	2013-04-25 02:25:14.902190522 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/72/4fc33499251416ae6aa0656186bf1d77168eb0	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-x•éAj√0E≥ˆ)¥Icç%(%ê#Ù„—weàÍ¢»ã‹>^ı›=ﬁ‚ÒtØuÎ∆O|È0.êN—lû5f8Ø)≥eN^Â$[ä√Ø4¸t3G¨—/p^0¡Éìj¥†∞˙9eZ&ßtê£óΩôÌYé•H’b>˛Pé\§Ωíø}WŸ£Óı”8b&û]"sµÅÏp⁄sµ„_ë·ﬁ Ê´˘¸Àœ%PQ
+\ No newline at end of file
+Binary files ./github/.git/objects/73/b739a6b1bfa853746df25252a5d1250e3e87bd and /home/chaudhary/Downloads/can/.git/objects/73/b739a6b1bfa853746df25252a5d1250e3e87bd differ
+diff -rpuN ./github/.git/objects/78/e5ef82be12ae4e2e69cc80e35f279d3b41cbec /home/chaudhary/Downloads/can/.git/objects/78/e5ef82be12ae4e2e69cc80e35f279d3b41cbec
+--- ./github/.git/objects/78/e5ef82be12ae4e2e69cc80e35f279d3b41cbec	2013-04-25 02:25:14.906190521 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/78/e5ef82be12ae4e2e69cc80e35f279d3b41cbec	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-x•éKj√0@ª÷)¥Î3J	‰=¡hf\™ÿ(Ú"∑èWΩ@wè∑x<ﬁZ[áıq˛]’¶gq…∞8ôÇè,	#áÖ|Ä≈ÕûÃN]√…I"9q%s-Q≈Å0gTé:yPÜéQ∑n◊g=J•∆’~˛!R©ø≤ø˝4ZØºµ/ÎBJ!°√l/Ñ…úˆ\˙Øàπw•°ˆ{r˛_yﬂﬂ3aP’
+\ No newline at end of file
+Binary files ./github/.git/objects/81/ded2c009c5c003188b5947c3db45574f0fc562 and /home/chaudhary/Downloads/can/.git/objects/81/ded2c009c5c003188b5947c3db45574f0fc562 differ
+Binary files ./github/.git/objects/85/b70647e8fa71019b62757f6e5130fcb465260b and /home/chaudhary/Downloads/can/.git/objects/85/b70647e8fa71019b62757f6e5130fcb465260b differ
+Binary files ./github/.git/objects/8c/1a43876dd06be93d87a7f5e16e1164266991b9 and /home/chaudhary/Downloads/can/.git/objects/8c/1a43876dd06be93d87a7f5e16e1164266991b9 differ
+Binary files ./github/.git/objects/8d/1c8b69c3fce7bea45c73efd06983e3c419a92f and /home/chaudhary/Downloads/can/.git/objects/8d/1c8b69c3fce7bea45c73efd06983e3c419a92f differ
+Binary files ./github/.git/objects/8d/f9529c5cd70f891edeb2b4c8decdfd673d137f and /home/chaudhary/Downloads/can/.git/objects/8d/f9529c5cd70f891edeb2b4c8decdfd673d137f differ
+Binary files ./github/.git/objects/8f/09009d13b4b86091c59fba352bfe6ab8a00e43 and /home/chaudhary/Downloads/can/.git/objects/8f/09009d13b4b86091c59fba352bfe6ab8a00e43 differ
+Binary files ./github/.git/objects/92/642550c61a4397977c5e00bb9363cece075fe1 and /home/chaudhary/Downloads/can/.git/objects/92/642550c61a4397977c5e00bb9363cece075fe1 differ
+Binary files ./github/.git/objects/94/9c45c49db72bcf7b6f79ba6495c030ff8183a9 and /home/chaudhary/Downloads/can/.git/objects/94/9c45c49db72bcf7b6f79ba6495c030ff8183a9 differ
+Binary files ./github/.git/objects/94/a9ed024d3859793618152ea559a168bbcbb5e2 and /home/chaudhary/Downloads/can/.git/objects/94/a9ed024d3859793618152ea559a168bbcbb5e2 differ
+Binary files ./github/.git/objects/9f/9fe34809383466d00d3b2bc2b8239bfeea7d06 and /home/chaudhary/Downloads/can/.git/objects/9f/9fe34809383466d00d3b2bc2b8239bfeea7d06 differ
+Binary files ./github/.git/objects/a2/fae283326c9d4328c07aded9c1b125e2e2dc86 and /home/chaudhary/Downloads/can/.git/objects/a2/fae283326c9d4328c07aded9c1b125e2e2dc86 differ
+Binary files ./github/.git/objects/a7/0093350ee81e0553d3b6eebc6a42468b48037c and /home/chaudhary/Downloads/can/.git/objects/a7/0093350ee81e0553d3b6eebc6a42468b48037c differ
+diff -rpuN ./github/.git/objects/a8/48f4be4ab307c4ee99cb2537b3a56a6d92731f /home/chaudhary/Downloads/can/.git/objects/a8/48f4be4ab307c4ee99cb2537b3a56a6d92731f
+--- ./github/.git/objects/a8/48f4be4ab307c4ee99cb2537b3a56a6d92731f	2013-04-25 02:25:14.906190521 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/a8/48f4be4ab307c4ee99cb2537b3a56a6d92731f	1970-01-01 05:30:00.000000000 +0530
+@@ -1,3 +0,0 @@
+-x•éA
+-¬0E]˜Ÿ%…4I"Ç+è13ôöÇ±%¶oo›xwü«„Òy)en Ó–™à…Ö BCú¿Îà∆Düb2ö”F≤£t+Vy6Âi∞Êk1Ü)
+-åB≥O<Né¢CBC⁄t∏µºT5øÚFgu˙M‹R∆˙éˆr/8?z^ YÌU>–Í®Ënß˚’&E∫kl¢nMJœÎ˙ñµOÈ
+\ No newline at end of file
+Binary files ./github/.git/objects/a8/c21841bdd2e588a59e603d63d188e941d7c02f and /home/chaudhary/Downloads/can/.git/objects/a8/c21841bdd2e588a59e603d63d188e941d7c02f differ
+Binary files ./github/.git/objects/a9/0a2b0c50b8dc1e4c8f83d67b1765c103a382a3 and /home/chaudhary/Downloads/can/.git/objects/a9/0a2b0c50b8dc1e4c8f83d67b1765c103a382a3 differ
+Binary files ./github/.git/objects/aa/077edd1ab913f09410480c9dbbcc7a985fedb3 and /home/chaudhary/Downloads/can/.git/objects/aa/077edd1ab913f09410480c9dbbcc7a985fedb3 differ
+Binary files ./github/.git/objects/aa/2ead527503b1e1cfaa575f52cd371f59a8f726 and /home/chaudhary/Downloads/can/.git/objects/aa/2ead527503b1e1cfaa575f52cd371f59a8f726 differ
+Binary files ./github/.git/objects/aa/b36f326c9e6c139fcd4e8b9ca8d894bd1922a4 and /home/chaudhary/Downloads/can/.git/objects/aa/b36f326c9e6c139fcd4e8b9ca8d894bd1922a4 differ
+Binary files ./github/.git/objects/ab/e2f2fcb64e132c8d6917bc47bc6dbdffbbc9b0 and /home/chaudhary/Downloads/can/.git/objects/ab/e2f2fcb64e132c8d6917bc47bc6dbdffbbc9b0 differ
+Binary files ./github/.git/objects/ab/e486a14c3cc7ca5ea2bff2ecf466cd6fdb501c and /home/chaudhary/Downloads/can/.git/objects/ab/e486a14c3cc7ca5ea2bff2ecf466cd6fdb501c differ
+Binary files ./github/.git/objects/ac/3b193def4edf879bc8e4d458dd6b2b70e971cb and /home/chaudhary/Downloads/can/.git/objects/ac/3b193def4edf879bc8e4d458dd6b2b70e971cb differ
+Binary files ./github/.git/objects/af/a79b070d161f4134e35094998717648cea71cb and /home/chaudhary/Downloads/can/.git/objects/af/a79b070d161f4134e35094998717648cea71cb differ
+Binary files ./github/.git/objects/b9/71939f9dfe750c1ca503a35a6369aff6543bf8 and /home/chaudhary/Downloads/can/.git/objects/b9/71939f9dfe750c1ca503a35a6369aff6543bf8 differ
+diff -rpuN ./github/.git/objects/b9/f7e7c7d462cace219a18ee44ace0569ef3c19e /home/chaudhary/Downloads/can/.git/objects/b9/f7e7c7d462cace219a18ee44ace0569ef3c19e
+--- ./github/.git/objects/b9/f7e7c7d462cace219a18ee44ace0569ef3c19e	2013-04-25 02:25:14.906190521 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/b9/f7e7c7d462cace219a18ee44ace0569ef3c19e	1970-01-01 05:30:00.000000000 +0530
+@@ -1,2 +0,0 @@
+-x•éM
+-¬0F]˜ŸíøN<…t21”îò.ºΩYy·[<ﬁ‚ÒQ-eÌB[ÍçYxRhçw£ÑÖÉâﬁ°K3+`•¿jÄ‘¶o]P≤4E@R'i»öYí3·h8üh9·—smb}Ác…X(ãÎÒà€'Ë˚≥‡˙∫P-7°¿XpRúÂl‰4Ï∏⁄˘Ø»Ùhåù·÷ô∑ÀﬁÍX–Q
+\ No newline at end of file
+diff -rpuN ./github/.git/objects/bb/57a0bcb54e79f1e444eff5c2422961db4567e4 /home/chaudhary/Downloads/can/.git/objects/bb/57a0bcb54e79f1e444eff5c2422961db4567e4
+--- ./github/.git/objects/bb/57a0bcb54e79f1e444eff5c2422961db4567e4	2013-04-25 02:25:14.910190522 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/bb/57a0bcb54e79f1e444eff5c2422961db4567e4	1970-01-01 05:30:00.000000000 +0530
+@@ -1,4 +0,0 @@
+-xµTMO‹0Âö˝ñÔ‡B’
+-$gQÅ"UjÇéë„ÃÉøî8’ÚÔ±ì8ã—Ó¬°Ω9ôÁ˜fﬁåßî¶Dá_øùÏ—”ïíË/4≠0:«á_0ÕM%tù„ª≈Â˛1F≠c∫b“h»Ò¥ùŒgÙ‹Tp&n€ò'‡ÆX
+-	ÛBÙ“ÓN§ÿìi<3FJËp˙éôœ2z=‹Ú«å^YÁıëNzŒ¥–jÂÏ∞¸±P^8«GÔ"‹(ÎU=ÕyåùuBVA £÷‘‡¢¬î]ç˚»ƒm:g;ó„Rh“«Iíám`)VÎúÈ´Åï\[ˇ
+-e≠±SˆÆD^ˇ9ÚéÈ≠ëÓ≈˙íºEÔ6Âoùèµr˝QU»ÙÊxø^≥êH…‡¡&?n@kaá##‚?xô◊y«i¯áÆ\≈yÒˆ•∂dÙ∑–œ–l4”œzl	y{k%%”î•çI€Ú¿§ådid	+}˜¢Zö!Ω”¬°∂4S·uH÷∂‰óu¿≠9wÄwBn]W}»”É>ÊÌ>Ep€ÿñùÊaÏ ö €8…˝üÒ©∂√Ï˚ıEx[˙µ3¥òVa)‘–-ß$πF…¥ØB{∂ÏæWŒÄõ
+\ No newline at end of file
+Binary files ./github/.git/objects/bd/96d4a1d1b9c9deb747ed2bd53897ec4e025e25 and /home/chaudhary/Downloads/can/.git/objects/bd/96d4a1d1b9c9deb747ed2bd53897ec4e025e25 differ
+Binary files ./github/.git/objects/c1/c429126c822142be0e8296fd4188c26a93df07 and /home/chaudhary/Downloads/can/.git/objects/c1/c429126c822142be0e8296fd4188c26a93df07 differ
+Binary files ./github/.git/objects/c4/fd49ef333cdfd43d51c45c186b7059ab745dee and /home/chaudhary/Downloads/can/.git/objects/c4/fd49ef333cdfd43d51c45c186b7059ab745dee differ
+Binary files ./github/.git/objects/c5/6d7264017b65aaa3bda5d84b8b6f53840204fa and /home/chaudhary/Downloads/can/.git/objects/c5/6d7264017b65aaa3bda5d84b8b6f53840204fa differ
+Binary files ./github/.git/objects/c6/7c431c49ebe6a9322ec5e7e0708357676fb4f1 and /home/chaudhary/Downloads/can/.git/objects/c6/7c431c49ebe6a9322ec5e7e0708357676fb4f1 differ
+Binary files ./github/.git/objects/c9/16b0253e35276535a69a0009ade017091ed7a7 and /home/chaudhary/Downloads/can/.git/objects/c9/16b0253e35276535a69a0009ade017091ed7a7 differ
+Binary files ./github/.git/objects/c9/bdfa23bb60659ba01984b7fc51630c6815c844 and /home/chaudhary/Downloads/can/.git/objects/c9/bdfa23bb60659ba01984b7fc51630c6815c844 differ
+Binary files ./github/.git/objects/ce/83d9b19f0f4e1bd046cb14a0c0b5224dbef8ee and /home/chaudhary/Downloads/can/.git/objects/ce/83d9b19f0f4e1bd046cb14a0c0b5224dbef8ee differ
+Binary files ./github/.git/objects/cf/4692cd6ac1bef03c4350c295ca6dd78feaf620 and /home/chaudhary/Downloads/can/.git/objects/cf/4692cd6ac1bef03c4350c295ca6dd78feaf620 differ
+diff -rpuN ./github/.git/objects/cf/ae7dee13ccf2c0f2025f340a0fbbf8d2232a58 /home/chaudhary/Downloads/can/.git/objects/cf/ae7dee13ccf2c0f2025f340a0fbbf8d2232a58
+--- ./github/.git/objects/cf/ae7dee13ccf2c0f2025f340a0fbbf8d2232a58	2013-04-25 02:32:13.334197305 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/cf/ae7dee13ccf2c0f2025f340a0fbbf8d2232a58	1970-01-01 05:30:00.000000000 +0530
+@@ -1,3 +0,0 @@
+-xçì[oÉ Ä˜⁄˛
+-¬˚™x´&⁄fÎ“d…ﬁ÷=7®‘ë!¡f˝˜√Kñî∫'˘ŒwŒ!g"I=§€ÔöÅ3i%<ÉhÂB@x!J ´~ˆè1Ra^b&8…‡ÖH∂õe∫%yf¢¯íGÜ/¢S«ed≥\§OÖ¢gr¿mE‡∏÷∑^HﬁU8˝Ò^áM€√R:Øä‘´¢i ÈìÄ@âf\qﬁô¡Íõãt◊µR¥@oQ5‰Î{¡˝F˚‰‚`b8=ƒ˚º¢¥ÌÄÍ◊	XPûô®pıÆ∫ÚñóÛ-∞ Z{Cj£BÎY±Åˆ+v≠°¡
+--,/Dæ¡äÙœ–'{{· tªQHo≈Ù∑ïuÍ∏$¡MÃ-œ¶Â∆føPò¸áuØÄˆ…@f≥ÓNFçÈú≤	°DøE=ÆcÈíØOÍÿ^‰˘ç,ï
+\ No newline at end of file
+Binary files ./github/.git/objects/d3/0baf6a6eb9a2f97c75378d794fb6b9546aff08 and /home/chaudhary/Downloads/can/.git/objects/d3/0baf6a6eb9a2f97c75378d794fb6b9546aff08 differ
+Binary files ./github/.git/objects/d3/a3a26256cc88c94b5feec52c0806080570de6f and /home/chaudhary/Downloads/can/.git/objects/d3/a3a26256cc88c94b5feec52c0806080570de6f differ
+Binary files ./github/.git/objects/d4/057a63b05ffbda352776122f613e4ac07aa8af and /home/chaudhary/Downloads/can/.git/objects/d4/057a63b05ffbda352776122f613e4ac07aa8af differ
+Binary files ./github/.git/objects/da/ee414658cde5d08203148ffa1b697041a6dc86 and /home/chaudhary/Downloads/can/.git/objects/da/ee414658cde5d08203148ffa1b697041a6dc86 differ
+diff -rpuN ./github/.git/objects/db/dfc69be09e8f38ff7eef8e25444ac57d10ecea /home/chaudhary/Downloads/can/.git/objects/db/dfc69be09e8f38ff7eef8e25444ac57d10ecea
+--- ./github/.git/objects/db/dfc69be09e8f38ff7eef8e25444ac57d10ecea	2013-04-25 02:25:14.910190522 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/db/dfc69be09e8f38ff7eef8e25444ac57d10ecea	1970-01-01 05:30:00.000000000 +0530
+@@ -1,3 +0,0 @@
+-x•çK
+-1D]œ)z/=â˘Åà¢≥t„:ùå0bf·ÌÕ µx‘É*.9Ø&gw≠∆—Pò,
+-ø††EôÖêŸ°’Œz∏K’’@[K•¬˙NõOî9¡Òá¥ÖDı„ƒ˘ôi}ç\Ú	&©uè¡ÏQIz€Ø[¸kd∏÷H-¬cæ‹ÓÛò√NƒAΩ
+\ No newline at end of file
+Binary files ./github/.git/objects/e3/c006bf52d0767c131e866dda36503d7601c7d9 and /home/chaudhary/Downloads/can/.git/objects/e3/c006bf52d0767c131e866dda36503d7601c7d9 differ
+Binary files ./github/.git/objects/e7/ad1802bf02af57fa0cc908698bbdc086c3502a and /home/chaudhary/Downloads/can/.git/objects/e7/ad1802bf02af57fa0cc908698bbdc086c3502a differ
+Binary files ./github/.git/objects/e9/0ac63614c4585cfdd1fe357fc745e02f08de97 and /home/chaudhary/Downloads/can/.git/objects/e9/0ac63614c4585cfdd1fe357fc745e02f08de97 differ
+Binary files ./github/.git/objects/ec/5ebf01703806d964b0f0de5eb6f2bb5843113f and /home/chaudhary/Downloads/can/.git/objects/ec/5ebf01703806d964b0f0de5eb6f2bb5843113f differ
+Binary files ./github/.git/objects/ee/4d7efb70848ab15f55ec4dc562ad27dc4c1490 and /home/chaudhary/Downloads/can/.git/objects/ee/4d7efb70848ab15f55ec4dc562ad27dc4c1490 differ
+diff -rpuN ./github/.git/objects/ee/4eaf7f5071721d81cfcfd99167e9f7cb5c1a27 /home/chaudhary/Downloads/can/.git/objects/ee/4eaf7f5071721d81cfcfd99167e9f7cb5c1a27
+--- ./github/.git/objects/ee/4eaf7f5071721d81cfcfd99167e9f7cb5c1a27	2013-04-25 02:25:14.906190521 +0530
++++ /home/chaudhary/Downloads/can/.git/objects/ee/4eaf7f5071721d81cfcfd99167e9f7cb5c1a27	1970-01-01 05:30:00.000000000 +0530
+@@ -1,4 +0,0 @@
+-x•éK
+-1D]ÁŸC2˘6àû§ª'1fFbf·ÌÕ µ(≈£xØuÌr∂·‘[J,∞ula°0Á@> Ù+£ré:Ò¬ñ∂.h…8"ØºC•!Z
+-ôùˆF±è⁄q¥V‡—Àﬁ‰˙.¨\‰ÂWÒX
+-∂Ã∑G≈ı9Ò^ØRÔG"8yVŒ(1Ë∏⁄”_qo	{í˘ÿ∏Ø˚6ï/äPX
+\ No newline at end of file
+Binary files ./github/.git/objects/ee/7449b657d5233cf99cd71b209a57e0572717b5 and /home/chaudhary/Downloads/can/.git/objects/ee/7449b657d5233cf99cd71b209a57e0572717b5 differ
+Binary files ./github/.git/objects/f8/ff1046ca84299a97790e20b010fe8fd277bde5 and /home/chaudhary/Downloads/can/.git/objects/f8/ff1046ca84299a97790e20b010fe8fd277bde5 differ
+diff -rpuN ./github/.git/ORIG_HEAD /home/chaudhary/Downloads/can/.git/ORIG_HEAD
+--- ./github/.git/ORIG_HEAD	2013-04-25 02:33:51.790198901 +0530
++++ /home/chaudhary/Downloads/can/.git/ORIG_HEAD	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-53dcfca327c716a7c79b220b11afd0c65fbcbf5b
+diff -rpuN ./github/.git/refs/heads/master /home/chaudhary/Downloads/can/.git/refs/heads/master
+--- ./github/.git/refs/heads/master	2013-04-25 02:37:08.510202093 +0530
++++ /home/chaudhary/Downloads/can/.git/refs/heads/master	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-2fe7af840dc3a94be4cab9a3595fbc5e0cf515a3
+diff -rpuN ./github/.git/refs/remotes/github/master /home/chaudhary/Downloads/can/.git/refs/remotes/github/master
+--- ./github/.git/refs/remotes/github/master	2013-04-25 02:37:39.966202601 +0530
++++ /home/chaudhary/Downloads/can/.git/refs/remotes/github/master	1970-01-01 05:30:00.000000000 +0530
+@@ -1 +0,0 @@
+-2fe7af840dc3a94be4cab9a3595fbc5e0cf515a3
+diff -rpuN ./github/main.cpp /home/chaudhary/Downloads/can/main.cpp
+--- ./github/main.cpp	2013-04-14 14:19:22.000000000 +0530
++++ /home/chaudhary/Downloads/can/main.cpp	2013-04-26 01:33:35.000000000 +0530
+@@ -45,8 +45,8 @@
+  *
+  */
+ 
+-#define LINUX
+-//#define WINDOWS
++//#define LINUX
++#define WINDOWS
+ #ifdef LINUX
+ #include <iostream>
+ #endif
+@@ -89,10 +89,9 @@ int main (int argc, char* argv[]){
+     if(system("date")) { cout<<"\n\n"; }
+     #endif
+     #ifdef WINDOWS
+-     clrscr();         //not working
+-     system("clear");
+-    #endif
+-
++//     clrscr();         //not working
++     system("cls");
++    #endif
+ 
+ //!!!!!!!!!!!!!!!! Start Editing Here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ 
+Binary files ./github/obj/Debug/class/Item.o and /home/chaudhary/Downloads/can/obj/Debug/class/Item.o differ
+Binary files ./github/obj/Debug/class/Student.o and /home/chaudhary/Downloads/can/obj/Debug/class/Student.o differ
+Binary files ./github/obj/Debug/class/Stud.o and /home/chaudhary/Downloads/can/obj/Debug/class/Stud.o differ
+Binary files ./github/obj/Debug/function.o and /home/chaudhary/Downloads/can/obj/Debug/function.o differ
+Binary files ./github/obj/Debug/main.o and /home/chaudhary/Downloads/can/obj/Debug/main.o differ
+diff -rpuN ./github/README.txt /home/chaudhary/Downloads/can/README.txt
+--- ./github/README.txt	1970-01-01 05:30:00.000000000 +0530
++++ /home/chaudhary/Downloads/can/README.txt	2013-04-24 14:07:08.000000000 +0530
+@@ -0,0 +1,98 @@
++READ THIS BEFORE YOU MAKE ANY CHANGES TO THE FILES
++
++This is a set of instructions you need to follow while developing as a team.
++
++*   Think before you type
++*   When in doubt, ASK. Don't assume anything to work itself.
++*   change-logs are IMPORTANT, very Important, try to be as detailed as possible.
++*   Seperate the sections with //*** or //--- or whatever you like.
++*   Don't make any change in the section someone else wrote. If you do mention
++    it seperatly in changelog.
++*   Don't add useless new-lines because that will create problem
++    while merging changes that you will submit.
++*   Tab width is mentioned in everyfile. Use spaces instead of tabs, 4 spaces in place of one tab.
++    Also keep removing trailing whitespaces.
++    CodeBlocks: Setting > Editor > General Setting:
++        1. Untick use tab
++        2. set tab size as 4 spaces
++        3. tick strips trailing spaces
++    It's expected from you to follow same coding style as of surrounding code.
++*   CodeBlocks: Setting > Editor > Margin & Crates:
++        1. Right Margin Hint > visible line
++    Try to keep your code shorter than this line.
++*   Please use this international notation for function 
++        void foo ( char ch ) {
++            //bla bla
++        }//end foo
++        
++        if ( cond ) {
++            //bla bla
++        }else{
++            //bla2 bla2
++        }//end if
++    instead of
++        void foo(char ch)
++        {
++            //bla bla
++        }
++        
++        if(cond)
++        {
++        }
++        else
++        {
++        }
++    or anything else.
++    Easy to read and stops wastage of lines and scrolling.
++*   The name of a class will always start with a capital letter e.g Student, Account.   //NEW
++*   Use '\n' for newline instead of endl. WHY: endl slows the program
++*   Please Please Please set tab width in your editor as 4 spaces
++    & tick the 'use spaces instead of tab' option also
++
++--------------------------------- F A Q ----------------------------------------
++
++//NEW
++Q.  Why there are so many files?
++A.  It's a standard, so we will follow it. You don't need to bother yourself with
++    the details. Write contents in the files as mentioned in What goes Where section,
++    and compile the canteen.cpp after saving all the files.
++
++Q.  Where do I compile and run these files ?
++A.  No matter what your OS is use of codeblocks (www.codeblocks.org) is highly recommended.
++    Download or get one from your friend before making any change to any file.
++    DON'T use a compiler which is not able to run these files as they are packed.
++
++//NEW
++Q.  What goes Where ?
++A.  => main.cpp     -   try to keep it as neat as possible. 
++                        this is the file you need to compile, build and run.
++    => function.h   -   this will contain all the declarations for any function
++    => function.cpp -   this will contain all the definitions for all independent functions
++    
++    Moreover there will be two files for "each and every class". for example
++    => Student.h    -   this will contain the class declaration
++    => Student.cpp  -   this will constain definition of all the class's functions
++    remember class names start with a capital letter.
++
++//NEW
++Q.  I'm getting errors when I compile. What should I do ?   
++A.  You should not face this error in codeblocks no matter what you're using linux or windows.
++    You don't need to read any more of this question if you're using codeblocks.
++    However I tried to correct that. Follow these steps for compiler other than codeblocks:
++    1. There is a //#define WINDOWS in each file. Uncomment it.
++    2. Uncomment #define LINUX and you will be able to run it on windows (codeblocks).
++    XXX This is not at all recommended. Pleaase get codeblocks.
++
++Q.  When will I  get changes made by other team members?
++A.  As soon as someone submits their codes I will merge them and mail all of you
++    new files with a file containing change summary.
++    NOTE: Please make sure that you're working on the LATEST available files, if you submit
++          changes that you made in an older version, it will be really difficult to merge them
++          with the current version. So stay up-to-date when adding something new.
++
++Q.  I've question that maybe useful for other also. What do I do?
++A.  Simple - Add them here.
++    Tell other, Ask other, Help other if you find something that isn't mentioned
++    here.
++
++______________________________ Happy Coding ______________________________________

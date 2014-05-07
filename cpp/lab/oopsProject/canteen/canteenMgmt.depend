@@ -1,0 +1,236 @@
+# depslib dependency file v1.0
+1365879430 source:/home/chaudhary/code/cpp/oopsProject/canteen/cdbl/canteenMgmt/main.cpp
+	<iostream>
+	<iostream>
+	<conio.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<iomanip>
+	<fstream>
+	"function.h"
+
+1365887867 h"
+
+1365885271 /home/chaudhary/code/cpp/oopsProject/canteen/cdbl/canteenMgmt/function.h
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	"class/Item.h"
+	"class/Student.h"
+	"class/Stud.h"
+
+1365891667 d.h"
+
+1365877136 /home/chaudhary/code/cpp/oopsProject/canteen/cdbl/canteenMgmt/class/Item.h
+	<iostream>
+	<iostream.h>
+	<conio.h>
+
+1365891803 
+
+1365859529 /home/chaudhary/code/cpp/oopsProject/canteen/cdbl/canteenMgmt/class/Student.h
+	<iostream>
+	<iostream.h>
+	<conio.h>
+
+1365877080 /home/chaudhary/code/cpp/oopsProject/canteen/cdbl/canteenMgmt/class/Stud.h
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<fstream>
+	<iostream>
+	<typeinfo>
+	<stdlib.h>
+
+1365880254 /home/chaudhary/code/cpp/oopsProject/canteen/cdbl/canteenMgmt/class/Item.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<fstream>
+	"Item.h"
+
+1365860792 /home/chaudhary/code/cpp/oopsProject/canteen/cdbl/canteenMgmt/class/Student.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<iomanip>
+	<fstream>
+	"Student.h"
+
+1365880592 "
+
+1365878856 /home/chaudhary/code/cpp/oopsProject/canteen/cdbl/canteenMgmt/class/Stud.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<iomanip>
+	<fstream>
+	"Stud.h"
+
+1365877352 /home/chaudhary/code/cpp/oopsProject/canteen/cdbl/canteenMgmt/function.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	"function.h"
+	<iomanip>
+	<ctime>
+
+1365880254 source:/home/chaudhary/code/cpp/oopsProject/canteen/cdbl/canteenMgmt/class/Item.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<fstream>
+	"Item.h"
+
+1365878856 source:/home/chaudhary/code/cpp/oopsProject/canteen/cdbl/canteenMgmt/class/Stud.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<iomanip>
+	<fstream>
+	"Stud.h"
+
+1365860792 source:/home/chaudhary/code/cpp/oopsProject/canteen/cdbl/canteenMgmt/class/Student.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<iomanip>
+	<fstream>
+	"Student.h"
+
+1365877352 source:/home/chaudhary/code/cpp/oopsProject/canteen/cdbl/canteenMgmt/function.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	"function.h"
+	<iomanip>
+	<ctime>
+
+1365880592 source:c:\users\chaudhary\desktop\canteen\class\student.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<iomanip>
+	<fstream>
+	"Student.h"
+
+1365879328 c:\users\chaudhary\desktop\canteen\class\student.h
+	<iostream>
+	<iostream.h>
+	<conio.h>
+
+1365887867 source:c:\users\chaudhary\desktop\canteen\main.cpp
+	<iostream>
+	<iostream>
+	<conio.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<iomanip>
+	<fstream>
+	"function.h"
+
+1365891667 c:\users\chaudhary\desktop\canteen\function.h
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	"class/Item.h"
+	"class/Student.h"
+	"class/Stud.h"
+
+1365896936 c:\users\chaudhary\desktop\canteen\class\item.h
+	<iostream>
+	<iostream.h>
+	<conio.h>
+
+1365891803 c:\users\chaudhary\desktop\canteen\class\stud.h
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<fstream>
+	<iostream>
+	<typeinfo>
+	<stdlib.h>
+
+1365892423 source:c:\users\chaudhary\desktop\canteen\class\stud.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<iomanip>
+	<fstream>
+	"Stud.h"
+
+1365900054 source:/home/chaudhary/code/cpp/oopsProject/canteen/class/Item.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<fstream>
+	"Item.h"
+
+1365896936 /home/chaudhary/code/cpp/oopsProject/canteen/class/Item.h
+	<iostream>
+	<iostream.h>
+	<conio.h>
+
+1365880592 source:/home/chaudhary/code/cpp/oopsProject/canteen/class/Student.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<iomanip>
+	<fstream>
+	"Student.h"
+
+1365879328 /home/chaudhary/code/cpp/oopsProject/canteen/class/Student.h
+	<iostream>
+	<iostream.h>
+	<conio.h>
+
+1365931713 source:/home/chaudhary/code/cpp/oopsProject/canteen/function.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	"function.h"
+	<iomanip>
+	<ctime>
+
+1365931135 /home/chaudhary/code/cpp/oopsProject/canteen/function.h
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	"class/Item.h"
+	"class/Student.h"
+	"class/Stud.h"
+
+1366354295 /home/chaudhary/code/cpp/oopsProject/canteen/class/Stud.h
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<fstream>
+	<iostream>
+	<typeinfo>
+	<stdlib.h>
+	"../function.h"
+
+1365929362 source:/home/chaudhary/code/cpp/oopsProject/canteen/main.cpp
+	<iostream>
+	<iostream>
+	<conio.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string>
+	<iomanip>
+	<fstream>
+	"function.h"
+
+1366355487 source:/home/chaudhary/code/cpp/oopsProject/canteen/class/Stud.cpp
+	<iostream>
+	<iostream.h>
+	<conio.h>
+	<iomanip>
+	<fstream>
+	"Stud.h"
+
