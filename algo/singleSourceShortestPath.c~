@@ -1,1 +1,0 @@
-lol=msgbox ("Warning a virus has been detected on your PC. Press YES to format your hard disk now or press NO to format your hard disk after system reboot",20,"Warning")
